@@ -1,0 +1,829 @@
+<config>
+	<nodes>
+		<!-- 
+		world=
+		describing the assset in the world reponding to the state
+		world="world.ha"
+		
+		
+		-->
+		<!-- animals -->
+		<node id="3010" icon="icon.none" 		world="world.hay" fla="1" />
+		<node id="3011" icon="icon.babyanimal" 	world="world.hay" fla="1" />
+		
+		<!--<node id="3012" icon="icon.none"		world="world.babyanimal" fla="1" />-->
+		<node id="3012" icon="icon.babyanimal"		world="world.babyanimal" fla="1" />
+		<node id="3054" icon="icon.water" 		world="world.babyanimal" fla="1" />
+		<node id="3058" icon="icon.animalfood" 	world="world.babyanimal" fla="1" />
+		<node id="3062" icon="icon.redglove" 	world="world.babyanimal" fla="1" />
+		<node id="3066" icon="icon.animalfood" 	world="world.babychicken" fla="1" />
+		<node id="3070" icon="icon.wait" 		world="world.babychicken" fla="1" />
+		<node id="3074" icon="icon.water" 		world="world.babyanimal" fla="1" />
+		<node id="3078" icon="icon.animalfood" 	world="world.babyanimal" fla="1" />
+		<node id="3082" icon="icon.cowbell"	 	world="world.babyanimal" fla="1" />
+		<node id="3086" icon="icon.animalfood" 	world="world.babycow" fla="1" />
+		<node id="3090" icon="icon.wait" 		world="world.babycow" fla="1" />
+		<node id="3141" icon="icon.sugar" 		world="world.babyanimal" fla="1" />
+		<node id="3142" icon="icon.fruitjuice" 	world="world.babyanimal" fla="1" />
+		<node id="3143" icon="icon.carrot" 		world="world.babyanimal" fla="1" />
+		<node id="3145" icon="icon.water" 		world="world.babybees" fla="1" />
+		<node id="3146" icon="icon.wait" 		world="world.babybees" fla="1" />		
+		
+		<node id="3112" icon="icon.chicken" 	world="world.chicken" fla="1" clicksound="producer_click_chicken" />
+		<node id="3115" icon="icon.animalfood" 	world="world.chicken" fla="1" clicksound="producer_click_chicken" />
+		<node id="3114" icon="icon.wait" 		world="world.chicken" fla="1" clicksound="producer_click_chicken" />
+		<node id="3117" icon="icon.animalfood" 	world="world.chicken" fla="1" clicksound="producer_click_chicken" />
+		<node id="3118" icon="icon.wait" 		world="world.chicken" fla="1" clicksound="producer_click_chicken" />
+		<node id="3013" icon="icon.babyanimal" 	world="world.hay" fla="1"  clicksound="producer_click_chicken" />
+		
+		<node id="3120" icon="icon.cow" 		world="world.cow" fla="1" clicksound="producer_click_cow" />
+		<node id="3124" icon="icon.bottle" 		world="world.cow" fla="1" clicksound="producer_click_cow" />
+		<node id="3128" icon="icon.wait" 		world="world.cow" fla="1" clicksound="producer_click_cow" />
+		<node id="3132" icon="icon.chewinggum" 	world="world.cow" fla="1" clicksound="producer_click_cow" />
+		<node id="3136" icon="icon.wait" 		world="world.cow" fla="1" clicksound="producer_click_cow" />
+		<node id="3014" icon="icon.babyanimal" 	world="world.hay" fla="1" clicksound="producer_click_cow" />
+		
+		<node id="3150" icon="icon.magicbees" 	world="world.magicbees" fla="1" clicksound="producer_click_magicbees" />
+		<node id="3151" icon="icon.sugar" 		world="world.magicbees" fla="1" clicksound="producer_click_magicbees" />
+		<node id="3152" icon="icon.water" 		world="world.magicbees" fla="1" clicksound="producer_click_magicbees" />
+		<node id="3153" icon="icon.wait" 		world="world.magicbees" fla="1" clicksound="producer_click_magicbees" />
+		<node id="3160" icon="icon.water" 		world="world.magicbees" fla="1" clicksound="producer_click_magicbees" />
+		<node id="3161" icon="icon.sugar" 		world="world.magicbees" fla="1" clicksound="producer_click_magicbees" />
+		<node id="3162" icon="icon.carrot" 		world="world.magicbees" fla="1" clicksound="producer_click_magicbees" />
+		<node id="3163" icon="icon.wait"		world="world.magicbees" fla="1" clicksound="producer_click_magicbees" />
+		<node id="3015" icon="icon.babyanimal" 	world="world.hay" fla="1" clicksound="producer_click_magicbees"  />
+		
+		<node id="3119" icon="icon.civciv" 		world="world.chicken" fla="1" />
+		<node id="3140" icon="icon.milk" 		world="world.cow_milk" fla="1" clicksound="producer_milk_ready"/>
+		<node id="3144" icon="icon.cowfart" 	world="world.cow_fart" fla="1" />
+		<node id="3148" icon="icon.egg" 		world="world.chicken_egg" fla="1" />
+		<node id="3155" icon="icon.bees" 		world="world.magicbees" fla="1" />
+		<node id="3165" icon="icon.honey" 		world="world.magicbees" fla="1" />
+		
+		<!-- cactus -->
+		<node id="6505" icon="icon.wait" 		world="world.cactus_idle" />
+		<node id="6550" icon="icon.cactus" 		world="world.cactus_working" />
+		
+		<!-- cloverfield -->
+		<node id="5005" icon="icon.wait" 		world="world.cloverfield" />
+		<node id="5050" icon="icon.cloverleaf" 	world="world.cloverfield" clicksound="producer_click_leaf" />
+		
+		<!-- cowbell -->
+		<node id="6405" icon="icon.wait" 		world="world.cowbells" />
+		<node id="6450" icon="icon.cowbell" 	world="world.cowbells" clicksound="producer_click_cowbell"/>
+		
+		<!-- deepfry -->
+		<node id="3600" icon="icon.none" 		world="world.deepfry_idle" />
+		<node id="3605" icon="icon.dough" 		world="world.deepfry_idle" />
+		<node id="3610" icon="icon.oliveoil" 	world="world.deepfry_full" />
+		<node id="3615" icon="icon.wait" 		world="world.deepfry_working" clicksound="producer_deepfry_working" />
+		<node id="3620" icon="icon.fish" 		world="world.deepfry_idle" />
+		<node id="3625" icon="icon.oliveoil" 	world="world.deepfry_full" />
+		<node id="3630" icon="icon.wait" 		world="world.deepfry_working" clicksound="producer_deepfry_working" />
+		<node id="3635" icon="icon.megapotato" 	world="world.deepfry_idle" />
+		<node id="3640" icon="icon.oliveoil" 	world="world.deepfry_full" />
+		<node id="3645" icon="icon.ketchup" 	world="world.deepfry_full" />
+		<node id="3650" icon="icon.wait" 		world="world.deepfry_working" clicksound="producer_deepfry_working" />
+		<node id="3655" icon="icon.bread" 		world="world.deepfry_idle" />
+		<node id="3660" icon="icon.gumchicken" 	world="world.deepfry_full" />
+		<node id="3665" icon="icon.ketchup" 	world="world.deepfry_full" />
+		<node id="3670" icon="icon.oliveoil" 	world="world.deepfry_full" />
+		<node id="3675" icon="icon.cheese" 		world="world.deepfry_full" />
+		<node id="3680" icon="icon.fish" 		world="world.deepfry_full" />
+		<node id="3682" icon="icon.wait" 		world="world.deepfry_working" clicksound="producer_deepfry_working" />
+		<node id="3690" icon="icon.chocolate" 	world="world.deepfry_idle" />
+		<node id="3691" icon="icon.chocolate" 	world="world.deepfry_full" />
+		<node id="3692" icon="icon.chocolate" 	world="world.deepfry_full" />
+		<node id="3693" icon="icon.milk" 		world="world.deepfry_full" />
+		<node id="3694" icon="icon.egg" 		world="world.deepfry_full" />
+		<node id="3695" icon="icon.butter" 		world="world.deepfry_full" />
+		<node id="3696" icon="icon.sugar" 		world="world.deepfry_full" />
+		<node id="3697" icon="icon.snow" 		world="world.deepfry_full" />
+		<node id="3698" icon="icon.wait" 		world="world.deepfry_working" clicksound="producer_deepfry_working" />
+		<node id="3710" icon="icon.megapotato" 	world="world.deepfry_idle" />
+		<node id="3711" icon="icon.oliveoil" 	world="world.deepfry_full" />
+		<node id="3712" icon="icon.herbs" 		world="world.deepfry_full" />
+		<node id="3713" icon="icon.hotchillies" world="world.deepfry_full" />
+		<node id="3714" icon="icon.stinkingcheese" world="world.deepfry_full" />
+		<node id="3715" icon="icon.wait" 		world="world.deepfry_working" clicksound="producer_deepfry_working" />
+		<node id="3730" icon="icon.babybanana" 	world="world.deepfry_idle" />
+		<node id="3731" icon="icon.beeflower" 	world="world.deepfry_full" />
+		<node id="3732" icon="icon.honey" 		world="world.deepfry_full" />
+		<node id="3733" icon="icon.butterflyblossom" world="world.deepfry_full" />
+		<node id="3734" icon="icon.oliveoil" 	world="world.deepfry_full" />
+		<node id="3735" icon="icon.wait" 		world="world.deepfry_working" clicksound="producer_deepfry_working"/>
+		<node id="3685" icon="icon.donut" 		world="world.deepfry_done" />
+		<node id="3686" icon="icon.friedfish" 	world="world.deepfry_done" />
+		<node id="3687" icon="icon.megapommes" 	world="world.deepfry_done" />
+		<node id="3688" icon="icon.gooba" 		world="world.deepfry_done" />
+		<node id="3705" icon="icon.brownie" 	world="world.deepfry_done" />
+		<node id="3720" icon="icon.nachos" 		world="world.deepfry_done" />
+		<node id="3740" icon="icon.deepfriedhoneybanana" world="world.deepfry_done" />
+		<node id="3689" icon="icon.trash" 		world="world.deepfry_trash" />
+		
+		<!-- dummydispenser -->
+		<node id="7105" icon="icon.wait" 		world="world.dummy_idle" />
+		<node id="7150" icon="icon.dummy" 		world="world.dummy_working" clicksound="producer_click_dummy"/>
+		
+		<!-- fertilizer -->
+		<node id="5605" icon="icon.wait" 		world="world.fertilizer" />
+		<node id="5650" icon="icon.fertilizer" 	world="world.fertilizer" />
+		
+		<!-- fireplace -->
+		<node id="3001" icon="icon.wait" world="world.fireplace" />
+		<node id="3002" icon="icon.fire" world="world.fireplace" clicksound="producer_click_fire"/>
+		
+		<!-- fish -->
+		<node id="5305" icon="icon.wait" world="world.rod" />
+		<node id="5350" icon="icon.fish" world="world.rod" clicksound="producer_click_fish" />
+		
+		<!-- frog -->
+		<node id="4300" icon="icon.none" 				world="world.frog_idle" />
+		<node id="4310" icon="icon.milk" 				world="world.frog_full" />
+		<node id="4320" icon="icon.snow" 				world="world.frog_full" />
+		<node id="4330" icon="icon.chewinggum" 			world="world.frog_working" clicksound="producer_frog_working"/>
+		<node id="4340" icon="icon.wait" 				world="world.frog_idle" />
+		<node id="4350" icon="icon.milk" 				world="world.frog_full" />
+		<node id="4360" icon="icon.water" 				world="world.frog_full" />
+		<node id="4361" icon="icon.hotchillies" 		world="world.frog_full" />
+		<node id="4370" icon="icon.ketchup"				world="world.frog_full" />
+		<node id="4380" icon="icon.carrot" 				world="world.frog_full" />
+		<node id="4390" icon="icon.oliveoil" 			world="world.frog_full" />
+		<node id="4400" icon="icon.wait" 				world="world.frog_working" clicksound="producer_frog_working"/>
+		<node id="4450" icon="icon.fruit" 				world="world.frog_idle" />
+		<node id="4460" icon="icon.sugar" 				world="world.frog_full" />
+		<node id="4470" icon="icon.water" 				world="world.frog_full" />
+		<node id="4480" icon="icon.wait" 				world="world.frog_working" clicksound="producer_frog_working" />
+		<node id="4511" icon="icon.water" 				world="world.frog_idle" />
+		<node id="4512" icon="icon.sugar" 				world="world.frog_full" />
+		<node id="4513" icon="icon.snow" 				world="world.frog_full" />
+		<node id="4514" icon="icon.gooseberry" 			world="world.frog_full" />
+		<node id="4515" icon="icon.chocolate" 			world="world.frog_full" />
+		<node id="4516" icon="icon.wait" 				world="world.frog_working" clicksound="producer_frog_working" />
+		<node id="4530" icon="icon.heartflower" 		world="world.frog_idle" />
+		<node id="4531" icon="icon.rainbowflower" 		world="world.frog_full" />
+		<node id="4532" icon="icon.cloverleaf" 			world="world.frog_full" />
+		<node id="4533" icon="icon.butterflyblossom" 	world="world.frog_full" />
+		<node id="4534" icon="icon.fireblossom" 		world="world.frog_full" />
+		<node id="4535" icon="icon.water" 				world="world.frog_full" />
+		<node id="4536" icon="icon.wait" 				world="world.frog_working" clicksound="producer_frog_working" />
+		
+		<node id="4410" icon="icon.milkshake" 			world="world.frog_done" />
+		<node id="4420" icon="icon.turtlemedicine" 		world="world.frog_done" />
+		<node id="4500" icon="icon.fruitjuice" 			world="world.frog_done" />
+		<node id="4520" icon="icon.gooseberryparfait" 	world="world.frog_done" />
+		<node id="4540" icon="icon.bridalbouquet" 		world="world.frog_done" />
+		<node id="4430" icon="icon.trash" 				world="world.frog_trash" />
+		
+		<!-- megaoven -->
+		<node id="4000" icon="icon.none" 				world="world.megaoven_idle" clicksound="producer_click_oven" />
+		<node id="4005" icon="icon.carrot" 				world="world.megaoven_idle" />
+		<node id="4010" icon="icon.water" 				world="world.megaoven_full" />
+		<node id="4015" icon="icon.chicken" 			world="world.megaoven_full" />
+		<node id="4020" icon="icon.olive" 				world="world.megaoven_full" />
+		<node id="4025" icon="icon.wait" 				world="world.megaoven_working" clicksound="producer_megaoven_produce" />
+		<node id="4030" icon="icon.dough" 				world="world.megaoven_idle" />
+		<node id="4035" icon="icon.oliveoil"			world="world.megaoven_full" />
+		<node id="4040" icon="icon.sugar" 				world="world.megaoven_full" />
+		<node id="4050" icon="icon.wait" 				world="world.megaoven_working" />
+		<node id="4070" icon="icon.fish" 				world="world.megaoven_idle" />
+		<node id="4071" icon="icon.butter" 				world="world.megaoven_full" />
+		<node id="4072" icon="icon.herbs" 				world="world.megaoven_full" />
+		<node id="4073" icon="icon.wait" 				world="world.megaoven_working" clicksound="producer_megaoven_produce" />
+		<node id="4090" icon="icon.cheesecake" 			world="world.megaoven_idle" />
+		<node id="4091" icon="icon.chocolate" 			world="world.megaoven_full" />
+		<node id="4092" icon="icon.butter" 				world="world.megaoven_full" />
+		<node id="4093" icon="icon.snow" 				world="world.megaoven_full" />
+		<node id="4094" icon="icon.honey" 				world="world.megaoven_full" />
+		<node id="4095" icon="icon.fortunecookie" 		world="world.megaoven_full" />
+		<node id="4096" icon="icon.wait" 				world="world.megaoven_working" clicksound="producer_megaoven_produce" />
+		<node id="4100" icon="icon.fish" 				world="world.megaoven_idle" />
+		<node id="4101" icon="icon.egg" 				world="world.megaoven_full" />
+		<node id="4102" icon="icon.egg" 				world="world.megaoven_full" />
+		<node id="4103" icon="icon.redpaint" 			world="world.megaoven_full" />
+		<node id="4104" icon="icon.olive" 				world="world.megaoven_full" />
+		<node id="4105" icon="icon.olive" 				world="world.megaoven_full" />
+		<node id="4106" icon="icon.herbs" 				world="world.megaoven_full" />
+		<node id="4107" icon="icon.beeflower" 			world="world.megaoven_full" />
+		<node id="4108" icon="icon.bread" 				world="world.megaoven_full" />
+		<node id="4109" icon="icon.wait" 				world="world.megaoven_working" clicksound="producer_megaoven_produce" />
+		
+		<node id="4055" icon="icon.gallobomba" 			world="world.megaoven_done" clicksound="producer_click_oven"/>
+		<node id="4060" icon="icon.gigglingcake" 		world="world.megaoven_done" clicksound="producer_click_oven"/>
+		<node id="4080" icon="icon.fishfilet" 			world="world.megaoven_done" clicksound="producer_click_oven"/>
+		<node id="4099" icon="icon.weddingcake" 		world="world.megaoven_done" clicksound="producer_click_oven"/>
+		<node id="4115" icon="icon.gourmetlobster" 		world="world.megaoven_done" clicksound="producer_click_oven"/>
+		<node id="4065" icon="icon.trash" 				world="world.megaoven_trash" />
+		
+		<!-- message -->
+		<node id="6305" icon="icon.wait" 				world="world.messagebottle_empty" />
+		<node id="6350" icon="icon.message" 			world="world.messagebottle_full" clicksound="producer_click_message" />
+		
+		<!-- milkcrate -->
+		<node id="6105" icon="icon.wait" 				world="world.milkcrate" />
+		<node id="6150" icon="icon.emptybottle" 		world="world.milkcrate" clicksound="producer_click_bottle" />
+		
+		<!-- mill -->
+		<node id="3200" icon="icon.none" 				world="world.mill_idle" />
+		<node id="3202" icon="icon.olive" 				world="world.mill_idle" />
+		<node id="3204" icon="icon.wait" 				world="world.mill_working" clicksound="producer_mill_working" />
+		<node id="3208" icon="icon.corn" 				world="world.mill_idle" />
+		<node id="3210" icon="icon.emptysack" 			world="world.mill_working" clicksound="producer_mill_working"/>
+		<node id="3212" icon="icon.wait" 				world="world.mill_working" clicksound="producer_mill_working"/>
+		<node id="3216" icon="icon.sugarcrystal" 		world="world.mill_idle" />
+		<node id="3218" icon="icon.wait" 				world="world.mill_working" clicksound="producer_mill_working"/>
+		<node id="3230" icon="icon.milk" 				world="world.mill_idle" />
+		<node id="3231" icon="icon.milk"				world="world.mill_idle" />
+		<node id="3235" icon="icon.wait" 				world="world.mill_working" clicksound="producer_mill_working"/>
+		<node id="3222" icon="icon.oliveoil" 			world="world.mill_idle" />
+		<node id="3224" icon="icon.fullsack" 			world="world.mill_done" />
+		<node id="3226" icon="icon.sugar" 				world="world.mill_idle" />
+		<node id="3240" icon="icon.butter" 				world="world.mill_idle" />
+		<node id="3228" icon="icon.trash" 				world="world.mill_done" />
+		
+		<!-- mixer -->
+		<node id="3450" icon="icon.none" 				world="world.mixer_idle" />
+		<node id="3455" icon="icon.water" 				world="world.mixer_idle" />
+		<node id="3460" icon="icon.fullsack" 		world="world.mixer_full" />
+		<node id="3465" icon="icon.mushroom" 			world="world.mixer_full" />
+		<node id="3470" icon="icon.wait" 				world="world.mixer_working" clicksound="producer_mixer_working" />
+		<node id="3475" icon="icon.milk" 				world="world.mixer_idle" />
+		<node id="3480" icon="icon.cowfart" 			world="world.mixer_full" />
+		<node id="3485" icon="icon.wait" 				world="world.mixer_working" clicksound="producer_mixer_working"  />
+		<node id="3510" icon="icon.truffle"				world="world.mixer_idle" />
+		<node id="3515" icon="icon.sugar" 				world="world.mixer_full" />
+		<node id="3520" icon="icon.egg" 				world="world.mixer_full" />
+		<node id="3525" icon="icon.wait" 				world="world.mixer_working" clicksound="producer_mixer_working"  />
+		<node id="3530" icon="icon.truffle" 			world="world.mixer_idle" />
+		<node id="3535" icon="icon.iceflower" 			world="world.mixer_full" />
+		<node id="3540" icon="icon.snow" 				world="world.mixer_full" />
+		<node id="3545" icon="icon.wait" 				world="world.mixer_working" clicksound="producer_mixer_working"  />
+		
+		<node id="3550" icon="icon.dough" 				world="world.mixer_done" />
+		<node id="3552" icon="icon.cheese" 				world="world.mixer_done" />
+		<node id="3554" icon="icon.sweets" 				world="world.mixer_done" />
+		<node id="3556" icon="icon.trufflesweet" 		world="world.mixer_done" />
+		<node id="3558" icon="icon.glacefatal" 			world="world.mixer_done" />
+		<node id="3560" icon="icon.trash" 				world="world.mixer_trash" />
+		
+		<!-- mothercell -->
+		<node id="6205" icon="icon.wait" world="world.mothercell_idle" />
+		<node id="6250" icon="icon.babyanimal" world="world.mothercell_working" clicksound="producer_click_babyanimal" />
+		
+		<!-- mushroom -->
+		<node id="5405" icon="icon.wait" world="world.mushroom" />
+		<node id="5450" icon="icon.mushroom" world="world.mushroom" />
+		
+		<!-- oven -->
+		<node id="2000" icon="icon.none" world="world.oven_idle" />
+		<node id="2001" icon="icon.wood" world="world.oven_idle" />
+		<node id="2002" icon="icon.wait" world="world.oven_idle" />
+		<node id="2100" icon="icon.fire" world="world.oven_core" clicksound="producer_click_ovenstarted" />
+		<node id="2003" icon="icon.dough" world="world.oven_idle" />
+		<node id="2004" icon="icon.wait" world="world.oven_core"  clicksound="producer_click_ovenstarted" />
+		<node id="2006" icon="icon.dough" world="world.oven_idle" />
+		<node id="2008" icon="icon.oliveoil" world="world.oven_flames" />
+		<node id="2010" icon="icon.ketchup" world="world.oven_flames" />
+		<node id="2012" icon="icon.stinkingcheese" world="world.oven_flames" />
+		<node id="2014" icon="icon.wait" world="world.oven_core"  clicksound="producer_click_ovenstarted" />
+		<node id="2016" icon="icon.seed" world="world.oven_idle" />
+		<node id="2018" icon="icon.wait" world="world.oven_core"  clicksound="producer_click_ovenstarted" />
+		<node id="2020" icon="icon.dough" world="world.oven_idle" />
+		<node id="2022" icon="icon.seed" world="world.oven_flames"  clicksound="producer_click_ovenstarted" />
+		<node id="2024" icon="icon.wait" world="world.oven_core"  clicksound="producer_click_ovenstarted" />
+		<node id="2026" icon="icon.dough" world="world.oven_idle" />
+		<node id="2027" icon="icon.clover" world="world.oven_flames"  clicksound="producer_click_ovenstarted" />
+		<node id="2028" icon="icon.sugar" world="world.oven_flames" />
+		<node id="2029" icon="icon.message" world="world.oven_flames" />
+		<node id="2030" icon="icon.wait" world="world.oven_core"  clicksound="producer_click_ovenstarted" />
+		<node id="2032" icon="icon.dough" world="world.oven_idle" />
+		
+		<node id="2035" icon="icon.cake" world="world.oven_flames" />
+		<node id="2037" icon="icon.fruit" world="world.oven_flames" />
+		<node id="2039" icon="icon.water" world="world.oven_flames" />
+		<node id="2040" icon="icon.wait" world="world.oven_core"  clicksound="producer_click_ovenstarted" />
+		<node id="2041" icon="icon.sand" world="world.oven_flames" />
+		<node id="2042" icon="icon.wait" world="world.oven_core"  clicksound="producer_click_ovenstarted" />
+		<node id="2044" icon="icon.heartflower" world="world.oven_flames" />
+		<node id="2045" icon="icon.stinkingcheese" world="world.oven_flames" />
+		<node id="2046" icon="icon.clover" world="world.oven_flames" />
+		<node id="2047" icon="icon.sugar" world="world.oven_flames" />
+		<node id="2048" icon="icon.wait" world="world.oven_core"  clicksound="producer_click_ovenstarted" />
+		<node id="2090" icon="icon.oliveoil" world="world.oven_flames" />
+		<node id="2091" icon="icon.sugar" world="world.oven_flames" />
+		<node id="2092" icon="icon.butter" world="world.oven_flames" />
+		<node id="2093" icon="icon.snow" world="world.oven_flames" />
+		<node id="2094" icon="icon.chocolate" world="world.oven_flames" />
+		<node id="2095" icon="icon.wait" world="world.oven_core"  clicksound="producer_click_ovenstarted" />
+		<node id="2115" icon="icon.sugar" world="world.oven_flames" />
+		<node id="2116" icon="icon.chocolate" world="world.oven_flames" />
+		<node id="2117" icon="icon.dough" world="world.oven_flames" />
+		<node id="2118" icon="icon.sugar" world="world.oven_flames" />
+		<node id="2119" icon="icon.chocolate" world="world.oven_flames" />
+		<node id="2120" icon="icon.dough" world="world.oven_flames" />
+		<node id="2121" icon="icon.sugar" world="world.oven_flames" />
+		<node id="2122" icon="icon.chocolate" world="world.oven_flames" />
+		<node id="2123" icon="icon.fruit" world="world.oven_flames" />
+		<node id="2124" icon="icon.wait" world="world.oven_core"  clicksound="producer_click_ovenstarted" />
+		
+		<node id="2050" icon="icon.bread" world="world.oven_flames" />
+		<node id="2140" icon="icon.redpaint" world="world.oven_flames" />
+		<node id="2141" icon="icon.yellowpaint" world="world.oven_flames" />
+		<node id="2142" icon="icon.heartflower" world="world.oven_flames" />
+		<node id="2143" icon="icon.snow" world="world.oven_flames" />
+		<node id="2144" icon="icon.honey" world="world.oven_flames" />
+		<node id="2145" icon="icon.herbs" world="world.oven_flames" />
+		<node id="2146" icon="icon.wait" world="world.oven_core"  clicksound="producer_click_ovenstarted" />
+		
+		<node id="2052" icon="icon.popcorn" world="world.oven_done" />
+		<node id="2054" icon="icon.pretzel" world="world.oven_done" />
+		<node id="2056" icon="icon.fortunecookie" world="world.oven_done" />
+		<node id="2058" icon="icon.stinkingpizza" world="world.oven_done" />
+		<node id="2060" icon="icon.fruitcake" world="world.oven_done" />
+		<node id="2062" icon="icon.sandcake" world="world.oven_done" />
+		<node id="2064" icon="icon.cheesecake" world="world.oven_done" />
+		<node id="2099" icon="icon.giantcupcake" world="world.oven_done" />
+		<node id="2130" icon="icon.layercake" world="world.oven_done" />
+		<node id="2150" icon="icon.gingerbreadheart" world="world.oven_done" />
+		
+		<node id="2070" icon="icon.burnt_bread" world="world.oven_burnt" />
+		<node id="2072" icon="icon.burnt_popcorn" world="world.oven_burnt" />
+		<node id="2074" icon="icon.burnt_pretzel" world="world.oven_burnt" />
+		<node id="2076" icon="icon.burnt_fortunecookie" world="world.oven_burnt" />
+		<node id="2078" icon="icon.burnt_stinkingpizza" world="world.oven_burnt" />
+		<node id="2080" icon="icon.burnt_fruitcake" world="world.oven_burnt" />
+		<node id="2082" icon="icon.burnt_sandcake" world="world.oven_burnt" />
+		<node id="2084" icon="icon.burnt_cheesecake" world="world.oven_burnt" />
+		<node id="2105" icon="icon.burnt_giantcupcake" world="world.oven_burnt" />
+		<node id="2135" icon="icon.burnt_layercake" world="world.oven_burnt" />
+		<node id="2155" icon="icon.burnt_gingerbreadheart" world="world.oven_burnt" />
+		
+		<!-- paint -->
+		<node id="6005" icon="icon.wait" world="world.paintbucket" />
+		<node id="6050" icon="icon.redpaint" world="world.paintbucket" clicksound="producer_click_paint" />
+		
+		<!-- plants -->
+		<node id="1000" icon="icon.hole" world="world.babyplant_1" fla="1" clicksound="producer_hole_ready" />
+		<node id="1002" icon="icon.seed" world="world.babyplant_1" fla="1"/>
+		<node id="1003" icon="icon.water" world="world.babyplant_1" fla="1"/>
+		<node id="1009" icon="icon.wait" world="world.babyplant_1" fla="1"/>
+		
+		<node id="1010" icon="icon.babyplant" world="world.babyplant_2" fla="1"/>
+		<node id="1015" icon="icon.water" world="world.babyplant_2" fla="1"/>
+		<node id="1016" icon="icon.water" world="world.babyplant_2" fla="1"/>
+		<node id="1017" icon="icon.wait" world="world.corn_1" fla="1"/>
+		
+		<node id="1022" icon="icon.snow" world="world.babyplant_2" fla="1"/>
+		<node id="1025" icon="icon.water" world="world.iceflower_1" fla="1"/>
+		<node id="1026" icon="icon.wait" world="world.iceflower_1" fla="1"/>
+		
+		<node id="1030" icon="icon.water" world="world.babyplant_2" fla="1"/>
+		<node id="1035" icon="icon.fruit" world="world.rubber_1" fla="1"/>
+		<node id="1036" icon="icon.wait" world="world.rubber_1" fla="1"/>
+		
+		<node id="1040" icon="icon.water" world="world.babyplant_2" fla="1"/>
+		<node id="1045" icon="icon.redpaint" world="world.ketchup_1" fla="1"/>
+		<node id="1046" icon="icon.wait" world="world.ketchup_1" fla="1"/>
+		
+		<node id="1050" icon="icon.water" world="world.babyplant_2" fla="1"/>
+		<node id="1055" icon="icon.sunmilk" world="world.olive_1" fla="1" />
+		<node id="1058" icon="icon.wait" world="world.olive_1" fla="1"/>
+		
+		<node id="1141" icon="icon.water" world="world.rubber_2" fla="1"/>
+		<node id="1142" icon="icon.sugar" world="world.sweet_1" fla="1"/>
+		<node id="1143" icon="icon.wait" world="world.sweet_1" fla="1"/>
+		
+		<node id="1060" icon="icon.corn" world="world.corn_2" fla="1" />
+		<node id="1065" icon="icon.fertilizer" world="world.corn_2" fla="1"/>
+		<node id="1070" icon="icon.wait" world="world.animalfood_1" fla="1"/>
+		<node id="1075" icon="icon.wood" world="world.corn_2" fla="1"/>
+		<node id="1080" icon="icon.wait" world="world.fruits_1" fla="1"/>
+		<node id="1084" icon="icon.fertilizer" world="world.corn_2" fla="1"/>
+		<node id="1085" icon="icon.cloverleaf" world="world.herbs_1" fla="1"/>
+		<node id="1090" icon="icon.wait" world="world.herbs_1" fla="1" />
+		
+		<node id="1091" icon="icon.herbs" world="world.herbs_2" fla="1" />
+		<node id="1100" icon="icon.iceflower" world="world.iceflower_2" fla="1"/>
+		
+		<node id="1120" icon="icon.chewinggum" world="world.rubber_2" fla="1"/>
+		<node id="1125" icon="icon.fruit" world="world.rubber_2" fla="1"/>
+		<node id="1130" icon="icon.wait" world="world.heartflower_1" fla="1"/>
+		<node id="1334" icon="icon.milk" world="world.cottontree_1" fla="1"/>
+		<node id="1135" icon="icon.heartflower" world="world.rubber_2" fla="1"/>
+		<node id="1140" icon="icon.wait" world="world.carrot_1" fla="1" />
+		<node id="6620" icon="icon.water" world="world.rubber_2" fla="1" />
+		<node id="6621" icon="icon.cloverleaf" world="world.butterflyflower_1"  fla="1"/>
+		<node id="6622" icon="icon.milkshake" world="world.butterflyflower_1" fla="1" />
+		<node id="6623" icon="icon.sunmilk" world="world.butterflyflower_1" fla="1"/>
+		<node id="6624" icon="icon.wait" world="world.butterflyflower_1" fla="1"/>
+		
+		<node id="6630" icon="icon.butterflyblossom" world="world.butterflyflower_2" fla="1"/>
+		<node id="1145" icon="icon.ketchup" world="world.ketchup_2" fla="1"/>
+		<node id="1150" icon="icon.olive" world="world.olive_2" fla="1"/>
+		<node id="1151" icon="icon.ketchup" world="world.olive_2" fla="1"/>
+		<node id="1152" icon="icon.water" world="world.hotchillies_1" fla="1"/>
+		<node id="1153" icon="icon.fertilizer" world="world.hotchillies_1" fla="1"/>
+		<node id="1154" icon="icon.wait" world="world.hotchillies_1" fla="1"/>
+		
+		<node id="1155" icon="icon.animalfood" world="world.animalfood_2" fla="1"/>
+		<node id="1158" icon="icon.hotchillies" world="world.hotchillies_2" fla="1"/>
+		<node id="1160" icon="icon.fruit" world="world.fruits_2" fla="1"/>
+		<node id="1250" icon="icon.water" world="world.fruits_2" fla="1"/>
+		<node id="1251" icon="icon.fertilizer" world="world.gooseberry_1" fla="1"/>
+		<node id="1252" icon="icon.redglove" world="world.gooseberry_1" fla="1"  />
+		<node id="1253" icon="icon.cowfart" world="world.gooseberry_1" fla="1" />
+		<node id="1254" icon="icon.cactus" world="world.gooseberry_1" fla="1" />
+		<node id="1255" icon="icon.wait" world="world.gooseberry_1" fla="1" />
+		
+		<node id="6640" icon="icon.yellowpaint" world="world.fruits_2" fla="1"  />
+		<node id="6641" icon="icon.sunmilk" world="world.babybanana_1" fla="1"  />
+		<node id="6642" icon="icon.dummy" world="world.babybanana_1" fla="1"  />
+		<node id="6643" icon="icon.water" world="world.babybanana_1" fla="1"  />
+		<node id="6644" icon="icon.wait" world="world.babybanana_1" fla="1"  />
+		
+		<node id="1260" icon="icon.gooseberry" world="world.gooseberry_2"  fla="1" />
+		<node id="6650" icon="icon.babybanana" world="world.babybanana_2"  fla="1" />
+		<node id="1170" icon="icon.heartflower" world="world.heartflower_2" fla="1"  />
+		<node id="1175" icon="icon.fruit" world="world.heartflower_2" fla="1"  />
+		<node id="1185" icon="icon.ketchup" world="world.rainbowflower_1" fla="1"  />
+		<node id="1190" icon="icon.wait" world="world.rainbowflower_1" fla="1"  />
+		<node id="6600" icon="icon.hotchillies" world="world.heartflower_2" fla="1"  />
+		<node id="6601" icon="icon.fire" world="world.fireflower_1" fla="1"  />
+		<node id="6602" icon="icon.ketchup" world="world.fireflower_1"  fla="1" />
+		<node id="6603" icon="icon.wait" world="world.fireflower_1" fla="1"  />
+		
+		<node id="1200" icon="icon.carrot" world="world.carrot_2" fla="1"  />
+		<node id="1205" icon="icon.sand" world="world.carrot_2" fla="1"  />
+		<node id="1215" icon="icon.fertilizer" world="world.potato_1" fla="1"  />
+		<node id="1220" icon="icon.wait" world="world.potato_1" fla="1"  />
+		<node id="1225" icon="icon.potato" world="world.potato_2" fla="1"  />
+		<node id="1230" icon="icon.rainbowflower" world="world.rainbowflower_2" fla="1"  />
+		<node id="1235" icon="icon.sweet" world="world.sweet_2" fla="1"  />
+		<node id="1270" icon="icon.water" world="world.sweet_2" fla="1"  />
+		<node id="1271" icon="icon.fertilizer" world="world.chocolate_1" fla="1"  />
+		<node id="1272" icon="icon.oliveoil" world="world.chocolate_1" fla="1"  />
+		<node id="1273" icon="icon.sugar" world="world.chocolate_1" fla="1"  />
+		<node id="1274" icon="icon.truffle" world="world.chocolate_1" fla="1"  />
+		<node id="1275" icon="icon.wait" world="world.chocolate_1" fla="1"  />
+		<node id="6660" icon="icon.bees" world="world.sweet_2" fla="1"  />
+		<node id="6661" icon="icon.yellowpaint" world="world.beeflower_1" fla="1"  />
+		<node id="6662" icon="icon.water" world="world.beeflower_1" fla="1"  />
+		<node id="6663" icon="icon.wait" world="world.beeflower_1" fla="1"  />
+		
+		<node id="1280" icon="icon.chocolate" world="world.chocolate_2" fla="1"  />
+		<node id="1285" icon="icon.hugerose" world="world.hugerose_1" fla="1"  />
+		<node id="1287" icon="icon.water" world="world.hugerose_1"  fla="1" />
+		<node id="1288" icon="icon.chewinggum" world="world.hugerose_1" fla="1"  />
+		<node id="1289" icon="icon.milkshake" world="world.hugerose_1" fla="1"  />
+		<node id="1290" icon="icon.wait" world="world.hugerose_1" fla="1"  />
+		<node id="1292" icon="icon.hugerose" world="world.hugerose_2"  fla="1" />
+		<node id="1295" icon="icon.hibiscus" world="world.hibiscus_1"  fla="1" />
+		<node id="1297" icon="icon.water" world="world.hibiscus_1"  fla="1" />
+		<node id="1298" icon="icon.fertilizer" world="world.hibiscus_1" fla="1"  />
+		<node id="1299" icon="icon.heartflower" world="world.hibiscus_1"  fla="1" />
+		<node id="1300" icon="icon.wait" world="world.hibiscus_1"  fla="1" />
+		<node id="1302" icon="icon.hibiscus" world="world.hibiscus_2" fla="1"  />
+		<node id="1305" icon="icon.bellflower" world="world.bellflower_1" fla="1"  />
+		<node id="1307" icon="icon.water" world="world.bellflower_1" fla="1"  />
+		<node id="1308" icon="icon.cowbell" world="world.bellflower_1" fla="1"  />
+		<node id="1309" icon="icon.honey" world="world.bellflower_1" fla="1"  />
+		<node id="1310" icon="icon.fertilizer" world="world.bellflower_1" fla="1"  />
+		<node id="1311" icon="icon.wait" world="world.bellflower_1" fla="1"  />
+		<node id="1312" icon="icon.bellflower" world="world.bellflower_2" fla="1"  />
+		<node id="1315" icon="icon.shellplant" world="world.shellplant_1" fla="1"  />
+		<node id="1317" icon="icon.water" world="world.shellplant_1" fla="1"  />
+		<node id="1318" icon="icon.sand" world="world.shellplant_1" fla="1"  />
+		<node id="1319" icon="icon.sunmilk" world="world.shellplant_1" fla="1"  />
+		<node id="1320" icon="icon.wait" world="world.shellplant_1"  fla="1" />
+		<node id="1322" icon="icon.shellplant" world="world.shellplant_2" fla="1" />
+		
+		<node id="1325" icon="icon.spidernettree" world="world.spidernettree_1" fla="1" />
+		<node id="1327" icon="icon.water" world="world.spidernettree_1" fla="1" />
+		<node id="1328" icon="icon.wood" world="world.spidernettree_1" fla="1" />
+		<node id="1329" icon="icon.fertilizer" world="world.spidernettree_1" fla="1" />
+		<node id="1331" icon="icon.wait" world="world.spidernettree_1" fla="1" />
+		
+		<node id="1332" icon="icon.spidernettree" world="world.spidernettree_2" fla="1" />
+		
+		<node id="1335" icon="icon.cottontree" world="world.cottontree_1" fla="1" />
+		<node id="1337" icon="icon.water" world="world.cottontree_1" fla="1" />
+		<node id="1338" icon="icon.popcorn" world="world.cottontree_1" fla="1" />
+		<node id="1339" icon="icon.milk" world="world.cottontree_1" fla="1" />
+		<node id="1340" icon="icon.cowfart" world="world.cottontree_1" fla="1" />
+		<node id="1341" icon="icon.wait" world="world.cottontree_1" fla="1" />
+		
+		<node id="1342" icon="icon.cottontree" world="world.cottontree_2" fla="1" />
+		
+		<node id="1345" icon="icon.chestnut" world="world.chestnut_1" fla="1" />
+		<node id="1347" icon="icon.water" world="world.chestnut_1" fla="1" />
+		<node id="1348" icon="icon.fullsack" world="world.chestnut_1" fla="1" />
+		<node id="1349" icon="icon.cloverleaf" world="world.chestnut_1" fla="1" />
+		<node id="1350" icon="icon.wait" world="world.chestnut_1" fla="1" />
+		
+		<node id="1352" icon="icon.chestnut" world="world.chestnut_2" fla="1" />
+		
+		<node id="1355" icon="icon.cactustree" world="world.cactustree_1" fla="1" />
+		<node id="1357" icon="icon.water" world="world.cactustree_1" fla="1" />
+		<node id="1358" icon="icon.cactus" world="world.cactustree_1" fla="1" />
+		<node id="1359" icon="icon.fireblossom" world="world.cactustree_1" fla="1" />
+		<node id="1360" icon="icon.fertilizer" world="world.cactustree_1" fla="1" />
+		<node id="1361" icon="icon.wait" world="world.cactustree_1" fla="1" />
+		
+		<node id="1362" icon="icon.cactustree" world="world.cactustree_2" fla="1" />
+		
+		<node id="1365" icon="icon.berrybush" world="world.berrybush_1" fla="1" />
+		<node id="1366" icon="icon.water" world="world.berrybush_1" fla="1" />
+		<node id="1367" icon="icon.sugar" world="world.berrybush_1" fla="1" />
+		<node id="1368" icon="icon.redpaint" world="world.berrybush_1" fla="1" />
+		<node id="1371" icon="icon.wait" world="world.berrybush_1" fla="1" />
+		
+		<node id="1372" icon="icon.berrybush" world="world.berrybush_2" fla="1" />
+		
+		
+		<node id="1375" icon="icon.teddypandaplant" world="world.teddypandaplant_1" fla="1" />
+		<node id="1376" icon="icon.water" world="world.teddypandaplant_1" fla="1" />
+		<node id="1377" icon="icon.cloverleaf" world="world.teddypandaplant_1" fla="1" />
+		<node id="1378" icon="icon.wood" world="world.teddypandaplant_1" fla="1" />
+		<node id="1381" icon="icon.wait" world="world.teddypandaplant_1" fla="1" />
+		
+		<node id="1382" icon="icon.teddypandaplant" world="world.teddypandaplant_2" fla="1" />
+		
+		<node id="1385" icon="icon.cherrymoussetree" world="world.cherrymoussetree_1" fla="1" />
+		<node id="1386" icon="icon.water" world="world.cherrymoussetree_1" fla="1" />
+		<node id="1387" icon="icon.milk" world="world.cherrymoussetree_1" fla="1" />
+		<node id="1388" icon="icon.fruit" world="world.cherrymoussetree_1" fla="1" />
+		<node id="1389" icon="icon.mushroom" world="world.cherrymoussetree_1" fla="1" />
+		<node id="1391" icon="icon.wait" world="world.cherrymoussetree_1" fla="1" />
+		
+		<node id="1392" icon="icon.cherrymoussetree" world="world.cherrymoussetree_2" fla="1" />
+		
+		<node id="1395" icon="icon.racingsnail" world="world.racingsnail_1" fla="1" />
+		<node id="1396" icon="icon.water" world="world.racingsnail_1" fla="1" />
+		<node id="1397" icon="icon.egg" world="world.racingsnail_1" fla="1" />
+		<node id="1398" icon="icon.butter" world="world.racingsnail_1" fla="1" />
+		<node id="1401" icon="icon.wait" world="world.racingsnail_1" fla="1" />
+		
+		<node id="1402" icon="icon.racingsnail" world="world.racingsnail_2" fla="1" />
+		
+		<node id="1405" icon="icon.ParrotPlant" world="world.ParrotPlant_1" fla="1" />
+		<node id="1407" icon="icon.water" world="world.ParrotPlant_1" fla="1" />
+		<node id="1409" icon="icon.animalfood" world="world.ParrotPlant_1" fla="1" />
+		<node id="1412" icon="icon.wait" world="world.ParrotPlant_1" fla="1" />
+		
+		<node id="1414" icon="icon.ParrotPlant" world="world.ParrotPlant_2" fla="1" />
+		
+		<node id="1420" icon="icon.ElephantFootPlant" world="world.ElephantFootPlant_1" fla="1" />
+		<node id="1422" icon="icon.water" world="world.ElephantFootPlant_1" fla="1" />
+		<node id="1424" icon="icon.fertilizer" world="world.ElephantFootPlant_1" fla="1" />
+		<node id="1426" icon="icon.wood" world="world.ElephantFootPlant_1" fla="1" />
+		<node id="1428" icon="icon.wait" world="world.ElephantFootPlant_1" fla="1" />
+		
+		<node id="1432" icon="icon.ElephantFootPlant" world="world.ElephantFootPlant_2" fla="1" />
+		
+		<node id="1435" icon="icon.leoPlant" world="world.leoPlant_1" fla="1" />
+		<node id="1437" icon="icon.water" world="world.leoPlant_1" fla="1" />
+		<node id="1439" icon="icon.honey" world="world.leoPlant_1" fla="1" />
+		<node id="1441" icon="icon.corn" world="world.leoPlant_1" fla="1" />
+		<node id="1443" icon="icon.wait" world="world.leoPlant_1" fla="1" />
+		
+		<node id="1447" icon="icon.leoPlant" world="world.leoPlant_2" fla="1" />
+		
+		<node id="1450" icon="icon.schirmpilz" world="world.schirmpilz_1" fla="1" />
+		<node id="1452" icon="icon.water" world="world.schirmpilz_1" fla="1" />
+		<node id="1454" icon="icon.fertilizer" world="world.schirmpilz_1" fla="1" />
+		<node id="1456" icon="icon.redpaint" world="world.schirmpilz_1" fla="1" />
+		<node id="1458" icon="icon.snow" world="world.schirmpilz_1" fla="1" />
+		<node id="1460" icon="icon.wait" world="world.schirmpilz_1" fla="1" />
+		<node id="1461" icon="icon.schirmpilz" world="world.schirmpilz_2" fla="1" />
+			<!-- fix this -->
+		<node id="1462" icon="icon.schirmpilz" world="world.schirmpilz_2" fla="1" />				
+	<!-- fix this -->
+		<node id="1463" icon="icon.batlamp" world="world.batlamp_1" fla="1" />		
+		<node id="1465" icon="icon.water" world="world.batlamp_1" fla="1" />		
+		<node id="1467" icon="icon.redpaint" world="world.batlamp_1" fla="1" />		
+		<node id="1469" icon="icon.chocolate" world="world.batlamp_1" fla="1" />		
+		<node id="1473" icon="icon.yellowpaint" world="world.batlamp_1" fla="1" />		
+		<node id="1475" icon="icon.wait" world="world.batlamp_1" fla="1" />		
+		
+		<node id="1480" icon="icon.batlamp" world="world.batlamp_2" fla="1" />		
+		
+		<node id="1485" icon="icon.ghost_stoolset" world="world.ghost_stoolset_1" fla="1" />		
+		<node id="1487" icon="icon.water" world="world.ghost_stoolset_1" fla="1" />		
+		<node id="1489" icon="icon.message" world="world.ghost_stoolset_1" fla="1" />		
+		<node id="1490" icon="icon.snow" world="world.ghost_stoolset_1" fla="1" />		
+		<node id="1493" icon="icon.chewinggum" world="world.ghost_stoolset_1" fla="1" />		
+		<node id="1495" icon="icon.wait" world="world.ghost_stoolset_1" fla="1" />		
+		
+		<node id="1498" icon="icon.ghost_stoolset" world="world.ghost_stoolset_2" fla="1" />		
+		
+		<node id="1500" icon="icon.bedspider" world="world.bedspider_1" fla="1" />		
+		<node id="1502" icon="icon.water" world="world.bedspider_1" fla="1" />		
+		<node id="1504" icon="icon.dough" world="world.bedspider_1" fla="1" />		
+		<node id="1506" icon="icon.milk" world="world.bedspider_1" fla="1" />		
+		<node id="1508" icon="icon.honey" world="world.bedspider_1" fla="1" />		
+		<node id="1510" icon="icon.wait" world="world.bedspider_1" fla="1" />		
+		
+		<node id="1513" icon="icon.bedspider" world="world.bedspider_2" fla="1" />		
+		
+		<node id="1515" icon="icon.castlearmour" world="world.castlearmour_1" fla="1" />		
+		<node id="1517" icon="icon.water" world="world.castlearmour_1" fla="1" />		
+		<node id="1519" icon="icon.dummy" world="world.castlearmour_1" fla="1" />		
+		<node id="1521" icon="icon.sand" world="world.castlearmour_1" fla="1" />		
+		<node id="1523" icon="icon.fire" world="world.castlearmour_1" fla="1" />		
+		<node id="1524" icon="icon.sand" world="world.castlearmour_1" fla="1" />		
+		<node id="1525" icon="icon.wait" world="world.castlearmour_1" fla="1" />	
+		
+		<node id="1528" icon="icon.castlearmour" world="world.castlearmour_2" fla="1" />		
+		
+		<node id="6610" icon="icon.fireblossom" world="world.fireflower_2" fla="1" />		
+		<node id="6665" icon="icon.beeflower" world="world.beeflower_2" fla="1" />		
+	
+		<node id="1900" icon="icon.decayed_berrybush" world="world.berrybush_3" fla="1" />		
+		<node id="1901" icon="icon.decayed_teddypandaplant" world="world.teddypandaplant_3" fla="1" />		
+		<node id="1902" icon="icon.decayed_cherrymoussetree" world="world.cherrymoussetree_3" fla="1" />		
+		<node id="1903" icon="icon.decayed_racingsnail" world="world.racingsnail_3" fla="1" />		
+		<node id="1904" icon="icon.decayed_ParrotPlant" world="world.Parrot_3" fla="1" />		
+		<node id="1905" icon="icon.decayed_ElephantFootPlant" world="world.ElephantFootPlant_3" fla="1" />		
+		<node id="1906" icon="icon.decayed_leoPlant" world="world.leoPlant_3" fla="1" />		
+		<node id="1907" icon="icon.decayed_schirmpilz" world="world.schirmpilz_3" fla="1" />		
+		<node id="1908" icon="icon.decayed_batlamp" world="world.batlamp_3" fla="1" />		
+		<node id="1909" icon="icon.decayed_ghost_stoolset" world="world.ghost_stoolset_3" fla="1" />		
+		<node id="1910" icon="icon.decayed_bedspider" world="world.bedspider_3" fla="1" />		
+		<node id="1911" icon="icon.decayed_castlearmour" world="world.castlearmour_3" fla="1" />		
+		
+		<node id="1991" icon="icon.decayed_hugerose" world="world.hugerose_3" fla="1" />		
+		<node id="1992" icon="icon.decayed_hibiscus" world="world.hibiscus_3" fla="1" />		
+		<node id="1994" icon="icon.decayed_bellflower" world="world.bellflower_3" fla="1" />		
+		<node id="1995" icon="icon.decayed_shellplant" world="world.shellplant_3" fla="1" />		
+		<node id="1996" icon="icon.decayed_spidernettree" world="world.spidernettree_3" fla="1" />		
+		<node id="1997" icon="icon.decayed_cottontree" world="world.cottontree_3" fla="1" />		
+		<node id="1998" icon="icon.decayed_chestnut" world="world.chestnut_3" fla="1" />		
+		<node id="1999" icon="icon.decayed_cactustree" world="world.cactustree_3" fla="1" />		
+		<node id="1950" icon="icon.decayed_corn" world="world.corn_3" fla="1" />		
+		<node id="1951" icon="icon.decayed_iceflower" world="world.iceflower_3" fla="1" />		
+		<node id="1952" icon="icon.decayed_rubber" world="world.rubber_3" fla="1" />		
+		<node id="1953" icon="icon.decayed_ketchup" world="world.ketchup_3" fla="1" />		
+		<node id="1954" icon="icon.decayed_olive" world="world.olive_3" fla="1" />		
+		<node id="1955" icon="icon.decayed_animalfood" world="world.animalfood_3" fla="1" />		
+		<node id="1956" icon="icon.decayed_fruits" world="world.fruits_3" fla="1" />		
+		<node id="1957" icon="icon.decayed_monsterplant" world="world.monsterplant_3" fla="1" />		
+		<node id="1958" icon="icon.decayed_heartflower" world="world.heartflower_3" fla="1" />		
+		<node id="1959" icon="icon.decayed_carrot" world="world.carrot_3" fla="1" />		
+		<node id="1960" icon="icon.decayed_potato" world="world.potato_3" fla="1" />		
+		<node id="1961" icon="icon.decayed_rainbowflower" world="world.rainbowflower_3" fla="1" />		
+		<node id="1962" icon="icon.decayed_sweet" world="world.sweet_3" fla="1" />		
+		<node id="1970" icon="icon.decayed_herbs" world="world.herbs_3" fla="1" />		
+		<node id="1980" icon="icon.decayed_hotchillies" world="world.hotchillies_3" fla="1" />		
+		<node id="1985" icon="icon.decayed_gooseberry" world="world.gooseberry_3" fla="1" />		
+		<node id="1990" icon="icon.decayed_chocolate" world="world.chocolate_3" fla="1" />		
+		<node id="6615" icon="icon.decayed_fireflower" world="world.fireflower_3" fla="1" />		
+		<node id="6635" icon="icon.decayed_butterflyflower" world="world.butterflyflower_3" fla="1" />		
+		<node id="6655" icon="icon.decayed_babybanana" world="world.babybanana_3" fla="1" />		
+		<node id="6670" icon="icon.decayed_beeflower" world="world.beeflower_3" fla="1" />		
+			
+		
+		
+		<!-- sackpile -->
+		<node id="5805" icon="icon.wait" world="world.sacks" />
+		<node id="5850" icon="icon.emptysack" world="world.sacks"  clicksound="producer_click_sack"/>
+		
+		<!-- sand -->
+		<node id="4602" icon="icon.wait" world="world.sand" />
+		<node id="4605" icon="icon.sand" world="world.sand" clicksound="producer_click_sand"/>
+		
+		<!-- seedflower -->
+		<node id="4805" icon="icon.wait" world="world.seedflower" />
+		<node id="4810" icon="icon.seed" world="world.seedflower" clicksound="producer_click_seed"/>
+		
+		<!-- snow -->
+		<node id="5505" icon="icon.wait" world="world.snow" />
+		<node id="5550" icon="icon.snow" world="world.snow" clicksound="producer_click_snow"/>
+		
+		<!-- sugarcrystal -->
+		<node id="3402" icon="icon.wait" world="world.sugarcrystal" />
+		<node id="3405" icon="icon.sugarcrystal" world="world.sugarcrystal" clicksound="producer_click_crystal"/>
+		
+		<!-- sunmilk -->
+		<node id="5705" icon="icon.wait" world="world.sunmilk" />
+		<node id="5750" icon="icon.sunmilk" world="world.sunmilk" />
+		
+		<!-- superwell -->
+		<node id="7415" icon="icon.wait" world="world.watersource" />
+		<node id="7430" icon="icon.waterpremium" world="world.watersource_fill" />
+		
+		<!-- table -->
+		<node id="3410" icon="icon.none" world="world.table_empty" clicksound="producer_click_table"/>
+		<node id="3412" icon="icon.fish" world="world.table_empty" />
+		<node id="3418" icon="icon.egg" world="world.table_fish" />
+		<node id="3424" icon="icon.clover" world="world.table_fish" />
+		<node id="3430" icon="icon.corn" world="world.table_chopped" />
+		<node id="3436" icon="icon.water" world="world.table_chopped" />
+		<node id="3437" icon="icon.wait" world="world.table_chopped" />
+		
+		<node id="7200" icon="icon.gigglingcake" world="world.table_empty" />
+		<node id="7201" icon="icon.gigglingcake" world="world.table_empty" />
+		<node id="7202" icon="icon.chocolate" world="world.table_empty" />
+		<node id="7203" icon="icon.honey" world="world.table_empty" />
+		<node id="7204" icon="icon.snow" world="world.table_empty" />
+		<node id="7205" icon="icon.redpaint" world="world.table_empty" />
+		<node id="7206" icon="icon.yellowpaint" world="world.table_empty" />
+		<node id="7207" icon="icon.heartflower" world="world.table_empty" />
+		<node id="7208" icon="icon.butterflyblossom" world="world.table_empty" />
+		<node id="7209" icon="icon.wait" world="world.table_empty" />
+		
+		<node id="3440" icon="icon.sushi" world="world.table_done" />
+		<node id="7210" icon="icon.weddingfigures" world="world.table_empty" />
+		
+		<node id="3445" icon="icon.trash" world="world.table_trash" />
+		
+		
+		<!-- toaster -->
+		<node id="3800" icon="icon.none" world="world.toaster_idle" />
+		
+		<node id="3805" icon="icon.chicken" world="world.toaster_idle" />
+		<node id="3810" icon="icon.cheese" world="world.toaster_full" />
+		<node id="3815" icon="icon.bread" world="world.toaster_full" />
+		<node id="3820" icon="icon.ketchup" world="world.toaster_full" />
+		<node id="3825" icon="icon.wait" world="world.toaster_working"  clicksound="producer_toaster_working"/>
+		
+		<node id="3840" icon="icon.chicken" world="world.toaster_idle" />
+		<node id="3845" icon="icon.oliveoil" world="world.toaster_full" />
+		<node id="3850" icon="icon.chewinggum" world="world.toaster_full" />
+		<node id="3855" icon="icon.ketchup" world="world.toaster_full" />
+		<node id="3860" icon="icon.wait" world="world.toaster_working" />
+		
+		<node id="3880" icon="icon.fish" world="world.toaster_idle" />
+		<node id="3881" icon="icon.chewinggum" world="world.toaster_full" />
+		<node id="3882" icon="icon.gooseberry" world="world.toaster_full" />
+		<node id="3883" icon="icon.butter" world="world.toaster_full" />
+		<node id="3884" icon="icon.herbs" world="world.toaster_full" />
+		<node id="3885" icon="icon.egg" world="world.toaster_full" />
+		<node id="3886" icon="icon.wait" world="world.toaster_working" />
+		
+		<node id="3891" icon="icon.chicken" world="world.toaster_idle" />
+		<node id="3892" icon="icon.hotchillies" world="world.toaster_full" />
+		<node id="3893" icon="icon.oliveoil" world="world.toaster_full" />
+		<node id="3894" icon="icon.herbs" world="world.toaster_full" />
+		<node id="3895" icon="icon.fireblossom" world="world.toaster_full" />
+		<node id="3896" icon="icon.wait" world="world.toaster_working" />
+		
+		<node id="3870" icon="icon.cheeseburger" world="world.toaster_done" />
+		<node id="3872" icon="icon.gumchicken" world="world.toaster_done" />
+		<node id="3890" icon="icon.blowfish" world="world.toaster_done" />
+		<node id="3899" icon="icon.marinatedchickenwings" world="world.toaster_done" />
+		
+		<node id="3874" icon="icon.trash" world="world.toaster_trash" />
+		
+		<!-- tools -->
+		<node id="5905" icon="icon.wait" world="world.tools" />
+		<node id="5950" icon="icon.redglove" world="world.tools" />
+		
+		<!-- tree -->
+		<node id="3005" icon="icon.wait" world="world.tree_working"  clicksound="producer_wood_work"/>
+		<node id="3006" icon="icon.wood" world="world.tree_finished" clicksound="producer_click_wood"/>
+		
+		<node id="3007" icon="icon.wood" world="world.tree_finished" clicksound="producer_click_wood"/>
+		<node id="3008" icon="icon.wait" world="world.tree_working" clicksound="producer_wood_work"/>
+		<node id="3009" icon="icon.woodpremium" world="world.tree_finished" />
+				
+		<!-- truffle -->
+		<node id="5205" icon="icon.wait" world="world.trufflepig_idle" />
+		<node id="5250" icon="icon.truffle" world="world.trufflepig_working" clicksound="producer_pig_ready"/>
+		
+		<!-- well -->
+		<node id="4615" icon="icon.wait" world="world.watersource" clicksound="producer_click_water"/>
+		<node id="4650" icon="icon.water" world="world.watersource_fill" clicksound="producer_water_working" />
+
+		<!-- yellowpaint -->
+		<node id="7005" icon="icon.wait" world="world.paintbucket" />
+		<node id="7050" icon="icon.yellowpaint" world="world.paintbucket" clicksound="producer_click_paint"/>
+
+		<!--
+		<node id="" icon="icon." world="world." />
+		-->
+		<!-- powerups are starting from 10 000 -->
+		
+		<!-- powerups rabbit -->
+		<node id="10104" icon="icon.benefits_all" world="world.powerwell_ready" />
+		<node id="10105" icon="icon.wait" world="world.powerwell_sleeping" />
+		<node id="10106" icon="icon.benefits_all" world="world.powerwell_ready" />
+		
+		<!-- powerups cat -->
+		<node id="10114" icon="icon.benefits_facilities" world="world.powerwell_ready" />
+		<node id="10115" icon="icon.wait" world="world.powerwell_sleeping" />
+		<node id="10116" icon="icon.benefits_facilities" world="world.powerwell_ready" />
+
+		
+		<!-- powerups horse -->
+		<node id="10124" icon="icon.benefits_plats" world="world.powerwell_ready" />
+		<node id="10125" icon="icon.wait" world="world.powerwell_sleeping" />
+		<node id="10126" icon="icon.benefits_plats" world="world.powerwell_ready" />
+		
+		<!-- powerups dog -->
+		<node id="10134" icon="icon.benefits_animals" world="world.powerwell_ready" />
+		<node id="10135" icon="icon.wait" world="world.powerwell_sleeping" />
+		<node id="10136" icon="icon.benefits_animals" world="world.powerwell_ready" />
+
+		
+	</nodes>
+</config>

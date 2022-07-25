@@ -1,0 +1,369 @@
+<config>
+	<!-- snippets path='manager/worldManager/conf/snippets/world_snippets_$$lang$$.xml' _REPLACE_='1' / --> 
+	<snippets path='conf/allSnippets/$$lang$$/world_snippets_$$lang$$.xml' _REPLACE_='1' /> 
+
+	<worlds>
+		<world num='1' key='TURTLE'  allowed='1' />
+		<world num='2' key='OCTOPUS' allowed='1' />
+		<world num='3' key='SEAL'	 allowed='1' />
+	</worlds>
+	<sounds>
+		<sound id="throwAction" path="assets/audio/flyingComponent/throwAction.mp3" type="effect" loops="1" volume="1.0" />
+		<sound id="throwCake" path="assets/audio/flyingComponent/throwCake.mp3" type="effect" loops="1" volume="1.0" />
+		<sound id="throwStraw" path="assets/audio/flyingComponent/throwStraw.mp3" type="effect" loops="1" volume="1.0" />
+		<sound id="throwOwl" path="assets/audio/flyingComponent/ghostowl_impact.mp3" type="effect" loops="1" volume="1.0" />
+		<sound id="throwFireball" path="assets/audio/flyingComponent/fireball_impact.mp3" type="effect" loops="1" volume="1.0" />
+		<sound id="throwColor" path="assets/audio/flyingComponent/colors_impact.mp3" type="effect" loops="1" volume="1.0" />
+		<sound id="flyingOwl" path="assets/audio/flyingComponent/ghostowl_fly.mp3" type="effect" loops="1" volume="1.0" />
+		<sound id="flyingFireball" path="assets/audio/flyingComponent/fireball_fly.mp3" type="effect" loops="1" volume="0.5" />
+		<sound id="flyingColor" path="assets/audio/flyingComponent/colors_fly.mp3" type="effect" loops="1" volume="2.0" />
+				
+				
+		<!-- common stuff -->
+		<sound id="producer_waiting"	volume="0.2" loops="1" type="effect" path="assets/audio/ol_generator_waiting.mp3" />
+		<sound id="producer_harvest"	volume="0.4" loops="1" type="effect" path="assets/audio/ol_item_pick_up.mp3" />
+		<sound id="producer_click"	volume="0.4" loops="1" type="effect" path="assets/audio/ol_interface_clickitem.mp3" />
+		<sound id="producer_bubbles"	volume="0.4" loops="1" type="effect" path="assets/audio/ol_producer_bubbles_1.mp3" />
+		<sound id="producer_over"	volume="0.4" loops="1" type="effect" path="assets/audio/ol_interface_mouseover.mp3"  />
+		<sound id="producer_popup"	volume="0.4" loops="1" type="effect" path="assets/audio/ol_producer_pop_up.mp3" />
+		<sound id="producer_click_trash"	volume="0.4" loops="1" type="effect" path="assets/audio/ol_producer_rotten.mp3" />
+		
+		<!-- animals -->
+		<sound id="producer_click_chicken"	volume="0.4" loops="1" type="effect" path="assets/audio/ol_producer_gen_chicken.mp3" />
+		<sound id="producer_click_cow"	volume="0.4" loops="1" type="effect" path="assets/audio/ol_producer_gen_cow.mp3" />
+		<sound id="producer_click_magicbees"	volume="0.4" loops="1" type="effect" path="assets/audio/ol_producer_gen_bee_humming.mp3" />
+		<sound id="producer_milk_ready"	volume="0.4" loops="1" type="effect" path="assets/audio/ol_producer_ani_milk.mp3" />
+		<sound id="producer_gum_ready"	volume="0.4" loops="1" type="effect" path="assets/audio/ol_producer_ani_cowfart.mp3" />
+		<sound id="producer_egg_ready"	volume="0.4" loops="1" type="effect" path="assets/audio/ol_producer_ani_chickenegg.mp3" />
+		<sound id="producer_bees_ready"	volume="0.4" loops="1" type="effect" path="assets/audio/ol_producer_gen_bee_humming.mp3" />
+
+		<!-- cloverleaf -->
+		<sound id="producer_click_leaf"	volume="0.4" loops="1" type="effect" path="assets/audio/ol_producer_gen_cloverleafes.mp3" />
+		
+		<!-- cowbell -->
+		<sound id="producer_click_cowbell"	volume="0.4" loops="1" type="effect" path="assets/audio/ol_producer_gen_cowbells.mp3" />
+		
+		<!-- deep fry-->
+		<sound id="producer_deepfry_working"	volume="0.4" loops="1" type="effect" path="assets/audio/ol_producer_deepfryer.mp3" />
+		
+		<!-- dummy -->
+		<sound id="producer_dummy_ready"	volume="0.4" loops="1" type="effect" path="assets/audio/ol_producer_gen_dummy.mp3" />
+		<sound id="producer_click_dummy"	volume="0.4" loops="1" type="effect" path="assets/audio/ol_producer_gen_dummy.mp3" />
+		
+		<!-- fireplace -->
+		<sound id="producer_click_fire"	volume="0.2" loops="1" type="effect" path="assets/audio/ric_ol_get_fire.mp3" />
+	
+		<!-- fish -->
+		<sound id="producer_click_fish"	volume="0.4" loops="1" type="effect" path="assets/audio/ol_producer_gen_fishing_rod.mp3" />
+		
+		<!-- frog -->
+		<sound id="producer_frog_working" volume="0.4" loops="-1" type="effect" path="assets/audio/ol_producer_frogshaker.mp3" />
+		
+		<!-- megaoven -->
+		<sound id="producer_click_oven"	volume="0.2" loops="1" type="effect" path="assets/audio/ol_producer_oven.mp3" />
+		<sound id="producer_megaoven_produce"	volume="0.4" loops="-1" type="effect" path="assets/audio/ol_producer_megaoven.mp3" />
+		
+		<!-- message -->
+		<sound id="producer_click_message"	volume="0.4" loops="1" type="effect" path="assets/audio/ol_producer_gen_messagebottle.mp3" />
+		
+		<!-- millcrate -->
+		<sound id="producer_click_bottle"	volume="0.4" loops="1" type="effect" path="assets/audio/ol_producer_gen_milkbottle.mp3" />
+		
+		<!-- mill -->
+		<sound id="producer_mill_working"	volume="0.2" loops="-1" type="effect" path="assets/audio/ol_producer_mill.mp3" />
+		
+		<!-- mixer -->
+		<sound id="producer_mixer_working"	volume="0.4" loops="1" type="effect" path="assets/audio/ol_producer_gen_mixer.mp3" />
+		
+		<!-- mothercell -->
+		<sound id="producer_click_babyanimal"	volume="0.4" loops="1" type="effect" path="assets/audio/ol_producer_gen_animalmother.mp3" />
+		
+		<!-- oven -->
+		<sound id="producer_click_ovenstarted"	volume="0.2" loops="1" type="effect" path="assets/audio/ol_producer_oven.mp3" />
+		
+		<!-- redpaint -->
+		<sound id="producer_click_paint"	volume="0.4" loops="1" type="effect" path="assets/audio/ol_producer_gen_paintbucket.mp3" />
+		
+		<!-- plant -->
+		<sound id="producer_producer_click"	volume="0.4" loops="1" type="effect" path="assets/audio/ric_ol_click_on_plan.mp3" />
+		<sound id="producer_hole_ready"	volume="0.4" loops="1" type="effect" path="assets/audio/ol_interface_dig.mp3" />
+		<sound id="producer_hole_fail"	volume="0.4" loops="1" type="effect" path="assets/audio/ol_interface_dig_collision.mp3" />
+		<sound id="producer_roulette0"	volume="0.4" loops="1" type="effect" path="assets/audio/plants_decay_1_1.mp3" />
+		<sound id="producer_roulette1"	volume="0.4" loops="1" type="effect" path="assets/audio/plants_decay_2_1.mp3" />
+	
+		<!-- sackpile -->
+		<sound id="producer_click_sack"	volume="0.4" loops="1" type="effect" path="assets/audio/ol_producer_gen_pileofsacks.mp3" />
+		
+		<!-- sand -->
+		<sound id="producer_click_sand"	volume="0.4" loops="1" type="effect" path="assets/audio/ol_producer_gen_sandpit.mp3" />
+		
+		<!-- seedflower-->
+		<sound id="producer_click_seed"	volume="0.4" loops="1" type="effect" path="assets/audio/ol_producer_gen_magicflower.mp3" />
+		
+		<!-- snow -->
+		<sound id="producer_click_snow"	volume="0.4" loops="1" type="effect" path="assets/audio/ol_producer_gen_pileofsnow.mp3" />
+		
+		<!-- sugarcrystal -->
+		<sound id="producer_click_crystal"	volume="0.4" loops="1" type="effect" path="assets/audio/ol_producer_gen_sugarcrystal.mp3" />
+		
+		<!-- table -->
+		<sound id="producer_click_table"	volume="0.4" loops="1" type="effect" path="assets/audio/ric_ol_table plates.mp3" />
+	
+		<!-- toaster -->
+		<sound id="producer_toaster_working"	volume="0.4" loops="1" type="effect" path="assets/audio/ol_producer_toaster.mp3" />
+		
+		<!-- tree -->
+		<sound id="producer_click_wood"	volume="0.4" loops="1" type="effect" path="assets/audio/ric_ol_get_wood.mp3" />
+		<sound id="producer_wood_work"	volume="0.4" loops="1" type="effect" path="assets/audio/ol_producer_gen_beaver.mp3" />
+		<sound id="producer_wood_ready"	volume="0.4" loops="1" type="effect" path="assets/audio/ol_producer_gen_beaver_ready.mp3" />
+		
+		<!-- truffle -->
+		<sound id="producer_pig_ready"	volume="0.4" loops="1" type="effect" path="assets/audio/ol_producer_gen_truffle_pig.mp3" />
+	
+		<!-- water -->
+		<sound id="producer_click_water"	volume="0.4" loops="1" type="effect" path="assets/audio/ol_producer_gen_waterlocations.mp3" />
+		<sound id="producer_water_working"	volume="0.4" loops="1" type="effect" path="assets/audio/ol_producer_gen_waterlocations.mp3" />
+
+		<!-- yellowpaint -->
+		<sound id="producer_click_paint"	volume="0.4" loops="1" type="effect" path="assets/audio/ol_producer_gen_paintbucket.mp3" />
+	</sounds>
+	
+	<assets>
+		<asset id="action" path="assets/action.swf" />
+		<asset id="decision" path="assets/decision.swf" />
+		<asset id="icons" path="assets/icons.swf" />
+		<asset id="products" path="assets/products.swf" />
+		<asset id='itemtimer' path='assets/itemtimergraphic.swf' />
+		
+		<asset id='nextRoomCursor' path='assets/NextRoomCursor.swf' />
+		<asset id='inviteGroupPanel' path='assets/inviteGroupPanel.swf' />
+		<asset id='activeQuestPanel' path='assets/activeQuestPanel.swf' />
+		<asset id='throwStraw' path='assets/flyingComponent/throwStraw.swf' />
+		<asset id='throwCake' path='assets/flyingComponent/throwCake.swf' />
+		<!--asset id='throwCake' path='assets/flyingComponent/throwOwl.swf' /-->
+		<asset id='throwFireball' path='assets/flyingComponent/throwFireball.swf' />
+		<asset id='throwColor' path='assets/flyingComponent/throwColor.swf' />
+		<asset id='throwOwl' path='assets/flyingComponent/throwOwl.swf' />
+		
+	</assets>
+	
+	<rooms base="rooms/$$name$$/" path="$$name$$.swf" >
+		
+		<room num='3' id='bakery' key='BAKERY' allowed='1' >
+			<spawn from='default' x='159' y='306' />
+		</room>
+		<room num='4' id='dogville' key='DOGVILLE' allowed='1' >
+			<spawn from='default' x='500' y='563' />
+			<spawn from='7' x='798' y='572' /> <!-- food corner -->
+			<spawn from='17' x='830' y='551' /> <!-- montecielo -->
+			<spawn from='12' x='169' y='616' /> <!-- texa realaxa -->
+			<spawn from='1000' x='840' y='349' /> <!-- outside home -->
+			<spawn from='1001' x='840' y='349' /> <!-- backyard home -->
+			<spawn from='1002' x='840' y='349' /> <!-- inside home -->
+			<spawn from='19' x='404' y='356' /> <!-- bigtree -->
+		</room>
+		<room num='5' id='fastfood' key='FASTFOOD' allowed='1' >
+			<spawn from='default' x='585' y='220' />
+		</room>
+		<room num='6' id='flowerhill' key='FLOWERHILL' allowed='1' >
+			<spawn from='default' x='650' y='345' />
+			<spawn from='9' x='168' y='666' /> <!-- rioazul -->
+			<spawn from='10' x='604' y='595' /> <!-- sunny farm -->
+			<spawn from='17' x='718' y='369' /> <!-- montecielo -->
+			<spawn from='1000' x='745' y='442' /> <!-- outside home -->
+			<spawn from='1001' x='745' y='442' /> <!-- backyard home -->
+			<spawn from='1002' x='745' y='442' /> <!-- inside home -->
+		</room>
+		<room num='7' id='foodcorner' key='FOODCORNER' allowed='1' >
+			<spawn from='default' x='570' y='544' />
+			<spawn from='9' x='795' y='514' /> <!-- rioazul -->
+			<spawn from='5' x='347' y='448' /> <!-- fastfood -->
+			<spawn from='8' x='523' y='436' /> <!-- gourmet -->
+			<spawn from='4' x='820' y='475' /> <!-- dogville -->
+			<spawn from='13' x='123' y='500' /> <!-- kittyoto  -->
+			<spawn from='19' x='436' y='382' /> <!-- bigtree -->
+			<spawn from='10' x='183' y='576' /> <!-- sunny farm -->
+			<innerroom id='5' />
+			<innerroom id='8' />
+		</room>
+		<room num='8' id='gourmet' key='GOURMET' allowed='1' >
+			<spawn from='default' x='139' y='299' />
+		</room>
+		<room num='9' id='rioazul' key='RIOAZUL' allowed='1' >
+			<spawn from='default' x='500' y='500' />
+			<spawn from='10' x='341' y='626' /> <!-- sunnyfarm -->
+			<spawn from='6' x='775' y='408' /> <!-- flower hill -->
+			<spawn from='7' x='121' y='451' /> <!-- food corner -->
+			<spawn from='11' x='615' y='392' /> <!-- watermill -->
+			<spawn from='3' x='683' y='395' /> <!-- bakery -->
+			<spawn from='14' x='97' y='355' /> <!-- las shoppas-->
+			<innerroom id='3' />
+			<innerroom id='11' />
+		</room>
+		<room num='10' id='sunnyfarm' key='SUNNYFARM' allowed='1' >
+			<spawn from='default' x='400' y='450' />
+			<spawn from='15' x='543' y='333' /> <!-- tropical garden -->
+			<spawn from='9' x='146' y='568' /> <!-- rioazul -->
+			<spawn from='7' x='270' y='615' /> <!-- food corner -->
+			<spawn from='6' x='416' y='219' /> <!-- flower hill -->
+			<spawn from='1000' x='654' y='347' /> <!-- outside home -->
+			<spawn from='1001' x='654' y='347' /> <!-- backyard home -->
+			<spawn from='1002' x='654' y='347' /> <!-- inside home -->
+			<innerroom id='15' />
+		</room>
+		<room num='11' id='watermill' key='WATERMILL' allowed='1' >
+			<spawn from='default' x='652' y='410' />
+		</room>
+		<room num='12' id='texarelexa' key='TEXARELEXA' allowed='1' >
+			<spawn from='default' x='444' y='474' />
+			<spawn from='4' x='835' y='539' /> <!-- dogville -->
+			<spawn from='13' x='124' y='650' /> <!-- kittyoto -->
+			<spawn from='19' x='451' y='410' /> <!-- bigtree -->
+			<spawn from='14' x='679' y='627' /> <!-- las shoppas -->
+			<spawn from='1000' x='152' y='552' /> <!-- outside home -->
+			<spawn from='1001' x='152' y='552' /> <!-- backyard home -->
+			<spawn from='1002' x='152' y='552' /> <!-- inside home -->
+		</room>
+		<room num='13' id='kittyoto' key='KITTYOTO' allowed='1' >
+			<spawn from='default' x='444' y='474' />
+			<spawn from='12' x='566' y='307' /> <!-- texarelexa -->
+			<spawn from='14' x='167' y='528' /> <!-- lasshopas -->
+			<spawn from='16' x='728' y='395' /> <!-- welcomekiosk -->
+			<spawn from='19' x='312' y='247' /> <!-- bigtree -->
+			<spawn from='7' x='835' y='451' /> <!-- food corner -->
+			<innerroom id='16' />
+			<innerroom id='26' />
+		</room>
+		<room num='14' id='lasshoppas' key='LASSHOPPAS' allowed='1' >
+			<spawn from='default' x='444' y='474' />
+			<spawn from='18' x='105' y='483' /> <!-- mainislandhead  -->
+			<spawn from='12' x='450' y='278' /> <!-- texarelexa -->
+			<spawn from='13' x='811' y='468' /> <!-- kittyoyo -->
+			<spawn from='9' x='686' y='609' /> <!-- rioazul -->
+			<spawn from='24' x='488' y='433' /> <!-- chatel -->
+			<spawn from='25' x='239' y='413' /> <!-- furnitureshop -->
+			<spawn from='1000' x='65' y='328' /> <!-- outside home -->
+			<spawn from='1001' x='65' y='328' /> <!-- backyard home -->
+			<spawn from='1002' x='65' y='328' /> <!-- inside home -->
+			<innerroom id='24' />
+			<innerroom id='25' />
+		</room>
+		<room num='15' id='tropicalgarden' key='TROPICALGARDEN' allowed='1' >
+			<spawn from='default' x='213' y='351' />
+		</room>
+		<room num='16' id='welcomekiosk' key='WELCOMEKIOSK' allowed='1' >
+			<spawn from='default' x='124' y='395' />
+		</room>
+		<room num='17' id='montecielo' key='MONTECIELO' allowed='1' >
+			<spawn from='default' x='290' y='359' />
+			<spawn from='4' x='84' y='382' /> <!-- dogville -->
+			<spawn from='6' x='118' y='680' /> <!-- flowerhill -->
+		</room>
+		<room num='18' id='mainislandhead' key='MAINISLANDHEAD' allowed='1' >
+			<spawn from='default' x='798' y='143' />
+			<spawn from='19' x='552' y='568' /> <!-- shortcut from Bigtree-->
+		</room>
+		<room num='19' id='bigtree' key='BIGTREE' allowed='1' >
+			<spawn from='default' x='133' y='650' />
+			<spawn from='4' x='754' y='628' /> <!-- dogville -->
+			<spawn from='7' x='578' y='623' /> <!-- foodcorner -->
+			<spawn from='12' x='82' y='418' /> <!-- texarelexa -->
+			<spawn from='13' x='186' y='676' /> <!-- kittyoto -->
+			<spawn from='18' x='469' y='271' /><!-- ileandhead -->
+			<spawn from='20' x='567' y='629' /><!-- entrancegroups -->
+			<innerroom id='20' />
+		</room>
+		<room num='20' id='entrancegroups' key='ENTRANCEGROUPS' allowed='1' >
+			<spawn from='default' x='500' y='500' />
+			<spawn from='21' x='641' y='337' /><!-- ekeagroup -->
+			<spawn from='22' x='449' y='288' /><!-- zurakgroup -->
+			<spawn from='23' x='255' y='325' /><!-- deikagroup -->
+		</room>
+		<room num='21' id='ekeagroup' key='EKEAGROUP' allowed='1' >
+			<spawn from='default' x='450' y='290' />
+		</room>
+		<room num='22' id='zurakgroup' key='ZURAKGROUP' allowed='1' >
+			<spawn from='default' x='450' y='290' />
+		</room>
+		<room num='23' id='deikagroup' key='DEIKAGROUP' allowed='1' >
+			<spawn from='default' x='450' y='290' />
+		</room>
+		<room num='24' id='chatel' key='CHATEL' allowed='1' >
+			<spawn from='default' x='500' y='290' />
+		</room>
+		<room num='25' id='furnitureshop' key='FURNITURESHOP' allowed='1' >
+			<spawn from='default' x='485' y='370' />
+		</room>
+		<room num='26' id='mobileShop' key='MOBILESHOP' allowed='1' >
+			<spawn from='default' x='764' y='348' />
+		</room>
+		<room num='27' id='mobileShop' key='MOBILESHOP' allowed='1' >
+			<spawn from='default' x='764' y='348' />
+		</room>
+		
+		<room num='1000' id='home' key='HOMEROOM' allowed='1' >
+			<spawn from='default' x='500' y='500' />
+			<spawn from='1001' x='78' y='385' />
+			<spawn from='1001' x='237' y='455' />
+		</room>
+		
+		<room num='1001' id='home' key='GARDEN_2' allowed='1' >
+			<spawn from='default' x='500' y='500' />
+			<spawn from='1000' x='842' y='350' />
+		</room>
+		
+		<room num='1002' id='home' key='INSIDE' allowed='1' >
+			<spawn from='default' x='500' y='500' />
+			<spawn from='1000' x='760' y='310' />
+		</room>
+
+		
+	</rooms>
+	
+	<generators minDistance='25' holeDisappearTime="10"> <!--in min -->
+		<generator type='plants' 		fromNode='1000' toNode='1999' />
+		<generator type='oven' 			fromNode='2000' toNode='2499' />
+		<generator type='fireplace'		fromNode='3000' toNode='3003' />
+<!--	<generator type='seedflower'	fromNode='3002' toNode='3003' />   -->
+		<generator type='tree'			fromNode='3004' toNode='3009' />
+<!--	<generator type='well'			fromNode='3006' toNode='3009' />   -->
+		<generator type='animals'		fromNode='3010' toNode='3199' />
+		<generator type='mill'			fromNode='3200' toNode='3399' />
+		<generator type='sugarcrystal'	fromNode='3400' toNode='3409' />
+		<generator type='table'			fromNode='3410' toNode='3449' />
+		<generator type='mixer'			fromNode='3450' toNode='3599' />
+		<generator type='deepfry'		fromNode='3600' toNode='3799' />
+		<generator type='toaster'		fromNode='3800' toNode='3999' />
+		<generator type='megaoven'		fromNode='4000' toNode='4299' />
+		<generator type='frog'			fromNode='4300' toNode='4599' />
+		<generator type='sand'			fromNode='4600' toNode='4610' />
+		<generator type='well'			fromNode='4611' toNode='4800' />
+		<generator type='seedflower'	fromNode='4801' toNode='4999' />
+		<generator type='cloverfield'	fromNode='5000' toNode='5199' />
+		<generator type='truffle'		fromNode='5200' toNode='5299' />
+		<generator type='fish'			fromNode='5300' toNode='5399' />
+		<generator type='mushroom'		fromNode='5400' toNode='5499' />
+		<generator type='snow'			fromNode='5500' toNode='5599' />
+		<generator type='fertilizer'	fromNode='5600' toNode='5699' />
+		<generator type='sunmilk'		fromNode='5700' toNode='5799' />
+		<generator type='sackpile'		fromNode='5800' toNode='5899' />
+		<generator type='tools'			fromNode='5900' toNode='5999' />
+		<generator type='paint'			fromNode='6000' toNode='6099' />
+		<generator type='milkcrate'		fromNode='6100' toNode='6199' />
+		<generator type='mothercell'	fromNode='6200' toNode='6299' />
+		<generator type='message'		fromNode='6300' toNode='6399' />
+		<generator type='cowbell'		fromNode='6400' toNode='6499' />
+		<generator type='cactus'		fromNode='6500' toNode='6599' />
+		<generator type='plants'		fromNode='6600' toNode='7000' />
+		<generator type='yellowpaint'	fromNode='7000' toNode='7099' />
+		<generator type='dummydispenser' fromNode='7100' toNode='7199' />
+		<generator type='superwell'		fromNode='7400' toNode='7449' />
+		
+	</generators>
+	
+	<facePatterns>
+		<face name="wiseTree" defaultFrame="blink" possibleFrames="normal face,talking,laughing,toungue out"/>
+		<face name="faceOloko" defaultFrame="normal face" possibleFrames="laughing,tongueOut,surprise"/>
+		<face name="oloko" defaultFrame="normal face" possibleFrames="laughing,tongueOut,surprise"/> <!-- main one -->
+	</facePatterns>
+</config>

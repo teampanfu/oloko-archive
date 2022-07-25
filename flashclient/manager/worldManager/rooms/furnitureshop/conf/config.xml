@@ -1,0 +1,50 @@
+<!-- furnitureshop -->
+<config>
+	<assets>
+		<asset id="room" path="assets/room.swf" />
+	</assets>
+	
+	<sounds>
+		<sound id="roomBackground" type="music" volume="0.4" path="audio/OLO_08_cat_style.mp3" loops="-1" />
+	</sounds>
+	
+	
+	<module>
+		<elementSounds>
+			<sound id="slidingdoor" path="assets/audio/ol_interface_mousover_sliding.mp3" loops="1" type="effect" volume="1" />
+		</elementSounds>
+		
+		<elements>
+			<element id="door" button="1" visible="1">
+				<button type="overClickSound" over="2" out="1" click="2" sound="slidingdoor" />
+				<message value="gotoHotSpot" >
+					<hotspot value="door" />
+				</message>
+			</element>
+			<element id="bath" button="1" visible="1">
+				<button type="overClick" over="2" out="1" click="1"/>
+				<message value="bathClicked" />
+			</element>
+			<element id="livingroom" button="1" visible="1">
+				<button type="overClick" over="2" out="1" click="1"/>
+				<message value="livingroomClicked" />
+			</element>
+			<element id="kitchen" button="1" visible="1">
+				<button type="overClick" over="2" out="1" click="1"/>
+				<message value="kitchenClicked" />
+			</element>
+			<element id="bedroom" button="1" visible="1">
+				<button type="overClick" over="2" out="1" click="1"/>
+				<message value="bedroomClicked" />
+			</element>
+			<element id="garden" button="1" visible="1">
+				<button type="overClick" over="2" out="1" click="1"/>
+				<message value="gardenClicked" />
+			</element>
+		</elements>
+		
+		<hotspots>
+			<hotspot target="14"	 id="door"		type="room" 			sharetype="unique" shape="round" x="773" y="316" rad="50" />
+		</hotspots>
+	</module>
+</config>

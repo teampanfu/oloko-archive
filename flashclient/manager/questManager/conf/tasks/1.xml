@@ -1,0 +1,63 @@
+<quest id='1'> <!-- task -->
+	
+	<tasks substate='10001'> <!-- SUB TASK--> <!-- Elenora -->
+		<task id='id_01' state='45'>
+			<!--type value='giveCoinsToNPC'> <properties amount='1000' /> </type-->
+			<finished> 
+				<action id='giveCoinsToNPC'  amount='1000' /> 
+			</finished>
+			<actions> 
+				<action id='updateState' value='1,10001,1' persist='true' />
+				<action id='updateState' value='1,10002,1' persist='true' />
+				<action id='updateState' value='1,10003,1' persist='true' />
+
+				<action id='updateState' value='1,10001,10' persist='true' />
+				<action id='updateState' value='1,10002,40' persist='true' />
+				<action id='updateState' value='1,10003,40' persist='true' />
+
+				<action id='message'  target='*' key='PMC.sendRejoinGroup' value='1'/>
+			</actions>
+		</task>
+	</tasks>
+	
+	<tasks substate='10002'> <!-- SUB TASK--> <!-- Zelma -->
+		<task id='id_02' state='45'>
+			<!--type value='giveCoinsToNPC'> <properties amount='1000' /> </type-->
+			<finished> 
+				<action id='giveCoinsToNPC'  amount='1000' /> 
+			</finished>
+			<actions> 
+				<action id='updateState' value='1,10001,1' persist='true' />
+				<action id='updateState' value='1,10002,1' persist='true' />
+				<action id='updateState' value='1,10003,1' persist='true' />
+
+				<action id='updateState' value='1,10001,40' persist='true' />
+				<action id='updateState' value='1,10002,10' persist='true' />
+				<action id='updateState' value='1,10003,40' persist='true' />
+
+				<action id='message'  target='*' key='PMC.sendRejoinGroup' value='2'/>
+			</actions>
+		</task>
+	</tasks>
+	
+	<tasks substate='10003'> <!-- SUB TASK--> <!-- Guy -->
+		<task id='id_03' state='45'>
+			<!--type value='giveCoinsToNPC'> <properties amount='1000' /> </type-->
+			<finished> 
+				<action id='giveCoinsToNPC'  amount='1000' /> 
+			</finished>
+			<actions> 
+				<action id='updateState' value='1,10001,1' persist='true' />
+				<action id='updateState' value='1,10002,1' persist='true' />
+				<action id='updateState' value='1,10003,1' persist='true' />
+
+				<action id='updateState' value='1,10001,40' persist='true' />
+				<action id='updateState' value='1,10002,40' persist='true' />
+				<action id='updateState' value='1,10003,10' persist='true' />
+
+				<action id='message'  target='*' key='PMC.sendRejoinGroup' value='3'/>
+			</actions>
+		</task>
+	</tasks>
+	
+</quest>

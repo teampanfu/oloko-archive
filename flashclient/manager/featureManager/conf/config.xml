@@ -1,0 +1,29 @@
+<config>
+	
+	<assets>
+		<asset id='menu' path='assets/menu.swf' />
+		<asset id='mobile' path='assets/mobile.swf' />
+	</assets>
+	
+	<modules base="modules/$$name$$/" path="$$name$$.swf" >
+	 <modul name='menu' preload='1' />
+     <modul name='mobile' preload='1' />
+     <modul name='flvPlayer' preload='1' />
+     <!-- <modul name='perfMeter' preload='1' />--> 
+	 <modul name='popup' preload='1' />
+	</modules>
+	<snippets date="30.09.2009 10:42:04">
+		<!-- Mobile Menu Buttons Tooltip Snippets --> 
+		<MAP><![CDATA[MAP]]></MAP>
+		<MOBILE><![CDATA[MOBILE]]></MOBILE>
+		<ITEMS><![CDATA[ITEMS]]></ITEMS>
+		<HOUSE><![CDATA[HOUSE]]></HOUSE>
+		
+		<!-- Friends Card Tooltip Snippets --> 
+		<VIEW_OFFLINE_FRIENDS><![CDATA[View Offline Friends]]></VIEW_OFFLINE_FRIENDS>
+		<VIEW_ONLINE_FRIENDS><![CDATA[View Online Friends]]></VIEW_ONLINE_FRIENDS>
+		<VIEW_ALL_FRIENDS><![CDATA[View All Friends]]></VIEW_ALL_FRIENDS>
+		<SHOW_PROFILE><![CDATA[Show Profile]]></SHOW_PROFILE>
+		<BLOCK_FRIEND><![CDATA[Block Friend]]></BLOCK_FRIEND>
+	</snippets>
+</config>

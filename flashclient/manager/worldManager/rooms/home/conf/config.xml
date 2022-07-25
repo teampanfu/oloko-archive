@@ -1,0 +1,151 @@
+<config> <!-- home -->
+	<assets>
+		<!--<asset id="room" path="assets/room.swf" />-->
+		<asset id="transferDialog" path="assets/storageDialog.swf" />
+		<asset id="welcomeDialog" path="assets/welcomeDialog.swf" />
+		<asset id="rarePlantEntryPoint" path="assets/rarePlantShop/rarePlantEntryPoint.swf" />
+		<asset id="rarePlantShopBox" path="assets/rarePlantShop/rarePlantShopBox.swf" />
+		<asset id="rarePlantShopCatalog" path="assets/rarePlantShop/rarePlantShopCatalog.swf" />
+	</assets>
+	<!-- snippets path='manager/worldManager/rooms/home/conf/snippets/home_snippets_$$lang$$.xml' _REPLACE_='1' / --> 
+	<snippets path='conf/allSnippets/$$lang$$/home_snippets_$$lang$$.xml' _REPLACE_='1' /> 
+	
+	<sounds>
+		<sound id="roomBackground" type="music" volume="0.4" path="audio/OLO_05_rabbit_style.mp3" loops="-1" />
+	</sounds>		
+		
+	<!-- home -->
+	<module id="1000">
+		<background  path="assets/backgrounds/rabbit/House_Rabbits_BG.swf"/>
+		<scale>
+			<value minScale="50" maxScale="60"/>
+			<valueFurniture scale="60"/>
+		</scale>
+		
+		<elementSounds>
+			<sound id="woodendoor" path="assets/audio/ol_interface_woodendoor.mp3" loops="1" type="effect" volume="1" />
+		</elementSounds>
+		
+		<elements>
+			<element id="garden" button="1" visible="1">
+				<button type="overClick" over="2" out="1" click="2" overCursor="shovel"/>
+				<message value="createProducer" >
+					<style value="NM" />
+					<nodeId value="1000" />
+					<elementID value="garden" />
+					<presetId value="29" />
+					<locationId value="7" />
+				</message>
+			</element>
+			
+			<element id="door1" button="1" visible="1">
+				<button type="overClickSound" over="2" out="1" click="2" sound="woodendoor" />
+				<message value="gotoHotSpot" >
+					<hotspot value="door1" />
+				</message>
+			</element>
+		
+		</elements>
+		
+		<hotspots>
+			<hotspot target="1001" type="room" sharetype="unique" shape="round" x="50" y="330" rad="50" dirAngle="-145"/> <!-- GArden-->
+			<hotspot target="1002" id="door1" type="room" sharetype="unique" shape="round" x="227" y="447" rad="50" /> <!-- Inside-->
+			
+			<hotspot target="10" type="room" sharetype="unique" shape="round" x="770" y="625" rad="50" dirAngle="5"/> <!-- Sunnyfarm-->
+			<hotspot target="19"  type="room" sharetype="unique" shape="round" x="21" y="626" rad="50" dirAngle="155"/> <!-- BigTree-->
+
+		</hotspots>
+	</module>
+	
+	<!-- Garden-->
+	<module  id="1001">
+		<background  path="assets/backgrounds/nopremiumgarden.swf"/>
+		<scale>
+			<value minScale="62" maxScale="72"/>
+			<valueFurniture scale="60"/>
+		</scale>
+		<elements>
+			<element id="garden1001" button="1" visible="1">
+				<button type="overClick" over="2" out="1" click="2" overCursor="shovel"/>
+				<message value="createProducer" >
+					<style value="NM" />
+					<nodeId value="1000" />
+					<elementID value="garden1001" />
+					<presetId value="29" />
+					<locationId value="15" />
+				</message>
+			</element>
+			</elements>
+		<rarePlantCatalog>
+			
+			<rarePlant id='543' idProducer='1465' idLocation="74" /> <!-- RP_batlamp_catalog -->
+			<rarePlant id='544' idProducer='1487' idLocation="75" /> <!-- RP_ghost_stoolset_catalog -->
+			<rarePlant id='545' idProducer='1502' idLocation="76" /> <!-- RP_bedspider_catalog -->
+			<rarePlant id='546' idProducer='1517' idLocation="77" /> <!-- RP_castlearmour_catalog -->
+			
+			<rarePlant id='518' idProducer='1407' idLocation="78"/> <!-- RP_parrot_catalog -->
+			<rarePlant id='519' idProducer='1422' idLocation="79"/> <!-- RP_table_elephantFoot_catalog -->
+			<rarePlant id='520' idProducer='1437' idLocation="80"/> <!-- RP_leo_catalog -->
+			<rarePlant id='521' idProducer='1452' idLocation="81"/> <!-- RP_schirmpilz_catalog -->
+
+		
+			<rarePlant id='463' idProducer='1366' idLocation="82"/> <!-- RP_berrybush_discoball_catalog -->
+			<rarePlant id='464' idProducer='1376' idLocation="83"/> <!-- RP_teddypanda_catalog -->
+			<rarePlant id='465' idProducer='1396' idLocation="84"/> <!-- RP_racingsnail_catalog-->
+			<rarePlant id='466' idProducer='1386' idLocation="85"/> <!-- RP_futoncherrymousse_catalog -->
+		
+			<rarePlant id='421' idProducer='1317' idLocation="86"/> <!-- sofa shell -->
+			<rarePlant id='418' idProducer='1297' idLocation="87"/> <!-- shower hibiscus -->
+			<rarePlant id='420' idProducer='1327' idLocation="88"/> <!-- spider net -->
+			<rarePlant id='422' idProducer='1337' idLocation="89"/> <!-- bonsai coton -->
+			
+			<rarePlant id='419' idProducer='1307' idLocation="90"/> <!-- lamps bell -->
+			<rarePlant id='423' idProducer='1357' idLocation="91"/> <!-- jacket caktus -->
+			<rarePlant id='425' idProducer='1347' idLocation="92"/> <!-- chestnuts -->
+			<rarePlant id='424' idProducer='1287' idLocation="93"/> <!-- rose dress -->
+		</rarePlantCatalog>
+		<hotspots>
+			<hotspot target="1000" type="room" sharetype="unique" shape="round" x="880" y="300" rad="60" dirAngle="30"/> <!-- GArden-->
+		</hotspots>
+	</module>
+	
+	<!-- inside -->
+	<module  id="1002">
+		<elementSounds>
+			<sound id="woodendoor" path="assets/audio/ol_interface_woodendoor.mp3" loops="1" type="effect" volume="1" />
+		</elementSounds>
+		<background  path="assets/backgrounds/rabbit/homeHouseRabbit.swf"/>
+		<scale>
+			<!-- valueFurniture scale="70"/ -->
+			<value minScale="75" maxScale="90"/>
+			<valueFurniture scale="100"/>
+		</scale>
+		<elements>
+			<element id="door1" button="1" visible="1">
+				<button type="overClickSound" over="2" out="1" click="2" sound="woodendoor" />
+				<message value="gotoHotSpot" >
+					<hotspot value="door1" />
+				</message>
+			</element>
+			<element id="door2" button="1" visible="1">
+				<button type="overClickSound" over="2" out="1" click="2" sound="woodendoor" />
+				<message value="gotoHotSpot" >
+					<hotspot value="door2" />
+				</message>
+			</element>
+		</elements>
+		
+		<hotspots>
+			<hotspot target="1000" type="room" id="door1" sharetype="unique" shape="round" x="756" y="310" rad="60" /> <!--dirAngle="-30"/--> <!-- outsidehome-->
+			<hotspot target="1001" type="room" id="door2" sharetype="unique" shape="round" x="165" y="255" rad="60" /> <!--dirAngle="-150" /--> <!-- garden-->
+		</hotspots>
+		
+		<interactiveItems>
+			<item id="211" type="StorageBox">
+				<defaultX>200</defaultX>
+				<defaultY>200</defaultY>
+				<defaultRotation>1</defaultRotation>
+			</item>
+		</interactiveItems>
+	</module>
+</config>

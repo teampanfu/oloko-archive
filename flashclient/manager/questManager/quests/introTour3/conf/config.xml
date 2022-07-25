@@ -1,0 +1,195 @@
+<config questId='7'>
+	<!-- snippets path='manager/questManager/quests/introTour/conf/snippets/introtour_text_snippets_$$lang$$.xml' _REPLACE_='1' /-->
+	<snippets path='conf/allSnippets/$$lang$$/introtour3_text_snippets_$$lang$$.xml' _REPLACE_='1' /> 
+	<assets>
+		<asset id='introTour3Boat' path='assets/introTour3Boat.swf' />
+		<asset id='HeidiHome' path='assets/heidi.swf' />
+		<asset id='waterBucketIntroTour3' path='assets/waterBucketIntroTour3.swf' />
+	</assets>
+	
+	<sounds>
+		<sound id="waterIntro" path="assets/audio/waterIntro.mp3" type="effect" loops="1" volume="1.0" />
+		<sound id="jump" path="assets/audio/jump.mp3" type="effect" loops="1" volume="1.0" />
+		<sound id="pickupItem" path="assets/audio/pickupItem.mp3" type="effect" loops="1" volume="1.0" />
+		<sound id="waterTurtle" path="assets/audio/waterTurtle.mp3" type="effect" loops="-1" volume="1.0" />
+		<sound id="$$key$$" path="assets/audio/$$lang$$/$$key$$.mp3" type="speaker" loops="1" volume="1.0" />
+	</sounds>
+	
+	<module>
+		<npcs>
+			<npc name='wiseTree' id='wiseTree' staticName='wiseTree' questId='7' roomID='19' faceAsset='WiseTreeBubble'  shiftX='20' shiftY='-420'>
+				<button type="overClick" over="3" out="2" />
+				<behaviours> 
+					<behaviour id="introTour3wiseTree1" subQuestID='7,1'> <!-- first speach -->
+						<statement key='INTRO_TOUR_TREE_SPEECH_WELCOME' type="wiseTree" trackKey='101_02_0005_INTROTOUR_SPEECH_001' >
+							<actions>
+								<action id='addSign' type="wiseTree" frame='blueArrow' rotation="" signName="questSign" checkCurrentState="7,1" />
+							</actions>
+						</statement>
+						<statement key='INTRO_TOUR_TREE_SPEECH_OLOKO_DESCRIPTION' type="wiseTree" trackKey='101_02_0006_INTROTOUR_SPEECH_002' >
+							<actions>
+								<action id='addSign' type="wiseTree" frame='blueArrow' rotation="" signName="questSign" checkCurrentState="7,1" />
+							</actions>
+						</statement>
+						<statement key='INTRO_TOUR_TREE_SPEECH_PLAYER_PURPOSE' type="wiseTree" trackKey='101_02_0007_INTROTOUR_SPEECH_003' >
+							<actions>
+								<!-- action id='addSign' type="wiseTree" frame='blueArrow' rotation="" signName="questSign" checkCurrentState="7,1" />
+							</actions>
+						</statement>
+						<statement key='INTRO_TOUR_TREE_SPEECH_REWARD_HOUSE' type="wiseTree" trackKey='101_02_0008_INTROTOUR_SPEECH_004' >
+							<actions -->
+								<action id='message'  target='*' key='PopupModuleConsts.SHOW_GET_HOME' />
+								<action id='removeFilterMouse' filterName="testFilter"/>
+								<!-- action id='updateState' value='3,1,10'/ -->
+							</actions>
+						</statement>
+					</behaviour>
+					<behaviour id="introTour3wiseTree2" subQuestID='7,1'>
+						<statement key='INTRO_TOUR_TREE_SPEECH_GOODBYE1' type="wiseTree"  trackKey='101_02_0010_INTROTOUR_SPEECH_005' >
+							<actions>
+								<action id='removeFilterMouse' filterName="testFilter"/>								<!-- action id='addSign' type="wiseTree" frame='blueArrow' rotation="" signName="questSign" checkCurrentState="7,1" / -->
+								<action id='addSign' frame='arrowCircle' x='106' y='38'  rotation="-90" signName="questSign" checkCurrentState="7,1" />
+								<action id='filterMouse' type='round' x='106' y='38' rad='15' hide="true" filterName="testFilter"/>
+								<action id='removeSign'  type="wiseTree" signName="questSign" />
+							</actions>
+						</statement>
+						<statement key='INTRO_TOUR_TREE_SPEECH_GOODBYE2' type="wiseTree" param="hideNextButton" trackKey='101_02_0011_INTROTOUR_SPEECH_006' >
+							<!-- actions>
+								<action id='removeFilterMouse' filterName="testFilter"/>
+							</actions -->
+						</statement>
+					</behaviour> 
+				</behaviours>
+			</npc>
+			<!--  Heidi Home  -->
+			<npc name='HeidiHome' id='HeidiHome' roomID='1000' x='500' y='580' questId='7' defaultSubQuestID="7,1" faceAsset='HeidiSpeechBubble' scale="0.8" noIndicator="true">
+				<button type="overClick" over="over" out="out" />
+				<behaviours> 
+					<behaviour  id='introTour3Heidi1' subQuestID='7,1'>
+						<statement key='INTROTOUR_NEW_HEIDI_WELCOME'  trackKey='101_02_0012_INTROTOUR_SPEECH_007' >
+							<actions>
+								<action id='removeFilterMouse' filterName="testFilter"/> <!-- REMOVE WHEN HOME RESSROURCES DONE-->
+							</actions>
+						</statement>
+
+						<statement key='INTRO_TOUR_HEIDI_EXPLAIN_PLAYER_LOCATIONS'  trackKey='101_02_0013_INTROTOUR_SPEECH_008' />
+						<statement key='INTRO_TOUR_HEIDI_MOTIVATION'  trackKey='101_02_0014_INTROTOUR_SPEECH_009' />
+						<statement key='INTRO_TOUR_HEIDI_EXPLAIN_RESOURCES' trackKey='101_02_0015_INTROTOUR_SPEECH_010' >
+							<actions>
+								<action id='addSign' frame='blueArrow' x='580' y='580'  rotation="90" signName="questSign" checkCurrentState="6,1" />
+								<action id='filterMouse' type='round' x='580' y='595' rad='30' filterName="testFilter"/>
+							</actions>
+						</statement>
+
+						<statement key='INTRO_TOUR_HEIDI_PICK_RESOURCES'  type="small"  trackKey='101_02_0016_INTROTOUR_SPEECH_011' />
+
+						<statement key='INTRO_TOUR_HEIDI_DIG_HOLE'  trackKey='101_02_0017_INTROTOUR_SPEECH_012' >
+							<actions>
+								<action id='removeSign' signName="questSign" />
+								<action id='removeFilterMouse' filterName="testFilter"/>
+								<action id='addSign' frame='arrowCircle' x='626' y='475'  rotation="0" signName="questSign" checkCurrentState="7,1" />
+								<action id='filterMouse' type='round' x='626' y='475' rad='25' hide="true" filterName="testFilter" />
+								<action id='filterMouse' type='round' x='626' y='475' rad='400' filterName="testFilterFix" />
+							</actions>
+						</statement>
+						<statement key='INTROTOUR_NEW_HEIDI_9' type="small"   trackKey='101_02_0018_INTROTOUR_SPEECH_013' />
+					</behaviour> 
+					<behaviour id='introTour3Heidi7' subQuestID='7,1' trackKey=''>
+						<statement key='INTROTOUR_NEW_HEIDI_10' type="small" dontStopSoundForSameKey="true"  trackKey='101_02_0019_INTROTOUR_SPEECH_014' />
+					</behaviour> 
+					<behaviour id='introTour3Heidi8' subQuestID='7,1' trackKey=''>
+						<statement key='INTROTOUR_NEW_HEIDI_10' type="small" />
+					</behaviour> 
+					<behaviour id='introTour3Heidi9' subQuestID='7,1' trackKey=''>
+						<statement key='INTROTOUR_NEW_HEIDI_11' type="small"   trackKey='101_02_0020_INTROTOUR_SPEECH_015' noSound="true"/>
+					</behaviour> 
+					<behaviour id='introTour3Heidi10' subQuestID='7,1' trackKey=''>
+						<statement key='INTROTOUR_NEW_HEIDI_12' type="small"   trackKey='101_02_0021_INTROTOUR_SPEECH_016' />
+					</behaviour> 
+					<behaviour id='introTour3Heidi11' subQuestID='7,1'> <statement key='INTROTOUR_NEW_HEIDI_13' type="small"   trackKey='101_02_0022_INTROTOUR_SPEECH_017' />
+					</behaviour> 
+					<behaviour id='introTour3Heidi12' subQuestID='7,1'> <statement key='INTROTOUR_NEW_HEIDI_14' type="small"   trackKey='101_02_0023_INTROTOUR_SPEECH_018' />
+					</behaviour> 
+					<behaviour id='introTour3Heidi13' subQuestID='7,1'> <statement key='INTROTOUR_NEW_HEIDI_14' type="small" dontStopSoundForSameKey="true"   trackKey='101_02_0023_INTROTOUR_SPEECH_018' />
+					</behaviour> 
+					<behaviour id='introTour3Heidi14' subQuestID='7,1'> <statement key='INTROTOUR_NEW_HEIDI_15' type="small" trackKey='101_02_0024_INTROTOUR_SPEECH_019'  />
+					</behaviour> 
+					<behaviour id='introTour3Heidi15' subQuestID='7,1'> <statement key='INTROTOUR_NEW_HEIDI_16' type="small" dontStopSoundForSameKey="true"   trackKey='101_02_0025_INTROTOUR_SPEECH_020' />
+					</behaviour> 
+					<behaviour id='introTour3Heidi16' subQuestID='7,1'> <statement key='INTROTOUR_NEW_HEIDI_16A' type="small"  /> 
+					</behaviour> 
+					<behaviour id='introTour3Heidi17' subQuestID='7,1'> <statement key='INTROTOUR_NEW_HEIDI_16B' type="small"  /> 
+					</behaviour> 
+					<behaviour id='introTour3Heidi18' subQuestID='7,1'> <statement key='INTROTOUR_NEW_HEIDI_17' type="small"   trackKey='101_02_0026_INTROTOUR_SPEECH_021' />
+					</behaviour> 
+					<behaviour id='introTour3Heidi19' subQuestID='7,1'> <statement key='INTROTOUR_NEW_HEIDI_17' type="small" dontStopSoundForSameKey="true"   trackKey='101_02_0027_INTROTOUR_SPEECH_022' />
+					</behaviour> 
+					<behaviour id='introTour3Heidi20' subQuestID='7,1'> <statement key='INTROTOUR_NEW_HEIDI_18' type="small"  />
+					</behaviour> 
+					<behaviour id='introTour3Heidi21A' subQuestID='7,1'> 
+						<statement key='INTRO_TOUR_HEIDI_REWARD_MOBILE'  trackKey='101_02_0028_INTROTOUR_SPEECH_023' >
+							<actions>
+								<action id='updateState' value='7,1,22'/>
+								<action id='message'  target='*' key='PopupModuleConsts.SHOW_GET_MOBILE' />
+								<action id='message'  target='*' key='showMobile' />
+							</actions>
+						</statement>
+					</behaviour> 
+					<behaviour id='introTour3Heidi22' subQuestID='7,1'> 
+						<statement key='INTRO_TOUR_HEIDI_ENDING' trackKey='101_02_0029_INTROTOUR_SPEECH_024'  >
+							<actions>
+								<action id='message'  target='*' key='endIntroTour3' />
+							</actions>
+						</statement>
+					</behaviour> 
+				</behaviours>
+			</npc>
+		</npcs>
+		<actionsNPC>
+			<actionNPC id="onClickOnWater">
+				<actions>
+					<action id='removeSign' signName="questSign" />
+					<!-- action id='filterMouse' type='round' x='630' y='580' rad='30' filterName="testFilter"/ -->
+					
+					<action id='moveFilterMouse' x='630' y='595' time="1" filterName="testFilter">
+						<endActions>
+							<action id='removeFilterMouse' filterName="testFilter"/>
+							<action id='addSign' frame='blueArrow' x='630' y='580'  rotation="90" signName="questSign" checkCurrentState="6,1" />
+							<action id='filterMouse' type='round' x='630' y='595' rad='30' filterName="testFilter"/>
+						</endActions>
+					</action>
+				</actions>
+			</actionNPC>
+			<actionNPC id="onClickOnSeed">
+				<actions>
+					<action id='removeSign' signName="questSign" />
+					<action id='removeFilterMouse' filterName="testFilter"/>
+					<!-- action id='moveFilterMouse' x='711' y='343' time="1" filterName="testFilter">
+						<endActions>
+							<action id='removeFilterMouse' filterName="testFilter"/>
+							<action id='addSign' frame='circle' x='711' y='343'  rotation="90" signName="questSign" checkCurrentState="6,1" />
+							<action id='filterMouse' type='round' x='711' y='343' rad='30' filterName="testFilter"/>
+						</endActions>
+					</action -->
+				</actions>
+			</actionNPC>
+			<actionNPC id="onEndIntroTour">
+				<actions>
+					<action id='addSign' frame='arrowCircle' x='45' y='38'  rotation="-90" signName="questSign" checkCurrentState="7,1" />
+					<action id='updateState' value='0,6,1'/> <!-- update wise tree for bunny job -->
+				</actions>
+			</actionNPC>
+			<actionNPC id="onRulesAccepted">
+				<actions>
+					<action id='removeSign' signName="questSign" />
+					<action id='mobileMessage' idMessage="" body='MESSAGE_JOBS1_BODY_1' header="MESSAGE_JOBS_HEADLINE" name='WiseTree'/>
+				</actions>
+			</actionNPC>
+			<actionNPC id="cleanRoom">
+				<actions>
+					<action id='removeSign' signName="questSign" />
+				</actions>
+			</actionNPC>
+		</actionsNPC>
+	</module>
+</config>

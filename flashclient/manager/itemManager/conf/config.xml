@@ -1,0 +1,29 @@
+<config>
+
+	<!-- snippets path='manager/itemManager/conf/snippets/item_snippets_$$lang$$.xml' _REPLACE_='1' / -->
+	<snippets path='conf/allSnippets/$$lang$$/item_snippets_$$lang$$.xml' _REPLACE_='1' /> 
+	<assets>
+		<!-- goods -->
+		<asset id='goodsInventory' 		preload='0'	path='assets/goods/$$0$$/Inventory_$$0$$.swf' />
+		<asset id='goldFrame' 			preload='0'	path='assets/GoldFrame.swf' />
+		
+		<!-- clothes -->
+		<asset id='clothesInventory' 	preload='0'	path='assets/clothes/$$0$$/ClothesInventory_$$0$$.swf' />
+		<asset id='avatar2D' 			preload='0'	path='assets/clothes/$$0$$/ClothesPlayerCard_$$1$$.swf' />
+		<asset id='avatar3D' 			preload='0'	path='assets/clothes/$$0$$/3d/$$1$$/$$1$$_$$2$$.swf' />
+		
+		<!-- furnitures -->
+		<asset id='furniture' 			preload='0'	path='assets/furnitures/$$0$$.swf' />
+		<asset id='livingAreaFrontYard' preload='0'	path='assets/furnitures/livingArea/Front_$$0$$.swf' />
+		<asset id='livingAreaInside'  	preload='0'	path='assets/furnitures/livingArea/Inside_$$0$$.swf' />
+		<asset id='livingAreaBackYard'	preload='0'	path='assets/furnitures/livingArea/Back_$$0$$.swf' />
+		
+		<!-- digital items -->
+		<asset id='digitalItemInventory'	preload='0'	path='assets/digitalItems/Inventory/Inventory_$$0$$.swf' />
+		<asset id='mobileSkin' 				preload='0'	path='assets/digitalItems/MobileSkins/$$0$$.swf' />
+		<asset id='playercardBG'			preload='0'	path='assets/digitalItems/PlayerCardBackgrounds/$$0$$.swf' />
+		<asset id='ringtone' 				preload='0'	path='assets/digitalItems/Ringtones/$$0$$.swf' />
+		
+	</assets>
+
+</config>

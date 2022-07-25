@@ -1,0 +1,380 @@
+<config questId='1'>
+<!--	<snippets path='questManager/quests/bunnyJob/conf/snippets/job_bunny_text_snippets_$$lang$$.xml' _REPLACE_='1' />  -->
+	<!-- snippets path='manager/questManager/quests/helpQuest/conf/snippets/helpquest_text_snippets_$$lang$$.xml' _REPLACE_='1' / -->
+	<snippets path='conf/allSnippets/$$lang$$/helpquest_text_snippets_$$lang$$.xml' _REPLACE_='1' /> 
+	<assets>
+		<asset id='SallyK' path='assets/Sallyk.swf' />
+		<asset id='Zelma' path='assets/Zelma.swf' />
+		<asset id='Elnora' path='assets/Elnora.swf' />
+		<asset id='Guy' path='assets/Guy.swf' />
+		<asset id='Pablo' path='assets/Pablo.swf' />
+	</assets>
+	
+	<sounds>
+		<!--sound id="$$key$$" path="assets/audio/$$lang$$/$$key$$.mp3" type="speaker" loops="1" volume="1.0" /-->
+		<sound id="$$key$$" path="assets/audio/$$lang$$/$$key$$.mp3" type="speaker" loops="1" volume="1.0" />
+	</sounds>
+	
+	<module>
+		<npcs>
+			<!-- NPC FOR HELPER QUEST -->
+			<npc name='SallyK' questId="1" roomID='9' x='397' y='388' faceAsset='SallyKSpeechBubble'>
+				<!-- button type="overClick" over="3" out="2" / -->
+				<button type="overClick" over="over" out="out" />
+				<checks>
+					<check afterDate='22 08 2010'/> <!-- end of summerparty -->
+				</checks>
+				<behaviours>
+					<behaviour id='g4ShowDialogs' subQuestID='1,10004'> 
+						<statement key='HELP_SALLY_01'/>
+						<statement key='HELP_SALLY_02'/>
+						<statement key='HELP_SALLY_03'/>
+						<statement key='HELP_SALLY_04'>
+							<bubble id='headMultiAnswer' >
+								<header id='SNIPPETKEY' name='myUserName' /> 
+								<answer id='1' snippet='ENTRYPOINT_NO'>
+								</answer>
+								<answer id='2' snippet='ENTRYPOINT_YES'>
+									<actions>
+										<action id='message'  target='mobile' key='MoMC.OpenMobileScreenCommand' value='MyMarket'/>
+									</actions>
+								</answer>
+							</bubble>
+						</statement>
+					</behaviour>
+					<behaviour id='g4ShowTrade' subQuestID='1,10004'> 
+						<statement key='HELP_SALLY_04'>
+							<bubble id='headMultiAnswer' >
+								<header id='SNIPPETKEY' name='myUserName' /> 
+								<answer id='1' snippet='ENTRYPOINT_NO'>
+								</answer>
+								<answer id='2' snippet='ENTRYPOINT_YES'>
+									<actions>
+										<action id='message'  target='mobile' key='MoMC.OpenMobileScreenCommand' value='MyMarket'/>
+									</actions>
+								</answer>
+							</bubble>
+						</statement>
+					</behaviour>
+				</behaviours>
+			</npc>
+			
+			
+			<!-- NPC FOR GROUP -->
+			<!-- NPC GROUP 1 -->
+			<npc name='Elnora' questId="1" roomID='20' x='189' y='297' faceAsset='EleonoraSpeechBubble'>
+				<!-- button type="overClick" over="3" out="2" / -->
+				<button type="overClick" over="over" out="out" />
+				<behaviours>
+					<behaviour id='g1LevelToLow' subQuestID='1,10001'>
+						<statement key='GROUP_ELNORA_LEVEL_TO_LOW'/>
+					</behaviour>
+					<behaviour id='g1AskJoin' subQuestID='1,10001'> 
+						<statement key='GROUP_ELNORA_01'/>
+						<statement key='GROUP_ELNORA_02'>
+							<bubble id='headMultiAnswer' >
+								<header id='SNIPPETKEY' name='myUserName' /> 
+								<answer id='1' snippet='ENTRYPOINT_NO'>
+								</answer>
+								<answer id='2' snippet='ENTRYPOINT_YES'>
+									<actions>
+										<!-- send notification to ask the server the invitation -->
+										<action id='message'  target='*' key='PMC.requestJoinGroup' value='1'/>
+										<!-- update the state -->
+									</actions>
+								</answer>
+							</bubble>
+						</statement>
+					</behaviour>
+					<behaviour id='g1WaitForAnswer' subQuestID='1,10001'> <statement key='GROUP_ELNORA_03'/></behaviour>
+					<behaviour id='g1CheckYourMail' subQuestID='1,10001'> <statement key='GROUP_ELNORA_03'/></behaviour>
+					<behaviour id='g1IsMemberG1' subQuestID='1,10001'>
+						<statement key='GROUP_ELNORA_06'> <!-- enter room -->
+							<bubble id='headMultiAnswer' >
+								<header id='SNIPPETKEY' name='myUserName' /> 
+								<answer id='1' snippet='GROUP_DENY_ENTER_ROOM'>
+								</answer>
+								<answer id='2' snippet='GROUP_ENTER_ROOM'>
+									<actions>
+										<!-- send notification to ask the server the invitation -->
+										<action id='message'  target='*' key='WorldManagerConsts.roomJoin' value='23'/>
+									</actions>
+								</answer>
+							</bubble>
+						</statement>
+					</behaviour>
+					
+					<behaviour id='g1NotMemberG1ButG2' subQuestID='1,10001'> <!--g1NotMemberG1ButG2 -->
+						<statement key='GROUP_ELNORA_07' />
+					</behaviour> 
+					<behaviour id='g1NotMemberG1ButG2Mail' subQuestID='1,10001'> <!--g1NotMemberG1ButG2Mail -->
+						<statement key='GROUP_ELNORA_07' />
+					</behaviour>
+					<behaviour id='g1NotMemberG1ButG3' subQuestID='1,10001'> <!-- g1NotMemberG1ButG3 -->
+						<statement key='GROUP_ELNORA_08' />
+					</behaviour>
+					<behaviour id='g1NotMemberG1ButG3Mail' subQuestID='1,10001'> <!-- g1NotMemberG1ButG3Mail -->
+						<statement key='GROUP_ELNORA_08' />
+					</behaviour>
+					
+					<behaviour id='g1NotMemberG1ButG2Change' subQuestID='1,10001'> <!-- NOT_MEMBER_G1_BUT_G2 -->
+						<statement key='GROUP_ELNORA_09'>
+							<bubble id='headMultiAnswer' >
+								<header id='SNIPPETKEY' name='myUserName' /> 
+								<answer id='1' snippet='GROUP_DENY_CHANGE_GROUP'>
+								</answer>
+								<answer id='2' snippet='GROUP_CHANGE_GROUP'>
+									<actions>
+										<action id='message'  target='*' key='PMC.requestRejoinGroup' value='1'/>
+									</actions>
+								</answer>
+							</bubble>
+						</statement>
+					</behaviour> 
+					<behaviour id='g1NotMemberG1ButG3Change' subQuestID='1,10001'> <!-- NOT_MEMBER_G1_BUT_G3 -->
+						<statement key='GROUP_ELNORA_09'>
+							<bubble id='headMultiAnswer' >
+								<header id='SNIPPETKEY' name='myUserName' /> 
+								<answer id='1' snippet='GROUP_DENY_CHANGE_GROUP'>
+								</answer>
+								<answer id='2' snippet='GROUP_CHANGE_GROUP'>
+									<actions>
+										<action id='message'  target='*' key='PMC.requestRejoinGroup' value='1'/>
+									</actions>
+								</answer>
+							</bubble>
+						</statement>
+					</behaviour> 
+
+					<behaviour id="g1MemberSwitchPay" subQuestID='1,10001'> 
+						<statement key='GROUP_ELNORA_10' >
+							<bubble id='headCoins' >
+								<header id='SNIPPETKEY' name='myUserName' />
+								<npcCoins needed="1000" />
+							</bubble>
+						</statement>
+					</behaviour>
+				</behaviours>
+			</npc>
+			
+			
+			<!-- NPC GROUP 2 -->
+			<npc name='Zelma' questId="1" roomID='20' x='451' y='251' faceAsset='ZelmaSpeechBubble'>
+				<!-- button type="overClick" over="3" out="2" / -->
+				<button type="overClick" over="over" out="out" />
+				<behaviours>
+					<behaviour id='g2LevelToLow' subQuestID='1,10002'>
+						<statement key='GROUP_ZELMA_LEVEL_TO_LOW'/>
+					</behaviour>
+					<behaviour id='g2AskJoin' subQuestID='1,10002'> 
+						<statement key='GROUP_ZELMA_01'/>
+						<statement key='GROUP_ZELMA_02'>
+							<bubble id='headMultiAnswer' >
+								<header id='SNIPPETKEY' name='myUserName' /> 
+								<answer id='1' snippet='ENTRYPOINT_NO'>
+								</answer>
+								<answer id='2' snippet='ENTRYPOINT_YES'>
+									<actions>
+										<!-- send notification to ask the server the invitation -->
+										<action id='message'  target='*' key='PMC.requestJoinGroup' value='2'/>
+									</actions>
+								</answer>
+							</bubble>
+						</statement>
+					</behaviour>
+					<behaviour id='g2WaitForAnswer' subQuestID='1,10002'> <statement key='GROUP_ZELMA_03'/></behaviour>
+					<behaviour id='g2CheckYourMail' subQuestID='1,10002'> <statement key='GROUP_ZELMA_03'/></behaviour>
+					<behaviour id='g2IsMemberG2' subQuestID='1,10002'> 
+						<statement key='GROUP_ZELMA_06' >
+							<bubble id='headMultiAnswer' >
+								<header id='SNIPPETKEY' name='myUserName' /> 
+								<answer id='1' snippet='GROUP_DENY_ENTER_ROOM'>
+								</answer>
+								<answer id='2' snippet='GROUP_ENTER_ROOM'>
+									<actions>
+										<!-- send notification to ask the server the invitation -->
+										<action id='message'  target='*' key='WorldManagerConsts.roomJoin' value='22'/>
+									</actions>
+								</answer>
+							</bubble>
+						</statement>
+					</behaviour>
+					
+					<behaviour id='g2NotMemberG2ButG1' subQuestID='1,10002'> <!--g2NotMemberG2ButG1 -->
+						<statement key='GROUP_ZELMA_07' />
+					</behaviour> 
+					<behaviour id='g2NotMemberG2ButG1Mail' subQuestID='1,10002'> <!--g2NotMemberG2ButG1Mail -->
+						<statement key='GROUP_ZELMA_07' />
+					</behaviour>
+					<behaviour id='g2NotMemberG2ButG3' subQuestID='1,10002'> <!-- g2NotMemberG2ButG3 -->
+						<statement key='GROUP_ZELMA_08' />
+					</behaviour>
+					<behaviour id='g2NotMemberG2ButG3Mail' subQuestID='1,10002'> <!-- g2NotMemberG2ButG3Mail -->
+						<statement key='GROUP_ZELMA_08' />
+					</behaviour>
+					
+					<behaviour id='g2NotMemberG2ButG1Change' subQuestID='1,10002'> <!-- NOT_MEMBER_G2_BUT_G1 -->
+						<statement key='GROUP_ZELMA_09'> <!-- want to change group? -->
+							<bubble id='headMultiAnswer' >
+								<header id='SNIPPETKEY' name='myUserName' /> 
+								<answer id='1' snippet='GROUP_DENY_CHANGE_GROUP'>
+								</answer>
+								<answer id='2' snippet='GROUP_CHANGE_GROUP'>
+									<actions>
+										<action id='message'  target='*' key='PMC.requestRejoinGroup' value='2'/>
+									</actions>
+								</answer>
+							</bubble>
+						</statement>
+					</behaviour> 
+					
+					<behaviour id='g2NotMemberG2ButG3Change' subQuestID='1,10002'> <!-- NOT_MEMBER_G2_BUT_G3 -->
+						<statement key='GROUP_ZELMA_09'> <!-- want to change group? -->
+							<bubble id='headMultiAnswer' >
+								<header id='SNIPPETKEY' name='myUserName' /> 
+								<answer id='1' snippet='GROUP_DENY_CHANGE_GROUP'>
+								</answer>
+								<answer id='2' snippet='GROUP_CHANGE_GROUP'>
+									<actions>
+										<action id='message'  target='*' key='PMC.requestRejoinGroup' value='2'/>
+									</actions>
+								</answer>
+							</bubble>
+						</statement>
+					</behaviour> 
+					
+					<behaviour id="g2MemberSwitchPay" subQuestID='1,10002'> 
+						<statement key='GROUP_ZELMA_10' >
+							<bubble id='headCoins' >
+								<header id='SNIPPETKEY' name='myUserName' />
+								<npcCoins needed="1000" />
+							</bubble>
+						</statement>
+					</behaviour>
+					
+				</behaviours>
+			</npc>
+			
+			<npc name="Pablo" questId="1" roomID="21" x='620' y='330' faceAsset='GuySpeechBubble'>
+				<button type="overClick" over="over" out="out" />
+				<behaviours>
+					<behaviour id='g2IsMemberG2' >
+						<statement key='GROUPS_LEADER_INTRODUCTION_EKA' />
+					</behaviour> 
+				</behaviours>
+			</npc>
+			<npc name="Elnora" questId="1" roomID="23" x='400' y='410' faceAsset='EleonoraSpeechBubble'>
+				<button type="overClick" over="over" out="out" />
+				<behaviours>
+					<behaviour id='g2IsMemberG2' >
+						<statement key='GROUPS_LEADER_INTRODUCTION_DEIKA' />
+					</behaviour> 
+				</behaviours>
+			</npc>
+			<npc name="Zelma" questId="1" roomID="22" x='260' y='500' faceAsset='ZelmaSpeechBubble'>
+				<button type="overClick" over="over" out="out" />
+				<behaviours>
+					<behaviour id='g2IsMemberG2' >
+						<statement key='GROUPS_LEADER_INTRODUCTION_ZURAK' />
+					</behaviour> 
+				</behaviours>
+			</npc>
+			
+			<!-- NPC GROUP 3 -->
+			<!--npc name='Guy' questId="1" roomID='20' x='744' y='301' faceAsset='GuySpeechBubble'-->
+				<!-- button type="overClick" over="3" out="2" / -->
+				<!--button type="overClick" over="over" out="out" />
+				<behaviours>
+					<behaviour id='g3LevelToLow' subQuestID='1,10003'>
+						<statement key='GROUP_GUY_LEVEL_TO_LOW'/>
+					</behaviour>
+					<behaviour id='g3AskJoin' subQuestID='1,10003'> 
+						<statement key='GROUP_GUY_01'/>
+						<statement key='GROUP_GUY_02'>
+							<bubble id='headMultiAnswer' >
+								<header id='SNIPPETKEY' name='myUserName' /> 
+								<answer id='1' snippet='ENTRYPOINT_NO'>
+								</answer>
+								<answer id='2' snippet='ENTRYPOINT_YES'>
+									<actions-->
+										<!-- send notification to ask the server the invitation -->
+										<!--action id='message'  target='*' key='PMC.requestJoinGroup' value='3'/-->
+									<!--/actions>
+								</answer>
+							</bubble>
+						</statement>
+					</behaviour>
+					<behaviour id='g3WaitForAnswer' subQuestID='1,10003'> <statement key='GROUP_GUY_03'/></behaviour>
+					<behaviour id='g3CheckYourMail' subQuestID='1,10003'> <statement key='GROUP_GUY_03'/></behaviour>
+					<behaviour id='g3IsMemberG3' subQuestID='1,10003'> 
+						<statement key='GROUP_GUY_06'--> <!-- enter rom -->
+							<!--bubble id='headMultiAnswer' >
+								<header id='SNIPPETKEY' name='myUserName' /> 
+								<answer id='1' snippet='GROUP_DENY_ENTER_ROOM'>
+								</answer>
+								<answer id='2' snippet='GROUP_ENTER_ROOM'>
+									<actions-->
+										<!-- send notification to ask the server the invitation -->
+										<!--action id='message'  target='*' key='WorldManagerConsts.roomJoin' value='21'/>
+									</actions>
+								</answer>
+							</bubble>
+						</statement>
+					</behaviour>
+					
+					<behaviour id='g3NotMemberG3ButG1' subQuestID='1,10003'--> <!--g3NotMemberG3ButG1 -->
+						<!--statement key='GROUP_GUY_07' />
+					</behaviour> 
+					<behaviour id='g3NotMemberG3ButG1Mail' subQuestID='1,10003'--> <!--g3NotMemberG3ButG1Mail -->
+						<!--statement key='GROUP_GUY_07' />
+					</behaviour>
+					<behaviour id='g3NotMemberG3ButG2' subQuestID='1,10003'--> <!-- g3NotMemberG3ButG2 -->
+						<!--statement key='GROUP_GUY_08' />
+					</behaviour>
+					<behaviour id='g3NotMemberG3ButG2Mail' subQuestID='1,10003'--> <!-- g3NotMemberG3ButG2Mail -->
+						<!--statement key='GROUP_GUY_08' />
+					</behaviour>
+					
+					<behaviour id='g3NotMemberG3ButG1Change' subQuestID='1,10003'--> <!--NOT_MEMBER_G3_BUT_G1 -->
+						<!--statement key='GROUP_GUY_09'>
+							<bubble id='headMultiAnswer' >
+								<header id='SNIPPETKEY' name='myUserName' /> 
+								<answer id='1' snippet='GROUP_DENY_CHANGE_GROUP'>
+								</answer>
+								<answer id='2' snippet='GROUP_CHANGE_GROUP'>
+									<actions>
+										<action id='message'  target='*' key='PMC.requestRejoinGroup' value='3'/>
+									</actions>
+								</answer>
+							</bubble>
+						</statement>
+					</behaviour> 
+					<behaviour id='g3NotMemberG3ButG2Change' subQuestID='1,10003'--> <!-- NOT_MEMBER_G3_BUT_G2 -->
+						<!--statement key='GROUP_GUY_09'>
+							<bubble id='headMultiAnswer' >
+								<header id='SNIPPETKEY' name='myUserName' /> 
+								<answer id='1' snippet='GROUP_DENY_CHANGE_GROUP'>
+								</answer>
+								<answer id='2' snippet='GROUP_CHANGE_GROUP'>
+									<actions>
+										<action id='message'  target='*' key='PMC.requestRejoinGroup' value='3'/>
+									</actions>
+								</answer>
+							</bubble>
+						</statement>
+					</behaviour>
+
+					<behaviour id="g3MemberSwitchPay" subQuestID='1,10003'> 
+						<statement key='GROUP_GUY_10' >
+							<bubble id='headCoins' >
+								<header id='SNIPPETKEY' name='myUserName' />
+								<npcCoins needed="1000" />
+							</bubble>
+						</statement>
+					</behaviour>
+				</behaviours>
+			</npc-->
+		</npcs>
+		
+	</module>
+</config>

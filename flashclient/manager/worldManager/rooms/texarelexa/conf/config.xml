@@ -1,0 +1,56 @@
+<config>
+	<assets>
+		<asset id="room" path="assets/room.swf" />
+	</assets>
+	
+	<sounds>
+		<!-- sound id="roomBackground" type="music" volume="0.4" path="audio/OLO_07_horse_style.mp3" loops="-1" / -->
+		<sound id="roomBackground" type="music" volume="0.4" path="audio/OLO_07_horse_style_corrected.mp3" loops="-1" />
+	</sounds>
+	
+	
+	<module>
+		<elements>
+			<element id="door1" button="1" visible="1">
+				<button type="overClick" over="2" out="1" click="1"/>
+				<message value="gotoHotSpot" >
+					<hotSpot value="door1" />
+				</message>
+			</element>
+			
+			<element id="door2" button="1" visible="1">
+				<button type="overClick" over="2" out="1" click="1"/>
+				<message value="gotoHotSpot" >
+					<hotSpot value="door2" />
+				</message>
+			</element>
+			<element id="door3" button="1" visible="1">
+				<button type="overClick" over="2" out="1" click="1"/>
+				<message value="gotoHotSpot" >
+					<hotSpot value="door3" />
+				</message>
+			</element>
+			
+			<element id="cloudNumberOne" button="1" visible="0" dev="1" >
+				<button type="overTipClick" over="2" out="1" click="1" toolTip="MINI_GAMES_cloudNumberOne" />
+				<message value="gotoHotGatherPoint"><x value="519" /> <y value="430" /><radius value="40" /></message>
+				<message value="enterMiniGame" type="miniGamesManager"> <gameId value="cloudNumberOne" /></message>
+			</element>
+			
+		</elements>
+		
+		<hotspots>
+			<hotspot target="4" type="room"		sharetype="unique" shape="round" x="879" 	y="535" rad="50" dirAngle="-10"/> <!-- dogville TODO: CHANGE TO RECTANGLE--> 
+			<hotspot target="13" type="room"	sharetype="unique" shape="round" x="133" 	y="678" rad="50" dirAngle="75"/> <!-- kittyoto TODO: CHANGE TO RECTANGLE-->  
+			<hotspot target="14" type="room"	sharetype="unique" shape="round" x="695" 	y="648" rad="50" dirAngle="95"/> <!-- lasshopas TODO: CHANGE TO RECTANGLE-->  <!-- these 3 hotspots are on a road, need to set them as rectangle ? -->
+			<hotspot target="19" type="room" 			sharetype="unique" shape="round" x="467" y="340" rad="50" dirAngle="-95"/> <!-- big tree -->
+			<hotspot target="1000" type="home" 			sharetype="unique" shape="round" x="44" y="568" rad="50" dirAngle="180"/> <!-- home -->
+		</hotspots>
+		<scale>
+			<value minScale="60" maxScale="70"/>
+		</scale>
+		<!-- faces>
+			<face name="wiseTree"/>
+		</faces -->
+	</module>
+</config>

@@ -1,0 +1,770 @@
+<quest id='0'> <!-- task -->
+	<tasks substate='1'> <!-- SUB TASK--> <!-- Heidi -->
+
+		<task id='01_01A' state='15'> <!-- create hole --> 
+			<type value='displayProducer'> <properties producerType='plants' /> </type>	
+			<checks> <!--check finshedTask='01A_1' /--> </checks>
+			<finished> <action id='displayProducer' producerType='plants'/> </finished>	
+			<actions> <action id='updateState' value='0,1,17' /><action id='increaseFame' value='78' />
+			<action id="sendTaskRewards" coins="15" headKey="TASK_REWARD_HEAD" key="TASK_REWARD_BODY" /> 
+			<action id="trackParentMailQuest" jobType="HEIDI" percentage="5" snippetID="PARENT_MAIL_JOB_TASK_19" groupSnippetID="PARENT_MAIL_JOB_HEIDI" /> </actions>
+		</task>
+
+		<task id='01_02A' state='25'> <!-- start babyplant --> 
+			<type value='updateProducer'> <properties producerType='plants' itemName='babyplant' nodeId='1003'/> </type> 		
+			<checks> <check finshedTask='01_01A' /> </checks>
+			<finished> <action id='updateProducer' producerType='plants' itemName='babyplant'  nodeId='1003'/> </finished>		
+			<actions> <action id='updateState' value='0,1,30' /><action id='increaseFame' value='78' />
+			<action id="sendTaskRewards" items="55,55" headKey="TASK_REWARD_HEAD" key="TASK_REWARD_BODY" /> 
+			<action id="trackParentMailQuest" jobType="HEIDI" percentage="10" snippetID="PARENT_MAIL_JOB_TASK_20" groupSnippetID="PARENT_MAIL_JOB_HEIDI" /> </actions>
+		</task>
+
+		<task id='01_03A' state='45'> <!-- give corn --> 
+			<type value='giveItemToNPC'> <properties producerType='plants' itemName='corn_12' /> </type> 		
+			<checks> <check finshedTask='01_02A' /> </checks>
+			<finished> <action id='giveItemToNPC' producerType='plants' itemName='corn_12' /> </finished>		
+			<actions> <action id='updateState' value='0,1,50' /><action id='increaseFame' value='78' />
+			<action id="sendTaskRewards" coins="15" headKey="TASK_REWARD_HEAD" key="TASK_REWARD_BODY" /> 
+			<action id="trackParentMailQuest" jobType="HEIDI" percentage="15" snippetID="PARENT_MAIL_JOB_TASK_21" groupSnippetID="PARENT_MAIL_JOB_HEIDI" /> </actions>
+		</task>
+
+		<task id='01_04A' state='55'> <!-- give wood --> 
+			<type value='giveItemToNPC'> <properties itemName='wood_10' /> </type> 		
+			<checks> <check finshedTask='01_03A' /> </checks>
+			<finished> <action id='giveItemToNPC' itemName='wood_10' /> </finished>		
+			<actions> <action id='updateState' value='0,1,60' /><action id='increaseFame' value='78' />
+			<action id="sendTaskRewards" coins="15" headKey="TASK_REWARD_HEAD" key="TASK_REWARD_BODY" /> 
+			<action id="trackParentMailQuest" jobType="HEIDI" percentage="20" snippetID="PARENT_MAIL_JOB_TASK_22" groupSnippetID="PARENT_MAIL_JOB_HEIDI" /> </actions>
+		</task>
+
+		<task id='01_05A' state='65'> <!-- give animalfood --> 
+			<type value='giveItemToNPC'> <properties itemName='animalFood_36' /> </type> 		
+			<checks> <check finshedTask='01_04A' /> </checks>
+			<finished> <action id='giveItemToNPC' itemName='animalFood_36' /> </finished>		
+			<actions> <action id='updateState' value='0,1,70' /><!-- action id='updateState' value='2,3,10' / --><action id='increaseFame' value='78' />
+			<action id="sendTaskRewards" items="35" headKey="TASK_REWARD_HEAD" key="TASK_REWARD_BODY" /> 
+			<action id="trackParentMailQuest" jobType="HEIDI" percentage="25" snippetID="PARENT_MAIL_JOB_TASK_23" groupSnippetID="PARENT_MAIL_JOB_HEIDI" /> </actions>
+		</task>
+
+		<!-- 
+		userHasNodeId / userHasNotNodeId
+		3120-3144 / 3120,3144 / 3120
+		
+		<action id='userHasNodeId' nodeIds="3120" /> 					checks if user has this nodeid in his states
+		<action id='userHasNoneOfNodeIds' nodeIds="3120-3144" /> 		checks if user has no nodeid inside range
+		
+		3120-3144
+		
+		-->
+
+		<task id='01_06A' state='95'> <!-- grow cow --> 
+			<checks> <check finshedTask='01_05A' /> </checks>
+			<finished> <action id='userHasNodeId' nodeIds="3120-3144" /> </finished>		
+			<actions> <action id='updateState' value='0,1,110' /><action id='increaseFame' value='78' />
+			<action id="sendTaskRewards" items="36" headKey="TASK_REWARD_HEAD" key="TASK_REWARD_BODY" /> 
+			<action id="trackParentMailQuest" jobType="HEIDI" percentage="30" snippetID="PARENT_MAIL_JOB_TASK_24" groupSnippetID="PARENT_MAIL_JOB_HEIDI" /> </actions>
+		</task>
+
+		<task id='01_07A' state='115'> <!-- give milk--> 
+			<type value='giveItemToNPC'> <properties itemName='milk_6' /> </type> 		
+			<checks> <check finshedTask='01_06A' /> </checks>
+			<finished> <action id='giveItemToNPC'  itemName='milk_6' /> </finished>		
+			<actions> <action id='updateState' value='0,1,120' /><action id='increaseFame' value='78' />
+			<action id="sendTaskRewards" coins="20" headKey="TASK_REWARD_HEAD" key="TASK_REWARD_BODY" /> 
+			<action id="trackParentMailQuest" jobType="HEIDI" percentage="35" snippetID="PARENT_MAIL_JOB_TASK_28" groupSnippetID="PARENT_MAIL_JOB_HEIDI" /> </actions>
+		</task>
+
+		<task id='01_08A' state='125'> <!-- give egg --> 
+			<type value='giveItemToNPC'> <properties itemName='egg_27' /> </type> 		
+			<checks> <check finshedTask='01_07A' /> </checks>
+			<finished> <action id='giveItemToNPC' itemName='egg_27' /> </finished>		
+			<actions> <action id='updateState' value='0,1,130' /><action id='increaseFame' value='78' />
+			<action id="sendTaskRewards" coins="30" headKey="TASK_REWARD_HEAD" key="TASK_REWARD_BODY" /> 
+			<action id="trackParentMailQuest" jobType="HEIDI" percentage="40" snippetID="PARENT_MAIL_JOB_TASK_26" groupSnippetID="PARENT_MAIL_JOB_HEIDI" /> </actions>
+		</task>
+		
+		
+		<!--  ######    PROFESSIONAL    ##### -->
+		
+		
+		<task id='01_09A' state='205'> <!-- give to NPC fish --> 
+			<type value='giveItemToNPC'> <properties itemName='fish_46' /> </type>
+			<finished> <action id='giveItemToNPC'  itemName='fish_46' /> </finished>		
+			<actions> <action id='updateState' value='0,1,210' /><action id='increaseFame' value='79' />
+			<action id="sendTaskRewards" coins="20" headKey="TASK_REWARD_HEAD" key="TASK_REWARD_BODY" /> 
+			<action id="trackParentMailQuest" jobType="HEIDI" percentage="45" snippetID="PARENT_MAIL_JOB_TASK_27" groupSnippetID="PARENT_MAIL_JOB_HEIDI" /> </actions>
+		</task>
+		
+		<task id='01_10A' state='220'> <!-- produce iceflower --> 
+			<type value='giveItemToNPC'> <properties itemName='iceflower_57'  /> </type>		
+			<checks> <check finshedTask='01_09A' /> </checks>
+			<finished> <action id='giveItemToNPC' itemName='iceflower_57' /> </finished>		
+			<actions> <action id='updateState' value='0,1,225' /><action id='increaseFame' value='79' />
+			<action id="sendTaskRewards" items="6" headKey="TASK_REWARD_HEAD" key="TASK_REWARD_BODY" /> 
+			<action id="trackParentMailQuest" jobType="HEIDI" percentage="50" snippetID="PARENT_MAIL_JOB_TASK_28" groupSnippetID="PARENT_MAIL_JOB_HEIDI" /> </actions>
+		</task>
+		
+		<task id='01_11A' state='235'> <!-- produce stinking cheese --> 
+			<type value='giveItemToNPC'> <properties itemName='stinkingcheese_73'  /> </type>		
+			<checks> <check finshedTask='01_10A' /> </checks>
+			<finished> <action id='giveItemToNPC' itemName='stinkingcheese_73' /> </finished>		
+			<actions> <action id='updateState' value='0,1,240' /><action id='increaseFame' value='79' />
+			<action id="sendTaskRewards" coins="30" headKey="TASK_REWARD_HEAD" key="TASK_REWARD_BODY" /> 
+			<action id="trackParentMailQuest" jobType="HEIDI" percentage="55" snippetID="PARENT_MAIL_JOB_TASK_29" groupSnippetID="PARENT_MAIL_JOB_HEIDI" /> </actions>
+		</task>
+		
+		<task id='01_12A' state='255'> <!-- produce butter -->
+			<type value='giveItemToNPC'> <properties itemName='butter_90' /> </type> 		
+			<checks> <check finshedTask='01_11A' /> </checks>
+			<finished> <action id='giveItemToNPC' itemName='butter_90' /> </finished>		
+			<actions> <action id='updateState' value='0,1,260' /><action id='increaseFame' value='79' />
+			<action id="sendTaskRewards" items="90" headKey="TASK_REWARD_HEAD" key="TASK_REWARD_BODY" /> 
+			<action id="trackParentMailQuest" jobType="HEIDI" percentage="60" snippetID="PARENT_MAIL_JOB_TASK_30" groupSnippetID="PARENT_MAIL_JOB_HEIDI" /> </actions>
+		</task>
+		
+		<task id='01_13A' state='270'> <!-- grow herbs -->
+			<type value='giveItemToNPC'> <properties itemName='herbs_100' /> </type> 		
+			<checks> <check finshedTask='01_12A' /> </checks>
+			<finished> <action id='giveItemToNPC' itemName='herbs_100' /> </finished>		
+			<actions> <action id='updateState' value='0,1,275' /><action id='increaseFame' value='79' />
+			<action id="sendTaskRewards" coins="50" headKey="TASK_REWARD_HEAD" key="TASK_REWARD_BODY" /> 
+			<action id="trackParentMailQuest" jobType="HEIDI" percentage="65" snippetID="PARENT_MAIL_JOB_TASK_31" groupSnippetID="PARENT_MAIL_JOB_HEIDI" /> </actions>
+		</task>
+		
+		
+		<!--  ######    MASTER    ##### -->
+		
+		
+		<task id='01_14A' state='310'> <!-- give megapotato -->
+			<type value='giveItemToNPC'> <properties itemName='megapotato_62' /> </type> 		
+			<checks> <check finshedTask='01_13A' /> </checks>
+			<finished> <action id='giveItemToNPC' itemName='megapotato_62' /> </finished>		
+			<actions> <action id='updateState' value='0,1,315' /><action id='increaseFame' value='81' />
+			<action id="sendTaskRewards" items="62" headKey="TASK_REWARD_HEAD" key="TASK_REWARD_BODY" /> 
+			<action id="trackParentMailQuest" jobType="HEIDI" percentage="70" snippetID="PARENT_MAIL_JOB_TASK_32" groupSnippetID="PARENT_MAIL_JOB_HEIDI" /> </actions>
+		</task>
+		
+		<task id='01_15A' state='330'> <!-- give hot chillies -->
+			<type value='giveItemToNPC'> <properties itemName='hotChillies_101' /> </type> 		
+			<checks> <check finshedTask='01_14A' /> </checks>
+			<finished> <action id='giveItemToNPC' itemName='hotChillies_101' /> </finished>		
+			<actions> <action id='updateState' value='0,1,335' /><action id='increaseFame' value='81' />
+			<action id="sendTaskRewards" items="101" headKey="TASK_REWARD_HEAD" key="TASK_REWARD_BODY" /> 
+			<action id="trackParentMailQuest" jobType="HEIDI" percentage="75" snippetID="PARENT_MAIL_JOB_TASK_33" groupSnippetID="PARENT_MAIL_JOB_HEIDI" /> </actions>
+		</task>
+		
+		<task id='01_16A' state='350'> <!-- give turtle medicine -->
+			<type value='giveItemToNPC'> <properties itemName='turtleMedicine_93' /> </type> 		
+			<checks> <check finshedTask='01_15A' /> </checks>
+			<finished> <action id='giveItemToNPC' itemName='turtleMedicine_93' /> </finished>		
+			<actions> <action id='updateState' value='0,1,355' /><action id='increaseFame' value='84' />
+			<action id="sendTaskRewards" items="93" headKey="TASK_REWARD_HEAD" key="TASK_REWARD_BODY" /> 
+			<action id="trackParentMailQuest" jobType="HEIDI" percentage="80" snippetID="PARENT_MAIL_JOB_TASK_34" groupSnippetID="PARENT_MAIL_JOB_HEIDI" /> </actions>
+		</task>
+		
+		<!--  ######    EXTENSION    ##### -->
+		
+		<task id='01_17A' state='365'> <!-- grow chocolate -->
+			<type value='giveItemToNPC'> <properties itemName='chocolate_235' /> </type> 		
+			<checks> <check finshedTask='01_16A' /> </checks>
+			<finished> <action id='giveItemToNPC' itemName='chocolate_235' /> </finished>		
+			<actions> <action id='updateState' value='0,1,370' /><action id='increaseFame' value='84' />
+			<action id="sendTaskRewards" items="76,76" headKey="TASK_REWARD_HEAD" key="TASK_REWARD_BODY" /> 
+			<action id="trackParentMailQuest" jobType="HEIDI" percentage="85" snippetID="PARENT_MAIL_JOB_TASK_35" groupSnippetID="PARENT_MAIL_JOB_HEIDI" /> </actions>
+		</task>
+		
+		<task id='01_18A' state='380'> <!-- grow gooseberry -->
+			<type value='giveItemToNPC'> <properties itemName='gooseberry_234' /> </type> 		
+			<checks> <check finshedTask='01_17A' /> </checks>
+			<finished> <action id='giveItemToNPC' itemName='gooseberry_234' /> </finished>		
+			<actions> <action id='updateState' value='0,1,385' /><action id='increaseFame' value='84' />
+			<action id="sendTaskRewards" items="64,64" headKey="TASK_REWARD_HEAD" key="TASK_REWARD_BODY" /> 
+			<action id="trackParentMailQuest" jobType="HEIDI" percentage="90" snippetID="PARENT_MAIL_JOB_TASK_36" groupSnippetID="PARENT_MAIL_JOB_HEIDI" /> </actions>
+		</task>
+		
+		<!-- WEDDING EXTENSION -->
+		
+		<task id='01_19A' state='400'> <!-- grow bees --> 
+			<checks> <check finshedTask='01_18A' /> </checks>
+			<finished> <action id='userHasNodeId' nodeIds="3150-3165" /> </finished>		
+			<actions> <action id='updateState' value='0,1,410' /><action id='increaseFame' value='78' />
+			<action id="sendTaskRewards" items="291,291,291" headKey="TASK_REWARD_HEAD" key="TASK_REWARD_BODY" /> 
+			<action id="trackParentMailQuest" jobType="HEIDI" percentage="95" snippetID="PARENT_MAIL_JOB_TASK_37" groupSnippetID="PARENT_MAIL_JOB_HEIDI" /> </actions>
+		</task>
+		
+		<task id='01_20A' state='415'> <!-- grow baby banana -->
+			<type value='giveItemToNPC'> <properties itemName='babybanana_293' /> </type> 		
+			<checks> <check finshedTask='01_19A' /> </checks>
+			<finished> <action id='giveItemToNPC' itemName='babybanana_293' /> </finished>		
+			<actions> <action id='updateState' value='0,1,420' /><action id='increaseFame' value='84' />
+			<action id="sendTaskRewards" coins="300" headKey="TASK_REWARD_HEAD" key="TASK_REWARD_BODY" /> 
+			<action id="trackParentMailQuest" jobType="HEIDI" percentage="100" snippetID="PARENT_MAIL_JOB_TASK_38" groupSnippetID="PARENT_MAIL_JOB_HEIDI" /> </actions>
+		</task>
+		
+	</tasks>
+
+	<tasks substate='2'> <!-- SUB TASK--> <!-- Bernard -->
+		
+		<task id='02_01B' state='25'> <!-- give sack of flour --> 
+			<type value='giveItemToNPC'> <properties itemName='flour_28' /> </type> 		<checks> </checks>
+			<finished> <action id='giveItemToNPC' itemName='flour_28' /> </finished>		
+			<actions> <action id='updateState' value='0,2,30' /><action id='increaseFame' value='78' />
+			<action id="sendTaskRewards" items="12,12" headKey="TASK_REWARD_HEAD" key="TASK_REWARD_BODY" /> 
+			<action id="trackParentMailQuest" jobType="BERNARD" percentage="12" snippetID="PARENT_MAIL_JOB_TASK_2" groupSnippetID="PARENT_MAIL_JOB_BERNARD" /> </actions>
+		</task>
+		
+		<task id='02_02B' state='35'> <!-- give dough --> 
+			<type value='giveItemToNPC'> <properties itemName='dough_9' /> </type> 		
+			<checks> <check finshedTask='02_01B' /> </checks>
+			<finished> <action id='giveItemToNPC' itemName='dough_9' /> </finished>		
+			<actions> <action id='updateState' value='0,2,40' /><action id='increaseFame' value='78' />
+			<action id="sendTaskRewards" coins="20" headKey="TASK_REWARD_HEAD" key="TASK_REWARD_BODY" /> 
+			<action id="trackParentMailQuest" jobType="BERNARD" percentage="18" snippetID="PARENT_MAIL_JOB_TASK_3" groupSnippetID="PARENT_MAIL_JOB_BERNARD" /> </actions>
+		</task>
+		
+		<task id='02_03B' state='55'> <!-- fire the oven --> 
+			<checks> <check finshedTask='02_02B' /> </checks>
+			<finished> <action id='userHasNodeId' nodeIds="2002-2100" /> </finished>		
+			<actions> <action id='updateState' value='0,2,60' /><action id='increaseFame' value='78' />
+			<action id="sendTaskRewards" items="10,45,5" headKey="TASK_REWARD_HEAD" key="TASK_REWARD_BODY" />  
+			<action id="trackParentMailQuest" jobType="BERNARD" percentage="24" snippetID="PARENT_MAIL_JOB_TASK_4" groupSnippetID="PARENT_MAIL_JOB_BERNARD" /> </actions>
+		</task>
+		
+		<task id='02_04B' state='75'> <!-- give Bread --> 
+			<type value='giveItemToNPC'> <properties itemName='bread_7' /> </type> 		
+			<checks></checks>
+			<finished> <action id='giveItemToNPC' itemName='bread_7' /> </finished>		
+			<actions> <action id='updateState' value='0,2,80' /><action id='increaseFame' value='78' />
+			<action id="sendTaskRewards" items="7" headKey="TASK_REWARD_HEAD" key="TASK_REWARD_BODY" /> 
+			<action id="trackParentMailQuest" jobType="BERNARD" percentage="30" snippetID="PARENT_MAIL_JOB_TASK_5" groupSnippetID="PARENT_MAIL_JOB_BERNARD" /> </actions>
+		</task>
+		
+		<task id='02_05B' state='85'> <!-- give pretzel --> 
+			<type value='giveItemToNPC'> <properties itemName='pretzel_11' /> </type> 		
+			<checks> <check finshedTask='02_04B' /> </checks>
+			<finished> <action id='giveItemToNPC' itemName='pretzel_11' /> </finished>		
+			<actions> <action id='updateState' value='0,2,90' /><action id='increaseFame' value='78' />
+			<action id="sendTaskRewards" items="28,28,28" headKey="TASK_REWARD_HEAD" key="TASK_REWARD_BODY" />  
+			<action id="trackParentMailQuest" jobType="BERNARD" percentage="36" snippetID="PARENT_MAIL_JOB_TASK_6" groupSnippetID="PARENT_MAIL_JOB_BERNARD" /> </actions>
+		</task>
+		
+		
+		<!--  ######    PROFESSIONAL    ##### -->
+		
+		
+		<task id='02_06B' state='105-110'> <!-- produce fruitcake -->  
+			<type value='giveItemToNPC'> <properties itemName='fruitcake_50' /> </type> 		
+			<checks> </checks>
+			<finished> <action id='giveItemToNPC' itemName='fruitcake_50' /> </finished>		
+			<actions> <action id='updateState' value='0,2,115' /><action id='increaseFame' value='79' />
+			<action id="sendTaskRewards" coins="25" headKey="TASK_REWARD_HEAD" key="TASK_REWARD_BODY" /> 
+			<action id="trackParentMailQuest" jobType="BERNARD" percentage="42" snippetID="PARENT_MAIL_JOB_TASK_7" groupSnippetID="PARENT_MAIL_JOB_BERNARD" /> </actions>
+		</task>
+		
+		<task id='02_07B' state='120'> <!-- produce sugar --> 
+			<type value='giveItemToNPC'> <properties itemName='sugar_76' /> </type> 		
+			<checks> <check finshedTask='02_06B' /> </checks>
+			<finished> <action id='giveItemToNPC' itemName='sugar_76' /> </finished>		
+			<actions> <action id='updateState' value='0,2,125' /><action id='increaseFame' value='79' />
+			<action id="sendTaskRewards" items="102" headKey="TASK_REWARD_HEAD" key="TASK_REWARD_BODY" /> 
+			<action id="trackParentMailQuest" jobType="BERNARD" percentage="48" snippetID="PARENT_MAIL_JOB_TASK_8" groupSnippetID="PARENT_MAIL_JOB_BERNARD" /> </actions>
+		</task>
+
+		<task id='02_08B' state='135'> <!-- produce sandcake --> 
+			<type value='giveItemToNPC'> <properties itemName='sandcake_72' /> </type> 		
+			<checks> <check finshedTask='02_07B' /> </checks>
+			<finished> <action id='giveItemToNPC' itemName='sandcake_72' /> </finished>		
+			<actions> <action id='updateState' value='0,2,145' /><action id='increaseFame' value='79' />
+			<action id="sendTaskRewards" items="9,6" headKey="TASK_REWARD_HEAD" key="TASK_REWARD_BODY" /> 
+			<action id="trackParentMailQuest" jobType="BERNARD" percentage="54" snippetID="PARENT_MAIL_JOB_TASK_9" groupSnippetID="PARENT_MAIL_JOB_BERNARD" /> </actions>
+		</task>
+		
+		<task id='02_09B' state='155'> <!-- produce popcorn --> 
+			<type value='giveItemToNPC'> <properties itemName='popcorn_65' /> </type> 		
+			<checks> <check finshedTask='02_08B' /> </checks>
+			<finished> <action id='giveItemToNPC' itemName='popcorn_65' /> </finished>		
+			<actions> <action id='updateState' value='0,2,160' /><action id='increaseFame' value='79' />
+			<action id="sendTaskRewards" items="45" coins="30" headKey="TASK_REWARD_HEAD" key="TASK_REWARD_BODY" /> 
+			<action id="trackParentMailQuest" jobType="BERNARD" percentage="60" snippetID="PARENT_MAIL_JOB_TASK_10" groupSnippetID="PARENT_MAIL_JOB_BERNARD" /> </actions>
+		</task>
+		
+		<task id='02_10B' state='175'> <!-- produce fortunecookie --> 
+			<type value='giveItemToNPC'> <properties itemName='fortunecookie_47' /> </type> 		
+			<checks> <check finshedTask='02_09B' /> </checks>
+			<finished> <action id='giveItemToNPC' itemName='fortunecookie_47' /> </finished>		
+			<actions> <action id='updateState' value='0,2,185' /><action id='increaseFame' value='79' />
+			<action id="sendTaskRewards" coins="80" headKey="TASK_REWARD_HEAD" key="TASK_REWARD_BODY" /> 
+			<action id="trackParentMailQuest" jobType="BERNARD" percentage="66" snippetID="PARENT_MAIL_JOB_TASK_11" groupSnippetID="PARENT_MAIL_JOB_BERNARD" /> </actions>
+		</task>
+		
+		
+		<!--  ######    MASTER    ##### -->
+		
+		
+		<task id='02_11B' state='310'> <!-- produce stinking pizza -->  
+			<type value='giveItemToNPC'> <properties itemName='stinkingPizza_75' /> </type> 		
+			<checks> </checks>
+			<finished> <action id='giveItemToNPC' itemName='stinkingPizza_75' /> </finished>		
+			<actions> <action id='updateState' value='0,2,315' /><action id='increaseFame' value='81' />
+			<action id="sendTaskRewards" coins="100" headKey="TASK_REWARD_HEAD" key="TASK_REWARD_BODY" /> 
+			<action id="trackParentMailQuest" jobType="BERNARD" percentage="72" snippetID="PARENT_MAIL_JOB_TASK_12" groupSnippetID="PARENT_MAIL_JOB_BERNARD" /> </actions>
+		</task>
+		
+		<task id='02_12B' state='330'> <!-- produce cheesecake --> 
+			<type value='giveItemToNPC'> <properties itemName='cheesecake_91' /> </type> 		
+			<checks> <check finshedTask='02_11B' /> </checks>
+			<finished> <action id='giveItemToNPC' itemName='cheesecake_91' /> </finished>		
+			<actions> <action id='updateState' value='0,2,335' /><action id='increaseFame' value='84' />
+			<action id="sendTaskRewards" items="91" headKey="TASK_REWARD_HEAD" key="TASK_REWARD_BODY" /> 
+			<action id="trackParentMailQuest" jobType="BERNARD" percentage="78" snippetID="PARENT_MAIL_JOB_TASK_13" groupSnippetID="PARENT_MAIL_JOB_BERNARD" /> </actions>
+		</task>
+		
+		
+		<!--  ######    EXTENSION    ##### -->
+		
+		
+		<task id='02_13B' state='350'> <!-- produce giant cupcake -->  
+			<type value='giveItemToNPC'> <properties itemName='giantcupcake_237' /> </type> 		
+			<checks> <check finshedTask='02_12B' /> </checks>
+			<finished> <action id='giveItemToNPC' itemName='giantcupcake_237' /> </finished>		
+			<actions> <action id='updateState' value='0,2,355' /><action id='increaseFame' value='84' />
+			<action id="sendTaskRewards" items="9,235" headKey="TASK_REWARD_HEAD" key="TASK_REWARD_BODY" /> 
+			<action id="trackParentMailQuest" jobType="BERNARD" percentage="84" snippetID="PARENT_MAIL_JOB_TASK_14" groupSnippetID="PARENT_MAIL_JOB_BERNARD" /> </actions>
+		</task>
+		
+		<task id='02_14B' state='370'> <!-- produce layercake --> 
+			<type value='giveItemToNPC'> <properties itemName='layercake_238' /> </type> 		
+			<checks> <check finshedTask='02_13B' /> </checks>
+			<finished> <action id='giveItemToNPC' itemName='layercake_238' /> </finished>		
+			<actions> <action id='updateState' value='0,2,375' /><action id='increaseFame' value='84' />
+			<action id="sendTaskRewards" coins="200" headKey="TASK_REWARD_HEAD" key="TASK_REWARD_BODY" /> 
+			<action id="trackParentMailQuest" jobType="BERNARD" percentage="90" snippetID="PARENT_MAIL_JOB_TASK_15" groupSnippetID="PARENT_MAIL_JOB_BERNARD" /> </actions>
+		</task>
+
+		<!-- WEDDING EXTENSION -->
+		
+		<task id='02_15B' state='400'> <!-- produce ginger bread heart -->  
+			<type value='giveItemToNPC'> <properties itemName='gingerbreadheart_298' /> </type> 		
+			<checks> <check finshedTask='02_14B' /> </checks>
+			<finished> <action id='giveItemToNPC' itemName='gingerbreadheart_298' /> </finished>		
+			<actions> <action id='updateState' value='0,2,405' /><action id='increaseFame' value='84' />
+			<action id="sendTaskRewards" items="47,47" headKey="TASK_REWARD_HEAD" key="TASK_REWARD_BODY" />  
+			<action id="trackParentMailQuest" jobType="BERNARD" percentage="96" snippetID="PARENT_MAIL_JOB_TASK_16" groupSnippetID="PARENT_MAIL_JOB_BERNARD" /> </actions>
+		</task>
+		
+		<task id='02_16B' state='415'> <!-- produce wedding cake --> 
+			<type value='giveItemToNPC'> <properties itemName='weddingcake_299' /> </type> 		
+			<checks> <check finshedTask='02_15B' /> </checks>
+			<finished> <action id='giveItemToNPC' itemName='weddingcake_299' /> </finished>		
+			<actions> <action id='updateState' value='0,2,420' /><action id='increaseFame' value='84' />
+			<action id="sendTaskRewards" items="237,11" headKey="TASK_REWARD_HEAD" key="TASK_REWARD_BODY" />  
+			<action id="trackParentMailQuest" jobType="BERNARD" percentage="100" snippetID="PARENT_MAIL_JOB_TASK_17" groupSnippetID="PARENT_MAIL_JOB_BERNARD" /> </actions>
+		</task>
+		
+	</tasks>
+
+	<tasks substate='3'> <!-- SUB TASK--> <!-- Rose -->
+		
+		<task id='03_01C' state='25'> <!-- harvest fruit --> 
+			<type value='giveItemToNPC'> <properties itemName='fruit_49' /> </type>		
+			<checks> </checks>
+			<finished> <action id='giveItemToNPC' itemName='fruit_49' /> </finished>	
+			<actions> <action id='updateState' value='0,3,30' /><action id='increaseFame' value='78' />
+			<action id="sendTaskRewards" items="44" headKey="TASK_REWARD_HEAD" key="TASK_REWARD_BODY" />  
+			<action id="trackParentMailQuest" jobType="ROSE" percentage="8" snippetID="PARENT_MAIL_JOB_TASK_50" groupSnippetID="PARENT_MAIL_ROSE" /> </actions>
+		</task>
+		
+		<!--  ######    PROFESSIONAL    ##### -->
+		
+		<task id='03_04C' state='55-60'> <!-- grow chewinggum --> 
+			<type value='giveItemToNPC'> <properties itemName='chewinggum_38' /> </type> 		
+			<checks> <check finshedTask='03_01C' /> </checks>
+			<finished> <action id='giveItemToNPC' itemName='chewinggum_38' /> </finished>		
+			<actions> <action id='updateState' value='0,3,65' /><action id='increaseFame' value='79' />
+			<action id="sendTaskRewards" items="10,10" headKey="TASK_REWARD_HEAD" key="TASK_REWARD_BODY" /> 
+			<action id="trackParentMailQuest" jobType="ROSE" percentage="16" snippetID="PARENT_MAIL_JOB_TASK_51" groupSnippetID="PARENT_MAIL_ROSE" /> </actions>
+		</task>
+
+		<task id='03_05C' state='75-80'> <!-- grow heartflower --> 
+			<type value='giveItemToNPC'> <properties itemName='heartflower_58'  /> </type>	
+			<checks> <check finshedTask='03_04C' /> </checks>
+			<finished> <action id='giveItemToNPC' itemName='heartflower_58' /> </finished>	
+			<actions> <action id='updateState' value='0,3,85' /><action id='increaseFame' value='79' />
+			<action id="sendTaskRewards" items="58,44,44" headKey="TASK_REWARD_HEAD" key="TASK_REWARD_BODY" /> 
+			<action id="trackParentMailQuest" jobType="ROSE" percentage="24" snippetID="PARENT_MAIL_JOB_TASK_52" groupSnippetID="PARENT_MAIL_ROSE" /> </actions>
+		</task>
+
+		<task id='03_06C' state='95'> <!-- grow magic carrot  --> 
+			<type value='giveItemToNPC'> <properties itemName='magiccarrot_60'  /> </type>	
+			<checks> <check finshedTask='03_05C' /> </checks>
+			<finished> <action id='giveItemToNPC' itemName='magiccarrot_60' /> </finished>	
+			<actions> <action id='updateState' value='0,3,100' /><action id='increaseFame' value='79' />
+			<action id="sendTaskRewards" coins="50" headKey="TASK_REWARD_HEAD" key="TASK_REWARD_BODY" /> 
+			<action id="trackParentMailQuest" jobType="ROSE" percentage="32" snippetID="PARENT_MAIL_JOB_TASK_53" groupSnippetID="PARENT_MAIL_ROSE" /> </actions>
+		</task>
+
+		<task id='03_07C' state='110'> <!-- give ketchup --> 
+			<type value='giveItemToNPC'> <properties itemName='ketchup_59'  /> </type>		
+			<checks> <check finshedTask='03_06C' /> </checks>
+			<finished> <action id='giveItemToNPC' itemName='ketchup_59' /> </finished>		
+			<actions> <action id='updateState' value='0,3,115' /><action id='increaseFame' value='79' />
+			<action id="sendTaskRewards" items="38,38" headKey="TASK_REWARD_HEAD" key="TASK_REWARD_BODY" /> 
+			<action id="trackParentMailQuest" jobType="ROSE" percentage="40" snippetID="PARENT_MAIL_JOB_TASK_54" groupSnippetID="PARENT_MAIL_ROSE" /> </actions>
+		</task>
+
+		<task id='03_08C' state='135'> <!-- give oliveoil --> 
+			<type value='giveItemToNPC'> <properties itemName='oliveoil_63'  /> </type>		
+			<checks> <check finshedTask='03_07C' /> </checks>
+			<finished> <action id='giveItemToNPC' itemName='oliveoil_63' /> </finished>		
+			<actions> <action id='updateState' value='0,3,140' /><action id='increaseFame' value='79' />
+			<action id="sendTaskRewards" items="39,39,39" headKey="TASK_REWARD_HEAD" key="TASK_REWARD_BODY" /> 
+			<action id="trackParentMailQuest" jobType="ROSE" percentage="48" snippetID="PARENT_MAIL_JOB_TASK_55" groupSnippetID="PARENT_MAIL_ROSE" /> </actions>
+		</task>
+		
+		
+		<!--  ######    MASTER    ##### -->
+		
+		
+		<task id='03_09C' state='310'> <!-- give sweets --> 
+			<type value='giveItemToNPC'> <properties itemName='sweets_79'  /> </type>		
+			<checks> <check finshedTask='03_08C' /> </checks>
+			<finished> <action id='giveItemToNPC' itemName='sweets_79' /> </finished>		
+			<actions> <action id='updateState' value='0,3,315' /><action id='increaseFame' value='81' />
+			<action id="sendTaskRewards" items="76,76" headKey="TASK_REWARD_HEAD" key="TASK_REWARD_BODY" /> 
+			<action id="trackParentMailQuest" jobType="ROSE" percentage="56" snippetID="PARENT_MAIL_JOB_TASK_56" groupSnippetID="PARENT_MAIL_ROSE" /> </actions>
+		</task>
+		
+		<task id='03_10C' state='330'> <!-- give rainbow flower --> 
+			<type value='giveItemToNPC'> <properties itemName='rainbowFlower_66'  /> </type>		
+			<checks> <check finshedTask='03_09C' /> </checks>
+			<finished> <action id='giveItemToNPC' itemName='rainbowFlower_66' /> </finished>		
+			<actions> <action id='updateState' value='0,3,335' /><action id='increaseFame' value='84' />
+			<action id="sendTaskRewards" items="58,58" headKey="TASK_REWARD_HEAD" key="TASK_REWARD_BODY" />  
+			<action id="trackParentMailQuest" jobType="ROSE" percentage="67" snippetID="PARENT_MAIL_JOB_TASK_57" groupSnippetID="PARENT_MAIL_ROSE" /> </actions>
+		</task>
+		
+		
+		<!--  ######    EXTENSION    ##### -->
+		
+		
+		<task id='03_11C' state='365'> <!-- give fireblossom --> 
+			<type value='giveItemToNPC'> <properties itemName='fireblossom_239'  /> </type>		
+			<checks> <check finshedTask='03_10C' /> </checks>
+			<finished> <action id='giveItemToNPC' itemName='fireblossom_239' /> </finished>		
+			<actions> <action id='updateState' value='0,3,370' /><action id='increaseFame' value='84' />
+			<action id="sendTaskRewards" items="44,77,71" headKey="TASK_REWARD_HEAD" key="TASK_REWARD_BODY" /> 
+			<action id="trackParentMailQuest" jobType="ROSE" percentage="72" snippetID="PARENT_MAIL_JOB_TASK_58" groupSnippetID="PARENT_MAIL_ROSE" /> </actions>
+		</task>
+		
+		<task id='03_12C' state='380'> <!-- give butterflyblossom --> 
+			<type value='giveItemToNPC'> <properties itemName='butterflyblossom_254'  /> </type>		
+			<checks> <check finshedTask='03_11C' /> </checks>
+			<finished> <action id='giveItemToNPC' itemName='butterflyblossom_254' /> </finished>		
+			<actions> <action id='updateState' value='0,3,385' /><action id='increaseFame' value='84' />
+			<action id="sendTaskRewards" coins="200" headKey="TASK_REWARD_HEAD" key="TASK_REWARD_BODY" /> 
+			<action id="trackParentMailQuest" jobType="ROSE" percentage="80" snippetID="PARENT_MAIL_JOB_TASK_59" groupSnippetID="PARENT_MAIL_ROSE" /> </actions>
+		</task>
+		
+		
+		<!-- WEDDING EXTENSION -->
+		
+		<task id='03_13C' state='400'> <!-- give bee flower --> 
+			<type value='giveItemToNPC'> <properties itemName='beeflower_296'  /> </type>		
+			<checks> <check finshedTask='03_12C' /> </checks>
+			<finished> <action id='giveItemToNPC' itemName='beeflower_296' /> </finished>		
+			<actions> <action id='updateState' value='0,3,405' /><action id='increaseFame' value='84' />
+			<action id="sendTaskRewards" items="296" headKey="TASK_REWARD_HEAD" key="TASK_REWARD_BODY" />  
+			<action id="trackParentMailQuest" jobType="ROSE" percentage="88" snippetID="PARENT_MAIL_JOB_TASK_60" groupSnippetID="PARENT_MAIL_ROSE" /> </actions>
+		</task>
+		
+		<task id='03_14C' state='415'> <!-- give bridal gouquet --> 
+			<type value='giveItemToNPC'> <properties itemName='bridalbouquet_297'  /> </type>		
+			<checks> <check finshedTask='03_13C' /> </checks>
+			<finished> <action id='giveItemToNPC' itemName='bridalbouquet_297' /> </finished>		
+			<actions> <action id='updateState' value='0,3,420' /><action id='increaseFame' value='84' />
+			<action id="sendTaskRewards" items="96,96,96" headKey="TASK_REWARD_HEAD" key="TASK_REWARD_BODY" />  
+			<action id="trackParentMailQuest" jobType="ROSE" percentage="100" snippetID="PARENT_MAIL_JOB_TASK_61" groupSnippetID="PARENT_MAIL_ROSE" /> </actions>
+		</task>
+		
+		
+	</tasks>
+	
+	<tasks substate='4'> <!-- SUB TASK--> <!-- Speedy -->
+		
+		<!--  ######    PROFESSIONAL    ##### -->
+		
+		<task id='04_01D' state='25'> <!-- give fruitjuice --> 
+			<type value='giveItemToNPC'> <properties itemName='fruitjuice_103' /> </type> 		
+			<checks />
+			<finished> <action id='giveItemToNPC' itemName='fruitjuice_103' /> </finished>		
+			<actions> <action id='updateState' value='0,4,60' /><action id='increaseFame' value='79' />
+			<action id="sendTaskRewards" items="103" headKey="TASK_REWARD_HEAD" key="TASK_REWARD_BODY" />  
+			<action id="trackParentMailQuest" jobType="SPEEDY" percentage="8" snippetID="PARENT_MAIL_JOB_TASK_63" groupSnippetID="PARENT_MAIL_SPEEDY" /> </actions>
+		</task>
+
+		<task id='04_02D' state='80'> <!-- give donut --> 
+			<type value='giveItemToNPC'> <properties itemName='donuts_42'  /> </type>	
+			<checks> <check finshedTask='04_01D' /> </checks>
+			<finished> <action id='giveItemToNPC' itemName='donuts_42' /> </finished>	
+			<actions> <action id='updateState' value='0,4,100' /><action id='increaseFame' value='79' />
+			<action id="sendTaskRewards" coins="80" headKey="TASK_REWARD_HEAD" key="TASK_REWARD_BODY" />  
+			<action id="trackParentMailQuest" jobType="SPEEDY" percentage="16" snippetID="PARENT_MAIL_JOB_TASK_64" groupSnippetID="PARENT_MAIL_SPEEDY" /> </actions>
+		</task>
+		
+		
+		<!--  ######    MASTER    ##### -->
+		
+		
+		<task id='04_03D' state='310'> <!-- give stinking cheeseburger --> 
+			<type value='giveItemToNPC'> <properties itemName='stinkingCheeseburger_74' /> </type> 		
+			<checks />
+			<finished> <action id='giveItemToNPC' itemName='stinkingCheeseburger_74' /> </finished>		
+			<actions> <action id='updateState' value='0,4,315' /><action id='increaseFame' value='81' />
+			<action id="sendTaskRewards" coins="80" items="42" headKey="TASK_REWARD_HEAD" key="TASK_REWARD_BODY" />  
+			<action id="trackParentMailQuest" jobType="SPEEDY" percentage="24" snippetID="PARENT_MAIL_JOB_TASK_65" groupSnippetID="PARENT_MAIL_SPEEDY" /> </actions>
+		</task>
+
+		<task id='04_04D' state='330'> <!-- give ultimate fries  --> 
+			<type value='giveItemToNPC'> <properties itemName='ultimateFries_104'  /> </type>	
+			<checks> <check finshedTask='04_03D' /> </checks>
+			<finished> <action id='giveItemToNPC' itemName='ultimateFries_104' /> </finished>	
+			<actions> <action id='updateState' value='0,4,335' /><action id='increaseFame' value='81' />
+			<action id="sendTaskRewards" coins="150" headKey="TASK_REWARD_HEAD" key="TASK_REWARD_BODY" />  
+			<action id="trackParentMailQuest" jobType="SPEEDY" percentage="32" snippetID="PARENT_MAIL_JOB_TASK_66" groupSnippetID="PARENT_MAIL_SPEEDY" /> </actions>
+		</task>
+
+		<task id='04_05D' state='345'> <!-- give fried fish --> 
+			<type value='giveItemToNPC'> <properties itemName='friedFish_48'  /> </type>	
+			<checks> <check finshedTask='04_04D' /> </checks>
+			<finished> <action id='giveItemToNPC' itemName='friedFish_48' /> </finished>	
+			<actions> <action id='updateState' value='0,4,355' /><action id='increaseFame' value='81' />
+			<action id="sendTaskRewards" items="59,71,103" headKey="TASK_REWARD_HEAD" key="TASK_REWARD_BODY" /> 
+			<action id="trackParentMailQuest" jobType="SPEEDY" percentage="40" snippetID="PARENT_MAIL_JOB_TASK_67" groupSnippetID="PARENT_MAIL_SPEEDY" /> </actions>
+		</task>
+
+		<task id='04_06D' state='360'> <!-- give milkshake --> 
+			<type value='giveItemToNPC'> <properties itemName='milkshake_61'  /> </type>	
+			<checks> <check finshedTask='04_05D' /> </checks>
+			<finished> <action id='giveItemToNPC' itemName='milkshake_61' /> </finished>	
+			<actions> <action id='updateState' value='0,4,365' /><action id='increaseFame' value='81' />
+			<action id="sendTaskRewards" coins="120" headKey="TASK_REWARD_HEAD" key="TASK_REWARD_BODY" />  
+			<action id="trackParentMailQuest" jobType="SPEEDY" percentage="48" snippetID="PARENT_MAIL_JOB_TASK_68" groupSnippetID="PARENT_MAIL_SPEEDY" /> </actions>
+		</task>
+
+		<task id='04_07D' state='385'> <!-- give gumchicken --> 
+			<type value='giveItemToNPC'> <properties itemName='gumchicken_56'  /> </type>	
+			<checks> <check finshedTask='04_06D' /> </checks>
+			<finished> <action id='giveItemToNPC' itemName='gumchicken_56' /> </finished>	
+			<actions> <action id='updateState' value='0,4,390' /><action id='increaseFame' value='81' />
+			<action id="sendTaskRewards" items="56" headKey="TASK_REWARD_HEAD" key="TASK_REWARD_BODY" /> 
+			<action id="trackParentMailQuest" jobType="SPEEDY" percentage="56" snippetID="PARENT_MAIL_JOB_TASK_69" groupSnippetID="PARENT_MAIL_SPEEDY" /> </actions>
+		</task>
+
+		<task id='04_08D' state='400'> <!-- give gooba --> 
+			<type value='giveItemToNPC'> <properties itemName='gooba_54'  /> </type>	
+			<checks> <check finshedTask='04_07D' /> </checks>
+			<finished> <action id='giveItemToNPC' itemName='gooba_54' /> </finished>	
+			<actions> <action id='updateState' value='0,4,410' /><action id='increaseFame' value='84' />
+			<action id="sendTaskRewards" items="54,93" headKey="TASK_REWARD_HEAD" key="TASK_REWARD_BODY" />  
+			<action id="trackParentMailQuest" jobType="SPEEDY" percentage="64" snippetID="PARENT_MAIL_JOB_TASK_70" groupSnippetID="PARENT_MAIL_SPEEDY" /> </actions>
+		</task>
+		
+		
+		<!--  ######    EXTENSION    ##### -->
+		
+		
+		<task id='04_09D' state='450'> <!-- give brownie --> 
+			<type value='giveItemToNPC'> <properties itemName='brownie_240'  /> </type>	
+			<checks> <check finshedTask='04_08D' /> </checks>
+			<finished> <action id='giveItemToNPC' itemName='brownie_240' /> </finished>	
+			<actions> <action id='updateState' value='0,4,455' /><action id='increaseFame' value='84' />
+			<action id="sendTaskRewards" items="101,234" headKey="TASK_REWARD_HEAD" key="TASK_REWARD_BODY" /> 
+			<action id="trackParentMailQuest" jobType="SPEEDY" percentage="72" snippetID="PARENT_MAIL_JOB_TASK_71" groupSnippetID="PARENT_MAIL_SPEEDY" /> </actions>
+		</task>
+
+		<task id='04_10D' state='465'> <!-- give nachos --> 
+			<type value='giveItemToNPC'> <properties itemName='nachos_241'  /> </type>	
+			<checks> <check finshedTask='04_09D' /> </checks>
+			<finished> <action id='giveItemToNPC' itemName='nachos_241' /> </finished>	
+			<actions> <action id='updateState' value='0,4,470' /><action id='increaseFame' value='84' />
+			<action id="sendTaskRewards" items="241" headKey="TASK_REWARD_HEAD" key="TASK_REWARD_BODY" /> 
+			<action id="trackParentMailQuest" jobType="SPEEDY" percentage="80" snippetID="PARENT_MAIL_JOB_TASK_72" groupSnippetID="PARENT_MAIL_SPEEDY" /> </actions>
+		</task>
+		
+		
+		<!-- WEDDING EXTENSION -->
+		
+		<task id='04_11D' state='481'> <!-- give marinated chickenwings --> 
+			<type value='giveItemToNPC'> <properties itemName='marinatedchickenwings_300'  /> </type>	
+			<checks> <check finshedTask='04_10D' /> </checks>
+			<finished> <action id='giveItemToNPC' itemName='marinatedchickenwings_300' /> </finished>	
+			<actions> <action id='updateState' value='0,4,485' /><action id='increaseFame' value='84' />
+			<action id="sendTaskRewards" coins="300" headKey="TASK_REWARD_HEAD" key="TASK_REWARD_BODY" />  
+			<action id="trackParentMailQuest" jobType="SPEEDY" percentage="88" snippetID="PARENT_MAIL_JOB_TASK_73" groupSnippetID="PARENT_MAIL_SPEEDY" /> </actions>
+		</task>
+
+		<task id='04_12D' state='495'> <!-- give deepfried honey banana --> 
+			<type value='giveItemToNPC'> <properties itemName='deepfriedhoneybanana_301'  /> </type>	
+			<checks> <check finshedTask='04_11D' /> </checks>
+			<finished> <action id='giveItemToNPC' itemName='deepfriedhoneybanana_301' /> </finished>	
+			<actions> <action id='updateState' value='0,4,500' /><action id='increaseFame' value='84' />
+			<action id="sendTaskRewards" items="27,64,7" headKey="TASK_REWARD_HEAD" key="TASK_REWARD_BODY" />  
+			<action id="trackParentMailQuest" jobType="SPEEDY" percentage="100" snippetID="PARENT_MAIL_JOB_TASK_74" groupSnippetID="PARENT_MAIL_SPEEDY" /> </actions>
+		</task>
+		
+	</tasks>
+	
+	<tasks substate='5'> <!-- SUB TASK--> <!-- Roger -->
+		
+		<!--  ######    MASTER    ##### -->
+		
+		
+		<task id='05_01E' state='315'> <!-- give fish filet --> 
+			<type value='giveItemToNPC'> <properties itemName='fishFilet_105' /> </type> 		
+			<checks />
+			<finished> <action id='giveItemToNPC' itemName='fishFilet_105' /> </finished>		
+			<actions> <action id='updateState' value='0,5,320' /><action id='increaseFame' value='81' />
+			<action id="sendTaskRewards" coins="120" headKey="TASK_REWARD_HEAD" key="TASK_REWARD_BODY" /> 
+			<action id="trackParentMailQuest" jobType="ROGER" percentage="11" snippetID="PARENT_MAIL_JOB_TASK_40" groupSnippetID="PARENT_MAIL_JOB_ROGER" /> </actions>
+		</task>
+
+		<task id='05_02E' state='330'> <!-- give giggling cake --> 
+			<type value='giveItemToNPC'> <properties itemName='gigglingCake_51'  /> </type>	
+			<checks> <check finshedTask='05_01E' /> </checks>
+			<finished> <action id='giveItemToNPC' itemName='gigglingCake_51' /> </finished>	
+			<actions> <action id='updateState' value='0,5,335' /><action id='increaseFame' value='81' />
+			<action id="sendTaskRewards" items="9,9,9" headKey="TASK_REWARD_HEAD" key="TASK_REWARD_BODY" /> 
+			<action id="trackParentMailQuest" jobType="ROGER" percentage="22" snippetID="PARENT_MAIL_JOB_TASK_41" groupSnippetID="PARENT_MAIL_JOB_ROGER" /> </actions>
+		</task>
+
+		<task id='05_03E' state='345'> <!-- give sushi --> 
+			<type value='giveItemToNPC'> <properties itemName='sushi_78'  /> </type>	
+			<checks> <check finshedTask='05_02E' /> </checks>
+			<finished> <action id='giveItemToNPC' itemName='sushi_78' /> </finished>	
+			<actions> <action id='updateState' value='0,5,350' /><action id='increaseFame' value='81' />
+			<action id="sendTaskRewards" items="96,96" headKey="TASK_REWARD_HEAD" key="TASK_REWARD_BODY" /> 
+			<action id="trackParentMailQuest" jobType="ROGER" percentage="33" snippetID="PARENT_MAIL_JOB_TASK_42" groupSnippetID="PARENT_MAIL_JOB_ROGER" /> </actions>
+		</task>
+
+		<task id='05_04E' state='370'> <!-- give truffle sweets --> 
+			<type value='giveItemToNPC'> <properties itemName='truffelSweets_80'  /> </type>	
+			<checks> <check finshedTask='05_03E' /> </checks>
+			<finished> <action id='giveItemToNPC' itemName='truffelSweets_80' /> </finished>	
+			<actions> <action id='updateState' value='0,5,375' /><action id='increaseFame' value='81' />
+			<action id="sendTaskRewards" items="80" headKey="TASK_REWARD_HEAD" key="TASK_REWARD_BODY" />  
+			<action id="trackParentMailQuest" jobType="ROGER" percentage="44" snippetID="PARENT_MAIL_JOB_TASK_43" groupSnippetID="PARENT_MAIL_JOB_ROGER" /> </actions>
+		</task>
+
+		<task id='05_05E' state='385'> <!-- give glace fatal --> 
+			<type value='giveItemToNPC'> <properties itemName='glaceFatal_53+galloBomba_52'  /> </type>	
+			<checks> <check finshedTask='05_04E' /> </checks>
+			<finished> <action id='giveItemToNPC' itemName='glaceFatal_53+galloBomba_52' /> </finished>	
+			<actions> <action id='updateState' value='0,5,390' /><action id='increaseFame' value='84' />
+			<action id="sendTaskRewards" items="100,62" headKey="TASK_REWARD_HEAD" key="TASK_REWARD_BODY" />  
+			<action id="trackParentMailQuest" jobType="ROGER" percentage="55" snippetID="PARENT_MAIL_JOB_TASK_44" groupSnippetID="PARENT_MAIL_JOB_ROGER" /> </actions>
+		</task>
+		
+		
+		<!--  ######    EXTENSION    ##### -->
+		
+		
+		<task id='05_06E' state='400'> <!-- give gooseberryparfait --> 
+			<type value='giveItemToNPC'> <properties itemName='goosberryparfait_242'  /> </type>	
+			<checks> <check finshedTask='05_05E' /> </checks>
+			<finished> <action id='giveItemToNPC' itemName='goosberryparfait_242' /> </finished>	
+			<actions> <action id='updateState' value='0,5,405' /><action id='increaseFame' value='81' />
+			<action id="sendTaskRewards" coins="250" headKey="TASK_REWARD_HEAD" key="TASK_REWARD_BODY" />  
+			<action id="trackParentMailQuest" jobType="ROGER" percentage="66" snippetID="PARENT_MAIL_JOB_TASK_45" groupSnippetID="PARENT_MAIL_JOB_ROGER" /> </actions>
+		</task>
+
+		<task id='05_07E' state='415'> <!-- give blowfish --> 
+			<type value='giveItemToNPC'> <properties itemName='blowfish_243'  /> </type>	
+			<checks> <check finshedTask='05_06E' /> </checks>
+			<finished> <action id='giveItemToNPC' itemName='blowfish_243' /> </finished>	
+			<actions> <action id='updateState' value='0,5,420' /><action id='increaseFame' value='84' />
+			<action id="sendTaskRewards" coins="250" headKey="TASK_REWARD_HEAD" key="TASK_REWARD_BODY" />  
+			<action id="trackParentMailQuest" jobType="ROGER" percentage="77" snippetID="PARENT_MAIL_JOB_TASK_46" groupSnippetID="PARENT_MAIL_JOB_ROGER" /> </actions>
+		</task>
+		
+		
+		<!-- WEDDING EXTENSION -->
+		
+		
+		<task id='05_08E' state='450'> <!-- give gourmet lobster --> 
+			<type value='giveItemToNPC'> <properties itemName='gourmetlobster_302'  /> </type>	
+			<checks> <check finshedTask='05_07E' /> </checks>
+			<finished> <action id='giveItemToNPC' itemName='gourmetlobster_302' /> </finished>	
+			<actions> <action id='updateState' value='0,5,455' /><action id='increaseFame' value='81' />
+			<action id="sendTaskRewards" coins="300" headKey="TASK_REWARD_HEAD" key="TASK_REWARD_BODY" /> 
+			<action id="trackParentMailQuest" jobType="ROGER" percentage="88" snippetID="PARENT_MAIL_JOB_TASK_47" groupSnippetID="PARENT_MAIL_JOB_ROGER" /> </actions>
+		</task>
+
+		<task id='05_09E' state='465'> <!-- give wedding figure --> 
+			<type value='giveItemToNPC'> <properties itemName='weddingfigure_303'  /> </type>	
+			<checks> <check finshedTask='05_08E' /> </checks>
+			<finished> <action id='giveItemToNPC' itemName='weddingfigure_303' /> </finished>	
+			<actions> <action id='updateState' value='0,5,470' /><action id='increaseFame' value='84' />
+			<action id="sendTaskRewards" items="243" headKey="TASK_REWARD_HEAD" key="TASK_REWARD_BODY" />  
+			<action id="trackParentMailQuest" jobType="ROGER" percentage="100" snippetID="PARENT_MAIL_JOB_TASK_48" groupSnippetID="PARENT_MAIL_JOB_ROGER" /> </actions>
+		</task>
+		
+	</tasks>
+	<tasks substate='6'> <!-- SUB TASK--> <!-- wiseTree -->
+		<!--  ######    MASTER    ##### -->
+		<task id='WISE_01_A' state='1-5' noSound="true" messageSnippet="MESSAGE_JOBS1_BODY_1"/>
+		<task id='WISE_01_B' state='10' noSound="true" messageSnippet="MESSAGE_JOBS1_BODY_2"/>
+		
+		<task id='WISE_02_A' state='20-25' noSound="true" messageSnippet="MESSAGE_JOBS2_BODY_1"/>
+		<task id='WISE_02_B' state='30' noSound="true" messageSnippet="MESSAGE_JOBS1_BODY_2"/>
+		
+		<task id='WISE_03_A' state='40-45' noSound="true" messageSnippet="MESSAGE_JOBS3_BODY_1"/> 
+		<task id='WISE_03_B' state='50' noSound="true" messageSnippet="MESSAGE_JOBS3_BODY_1" /> 
+		
+		<task id='WISE_04_A' state='60-65' noSound="true" messageSnippet="MESSAGE_JOBS4_BODY_1"/>
+		<task id='WISE_04_B' state='70' noSound="true" messageSnippet="MESSAGE_JOBS4_BODY_1"/>
+		
+		<task id='WISE_05' state='80' noSound="true"  messageSnippet="MESSAGE_JOBS4_BODY_1"/> <!-- no items for oloko, just the end --> 
+	</tasks>
+	<tasks substate='7'> <!-- SUB TASK--> <!-- oloko -->
+		<task id='WISE_01' state='5' noSound="true" itemForOloko="12"> <!-- give oloko wheat --> 
+			<type value='giveItemToNPC'> <properties itemName='corn_12'  /> </type>	
+			<finished> <action id='giveItemToNPC' itemName='corn_12' /> </finished>	
+			<actions> 
+				<action id='message'  target='*' key='finishTask' value="WISE_01_A"/>
+				<action id='updateState' value='0,6,10' /> 
+				<action id='updateState' value='0,7,10' /> 
+				<action id='mobileMessage' delay="3000" idMessage="" body='MESSAGE_JOBS1_BODY_2' header="MESSAGE_JOBS_HEADLINE" name='WiseTree'/>
+			</actions>
+		</task>
+		<task id='WISE_02' state='25' noSound="true" itemForOloko="49"> <!-- give oloko fruits --> 
+			<type value='giveItemToNPC'> <properties itemName='fruits_49'  /> </type>	
+			<finished> <action id='giveItemToNPC' itemName='fruits_49' /> </finished>	
+			<actions> 
+				<action id='mobileMessage' delay="3000" idMessage="" body='MESSAGE_JOBS1_BODY_2' header="MESSAGE_JOBS_HEADLINE" name='WiseTree'/>
+				<action id='message'  target='*' key='finishTask' value="WISE_02_A"/>
+				<action id='updateState' value='0,6,30' /> 
+				<action id='updateState' value='0,7,30' /> 
+			</actions>
+		</task>
+		<task id='WISE_03' state='45' noSound="true" itemForOloko="49"> <!-- give oloko fruits again --> 
+			<type value='giveItemToNPC'> <properties itemName='fruits_49'  /> </type>	
+			<finished> <action id='giveItemToNPC' itemName='fruits_49' /> </finished>	
+			<actions> 
+				<action id='mobileMessage' delay="3000" idMessage="" body='MESSAGE_JOBS1_BODY_2' header="MESSAGE_JOBS_HEADLINE" name='WiseTree'/>
+				<action id='message'  target='*' key='finishTask' value="WISE_03_A"/>
+				<action id='updateState' value='0,6,50' /> 
+				<action id='updateState' value='0,7,50' /> 
+			</actions>
+		</task>
+		<task id='WISE_04' state='65' noSound="true" itemForOloko="49"> <!-- give oloko fruits again again --> 
+			<type value='giveItemToNPC'> <properties itemName='fruits_49'  /> </type>	
+			<finished> <action id='giveItemToNPC' itemName='fruits_49' /> </finished>	
+			<actions> 
+				<action id='mobileMessage' delay="3000" idMessage="" body='MESSAGE_JOBS1_BODY_2' header="MESSAGE_JOBS_HEADLINE" name='WiseTree'/>
+				<action id='message'  target='*' key='finishTask' value="WISE_04_A"/>
+				<action id='updateState' value='0,6,70' /> 
+				<action id='updateState' value='0,7,70' /> 
+			</actions>
+		</task>
+ 	</tasks>
+</quest>

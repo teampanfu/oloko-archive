@@ -1,0 +1,58 @@
+<!-- chatel -->
+<config>
+	<assets>
+		<asset id="room" path="assets/room.swf" />
+	</assets>
+	
+	<sounds>
+		<sound id="roomBackground" type="music" volume="0.4" path="audio/OLO_08_cat_style.mp3" loops="-1" />
+	</sounds>
+	
+	
+	<module>
+		<elementSounds>
+			<sound id="slidingdoor" path="assets/audio/ol_interface_mousover_sliding.mp3" loops="1" type="effect" volume="1" />
+		</elementSounds>
+		
+		<elements>
+			<element id="door" button="1" visible="1">
+				<button type="overClickSound" over="2" out="1" click="2" sound="slidingdoor" />
+				<message value="gotoHotSpot" >
+					<hotspot value="door" />
+				</message>
+			</element>
+			<element id="model1" button="1" visible="1">
+				<button type="overClick" over="2" out="1" click="2"/>
+				<message value="openClothes" />
+			</element>
+			<element  id="model2" button="1" visible="1">
+				<button type="overClick" over="2" out="1" click="2"/>
+				<message value="openClothes" />
+			</element>
+			<element  id="model3" button="1" visible="1">
+				<button type="overClick" over="2" out="1" click="2"/>
+				<message value="openClothes" />
+			</element>
+			<element  id="model4" button="1" visible="1">
+				<button type="overClick" over="2" out="1" click="2"/>
+				<message value="openClothes" />
+			</element>
+			<element  id="model5" button="1" visible="1">
+				<button type="overClick" over="2" out="1" click="2"/>
+				<message value="openClothes" />
+			</element>
+			<element  id="model6" button="1" visible="1">
+				<button type="overClick" over="2" out="1" click="2"/>
+				<message value="openClothes" />
+			</element>
+			<element  id="model7" button="1" visible="1">
+				<button type="overClick" over="2" out="1" click="2"/>
+				<message value="openClothes" />
+			</element>
+		</elements>
+		
+		<hotspots>
+			<hotspot target="14" type="room"  id="door"	sharetype="unique" shape="round" x="493" y="218" rad="30" />
+		</hotspots>
+	</module>
+</config>

@@ -1,0 +1,7 @@
+<config>
+
+	<assets>
+		<asset id='defaultHint' path='assets/hintArrow.swf' />
+	</assets>
+	
+</config>

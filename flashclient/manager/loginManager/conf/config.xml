@@ -1,0 +1,9 @@
+<config>
+	
+	<dates />
+	
+	<modules base="modules/$$name$$/" path="$$name$$.swf" >
+		<module name='loginModule' />
+	</modules>
+	
+</config>

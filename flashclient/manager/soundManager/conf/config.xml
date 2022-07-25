@@ -1,0 +1,14 @@
+<config>
+	
+	<sounds>
+		
+		<types>
+			<type id='music' single="1" />
+			<type id='effect' single="-1" />
+			<type id='speaker' single="1" />
+			<type id='notification' single="1" />
+		</types>
+		
+	</sounds>
+	
+</config>

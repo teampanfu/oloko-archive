@@ -1,0 +1,135 @@
+<!--
+	we have different preload ids:
+		- 0 load it manually
+		- 1 preload as soon as the xml is loaded, event will be triggered if all modules with id 1 are loaded
+		- 2 preload 2 manually, all modules with preload id 2 will be loaded before any load events are triggered
+		- 3 preload 3 manually, all ....
+		- 4 preload ....
+		- and so on ...
+-->
+<config>
+	<!-- snippets path='conf/snippets/text_snippets_client_$$lang$$.xml' _REPLACE_='1' / --> 
+	<snippets path='conf/allSnippets/$$lang$$/text_snippets_client_$$lang$$.xml' _REPLACE_='1' /> 
+	<assets>
+		<!--         SPEECHBUBBLES            -->
+		<asset id='basic' path='assets/ui/speechbubbles/SBNPC_basic.swf' />
+		<asset id='headMultiAnswer' path='assets/ui/speechbubbles/SBNPC_multi.swf' />
+		<asset id='headExplInv' path='assets/ui/speechbubbles/SBNPC_taskF.swf' /> 
+		<asset id='headCoins' path='assets/ui/speechbubbles/SBNPC_taskC.swf' /> 
+		<asset id='headExpl' path='assets/ui/speechbubbles/SBNPC_task.swf' /> 
+		<asset id='headWait' path='assets/ui/speechbubbles/SBNPC_wait.swf' /> 
+		<asset id='choiceSex' path='assets/ui/speechbubbles/SBNPC_choiceSex.swf' /> 
+		
+		<asset id="indicatorExclamation" path='assets/ui/indicators/Indicator_exclamation.swf' />
+		<asset id="indicatorQuestion" path='assets/ui/indicators/Indicator_question.swf' />
+		<asset id="nameBox" path='assets/ui/indicators/nameBox.swf' />
+				
+		<asset id='roundSPB' path='assets/ui/speechbubbles/roundBackgroundSpeechBubble.swf' /> 
+		<asset id='plusSPB' path='assets/ui/speechbubbles/plusSpeechBubble.swf' /> 
+		<asset id='equalSPB' path='assets/ui/speechbubbles/equalSpeechBubble.swf' /> 
+		<asset id='corn' path='assets/ui/speechbubbles/cornSpeechBubble.swf' /> 
+		<asset id='HeidiSpeechBubble' path='assets/ui/speechbubbles/HeidiPicture.swf' /> 
+		<asset id='HeidiWeddingSpeechBubble' path='assets/ui/speechbubbles/HeidiWeddingPicture.swf' /> 
+		<asset id='RoseSpeechBubble' path='assets/ui/speechbubbles/RosePicture.swf' /> 
+		<asset id='SallyKSpeechBubble' path='assets/ui/speechbubbles/SallyKPicture.swf' /> 
+		<asset id='BernardSpeechBubble' path='assets/ui/speechbubbles/BernardPicture.swf' /> 
+		<asset id='BernardWeddingSpeechBubble' path='assets/ui/speechbubbles/BernardWeddingPicture.swf' /> 
+		<asset id='SpeedySpeechBubble' path='assets/ui/speechbubbles/SpeedyPicture.swf' />
+		<asset id='RogerSpeechBubble' path='assets/ui/speechbubbles/RogerPicture.swf' />
+		
+		<asset id='ZelmaSpeechBubble' path='assets/ui/speechbubbles/ZelmaPicture.swf' />
+		<asset id='EleonoraSpeechBubble' path='assets/ui/speechbubbles/EleonoraPicture.swf' />
+		<asset id='GuySpeechBubble' path='assets/ui/speechbubbles/GuyPicture.swf' />
+		<asset id='WiseTreeBubble' path='assets/ui/speechbubbles/WiseTreePicture.swf' />
+		
+		<!--         MouseCursor Replacements            -->
+		<asset id='DefaultCursor' path='assets/ui/mouseCursors/DefaultCursor.swf' />
+		<asset id='DefaultOverCursor12' path='assets/ui/mouseCursors/DefaultOverCursor12.swf' />
+		<asset id='shovel' path='assets/ui/mouseCursors/Shovel.swf' />
+		
+		<asset id='loader' path='assets/ui/mouseCursors/Shovel.swf' />
+		
+		<!-- storage -->
+		<asset id='storageUI' path='assets/ui/storage/Storage.swf' />
+		
+		<!-- level -->
+		<asset id='LevelRewards' path='assets/ui/level/LevelRewards.swf' />
+		
+		<!-- intro tour 3 -->
+		<asset id='turtleAnimation' path='assets/introTour3/turtleAnimation.swf' />
+		
+		
+	</assets>
+	
+	<sounds path="assets/audio/">
+		<sound id="new_message" path="assets/audio/ol_interface_chatnewmessage.wav" type="effect" loops="1" volume="1.0" />
+		<sound id="button_over" path="assets/audio/ol_interface_mouseover.wav" type="effect" loops="1" volume="1.0" />
+		<sound id="sold_stuff" path="assets/audio/ol_interface_soldstuff.wav" type="effect" loops="1" volume="1.0" />
+		<sound id="ringtone" path="assets/audio/ol_mobile_device.mp3" type="effect" loops="1" volume="1.0" />
+		<sound id="mouse_over" path="assets/audio/ol_mouse_over.wav" type="effect" loops="1" volume="1.0" />
+		<sound id="dialog_open" path="assets/audio/ol_window_pop_up.wav" type="effect" loops="1" volume="1.0" />
+	</sounds>
+	
+	
+	<modules base="manager/$$name$$/" path="$$name$$.swf" >
+		 <modul name='connectionManager' preload='1' />
+		 <modul name='loginManager' preload='1' />
+		 <modul name='itemManager' preload='1' />
+		 <modul name='worldManager' preload='2' />
+		 <modul name='avatarManager' preload='2' />
+		 <modul name='playerManager' preload='0' />
+		 <modul name='featureManager' preload='2' />
+		 <modul name='questManager' preload='2' />
+		 <modul name='soundManager' preload='2' />
+	 	
+	 	 <modul name='miniGamesManager' preload='2' />
+	</modules>
+	
+	<langs>
+		
+		<hosts>
+			<DE url="http://www.panfu.de" />
+			<EN url="http://www.panfu.com" />
+			<FR url="http://www.panfu.fr" />
+			<ES url="http://www.panfu.es" />
+			<NL url="http://www.panfu.nl" />
+			<PL url="http://www.panfu.pl" />
+			<SE url="http://www.panfu.se" />
+			<PT url="http://www.panfu.com.pt" />
+			<RU url="http://www.panfu.ru" />
+			<DK url="http://www.panfu.dk" />
+		</hosts>
+		
+		<timezones>
+			<DE time="0" />
+			<EN time="-1" />
+			<FR time="0" />
+			<ES time="0" />
+			<NL time="0" />
+			<DK time="0" />
+			<PL time="0" />
+			<PT time="0" />
+			<RU time="2" />
+		</timezones>
+	</langs>
+	
+	<fonts>
+		<paths>
+			<!-- font path="fonts/$$lang$$/floraless.swf" / -->
+			
+			<font path="fonts/$$lang$$/verdana.swf" />
+			<font path="fonts/$$lang$$/verdanaBold.swf" />
+			<font path="fonts/$$lang$$/EyefulFont.swf" />
+			<font path="fonts/$$lang$$/hiruko.swf" />
+			<font path="fonts/$$lang$$/hirukoBlack.swf" />
+		</paths>
+		
+		<mappings>
+			
+			<mapping font='VerdanaBoldFont' type='header' />
+			<mapping font='VerdanaFont' type='body' />
+			<mapping font='FloralessFont' type='label' />
+		</mappings>
+	</fonts>
+	
+</config>

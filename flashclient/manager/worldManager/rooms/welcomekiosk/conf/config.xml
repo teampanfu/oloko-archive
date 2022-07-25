@@ -1,0 +1,59 @@
+<config>
+	<assets>
+		<asset id="room" path="assets/room.swf" />
+	</assets>
+	
+	<sounds>
+		<sound id="roomBackground" type="music" volume="0.4" path="audio/OLO_08_cat_style.mp3" loops="-1" />
+	</sounds>
+	
+	
+	<module>
+		<elementSounds>
+			<sound id="slidingdoor" path="assets/audio/ol_interface_mousover_sliding.mp3" loops="1" type="effect" volume="1" />
+		</elementSounds>
+		<elements>
+			<element id="door" button="1" visible="1">
+				<button type="overClickSound" over="2" out="1" click="2" sound="slidingdoor" />
+				<message value="gotoHotSpot" >
+					<hotspot value="door" />
+				</message>
+			</element>
+			<element id="house1" button="1" visible="1">
+				<button type="overClick" over="2" out="1" click="1"/>
+				<message value="openFurnitures">
+					<filter value="livingArea" />
+				</message>
+			</element>
+			<element id="house2" button="1" visible="1">
+				<button type="overClick" over="2" out="1" click="1"/>
+				<message value="openFurnitures">
+					<filter value="livingArea" />
+				</message>
+			</element>
+			<element id="house3" button="1" visible="1">
+				<button type="overClick" over="2" out="1" click="1"/>
+				<message value="openFurnitures">
+					<filter value="livingArea" />
+				</message>
+			</element>
+			<element id="house4" button="1" visible="1">
+				<button type="overClick" over="2" out="1" click="1"/>
+				<message value="openFurnitures">
+					<filter value="livingArea" />
+				</message>
+			</element>
+			<element id="house5" button="1" visible="1">
+				<button type="overClick" over="2" out="1" click="1"/>
+				<message value="openFurnitures">
+					<filter value="livingArea" />
+				</message>
+			</element>
+		</elements>
+		
+		<hotspots>
+			<!--hotspot target="13" type="room" sharetype="unique" shape="round" x="179" y="327" rad="30" /--> <!-- kittyoto TODO : change to square-->
+			<hotspot target="13" type="room" id="door" sharetype="unique" shape="round" x="179" y="329" rad="60" /> <!-- kittyoto TODO : change to square-->
+		</hotspots>
+	</module>
+</config>

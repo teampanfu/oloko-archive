@@ -1,0 +1,201 @@
+﻿<snippets date="05.04.2012 11:03:39">
+<ACCESSORIES><![CDATA[Zubehör]]></ACCESSORIES>
+<ACCESSORIES_LABEL><![CDATA[Zubehör]]></ACCESSORIES_LABEL>
+<ADDED_AS_BEST_FRIEND><![CDATA[Du bist jetzt mein bester Freund!]]></ADDED_AS_BEST_FRIEND>
+<ADD_FRIEND_CONFIRM><![CDATA[Willst du $username$ als Freund einladen?]]></ADD_FRIEND_CONFIRM>
+<ALREADY_IN_TRADE_DIALOG><![CDATA[$username$ tauscht bereits.]]></ALREADY_IN_TRADE_DIALOG>
+<APPROVED_AS_FRIEND><![CDATA[Hi! Wir sind jetzt Freunde!]]></APPROVED_AS_FRIEND>
+<ASK_JOIN_GROUP><![CDATA[Bestätige deine Zusage
+
+Dies ist deine endgültige Entscheidung.
+Du kannst danach nicht mehr in eine andere Gruppe wechseln!
+Bist Du sicher, dass du den $$futureGroup$$ beitreten möchtest?]]></ASK_JOIN_GROUP>
+<BATHROOM_LABEL><![CDATA[Badezimmer]]></BATHROOM_LABEL>
+<BEDROOM_LABEL><![CDATA[Schlafzimmer]]></BEDROOM_LABEL>
+<BLOCK_FRIEND><![CDATA[Freund blocken]]></BLOCK_FRIEND>
+<BLOCK_USER><![CDATA[Spieler blocken]]></BLOCK_USER>
+<BLOCK_USER_CONFIRM><![CDATA[Willst du den Spieler $username$ blocken?]]></BLOCK_USER_CONFIRM>
+<BOTTOMS><![CDATA[Unterkörper]]></BOTTOMS>
+<BOTTOMS_LABEL><![CDATA[Unterteile]]></BOTTOMS_LABEL>
+<BUDDY_REQUESTS><![CDATA[Posteingang]]></BUDDY_REQUESTS>
+<BUY_ANIMALS><![CDATA[Ein Tier kaufen]]></BUY_ANIMALS>
+<BUY_DUPE_CONFIRM><![CDATA[Du hast dieses Item schon. Möchtest du es trotzdem kaufen?]]></BUY_DUPE_CONFIRM>
+<BUY_SUCCESS_MSG><![CDATA[Super! Der Gegenstand ist in deinem Rucksack.]]></BUY_SUCCESS_MSG>
+<CANNOT_TRADE_OFFLINE><![CDATA[Du kannst nicht mit Spielern 
+tauschen, die offline sind]]></CANNOT_TRADE_OFFLINE>
+<CATALOG><![CDATA[Katalog]]></CATALOG>
+<CATALOG_BUY><![CDATA[Kaufen]]></CATALOG_BUY>
+<CHANGE_AVATAR><![CDATA[Avatar ändern]]></CHANGE_AVATAR>
+<CHANGE_BIRTHDAY><![CDATA[Geburtstag ändern]]></CHANGE_BIRTHDAY>
+<CHAT_ME><![CDATA[Ich]]></CHAT_ME>
+<CLOTHES><![CDATA[Kleidung]]></CLOTHES>
+<CLOTHING_CATALOG_HEADER><![CDATA[Kleiderladen]]></CLOTHING_CATALOG_HEADER>
+<CONF_JOIN_GROUP><![CDATA[Herzlichen Glückwunsch!
+
+Du bist nun ein offizielles
+Mitglied der $$groupname$$]]></CONF_JOIN_GROUP>
+<CONVERT_TO_BEST_FRIEND><![CDATA[Zum besten Freund machen]]></CONVERT_TO_BEST_FRIEND>
+<DELETE_MESSAGE><![CDATA[Löschen]]></DELETE_MESSAGE>
+<DELETE_USER_CONFIRM><![CDATA[Willst du den Spieler $username$ wirklich aus deiner Freundesliste entfernen?]]></DELETE_USER_CONFIRM>
+<DENIED_AS_FRIEND><![CDATA[Hi! Ich muss deine Freundschaftsanfrage leider ablehnen. ]]></DENIED_AS_FRIEND>
+<DIALOG_CANCEL><![CDATA[Nein]]></DIALOG_CANCEL>
+<DIALOG_CANCEL_INVITE><![CDATA[Handeln abbrechen]]></DIALOG_CANCEL_INVITE>
+<DIALOG_NO><![CDATA[Nein]]></DIALOG_NO>
+<DIALOG_OK><![CDATA[OK]]></DIALOG_OK>
+<DIALOG_YES><![CDATA[Ja]]></DIALOG_YES>
+<DISPLAY_AVATARS><![CDATA[Wechsel' dein Tier!]]></DISPLAY_AVATARS>
+<FILL_IN_NOW><![CDATA[Jetzt ausfüllen]]></FILL_IN_NOW>
+<FRIENDS_HEAD><![CDATA[Freunde]]></FRIENDS_HEAD>
+<FRIENDS_HOUSES_HEAD><![CDATA[Häuser von Freunden]]></FRIENDS_HOUSES_HEAD>
+<FRIEND_USER><![CDATA[Gehe zu Freund]]></FRIEND_USER>
+<FURNITURE><![CDATA[Einrichtung]]></FURNITURE>
+<FURNITURE_CATALOG_HEADER><![CDATA[Möbelladen]]></FURNITURE_CATALOG_HEADER>
+<GOODS><![CDATA[Waren]]></GOODS>
+<GO_BACK><![CDATA[Zurück]]></GO_BACK>
+<GO_TO_USER_HOME><![CDATA[Gehe zum Haus]]></GO_TO_USER_HOME>
+<GROUPE_QUEST_LABEL><![CDATA[Gruppenaufgabe]]></GROUPE_QUEST_LABEL>
+<GROUP_LABEL><![CDATA[Gruppen]]></GROUP_LABEL>
+<GROUP_MEMBERS_LABEL><![CDATA[Mitglieder]]></GROUP_MEMBERS_LABEL>
+<HIGHSCORE_LABEL><![CDATA[Bestenliste]]></HIGHSCORE_LABEL>
+<HOUSES_HEAD><![CDATA[Haus]]></HOUSES_HEAD>
+<INGAMEMSG_BACKYARD_BODY><![CDATA[Warst du schon in deinem großen hinteren Garten? Klick' auf das Haus in der oberen Leiste am Bildschirm und wähle den entsprechenden Button, um direkt hin zu kommen!]]></INGAMEMSG_BACKYARD_BODY>
+<INGAMEMSG_BACKYARD_HEADER><![CDATA[Abkürzung zum hinteren Garten]]></INGAMEMSG_BACKYARD_HEADER>
+<INGAMEMSG_RAREPLANTS_BODY_01><![CDATA[Mit den seltenen Samen kannst du ganz besondere Pflanzen züchten und lustige Gegenstände ernten!]]></INGAMEMSG_RAREPLANTS_BODY_01>
+<INGAMEMSG_RAREPLANTS_HEADER><![CDATA[Seltene Pflanzen]]></INGAMEMSG_RAREPLANTS_HEADER>
+<INGAMEMSG_WATERING_BODY><![CDATA[Keine Lust auf vertrocknete Pflanzen in deinem Garten? Mit der Gießfunktion kannst du als Gold-Mitglied deine fertigen Pflanzen regelmäßig gießen und sie länger behalten. So wird dein Garten immer frisch aussehen! ]]></INGAMEMSG_WATERING_BODY>
+<INGAMEMSG_WATERING_HEADER><![CDATA[Gießkanne]]></INGAMEMSG_WATERING_HEADER>
+<INGAMEMSG_WELL_BODY><![CDATA[Als Gold-Mitglied kannst du aus dem Brunnen in deinem hinteren Garten richtig viel Wasser auf einmal schöpfen!]]></INGAMEMSG_WELL_BODY>
+<INGAMEMSG_WELL_HEADER><![CDATA[Turbo-Brunnen]]></INGAMEMSG_WELL_HEADER>
+<INVENTORY_LABEL><![CDATA[Rucksack]]></INVENTORY_LABEL>
+<INVITATION_LABEL><![CDATA[Einladungen]]></INVITATION_LABEL>
+<INVITE_FRIEND><![CDATA[Freund einladen]]></INVITE_FRIEND>
+<ITEMS><![CDATA[Waren]]></ITEMS>
+<ITEMS_HEAD><![CDATA[Klamotten & Items]]></ITEMS_HEAD>
+<JOBSTREE_JOBSLEVEL_BARRIER><![CDATA[Erfülle alle $$levelname$$ Jobs um neue Aufgaben freizuschalten.]]></JOBSTREE_JOBSLEVEL_BARRIER>
+<JOBSTREE_JOB_AVAILABLE><![CDATA[Rede mit$$NPC-Name$$ um das Rezept für §§Product-Name$$ zu lernen.]]></JOBSTREE_JOB_AVAILABLE>
+<JOBSTREE_JOB_LOCKED><![CDATA[Job blockiert]]></JOBSTREE_JOB_LOCKED>
+<JOBSTREE_PRODUCTION_NORECIPES><![CDATA[Um hier etwas herzustellen, musst du zuerst weitere Jobs erledigen.]]></JOBSTREE_PRODUCTION_NORECIPES>
+<JOBS_BAKING><![CDATA[Backen]]></JOBS_BAKING>
+<JOBS_FARMING><![CDATA[Feldarbeit ]]></JOBS_FARMING>
+<JOBS_FASTFOOD><![CDATA[Fast food]]></JOBS_FASTFOOD>
+<JOBS_GARDENING><![CDATA[Gartenarbeit]]></JOBS_GARDENING>
+<JOBS_GOURMETFOOD><![CDATA[Gourmet]]></JOBS_GOURMETFOOD>
+<JOBS_LEVEL_BEGINNER><![CDATA[Anfänger]]></JOBS_LEVEL_BEGINNER>
+<JOBS_LEVEL_MASTER><![CDATA[Master]]></JOBS_LEVEL_MASTER>
+<JOBS_LEVEL_PROFESSIONAL><![CDATA[Profi]]></JOBS_LEVEL_PROFESSIONAL>
+<JOBS_MY_JOBS><![CDATA[Meine Jobs]]></JOBS_MY_JOBS>
+<JOB_RESTART><![CDATA[Du hast alles geschaft, aber wenn du willst, kannst du gerne noch einmal spielen!
+
+Möchtest du diesen Beruf noch einmal neu beginnen?]]></JOB_RESTART>
+<JOB_RESTART_CONFIRM><![CDATA[Bist du dir ganz sicher?]]></JOB_RESTART_CONFIRM>
+<KITCHEN_LABEL><![CDATA[Küche]]></KITCHEN_LABEL>
+<LIVING_ROOM_LABEL><![CDATA[Wohnzimmer]]></LIVING_ROOM_LABEL>
+<MAKE_BEST_FRIEND><![CDATA[Bester Freund]]></MAKE_BEST_FRIEND>
+<MARKET_LABEL><![CDATA[Marktplatz]]></MARKET_LABEL>
+<MESSAGES_HEAD><![CDATA[Nachrichtenbox]]></MESSAGES_HEAD>
+<MESSAGE_FROM><![CDATA[Nachricht von:]]></MESSAGE_FROM>
+<MOBILE_CATALOG_HEADER><![CDATA[Handy
+Laden]]></MOBILE_CATALOG_HEADER>
+<MOBILE_GP_POPUP_BUYNOW><![CDATA[Jetzt Oloko-Gold-Mitgliedschaft holen!]]></MOBILE_GP_POPUP_BUYNOW>
+<MOBILE_GP_POPUP_PLAYOLOKO><![CDATA[Oloko weiterspielen!]]></MOBILE_GP_POPUP_PLAYOLOKO>
+<MOBILE_GP_POPUP_TITLE_ONLYMEMBERS><![CDATA[Für diese Funktion brauchst du die Oloko-Gold-Mitgliedschaft!]]></MOBILE_GP_POPUP_TITLE_ONLYMEMBERS>
+<MYCATALOGMOBILE><![CDATA[Handy
+Laden]]></MYCATALOGMOBILE>
+<MYCLOTHES><![CDATA[Kleider- 
+laden]]></MYCLOTHES>
+<MYFRIENDS><![CDATA[Freunde]]></MYFRIENDS>
+<MYFURNITURE><![CDATA[Möbel-
+laden]]></MYFURNITURE>
+<MYGROUPS><![CDATA[Gruppen]]></MYGROUPS>
+<MYHOUSES><![CDATA[Häuser]]></MYHOUSES>
+<MYITEMS><![CDATA[Rucksack]]></MYITEMS>
+<MYJOBS><![CDATA[Jobs]]></MYJOBS>
+<MYMAP><![CDATA[Karte]]></MYMAP>
+<MYMARKET><![CDATA[Markt]]></MYMARKET>
+<MYMESSAGES><![CDATA[Post]]></MYMESSAGES>
+<MYOPTIONS><![CDATA[Optionen]]></MYOPTIONS>
+<MYPROFILE><![CDATA[Profil]]></MYPROFILE>
+<MYQUESTS><![CDATA[Abenteuer]]></MYQUESTS>
+<MY_HOUSES_HEAD><![CDATA[Mein Haus]]></MY_HOUSES_HEAD>
+<MY_MESSAGES_HEADER><![CDATA[Nachrichten]]></MY_MESSAGES_HEADER>
+<NOT_ENOUGH_ITEMS_TO_SELL_MSG><![CDATA[Du musst etwas auswählen, um es verkaufen zu können!]]></NOT_ENOUGH_ITEMS_TO_SELL_MSG>
+<NOT_ENOUGH_MSG><![CDATA[Du hast nicht genügend Münzen, um dieses Item zu kaufen.]]></NOT_ENOUGH_MSG>
+<NOT_SPECIFIED><![CDATA[Nicht angegeben]]></NOT_SPECIFIED>
+<ON_SALE_LABEL><![CDATA[zum Verkauf]]></ON_SALE_LABEL>
+<PLAYERCARDBG><![CDATA[Spielerkarten]]></PLAYERCARDBG>
+<PLAYERCARDBG_LABEL><![CDATA[Spielerkarten]]></PLAYERCARDBG_LABEL>
+<PLEASE_WRITE_MESSAGE><![CDATA[Hier klicken, um etwas zu schreiben...]]></PLEASE_WRITE_MESSAGE>
+<PROFILE_AQUARIUS><![CDATA[Wassermann]]></PROFILE_AQUARIUS>
+<PROFILE_ARIES><![CDATA[Widder]]></PROFILE_ARIES>
+<PROFILE_CANCER><![CDATA[Krebs]]></PROFILE_CANCER>
+<PROFILE_CAPRICORN><![CDATA[Steinbock]]></PROFILE_CAPRICORN>
+<PROFILE_FEMALE><![CDATA[weiblich]]></PROFILE_FEMALE>
+<PROFILE_GEMINI><![CDATA[Zwilling]]></PROFILE_GEMINI>
+<PROFILE_HEAD><![CDATA[Profil]]></PROFILE_HEAD>
+<PROFILE_LEO><![CDATA[Löwe]]></PROFILE_LEO>
+<PROFILE_LEVEL><![CDATA[Level:]]></PROFILE_LEVEL>
+<PROFILE_LIBRA><![CDATA[Waage]]></PROFILE_LIBRA>
+<PROFILE_MALE><![CDATA[männlich]]></PROFILE_MALE>
+<PROFILE_PISCES><![CDATA[Fische]]></PROFILE_PISCES>
+<PROFILE_SAGITTARIUS><![CDATA[Schütze]]></PROFILE_SAGITTARIUS>
+<PROFILE_SCORPIO><![CDATA[Skorpion]]></PROFILE_SCORPIO>
+<PROFILE_TAURUS><![CDATA[Stier]]></PROFILE_TAURUS>
+<PROFILE_TITLES><![CDATA[Münzen:<br>Geschlecht:<br>Alter:<br>Geburtstag:<br>Sternzeichen:<br>Anzahl an Freunden:<br>Bester Freund:<br>Tage auf Oloko:<br>]]></PROFILE_TITLES>
+<PROFILE_VIRGO><![CDATA[Jungfrau]]></PROFILE_VIRGO>
+<PURCHASE_CONFIRM_MSG><![CDATA[Willst du dieses Item kaufen?]]></PURCHASE_CONFIRM_MSG>
+<PURCHASE_SUCCESS_MSG><![CDATA[Du hast etwas gekauft!]]></PURCHASE_SUCCESS_MSG>
+<QUESTS_HEAD><![CDATA[Abenteuerverlauf]]></QUESTS_HEAD>
+<REMOVED_AS_BEST_FRIEND><![CDATA[Du bist nicht länger mein bester Freund.]]></REMOVED_AS_BEST_FRIEND>
+<REMOVE_FRIEND><![CDATA[Freund entfernen]]></REMOVE_FRIEND>
+<REPORT_USER><![CDATA[Spieler melden]]></REPORT_USER>
+<REPORT_USER_CONFIRM><![CDATA[Willst du $username$ wirklich melden?]]></REPORT_USER_CONFIRM>
+<RESET_LABEL><![CDATA[Behalten]]></RESET_LABEL>
+<RINGTONE><![CDATA[Klingeltöne]]></RINGTONE>
+<RING_LABEL><![CDATA[Klingeltöne]]></RING_LABEL>
+<SELL_CONFIRM_MSG><![CDATA[Möchtest du diese Items wirklich verkaufen?]]></SELL_CONFIRM_MSG>
+<SELL_LABEL><![CDATA[Verkaufen
+]]></SELL_LABEL>
+<SENT_YOU_GROUP_MESSAGE><![CDATA[ hat dir eine Gruppen-Nachricht geschickt.]]></SENT_YOU_GROUP_MESSAGE>
+<SENT_YOU_MESSAGE><![CDATA[ hat dir eine Nachricht geschickt.]]></SENT_YOU_MESSAGE>
+<SENT_YOU_TRADE_MESSAGE><![CDATA[: Tauschanfrage!]]></SENT_YOU_TRADE_MESSAGE>
+<SHOES><![CDATA[Schuhe]]></SHOES>
+<SHOES_LABEL><![CDATA[Schuhe]]></SHOES_LABEL>
+<SHOW_PROFILE><![CDATA[Zeige Profil]]></SHOW_PROFILE>
+<SKINMOBILE><![CDATA[Skins]]></SKINMOBILE>
+<SKIN_LABEL><![CDATA[Skins]]></SKIN_LABEL>
+<TOPS><![CDATA[Oberkörper]]></TOPS>
+<TOPS_LABEL><![CDATA[Oberteile]]></TOPS_LABEL>
+<TOTAL_LABEL><![CDATA[Total]]></TOTAL_LABEL>
+<TRADE_ACCEPTED_DIALOG><![CDATA[Dein Vorschlag wurde angenommen. Die Items wurden getauscht.]]></TRADE_ACCEPTED_DIALOG>
+<TRADE_CANCELLED_DIALOG><![CDATA[Der Tausch wurde von $username$ beendet.]]></TRADE_CANCELLED_DIALOG>
+<TRADE_DECIDING_DIALOG><![CDATA[$username$ überlegt gerade.]]></TRADE_DECIDING_DIALOG>
+<TRADE_DENIAL_DIALOG><![CDATA[Dein Vorschlag wurde abgelehnt.]]></TRADE_DENIAL_DIALOG>
+<TRADE_DENIAL_DIALOG_NEW_OFFER><![CDATA[Dein Vorschlag wurde abgelehnt. $username$ bereitet einen neuen Tauschvorschlag vor.]]></TRADE_DENIAL_DIALOG_NEW_OFFER>
+<TRADE_EXCEED3_BODY><![CDATA[Du hast heute schon dreimal getauscht.
+
+Morgen kannst du wieder tauschen!
+
+Mit der Oloko-Gold-Mitgliedschaft kannst du so oft
+tauschen, wie du willst!]]></TRADE_EXCEED3_BODY>
+<TRADE_INVITE_ACCEPTED_DIALOG><![CDATA[Klicke die Gegenstände an, um einen Tausch vorzuschlagen. Klicke auf "Tausch vorschlagen" wenn du fertig bist.
+]]></TRADE_INVITE_ACCEPTED_DIALOG>
+<TRADE_INVITE_SENT_DIALOG><![CDATA[Deine Einladung zum Tauschen wurde geschickt. Der Tausch geht los, wenn der andere die Einladung annimmt!]]></TRADE_INVITE_SENT_DIALOG>
+<TRADE_OFFER_ABORT><![CDATA[Tausch abbrechen]]></TRADE_OFFER_ABORT>
+<TRADE_OFFER_ACCEPT><![CDATA[Angebot annehmen]]></TRADE_OFFER_ACCEPT>
+<TRADE_OFFER_DENY><![CDATA[Angebot ablehnen]]></TRADE_OFFER_DENY>
+<TRADE_OFFER_PROPOSE><![CDATA[Tausch vorschlagen]]></TRADE_OFFER_PROPOSE>
+<TRADE_PREPARE_DIALOG><![CDATA[$username$ bereitet ein<br>Tauschangebot vor.]]></TRADE_PREPARE_DIALOG>
+<TRADE_PROPOSED_DIALOG><![CDATA[$username$ hat dir folgenden Tausch vorgeschlagen.<br>Klicke 'Tausch annehmen' oder klicke 'Tausch ablehnen' und mache einen Gegenvorschlag.]]></TRADE_PROPOSED_DIALOG>
+<TRADE_TITLE><![CDATA[Handeln]]></TRADE_TITLE>
+<TRADE_WITH_USER><![CDATA[Handeln]]></TRADE_WITH_USER>
+<UNBLOCK_FRIEND><![CDATA[Freund entsperren]]></UNBLOCK_FRIEND>
+<UNBLOCK_USER_CONFIRM><![CDATA[Möchtest du $username$ wirklich entsperren?]]></UNBLOCK_USER_CONFIRM>
+<VIEW_ALL_FRIENDS><![CDATA[Alle Freunde]]></VIEW_ALL_FRIENDS>
+<VIEW_BLOCKED_USERS><![CDATA[Gesperrte Spieler]]></VIEW_BLOCKED_USERS>
+<VIEW_OFFLINE_FRIENDS><![CDATA[Freunde offline]]></VIEW_OFFLINE_FRIENDS>
+<VIEW_ONLINE_FRIENDS><![CDATA[Freunde online]]></VIEW_ONLINE_FRIENDS>
+<WANT_TO_BE_FRIEND_1><![CDATA[Hi ]]></WANT_TO_BE_FRIEND_1>
+<WANT_TO_BE_FRIEND_2><![CDATA[Willst du mein Freund sein?]]></WANT_TO_BE_FRIEND_2>
+<WANT_TO_TRADE><![CDATA[Möchtest du mit $$username$$ tauschen?]]></WANT_TO_TRADE>
+<YOUR_PROFILE_HEAD><![CDATA[Dein Profil]]></YOUR_PROFILE_HEAD>
+</snippets>

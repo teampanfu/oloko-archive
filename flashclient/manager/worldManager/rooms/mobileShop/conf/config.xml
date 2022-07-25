@@ -1,0 +1,47 @@
+<config>
+	<assets>
+		<asset id="room" path="assets/room.swf" />
+	</assets>
+	
+	<sounds>
+		<sound id="roomBackground" volume="0.4" path="audio/background.mp3" loops="-1" />
+	</sounds>
+	
+	
+	<module>
+		<elementSounds>
+			<sound id="slidingdoor" path="assets/audio/ol_interface_mousover_sliding.mp3" loops="1" type="effect" volume="1" />
+		</elementSounds>
+		
+		<elements>
+			<element id="door" button="1" visible="1">
+				<button type="overClickSound" over="2" out="1" click="2" sound="slidingdoor" />
+				<message value="gotoHotSpot" >
+					<hotspot value="door" />
+				</message>
+			</element>
+			<element id="ringShop" button="1" visible="1">
+				<button type="overClick" over="2" out="1" click="1"/>
+				<message value="openMobileShop">
+					<filter value="ring" />
+				</message>
+			</element>
+			<element id="backgroundShop" button="1" visible="1">
+				<button type="click" click="1"/>
+				<message value="openMobileShop">
+					<filter value="playercardBG" />
+				</message>
+			</element>
+			<element id="skinShop" button="1" visible="1">
+				<button type="overClick" over="2" out="1" click="1"/>
+				<message value="openMobileShop">
+					<filter value="skin" />
+				</message>
+			</element>
+		</elements>
+		
+		<hotspots>
+			<hotspot target="13" id="door" type="room" sharetype="unique" shape="round" x="830" y="250" rad="50" />
+		</hotspots>
+	</module>
+</config>

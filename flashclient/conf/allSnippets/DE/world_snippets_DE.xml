@@ -1,0 +1,58 @@
+﻿<snippets date="05.04.2012 11:03:41">
+<ACT_Q_PANEL_GRPNAME><![CDATA[Aufgabe der Woche
+Hilf Oloko, hilf dem Haus der $$groupname$$]]></ACT_Q_PANEL_GRPNAME>
+<ACT_Q_PANEL_ITEMNAME><![CDATA[Wirf möglichst viel von folgendem Gegenstand in Olokos Mund: $$itemname$$.
+
+Der Beste gewinnt einen besonderen Preis!]]></ACT_Q_PANEL_ITEMNAME>
+<ADDED_TO_INVENTORY><![CDATA[$$itemname$$
+in deinem Rucksack]]></ADDED_TO_INVENTORY>
+<BAKERY><![CDATA[Bäckerei
+]]></BAKERY>
+<BIGTREE><![CDATA[Weiser Baum]]></BIGTREE>
+<CANCELLATION_MOUSEOVER><![CDATA[Abbrechen]]></CANCELLATION_MOUSEOVER>
+<CHOOSE_PRODUCT><![CDATA[Wähle ein Produkt]]></CHOOSE_PRODUCT>
+<CLICK_TO_GET_><![CDATA[Klicke zum Nehmen]]></CLICK_TO_GET_>
+<CLICK_TO_GIVE><![CDATA[Klicke zum Geben]]></CLICK_TO_GIVE>
+<CLICK_TO_PRODUCE><![CDATA[Klicke zum Produzieren]]></CLICK_TO_PRODUCE>
+<CONF_JOIN_GROUP><![CDATA[Herzlichen Glückwunsch
+
+Du bist nun ein offizielles Mitglied der
+
+$$groupname$$]]></CONF_JOIN_GROUP>
+<DISPOSE><![CDATA[Klicke um ein verrottetes Produkt zu entfernen]]></DISPOSE>
+<DOGVILLE><![CDATA[Dogville]]></DOGVILLE>
+<FASTFOOD><![CDATA[Fast-Food-Restaurant]]></FASTFOOD>
+<FLOWERHILL><![CDATA[Flower Hill]]></FLOWERHILL>
+<FOODCORNER><![CDATA[Carrot Town]]></FOODCORNER>
+<GARDEN><![CDATA[Mein Feld]]></GARDEN>
+<GARDEN_2><![CDATA[Mein Garten]]></GARDEN_2>
+<GARDEN_NEUTRAL><![CDATA[Feld]]></GARDEN_NEUTRAL>
+<GOURMET><![CDATA[Gourmet-Restaurant]]></GOURMET>
+<HOMEROOM><![CDATA[Mein Hof]]></HOMEROOM>
+<INVITE_PANEL_GRP><![CDATA[Du kannst deine Freunde zu dem Haus der $$groupname$$ einladen.
+Trage die E-Mail-Adressen deiner Freunde ein:]]></INVITE_PANEL_GRP>
+<KITTYOTO><![CDATA[Kittyoto]]></KITTYOTO>
+<LABEL_RAREITEMSHOP><![CDATA[Seltene Pflanzen]]></LABEL_RAREITEMSHOP>
+<LASSHOPPAS><![CDATA[Kitty Avenue]]></LASSHOPPAS>
+<MAINISLANDHEAD><![CDATA[Oloko]]></MAINISLANDHEAD>
+<MINI_GAMES_CLOUDNUMBERONE><![CDATA[Cloud Jumper]]></MINI_GAMES_CLOUDNUMBERONE>
+<MINI_GAMES_FOURWINS><![CDATA[Pick & Nick]]></MINI_GAMES_FOURWINS>
+<MINI_GAMES_QUICKSEARCHDUELL><![CDATA[Lost & Found]]></MINI_GAMES_QUICKSEARCHDUELL>
+<MONTECIELO><![CDATA[Sugar Peak]]></MONTECIELO>
+<MY_INVENTORY><![CDATA[Rucksack]]></MY_INVENTORY>
+<MY_STORAGE><![CDATA[Safe]]></MY_STORAGE>
+<OUTSIDEHOME><![CDATA[Vorgarten]]></OUTSIDEHOME>
+<RIOAZUL><![CDATA[Old Mill]]></RIOAZUL>
+<STORE_ALL><![CDATA[Alles verstauen]]></STORE_ALL>
+<SUNNYFARM><![CDATA[Sunny Farm]]></SUNNYFARM>
+<TAKE_ALL><![CDATA[Alles nehmen]]></TAKE_ALL>
+<TEXARELEXA><![CDATA[Texa Relaxa]]></TEXARELEXA>
+<TROPICALGARDEN><![CDATA[Gewächshaus]]></TROPICALGARDEN>
+<UNDO_MOUSEOVER><![CDATA[Zurück]]></UNDO_MOUSEOVER>
+<WAIT_FOR_><![CDATA[Warte auf 
+$$itemname$$]]></WAIT_FOR_>
+<WATERMILL><![CDATA[Old Mill]]></WATERMILL>
+<WATER_THE_PLANT><![CDATA[Klicke um die Pflanze zu gießen]]></WATER_THE_PLANT>
+<YOU_DONT_HAVE_IT><![CDATA[Du hast kein $$itemname$$ in deinem Rucksack]]></YOU_DONT_HAVE_IT>
+<YOU_RECEIVED_PRODUCT><![CDATA[Du hast $$itemname$$ erhalten ]]></YOU_RECEIVED_PRODUCT>
+</snippets>

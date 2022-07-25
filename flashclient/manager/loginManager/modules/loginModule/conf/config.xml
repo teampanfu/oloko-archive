@@ -1,0 +1,35 @@
+<config>
+	
+	<dates />
+	
+	<assets>
+		<asset id='loginscreen' path='assets/loginscreen.swf' />
+		<asset id='gameServersChoice' path='assets/gameServersChoice.swf' />
+		<asset id='tvSpotTrackingDE' path='assets/tvSpotTracking.swf' />
+		<asset id='tvSpotTrackingEN' path='assets/tvSpotTrackingEN.swf' />
+		<asset id='tvSpotTrackingNL' path='assets/tvSpotTrackingNL.swf' />		
+		<asset id='tvSpotTrackingFR' path='assets/tvSpotTrackingFR.swf' />
+		<asset id='tvSpotTrackingSE' path='assets/tvSpotTrackingSE.swf' />
+		<asset id='tvSpotTrackingDK' path='assets/tvSpotTrackingDK.swf' />
+		<asset id='tvSpotTrackingNO' path='assets/tvSpotTrackingNO.swf' />
+		<asset id='tvSpotTrackingFI' path='assets/tvSpotTrackingFI.swf' />
+	</assets>
+	
+	<snippets />
+	
+	<module>
+		<TVTracking >
+			<valid>
+				<country id="DE" start="12 Jul 2099" end="20 Jul 2100" />
+				<country id="EN" start="24 Jun 2011" end="11 Jul 2099" />				
+				<country id="FR" start="4 Jun 2011" end="11 Aug 2100" />				
+				<country id="SE" start="1 Jul 2011" end="11 Jul 2100" />
+				<country id="DK" start="1 Jul 2011" end="11 Jul 2100" />
+				<country id="NO" start="1 Jul 2011" end="11 Jul 2100" />
+				<country id="FI" start="1 Jul 2011" end="11 Jul 2100" />
+				<country id="NL" start="8 Jul 2011" end="11 Jul 2100" />
+			</valid>
+		</TVTracking >
+	</module>
+	
+</config>

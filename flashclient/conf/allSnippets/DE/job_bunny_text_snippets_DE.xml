@@ -1,0 +1,563 @@
+﻿<snippets date="05.04.2012 11:03:38">
+<ALL_ITEM_GIVING><![CDATA[Wie ich sehe, hast du $$needed_item$$ schon. Jetzt noch rechts auf die Pfote klicken, bitte. ]]></ALL_ITEM_GIVING>
+<BEGINNER_BERNARD_0001><![CDATA[Hallo $$name$$, da bist du ja wieder. Schön, dass du zu meiner Bäckerei zurückgefunden hast. Du kannst gerne bei mir arbeiten, aber zuerst musst du dich auf der Farm beweisen, bei der schönen Heidi. Ach, was würde ich dafür tun, an deiner Stelle zu sein. Komm' wieder zu mir, wenn du ein paar Aufgaben auf der Farm erledigt hast. Heidi wird dir sagen, wenn es soweit ist. 
+]]></BEGINNER_BERNARD_0001>
+<BEGINNER_BERNARD_0002><![CDATA[Hey, wie sieht's aus? Lass' uns die Mühle anschmeißen! Darin wird das Getreide gemahlen. Heidi hat dir bestimmt gezeigt, wie man Getreide anbaut. Rein in die Mühle damit! Das fertige Mehl wird dann in die Säcke gefüllt. Sieh dich um, bestimmt findest du leere Säcke. Und lass' die vollen Mehlsäcke nicht zu lange stehen, sonst fängt das Mehl noch an zu schimmeln! 
+]]></BEGINNER_BERNARD_0002>
+<BEGINNER_BERNARD_0002A><![CDATA[Bitte bring' mir das Mehl, das du aus dem Getreide gemacht hast.]]></BEGINNER_BERNARD_0002A>
+<BEGINNER_BERNARD_0003><![CDATA[Nanu, hast du vergessen, mir das Mehl zu geben? Wir brauchen Mehl, um mit dem Backen anzufangen. Mahle das Getreide bitte, fülle das Mehl in die Säcke und gib es mir, bitte. 
+]]></BEGINNER_BERNARD_0003>
+<BEGINNER_BERNARD_0004><![CDATA[Wunderbar! Für‘s Erste bist du gar nicht mal so übel. 
+]]></BEGINNER_BERNARD_0004>
+<BEGINNER_BERNARD_0005><![CDATA[So. Jetzt machen wir ordentlich Knete! Ha, ha, damit meine ich natürlich den Teig, was sonst. Dazu brauchst du Wasser, das du zuerst in den Mixer einfüllst. Hinzu kommen Mehl und spezielle Hefepilze vom Ufer des Flusses, damit der Teig schön aufgeht. Wenn du alle Zutaten in den Mixer getan hast, muss der Teig eine Zeit lang gehen. Aber nicht zu lange, sonst verklebt der Mixer und der Teig ist nicht mehr zu gebrauchen!
+]]></BEGINNER_BERNARD_0005>
+<BEGINNER_BERNARD_0005A><![CDATA[Bitte bring' mir den Teig, wenn er fertig ist. ]]></BEGINNER_BERNARD_0005A>
+<BEGINNER_BERNARD_0006><![CDATA[Hey, der Teig ist noch nicht fertig? Oder hast du ihn etwa aufgegessen? Roher Teig ist nicht gut für den Bauch. Der quillt auf wie ein Ballon! Guck' mich nur an! 
+]]></BEGINNER_BERNARD_0006>
+<BEGINNER_BERNARD_0007><![CDATA[Sehr gut, der Teig ist genau richtig geworden. Damit wird man wunderbare Kuchen backen können. 
+
+]]></BEGINNER_BERNARD_0007>
+<BEGINNER_BERNARD_0008><![CDATA[Hast du schon gehört? Das tropische Gewächshaus von Rose ist ab sofort für dich geöffnet. Du kannst jetzt auch da arbeiten. ]]></BEGINNER_BERNARD_0008>
+<BEGINNER_BERNARD_0009><![CDATA[Jetzt wird's heiß! Ja, wirklich! Wir schmeißen den Ofen an. Den brauchen wir, um zu backen.
+Du brauchst Holz. Damit das Holz angezündet werden kann, brauchst du natürlich Feuer. Das Feuer kriegst du an einer der Feuerstellen.
+
+]]></BEGINNER_BERNARD_0009>
+<BEGINNER_BERNARD_0009A><![CDATA[Schade, die Glut ist nicht heiß genug. Bitte mach' Feuer im Ofen, damit wir mit dem Backen anfangen können. Komme erst wieder, wenn's brennt.
+]]></BEGINNER_BERNARD_0009A>
+<BEGINNER_BERNARD_0009B><![CDATA[Aber lass' mich zuerst nachgucken, ob die Glut im Ofen vielleicht schon ausreicht. Dann können wir uns die Mühe sparen. Warte bitte einen Moment. ]]></BEGINNER_BERNARD_0009B>
+<BEGINNER_BERNARD_0010><![CDATA[Na, das war wohl ein Schuss in den Ofen, ha ha! Der Ofen ist noch kalt. Du musst ihn anschmeißen, damit wir etwas backen können. 
+
+]]></BEGINNER_BERNARD_0010>
+<BEGINNER_BERNARD_0011><![CDATA[Schööön. Die Glut im Ofen ist genau richtig. Toll gemacht. Den Ofen werden wir noch oft brauchen und das Feuer geht nach einiger Zeit wieder aus. Aber jetzt weißt du ja, wie man es wieder anmacht. 
+]]></BEGINNER_BERNARD_0011>
+<BEGINNER_BERNARD_0012><![CDATA[So, so, den Teig hast du also gut vorbereitet und wie der Ofen angeht, weißt du auch. Jetzt zeige mir, wie gut du backen kannst. Schieb' den Teig in den Ofen und backe ein Brot. Wenn du keinen Teig mehr hast, musst du nochmal einen kneten. Aber lass' es nicht zu lange im Ofen, sonst wird das Brot zu knusprig! Wir wollen schließlich unsere schönen Hasenzähne nicht an einem steinharten Brot kaputt machen. 
+]]></BEGINNER_BERNARD_0012>
+<BEGINNER_BERNARD_0012A><![CDATA[Bring' mir das Brot, wenn du es fertig gebacken hast. ]]></BEGINNER_BERNARD_0012A>
+<BEGINNER_BERNARD_0013><![CDATA[Ich habe noch kein Brot bekommen. Du weißt doch, wie es geht?  Einfach den Teig in den brennenden Ofen schieben und abwarten. Versuch‘s mal. 
+]]></BEGINNER_BERNARD_0013>
+<BEGINNER_BERNARD_0014><![CDATA[Hmmm... Ich rieche den Duft von frisch gebackenem Brot. Sehr gut gemacht! Aus dir könnte mal ein richtig guter Bäcker werden. 
+
+]]></BEGINNER_BERNARD_0014>
+<BEGINNER_BERNARD_0015><![CDATA[Super, das Brotbacken hat wunderbar geklappt. Ob du auch eine Brezel backen kannst? Die machst du auch aus dem Teig. Damit die Brezel schön knusprig ist, solltest du ein paar Samenkörner drüber streuen. 
+
+]]></BEGINNER_BERNARD_0015>
+<BEGINNER_BERNARD_0015A><![CDATA[Ich möchte eine schöne Brezel von Dir. Bitte backe eine und bring' sie mir.
+]]></BEGINNER_BERNARD_0015A>
+<BEGINNER_BERNARD_0016><![CDATA[Wo bleiben die Brezeln? Komme wieder, wenn du mit der Aufgabe fertig bist. 
+]]></BEGINNER_BERNARD_0016>
+<BEGINNER_BERNARD_0017><![CDATA[Wunderbar! Die Brezel ist schön knusprig geworden! Da würde ich am liebsten gleich reinbeißen. 
+]]></BEGINNER_BERNARD_0017>
+<BEGINNER_BERNARD_0017A><![CDATA[Für den Anfang bist du gar nicht mal so schlecht. Ziemlich gut sogar! Also von mir aus bist du schon für den Profi-Level bereit. Du musst aber vorher alle Beginner-Aufgaben bei Heidi und Rose erledigen. Bestimmt gibt es noch was für dich zu tun. ]]></BEGINNER_BERNARD_0017A>
+<BEGINNER_BERNARD_0018><![CDATA[Toll, du hast den Beginner-Level geschafft! 
+]]></BEGINNER_BERNARD_0018>
+<BEGINNER_HEIDI_0001><![CDATA[Hallo! Schön, dich auf meiner Farm zu sehen! Ich arbeite gerade an einigen Köstlichkeiten, zusammen mit den anderen Bewohnern der Insel.
+]]></BEGINNER_HEIDI_0001>
+<BEGINNER_HEIDI_0001_B><![CDATA[Hallo! Schön, dich auf meiner Farm zu sehen! Seit sich mein Mann aus dem Staub gemacht hat, kommt es nicht oft vor, dass ich Besuch bekomme. Es ist nett, ein bisschen Gesellschaft zu haben. ]]></BEGINNER_HEIDI_0001_B>
+<BEGINNER_HEIDI_0002><![CDATA[Wenn du mir dabei hilfst werden siche deine Kenntnisse erhöhen und du bekommst tolle Belohnungen.
+]]></BEGINNER_HEIDI_0002>
+<BEGINNER_HEIDI_0002_B><![CDATA[Wenn du für mich arbeiten willst, kannst du die benötigten Pflanzen in deinem eigenem Hof anbauen und mir dann bringen. ]]></BEGINNER_HEIDI_0002_B>
+<BEGINNER_HEIDI_0003><![CDATA[Du wirst viele tolle Sachen lernen, wie zum Beispiel das Brot backen oder wie man das berühmte Kaugummi-Hühnchen zubereitet. Hmmm...mir läuft schon das Wasser im Mund zusammen, wenn ich daran denke. Aber alles zu seiner Zeit. Na dann, es kann losgehen!]]></BEGINNER_HEIDI_0003>
+<BEGINNER_HEIDI_0004><![CDATA[Hallo $$name$$! Du musst zuerst den Acker vorbereiten. Er sollte umgegraben werden. Klick dazu auf das Feld in deinem eigenem Hof.]]></BEGINNER_HEIDI_0004>
+<BEGINNER_HEIDI_0004A><![CDATA[Bitte bereite den Acker vor.
+]]></BEGINNER_HEIDI_0004A>
+<BEGINNER_HEIDI_0005><![CDATA[Du hast den Acker noch nicht vorbereitet. Gehe dazu in deinem eigenen Hof. Den Hof erreichst du über das Symbol in der Leiste. Ich gebe dir danach weitere Aufgaben.]]></BEGINNER_HEIDI_0005>
+<BEGINNER_HEIDI_0006><![CDATA[Sehr gut! Der Acker ist jetzt fertig zur Aussaat!
+]]></BEGINNER_HEIDI_0006>
+<BEGINNER_HEIDI_0007><![CDATA[So, jetzt weißt du, wie man ein Loch gräbt und den Acker vorbereitet. Das ist sehr wichtig, denn du wirst es immer wieder brauchen. Gut gemacht! Darauf kann jetzt alles wachsen, was du willst. 
+Aber von nichts kommt nichts! Die große Pflanze am Flower Hill trägt Samenkörner als Früchte. Pflücke ein Samenkorn davon und pflanze es im Acker ein. Du wirst sehen, wie die Blätter anfangen zu sprießen.
+]]></BEGINNER_HEIDI_0007>
+<BEGINNER_HEIDI_0007A><![CDATA[Säe bitte eine Baby-Pflanze und komme wieder, wenn die Pflanze gewachsen ist. ]]></BEGINNER_HEIDI_0007A>
+<BEGINNER_HEIDI_0008><![CDATA[Hmm...Komm' schon, es ist gar nicht so schwer, eine kleine Pflanze zu züchten: Schaufel anpacken, Erde umgraben und Samen vom Flower Hill darin einpflanzen. Das schaffst du schon! Komme wieder, wenn du mit der Aufgabe fertig bist. ]]></BEGINNER_HEIDI_0008>
+<BEGINNER_HEIDI_0009><![CDATA[Super! Du hast die Aufgabe gelöst! Aus dem Samenkorn ist ein schönes Pflänzchen geworden. Wir nennen sie die „Baby-Pflanze“, weil man aus ihr alle anderen Pflanzensorten züchten kann. Du wirst es noch sehen. Soweit, so gut!]]></BEGINNER_HEIDI_0009>
+<BEGINNER_HEIDI_0010><![CDATA[Was wird nun aus der Baby-Pflanze? Hmmm...Lass' uns Getreide züchten. Daraus kann Bernard, der Bäcker, dann leckere Brote backen. Es geht ganz einfach. Bewässere die Pflanze und du wirst sehen, wie sie zu einer schönen Getreidepflanze heranwächst. Ernte das Getreide, indem du drauf klickst. Aber lass' die Pflanze nicht verrotten! Du züchtest am besten gleich mehrere Getreidepflanzen. 
+]]></BEGINNER_HEIDI_0010>
+<BEGINNER_HEIDI_0010A><![CDATA[Baue bitte Getreide an und gib mir etwas vom geernteten Getreide.
+
+]]></BEGINNER_HEIDI_0010A>
+<BEGINNER_HEIDI_0011><![CDATA[Ich habe dich gebeten, eine Getreidepflanze anzubauen und das Getreide zu ernten. Doch ich sehe, du kommst mit leeren Händen.
+Versuche es bitte nochmal. Du gibst mir das Getreide, indem du es aus deinem Rucksack in meinen verschiebst.
+]]></BEGINNER_HEIDI_0011>
+<BEGINNER_HEIDI_0012><![CDATA[Sehr gut gemacht! Da wird sich der Bäcker Bernard aber freuen. 
+]]></BEGINNER_HEIDI_0012>
+<BEGINNER_HEIDI_0013><![CDATA[Du machst dich super! Seh doch mal bei dem netten Bernard in der Bäckerei vorbei. Er kann leckere Brote und Kuchen backen. Du kannst nun für uns beide gleichzeitg arbeiten.
+]]></BEGINNER_HEIDI_0013>
+<BEGINNER_HEIDI_0013_B><![CDATA[Du machst dich super! Also gut, es ist soweit: Ab sofort öffnet die Bäckerei ihre heiligen Tore für dich. Bernard, der Bäcker, wird sich bestimmt auch über Gesellschaft freuen. Außerdem kann er das Getreide, das du vorhin geerntet hast, sehr gut gebrauchen, um leckere Brote und Kuchen zu backen. Du kannst jetzt gleichzeitig für ihn und für mich arbeiten. ]]></BEGINNER_HEIDI_0013_B>
+<BEGINNER_HEIDI_0014><![CDATA[Mach' dich auf was gefasst, denn jetzt ist schwere körperliche Arbeit gefragt! Aber ich sehe, du bist ganz fit, das wird bestimmt ein Klacks für dich! Ich brauche Holz, um den Ofen später anzumachen.]]></BEGINNER_HEIDI_0014>
+<BEGINNER_HEIDI_0014A><![CDATA[Klicke auf den Biber bei den Bäumen. So bekommst du Holz. Bringe mir einen kleinen Stapel, bitte. 
+]]></BEGINNER_HEIDI_0014A>
+<BEGINNER_HEIDI_0015><![CDATA[Ich sehe noch kein gehacktes Holz in deinem Rucksack. So kann ich dir keine neue Aufgaben geben. Versuch‘s bitte nochmal. Du brauchst nur auf den Biber am Baum zu klicken.
+]]></BEGINNER_HEIDI_0015>
+<BEGINNER_HEIDI_0016><![CDATA[Sehr gut! Na, spürst du schon, wie deine Muskeln wachsen? Ha, ha! So schwer war das wirklich nicht. Dankeschön! 
+
+]]></BEGINNER_HEIDI_0016>
+<BEGINNER_HEIDI_0017><![CDATA[Ich werde dir zeigen wie man ein Tier großzieht, dass uns mit nützlichen Zutaten versorgt. Dazu brauchen wir aber erst mal Tierfutter. Mach eine Baby-Pflanze, die du dann in Getreide weiterentwickelst. Aus der Getreidepflanze kannst du dann das Tierfutter machen, dazu brauchst du aber noch Dünger – den findest du bei Rose im Glashaus auf dem Boden.]]></BEGINNER_HEIDI_0017>
+<BEGINNER_HEIDI_0017A><![CDATA[Bitte pflanze Futter für meine Tiere und bring' mir das geerntete Tierfutter. Wenn du mehr Futter anpflanzst, kannst du einen Teil davon selbst behalten. ]]></BEGINNER_HEIDI_0017A>
+<BEGINNER_HEIDI_0018><![CDATA[Hast du das Tierfutter noch nicht geerntet? Ich habe keins bekommen. Das brauchen wir, um weiter zu machen. 
+]]></BEGINNER_HEIDI_0018>
+<BEGINNER_HEIDI_0019><![CDATA[Fein, fein! Ich habe das Gefühl, dass du das Zeug zu einem richtig guten Farmer hast.]]></BEGINNER_HEIDI_0019>
+<BEGINNER_HEIDI_0020><![CDATA[Es gibt super Neuigkeiten! Du kannst jetzt auch zu Rose ins tropische Gewächshaus gehen und bei ihr arbeiten.]]></BEGINNER_HEIDI_0020>
+<BEGINNER_HEIDI_0020A><![CDATA[Kannst du ein Geheimnis für dich bewahren? ]]></BEGINNER_HEIDI_0020A>
+<BEGINNER_HEIDI_0021><![CDATA[Also gut, aber verrate es niemandem! Ich finde Bernard, den Bäcker, total süß.]]></BEGINNER_HEIDI_0021>
+<BEGINNER_HEIDI_0022><![CDATA[Tsss...Dann werde ich dir natürlich auch kein Geheimnis verraten. Ich will ja nicht, dass es ausgeplaudert wird. 
+]]></BEGINNER_HEIDI_0022>
+<BEGINNER_HEIDI_0023><![CDATA[So, bei der letzten Aufgabe hast du gelernt, wie man Tierfutter anbaut. Dann können wir jetzt mit dem Tierzüchten anfangen! Wir fangen mit einer Kuh an. Im Gehege findest du Tierbabys. Nimm dir eins und züchte es zu einer Kuh in deinem Hof auf einem Strohhaufen.]]></BEGINNER_HEIDI_0023>
+<BEGINNER_HEIDI_0023A><![CDATA[Bitte züchte eine Kuh in deinem Hof auf einem Strohhaufen.
+]]></BEGINNER_HEIDI_0023A>
+<BEGINNER_HEIDI_0023B><![CDATA[Bevor du mit dem Züchten anfängst, schaue ich gerade mal schnell, ob denn nicht schon eine ausgewachsene Kuh im Gehege weidet. Wenn ja, könntest du sie nachher melken. Warte bitte einen Moment. ]]></BEGINNER_HEIDI_0023B>
+<BEGINNER_HEIDI_0024><![CDATA[Züchte bitte eine Kuh heran. Dafür musst du ein Tierbaby von dem Muttertier hier im Gehege holen und mit ihm zu deinem Haus gehen. Dort setzt du es auf das Stroh in deinem eigenen Gehege. Danach kannst du es zu einer Kuh weiter entwickeln. Komme wieder, wenn deine Kuh ausgewachsen ist.]]></BEGINNER_HEIDI_0024>
+<BEGINNER_HEIDI_0025><![CDATA[Nanu, deine Kuh ist ganz schön groß geworden! Die wird bestimmt viel Milch geben. Wie ich sehe, kannst du gut mit Tieren umgehen. Du hast das Herz am rechten Fleck! Gut gemacht!
+]]></BEGINNER_HEIDI_0025>
+<BEGINNER_HEIDI_0026><![CDATA[Das mit der selbst gezüchteten Kuh hast du ja in der letzten Aufgabe super hingekiegt. Bitte melke nun eine Kuh und bringe mir frische Milch. Du wirst eine Flasche brauchen, um die Milch abzufüllen. Leere Flaschen findest du hier auf der Sunnyfarm. 
+]]></BEGINNER_HEIDI_0026>
+<BEGINNER_HEIDI_0026A><![CDATA[Bring' mir bitte frische Milch. Am besten besorgst du gleich mehrere Flaschen. Die eine oder andere wirst du später gut gebrauchen können.]]></BEGINNER_HEIDI_0026A>
+<BEGINNER_HEIDI_0027><![CDATA[Wo bleibt die Milch? Ich habe noch keine bekommen. Du hast die Aufgabe noch nicht gelöst. Eine Kuh zu melken ist kein Hexenwerk. Versuch‘s nochmal mit ein klein bisschen mehr Fingerspitzengefühl. 
+]]></BEGINNER_HEIDI_0027>
+<BEGINNER_HEIDI_0028><![CDATA[Sehr schön, es gibt nichts leckereres als frisch gemolkene Milch. Und gesund ist es auch! Du hast gezeigt, dass du gut melken kannst. War doch gar nicht so schwer. Super! 
+
+
+]]></BEGINNER_HEIDI_0028>
+<BEGINNER_HEIDI_0029><![CDATA[Nun gut, du hast schon gelernt, wie man Kühe heranzüchtet. Jetzt brauchen wir Hühner, die Eier legen. Und woran erkennt man ein Huhn? An seiner roten Kralle, woran sonst! Das Tierbaby braucht einen roten Handschuh, damit daraus ein Huhn wird. ]]></BEGINNER_HEIDI_0029>
+<BEGINNER_HEIDI_0029A><![CDATA[Bringe mir bitte ein Ei von der Henne, die du gezüchtet hast. ]]></BEGINNER_HEIDI_0029A>
+<BEGINNER_HEIDI_0030><![CDATA[Hey, du wolltest mir doch ein Ei mitbringen. Schon vergessen? 
+]]></BEGINNER_HEIDI_0030>
+<BEGINNER_HEIDI_0031><![CDATA[Super! Du bist echt ein Segen für uns, Oloko wird ordentlich Futter bekommen! Es gibt auch jede Woche einen Wettbewerb, wo jeder versucht Oloko mit dem meisten Futter zu füttern. Du siehst hier ist immer was los!
+]]></BEGINNER_HEIDI_0031>
+<BEGINNER_HEIDI_0031A><![CDATA[Du bist ganz kurz davor ein Level aufzusteigen und Profi zu werden. Noch hast Du aber nicht alle Beginner-Aufgaben erledigt. Vielleicht gibt es bei Rose etwas zu tun. Oder in der Bäckerei, bei Bernard. ]]></BEGINNER_HEIDI_0031A>
+<BEGINNER_HEIDI_0032><![CDATA[Seh dich um ob du einem anderen Bewohner helfen kannst. Ich habe gerade keine weiteren Aufgaben für dich.
+]]></BEGINNER_HEIDI_0032>
+<BEGINNER_HEIDI_0033><![CDATA[Geh' und pflanz' in deinem Hof an.]]></BEGINNER_HEIDI_0033>
+<BEGINNER_ROGER_0001><![CDATA[Bonjour! Sie möchten also die hohe Kunst des Gourmet-Kochens erlernen? Bien. Aber zunächst müssen Sie sich ein wenig gedulden und bei den Anderen das Handwerk erlernen. Waren sie schon in Speedys Fast-Food-Restaurant? In Rogers Gourmet-Restaurant arbeiten nur Profis. Kommen Sie wieder, wenn Sie bereit sind. ]]></BEGINNER_ROGER_0001>
+<BEGINNER_ROSE_0001><![CDATA[Hallo $$name$$! Zuerst musst du deinen grünen Daumen auf der Farm beweisen und auch ein paar Aufgaben in der Bäckerei erledigen. Mein Garten wird bald seine Tore für dich öffnen. 
+]]></BEGINNER_ROSE_0001>
+<BEGINNER_ROSE_0002><![CDATA[Willkommen in meinem tropischen Gewächshaus!]]></BEGINNER_ROSE_0002>
+<BEGINNER_ROSE_0003><![CDATA[In meinem Garten wachsen die schönsten und süßesten Früchte. Damit sie so prächtig gedeihen, müssen sie liebevoll behandelt werden. Pflanze bitte einen Fruchtbaum. Dazu brauchst eine Baby-Pflanze, die du gießen und mit Holz düngen musst. ]]></BEGINNER_ROSE_0003>
+<BEGINNER_ROSE_0003A><![CDATA[Ernte bitte die Frucht, wenn sie reif ist und bring' sie mir. ]]></BEGINNER_ROSE_0003A>
+<BEGINNER_ROSE_0004><![CDATA[Nanu, wo bleibt die Frucht? 
+
+
+]]></BEGINNER_ROSE_0004>
+<BEGINNER_ROSE_0005><![CDATA[Sehr schön. Das hast du gut gemacht. Meine Früchte sind so süß, dass du einen leckeren Kuchen damit backen kannst. Aber das machst du dann später in der Bäckerei.
+]]></BEGINNER_ROSE_0005>
+<BEGINNER_ROSE_0006><![CDATA[Alarm, Alarm! Unsere schönen Fruchtbäume und Pflanzen wurden von Monster-Schädlingen befallen! Sie müssen so schnell wie möglich verjagt werden, sonst gehen die Pflanzen ein! Am besten du züchtest eine Monsterpflaze. Die Schädlinge sind sehr ängstlich und verschwinden beim Anblick der Monsterpflanze. Um eine solche Pflanze zu bekommen, musst du sie mit Horrorgeschichten füttern.
+
+]]></BEGINNER_ROSE_0006>
+<BEGINNER_ROSE_0006A><![CDATA[Bitte züchte die Monsterpflanze, um die Schädlinge zu verjagen. ]]></BEGINNER_ROSE_0006A>
+<BEGINNER_ROSE_0007><![CDATA[Die Schädlinge sind immer noch da... Sie werden noch meine Pflanzen auffressen! Züchte bitte eine Monsterpflanze. Aber schnell!]]></BEGINNER_ROSE_0007>
+<BEGINNER_ROSE_0008><![CDATA[Puuuuh! Das ist gerade noch gut gegangen! Tja...Manchmal gleicht mein Garten einem Gruselkabinett. Aber du bist unerschrocken. Vorbildlich! 
+]]></BEGINNER_ROSE_0008>
+<BEGINNER_ROSE_0009><![CDATA[In meinem Gewächshaus wachsen Pflanzen, die es besonders warm, feucht und sonnig mögen. Nur kommen gerade keine Sonnenstrahlen durch, bei diesen dreckigen Glaswänden. Bitte putze die Glaswände und lass' die Sonne rein! Dazu wirst du Seife, Wasser und einen Wischmop brauchen.]]></BEGINNER_ROSE_0009>
+<BEGINNER_ROSE_0009A><![CDATA[Putz' bitte die Wände im Gewächshaus und komm' wieder zu mir. ]]></BEGINNER_ROSE_0009A>
+<BEGINNER_ROSE_0010><![CDATA[Hmmm... Ich sehe da immer noch ein bisschen Dreck an den Glaswänden. Du hast sie noch nicht geputzt! 
+]]></BEGINNER_ROSE_0010>
+<BEGINNER_ROSE_0011A><![CDATA[Wunderschön! Jetzt erstrahlt mein Gewächshaus im hellsten Licht, herrlich! Wie ich sehe, hast du keine Scheu davor, dir auch mal die Hände schmutzig zu machen. Solche Mitarbeiter kann ich sehr gut gebrauchen! Toll! 
+]]></BEGINNER_ROSE_0011A>
+<BEGINNER_ROSE_0011B><![CDATA[Sieht aus, als ob du schon einiges an Erfahrung gesammelt hättest. Bald kannst du Profi werden. So schnell kann's gehen! Du hast aber noch nicht alle Beginner-Aufgaben erledigt. Guck' doch mal bei Heidi und Bernard vorbei. ]]></BEGINNER_ROSE_0011B>
+<BEGINNER_ROSE_0012A><![CDATA[Wunderbar, du hast den Beginner-Level geschafft!]]></BEGINNER_ROSE_0012A>
+<BEGINNER_SPEEDY_0001><![CDATA[Hi $$name$$. Willst du das Geheimnis meines Restaurants wissen? Wenn du in meinem Fast-Food-Restaurant arbeiten möchtest, musst du schnell sein! Du kannst dich erstmal in der Bäckerei und im tropischen Gewächshaus warm laufen und später nochmal zu mir kommen. Ich warte hier auf dich!]]></BEGINNER_SPEEDY_0001>
+<BRIDALBOUQUET><![CDATA[Brautbouquet]]></BRIDALBOUQUET>
+<BUTTERFLYBLOSSOM><![CDATA[Schmetterlingsblüte]]></BUTTERFLYBLOSSOM>
+<DUMMY><![CDATA[Schnuller]]></DUMMY>
+<EDGECASE_SPEEDY_1><![CDATA[Mir gefällt deine Begeisterung, aber leider kann ich dir noch nicht beibringen wie man Donuts macht. Zuerst musst du ein paar andere Dinge lernen. Gehe zum Treibhaus, rede mir Rose und erfülle ihre Aufgaben. Wenn du gelernt hast wie man Olivenöl herstellt kannst du wiederkommen, dann werde ich dir mehr Rezepte beibringen.]]></EDGECASE_SPEEDY_1>
+<EDGECASE_SPEEDY_2><![CDATA[Mir gefällt deine Begeisterung, aber leider kann ich dir noch nicht beibringen wie man Megapommes macht. Zuerst musst du ein paar andere Dinge lernen. Gehe zur Sunny Farm, rede mir Heidi und erfülle ihre Aufgaben. Wenn du gelernt hast wie man Megakartoffeln anbaut kannst du wiederkommen, dann werde ich dir mehr Rezepte beibringen.]]></EDGECASE_SPEEDY_2>
+<FIREBLOSSUM><![CDATA[Feuerblüte]]></FIREBLOSSUM>
+<GINGERBREADHEART><![CDATA[Lebkuchenherz]]></GINGERBREADHEART>
+<GOURMETLOBSTER><![CDATA[Gourmethummer]]></GOURMETLOBSTER>
+<HONEY><![CDATA[Honig]]></HONEY>
+<INTERNSHIP_BERNARD_01><![CDATA[Was? Wo bin ich? Wie spät ist es? Heidi? Ach so, hallo! Dich habe ich schon erwartet. Ich war nur kurz eingenickt, weißt du. Das kann schon mal passieren, wenn man so früh aufstehen muss wie ich! Die schöne Heidi lässt mich grüßen? Das hat sie noch nie gemacht! Vielen Dank! 
+]]></INTERNSHIP_BERNARD_01>
+<INTERNSHIP_BERNARD_02><![CDATA[Ach so, ich habe mich ja noch gar nicht vorgestellt, ich Dummkopf. Mein Name ist Bernard Breadstone und das ist meine Bäckerei. Hier wird gebacken, was das Herz begehrt. Dazu braucht man natürlich Feuer im Ofen. Es gibt zwei verschiedene Feuerstellen auf Oloko: Eine im Gewächshaus auf der Sunnyfarm und diese hier, in der Bäckerei. 
+]]></INTERNSHIP_BERNARD_02>
+<INTERNSHIP_BERNARD_03><![CDATA[Bitte bring' mir Feuer. Aber verbrenn' dir nicht die Pfoten dabei! ]]></INTERNSHIP_BERNARD_03>
+<INTERNSHIP_BERNARD_04><![CDATA[Aber...du wolltest mir doch Feuer bringen. Siehst du die Feuerstelle hier? Du brauchst nur hinzugehen und es dir zu nehmen. ]]></INTERNSHIP_BERNARD_04>
+<INTERNSHIP_BERNARD_05><![CDATA[Gut gemacht! Wie du siehst, geht es bei mir in der Bäckerei ganz schön heiß her, ha ha! Wenn du willst, kannst du später wieder zu mir kommen. Geh' jetzt wieder auf die Sunnyfarm und sag' „Hallo“ zu Rose. Sie ist im Gewächshaus. Bis später! ]]></INTERNSHIP_BERNARD_05>
+<INTERNSHIP_HEIDI_01><![CDATA[Grüß dich! Willkommen auf der Sunnyfarm! Ich bin Heidi Cornwall. Du kannst dich hier gerne umsehen. Es gibt ein Feld, ein Gehege und Tiere. Die fruchtbare Erde lässt die Pflanzen regelrecht aus dem Boden sprießen! Doch dazu braucht man ein Samenkorn. Geh' bitte ins Gewächshaus und ernte ein Samenkorn von der Magischen Blume. Komm' mit dem Samenkorn wieder zu mir, bitte. ]]></INTERNSHIP_HEIDI_01>
+<INTERNSHIP_HEIDI_02><![CDATA[Hey, ich habe noch kein Samenkorn von dir bekommen. Du findest es hier im Gewächshaus. Da steht eine Magische Blume, die Samenkörner versprüht, wenn du sie anklickst. Komm' wieder, wenn du mir ein Samenkorn geben kannst. Ich brauch's, um weiter zu machen. ]]></INTERNSHIP_HEIDI_02>
+<INTERNSHIP_HEIDI_03><![CDATA[Super, danke! Jetzt weißt du, wo die Magische Blume ist. Das ist wahrscheinlich die wichtigste Blume in ganz Oloko. Als Blüte trägt sie Samenkörner, aus denen die Baby-Pflanze wachsen kann. Die Baby-Pflanze wirst du noch sehr oft brauchen, aber dazu später mehr. ]]></INTERNSHIP_HEIDI_03>
+<INTERNSHIP_HEIDI_04><![CDATA[Geh' jetzt bitte in die Bäckerei. Klicke einfach auf die Landkarte und suche die Old Mill. Dort findest du die Bäckerei. Bernard wird da schon auf dich warten...wenn er nicht mal wieder eingeschlafen ist, die alte Schnarchnase! Und richte ihm bitte schöne Grüße aus.
+
+]]></INTERNSHIP_HEIDI_04>
+<INTERNSHIP_ROGER_01><![CDATA[Bonjour! Wie excellent, Sie zu sehen. Sie können gerne später zu mir kommen, aber zuerst sollten Sie das Fast-Food-Restaurant kennen lernen. Gehen Sie hin und fragen den Besitzer Speedy, ob Sie etwas für ihn tun können. 
+]]></INTERNSHIP_ROGER_01>
+<INTERNSHIP_ROGER_02><![CDATA[Bonjour! Willkommen in meinem Gourmet-Restaurant! Bei mir, Roger Ragout, lernen Sie die hohe Kunst der Essenszubereitung. Denn gute Köche sind wahre Künstler, oui oui. Für mich ist das Beste gerade noch gut genug.]]></INTERNSHIP_ROGER_02>
+<INTERNSHIP_ROGER_03><![CDATA[Nun gut, genug geplänkelt. Roger braucht dringend frischen Fisch für ein Gourmet-Gericht. Bitte gehen sie zum Fluss direkt neben diesem Restaurant und benutzen Sie dort die Angel. Bestimmt zappelt schon ein Fisch daran. Bringen Sie mir, Roger, frischen Fisch, bitte! ]]></INTERNSHIP_ROGER_03>
+<INTERNSHIP_ROGER_04><![CDATA[Was nun, wo bleibt der Fisch? In Carrot Town vor der Tür, an der Old Mill und am Sugar Peak finden sie Angeln und natürlich frischsten Fisch für mich, Roger!]]></INTERNSHIP_ROGER_04>
+<INTERNSHIP_ROGER_05><![CDATA[Formidable! Merci! Mit diesem Fisch wird Roger ein köstliches Gourmet-Gericht zaubern. Das wird Roger der entzückenden Rose servieren. Sie haben sie schon kennengelent, nicht wahr? Eine Perfektionistin, genauso wie ich. Jeden Tag ergötzt sie sich an Rogers Kreationen. Kommen Sie später wieder, dann wird Roger Sie in die hohe Kunst des Gourmet-Kochens einweihen. ]]></INTERNSHIP_ROGER_05>
+<INTERNSHIP_ROSE_01><![CDATA[Hallo, ich bin gerade sehr beschäftigt. Kannst du bitte später nochmal zu mir kommen? Dann werde ich mehr Zeit haben, dir meinen Garten zu zeigen. Ich freue mich schon darauf! Bis später dann! 
+]]></INTERNSHIP_ROSE_01>
+<INTERNSHIP_ROSE_02><![CDATA[Einen wunderschönen guten Tag! Ach, wo sind denn meine guten Manieren. Darf ich mich vorstellen: Mein Name ist Rose Green und das ist mein geliebter Garten. Sieh dich ruhig um, aber sei bitte vorsichtig, wo du hintrittst! Ich hänge sehr an meinen Pflanzen. 
+
+]]></INTERNSHIP_ROSE_02>
+<INTERNSHIP_ROSE_03><![CDATA[Kannst du mir einen Gefallen tun? Ich bräuchte etwas Wasser für meine Blumen. Du findest es hier im Gewächshaus, aber auch an vielen anderen Orten wie einem Fluß und einem Brunnen. Bitte reiche mir etwas davon. ]]></INTERNSHIP_ROSE_03>
+<INTERNSHIP_ROSE_04><![CDATA[Dankeschön! So werden die Blumen sprießen! Später werde ich dir mehr zeigen. Geh' jetzt bitte nach Carrot Town, in das Fast-Food-Restaurant zu Speedy. 
+]]></INTERNSHIP_ROSE_04>
+<INTERNSHIP_SPEEDY_01><![CDATA[Ah, hallo! Sorry, aber ich bin gerade etwas in Eile. Kannst du später nochmal vorbei kommen, bitte? 
+]]></INTERNSHIP_SPEEDY_01>
+<INTERNSHIP_SPEEDY_02><![CDATA[Hallo! So, jetzt habe ich eine Sekunde. Vielleicht sogar mehr! Ich bin Speedy. Mir gehört dieses Fast-Food-Restaurant. Bei uns wird der Hunger sofort gestillt. So kann erst keine schlechte Laune entstehen. Aber es ist auch viel Arbeit, unsere Gäste bei Laune zu halten. Und schnell muss man sein!]]></INTERNSHIP_SPEEDY_02>
+<INTERNSHIP_SPEEDY_03><![CDATA[Gerade brauche ich dringend frischen Schnee für den Milchshake. Bitte geh' zum Sugar Peak ganz oben im Norden und bring' mir eine Handvoll Schnee. Ich warte solange hier. ]]></INTERNSHIP_SPEEDY_03>
+<INTERNSHIP_SPEEDY_04><![CDATA[Hey, wo ist der Schnee? Auf dem Sugar Peak oben im Norden gibt es welchen. Bring' mir ein bisschen Schnee für den Milchshake, bitte. ]]></INTERNSHIP_SPEEDY_04>
+<INTERNSHIP_SPEEDY_05><![CDATA[Cool, danke! So, ich muss weiter machen. Jetzt kannst du ins Gourmet-Restaurant gehen. Dort wirst du den Chefkoch Roger kennenlernen. Bestimmt will er wieder Rose mit seinen ausgefallenen Gerichten beeindrucken, tsss! See you later, alligator! ]]></INTERNSHIP_SPEEDY_05>
+<MASTER_BERNARD_0037><![CDATA[Ab sofort befindest du dich im Master-Level. Nur die besten Bäcker kommen so weit!
+]]></MASTER_BERNARD_0037>
+<MASTER_BERNARD_0038><![CDATA[So, nun kriegst du eins auf die Nase...Oder eher in die Nase, ha ha! Backe eine große Stinkepizza! Dafür brauchst du Teig, ein bisschen Olivenöl, Ketchup und natürlich ganz viel Stinkekäse. Den hast du schon bei Heidi auf der Farm gemacht, oder? Wenn nicht, musst du vorher noch den Stinkekäse machen. ]]></MASTER_BERNARD_0038>
+<MASTER_BERNARD_0038A><![CDATA[Bitte backe uns eine schöne Stinkekäsepizza. Bring' sie mir, wenn sie fertig ist, bitte. 
+]]></MASTER_BERNARD_0038A>
+<MASTER_BERNARD_0039><![CDATA[Ich sehe keine Stinkepizza...und vor allem: Ich rieche sie nicht!
+]]></MASTER_BERNARD_0039>
+<MASTER_BERNARD_0040><![CDATA[Aaaah, wunderbar. Das duftet aber! Ich bin ganz von den Socken!
+]]></MASTER_BERNARD_0040>
+<MASTER_BERNARD_0041><![CDATA[Übrigens ist gerade auch das Gourmet-Restaurant für dich eröffnet worden. ]]></MASTER_BERNARD_0041>
+<MASTER_BERNARD_0042><![CDATA[Ob du das Zeug zum Master-Bäcker hast, kannst du mir jetzt beweisen. Backe für mich und Heidi einen leckeren Käsekuchen. Das ist nämlich Heidis Lieblingskuchen! Das wird sie aus den Socken hauen. 
+Du wirst ganz viele besondere Zutaten brauchen. Gib dir schön Mühe! Und lass' den Kuchen auf keinen Fall verbrennen, ja? ]]></MASTER_BERNARD_0042>
+<MASTER_BERNARD_0042A><![CDATA[Bitte backe Heidis Lieblings-Käsekuchen. Bring' mir den Kuchen, sobald er fertig ist, okay?]]></MASTER_BERNARD_0042A>
+<MASTER_BERNARD_0043><![CDATA[Wo bleibt denn der Käsekuchen? So langsam werde ich aber nervös!
+]]></MASTER_BERNARD_0043>
+<MASTER_BERNARD_0044><![CDATA[Toll, toll, toll! Ein Käsekuchen, wie man ihn sich nur erträumen kann! Ich danke dir! 
+]]></MASTER_BERNARD_0044>
+<MASTER_BERNARD_0044A><![CDATA[Jetzt ist aber eine kleine Pause angesagt. Komm' später wieder, dann zeige ich dir noch mehr. ]]></MASTER_BERNARD_0044A>
+<MASTER_BERNARD_0044B><![CDATA[Super gemacht, $$name$$! Du hast nicht nur gezeigt, dass du ein super Bäcker bist, du hast mir auch zur Liebe meines Lebens verholfen. Dafür werde ich dir für immer dankbar sein!]]></MASTER_BERNARD_0044B>
+<MASTER_BERNARD_0045><![CDATA[Hast du schon einen gigantischen Cupcake gebacken? Nein? Dann wird’s aber Zeit! Man nehme frischen Teig für einen Kuchenboden und gebe dazu ein paar Tropfen Olivenöl und etwas Zucker. Für die Creme brauchen wir Butter, ein bisschen frischen Schnee und natürlich zart schmelzende Schokolade. ]]></MASTER_BERNARD_0045>
+<MASTER_BERNARD_0045A><![CDATA[Bitte bringe mir einen gigantischen Cupcake, wenn du einen gebacken hast. ]]></MASTER_BERNARD_0045A>
+<MASTER_BERNARD_0046><![CDATA[Na, hast du den Cupcake selbst verdrückt, oder wo bleibt er?]]></MASTER_BERNARD_0046>
+<MASTER_BERNARD_0047><![CDATA[Hmmm...da möchte man doch sofort reinbeißen, so lecker sieht dein gigantischer Cupcake aus. Aber ich muss ja ein bisschen auf meine Linie achten. Danke! ]]></MASTER_BERNARD_0047>
+<MASTER_BERNARD_0048><![CDATA[So, jetzt wird deine Geduld auf die Probe gestellt. Ich zeig' dir, wie man eine Schichttorte backt! Wie der Name schon verrät, besteht sie aus vielen Schichten, die abwechselnd gebacken werden müssen. Dazu wirst du viel Teig für den Kuchenboden und die Schichten, Zucker und Schokolade brauchen. Oben drauf kommen noch ein paar Früchte.]]></MASTER_BERNARD_0048>
+<MASTER_BERNARD_0048A><![CDATA[Bitte bring' mir eine fertige Schichttorte. ]]></MASTER_BERNARD_0048A>
+<MASTER_BERNARD_0049><![CDATA[Wo bleibt die Schichttorte? Hast du vielleicht eine Tortenschlacht gemacht, he he?]]></MASTER_BERNARD_0049>
+<MASTER_BERNARD_0050><![CDATA[Wow! Deine Schichttorte ist super geworden! Gut gemacht! ]]></MASTER_BERNARD_0050>
+<MASTER_BERNARD_0051A><![CDATA[So, ich gönne meinem Ofen erstmal eine Verschnaufpause und lasse das Feuer ausgehen. A propos Feuer: Rose möchte dir zeigen, wie man eine Feuerblume anbaut. Noch hat sie zu tun, aber geh' doch nächste Woche zu ihr und frag' sie danach. ]]></MASTER_BERNARD_0051A>
+<MASTER_BERNARD_0051B><![CDATA[So, ich gönne mir eine Verschnaufpause. Aber Rose möchte dir zeigen, wie man eine Feuerblume anbaut. Geh' zu ihr und frag' sie danach.]]></MASTER_BERNARD_0051B>
+<MASTER_BERNARD_0052><![CDATA[Bei mir ist gerade so ein bisschen der Ofen aus. Aber schau' doch mal später hier vorbei. Es wird bestimmt noch was zu tun geben. ]]></MASTER_BERNARD_0052>
+<MASTER_BERNARD_0053><![CDATA[Lass' uns ein Lebkuchenherz backen! Ich verrate dir etwas: Mit einem Lebkuchenherz kannst du deinem Schwarm deine Gefühle zeigen, ohne ein Wort zu sagen. Als Grundlage dafür brauchst du ein Brot. Damit es aber wirklich lecker schmeckt, braucht es noch viel mehr Zutaten. Du wirst schon sehen! ]]></MASTER_BERNARD_0053>
+<MASTER_BERNARD_0053A><![CDATA[Bitte backe ein Lebkuchenherz und bring' es mir. ]]></MASTER_BERNARD_0053A>
+<MASTER_BERNARD_0054><![CDATA[Hey, du hast mir doch ein Lebkuchenherz versprochen. ]]></MASTER_BERNARD_0054>
+<MASTER_BERNARD_0055><![CDATA[Wow! Du hast aber ein prächtiges Lebkuchenherz gebacken. Danke! Ich werde es Heidi schenken. Sie wird ausflippen! ]]></MASTER_BERNARD_0055>
+<MASTER_BERNARD_0056><![CDATA[So, jetzt geht's um die Wurst! Naja, fast. Eigentlich geht es um eine Torte. Meine Hochzeitstorte! Das soll die leckerste Hochzeitstorte werden, die je gebacken wurde! Deswegen sollte sie im Mega-Ofen im Gourmet-Restaurant gemacht werden. Also mach' dich mal an die Arbeit, bitte! ]]></MASTER_BERNARD_0056>
+<MASTER_BERNARD_0056A><![CDATA[Bitte backe die beste Hochzeitstorte, die Oloko je gesehen hat!]]></MASTER_BERNARD_0056A>
+<MASTER_BERNARD_0057><![CDATA[Mann, langsam werde ich nervös. Was ist denn mit meiner Hochzeitstorte? ]]></MASTER_BERNARD_0057>
+<MASTER_BERNARD_0058><![CDATA[Suuuper! Die Hochzeitstorte ist erste Sahne! Da kann nichts mehr schief gehen! Du hast dich nicht nur als ausgezeichneter Bäcker bewiesen, du hast mir auch zu meinem Glück verholfen! Sei mein Ehrengast auf meiner Hochzeit! ]]></MASTER_BERNARD_0058>
+<MASTER_BERNARD_0059A><![CDATA[Aber schau' nächste Woche mal bei Speedy vorbei. Ich glaube, er hat noch ein paar Aufgaben für dich. ]]></MASTER_BERNARD_0059A>
+<MASTER_BERNARD_0059B><![CDATA[Schau' doch gleich mal bei Speedy vorbei. Ich glaube, er hat noch ein paar Aufgaben für dich.]]></MASTER_BERNARD_0059B>
+<MASTER_HEIDI_0053><![CDATA[Ich gratuliere! Du hast den Master-Level erreicht. ]]></MASTER_HEIDI_0053>
+<MASTER_HEIDI_0054><![CDATA[Magst du Pommes? Schön saftige, goldgelbe und knusprige Pommes kriegst du in unserem Fast-Food-Restaurant. Die sind nur deswegen so gut, weil sie aus der Megakartoffel von meiner Farm gemacht werden. Auch du sollst wissen, wie man eine Megakartoffel anbaut. Das ist gar nicht so einfach und erfordert viel Geschick und Zeit! Die Grundzutat dafür ist die magische Möhre. Wie man diese anbaut, hast du schon bei Rose im Tropischen Garten gelernt, nicht wahr? Wenn nicht, dann wäre es jetzt höchste Zeit! Dann wirst du noch Sand aus dem Gewächshaus brauchen, denn die Megakartoffel mag es schön sandig. Noch ein bisschen Dünger dazu und schon kannst du die Megakartoffel wachsen sehen. ]]></MASTER_HEIDI_0054>
+<MASTER_HEIDI_0054A><![CDATA[Ernte bitte die Megakartoffel und bring' sie mir.]]></MASTER_HEIDI_0054A>
+<MASTER_HEIDI_0055><![CDATA[Du hast mir noch keine Mega-Kartoffel gegeben. Komme erst zu mir, wenn du die Aufgabe erledigt hast. ]]></MASTER_HEIDI_0055>
+<MASTER_HEIDI_0056><![CDATA[Wow, die ist ja riesig! Da wird sich Speedy aus dem Fast-Food-Restaurant freuen. Daraus wird er leckere Mega-Pommes machen. Sehr gut!]]></MASTER_HEIDI_0056>
+<MASTER_HEIDI_0057><![CDATA[Gerade hat auch das Gourmet-Restaurant für dich eröffnet. Roger wird sich freuen, dir seine Kochkünste beizubringen. ]]></MASTER_HEIDI_0057>
+<MASTER_HEIDI_0058><![CDATA[So, du machst dich wirklich gut, muss ich sagen. Aber jetzt gibt es eine Feuerprobe! Bau' bitte eine Hot Chili Pflanze an. Aber ich warne dich, nasche besser nicht von der Frucht! Diese Schärfe kann einzig und allein unsere Schildkröte vertragen. Hot Chilis sind nichts für zarte Gaumen wie die unseren!]]></MASTER_HEIDI_0058>
+<MASTER_HEIDI_0058A><![CDATA[Baue bitte eine Hot Chili Pflanze an und bring' mir die geernteten Chilis. ]]></MASTER_HEIDI_0058A>
+<MASTER_HEIDI_0059><![CDATA[Nanu, wo bleiben die Chilis? Noch hast du die Feuerprobe nicht bestanden. ]]></MASTER_HEIDI_0059>
+<MASTER_HEIDI_0060><![CDATA[Super, du hast die Feuerprobe bestanden! Gut gemacht!]]></MASTER_HEIDI_0060>
+<MASTER_HEIDI_0061><![CDATA[So, jetzt kommt deine Master-Aufgabe. Wenn du die schaffst, dann bist du der beste Farmer, der mir je unter die Augen gekommen ist! Braue bitte Medizin für die Schildkröte. Wenn sie Bauchweh hat, ist sie nicht zum Spaßen aufgelegt. Es wird nicht einfach sein, denn es sind sehr viele Zutaten, die du mischen musst. Die Grundlage des Getränks, Milch, kommt in die Flasche des Schluckauffrosches. Der Schluckauffrosch lebt im Gewächshaus im Tropischen Garten – hast du bestimmt schon gesehen. Dann noch einen Klecks Ketchup hinzu, eine magische Möhre, die superscharfe Hot Chili und ein bisschen Olivenöl. Das alles wird vom Schluckauffrosch ordentlich geschüttelt. Aber pass' auf: Wenn du den Frosch zu lange schütteln lässt, fängt er an, übel zu riechen! ]]></MASTER_HEIDI_0061>
+<MASTER_HEIDI_0061A><![CDATA[Bitte braue Medizin für die Schildkröte und bring' sie mir. ]]></MASTER_HEIDI_0061A>
+<MASTER_HEIDI_0062><![CDATA[Du hast mir noch keine Schildkröten-Medizin gegeben.]]></MASTER_HEIDI_0062>
+<MASTER_HEIDI_0063><![CDATA[Dankeschön! Unsere Oloko kann jetzt getrost krank werden, denn du weißt, wie man sie wieder gesund pflegen kann. Sehr gut gemacht! ]]></MASTER_HEIDI_0063>
+<MASTER_HEIDI_0063A><![CDATA[Also ich weiß nicht, wie es um dich steht, aber ich bin ganz schön erschöpft und muss mich mal kurz ausruhen. Guck' doch mal bei anderen, ob sie etwas für dich zu tun haben und komm' später wieder zu mir.]]></MASTER_HEIDI_0063A>
+<MASTER_HEIDI_0064><![CDATA[Nun kommen wir zu einem besonders süßen Pflänzchen: der Schokopflanze! Als Grundlage brauchst du die Süßigkeitenpflanze. Diese muss ordentlich gedüngt werden: Mit Dünger, ein paar Tropfen Olivenöl, Zucker und Trüffeln. Wenn die Pflanze reif ist, trägt sie Schokoriegel als Früchte! ]]></MASTER_HEIDI_0064>
+<MASTER_HEIDI_0064A><![CDATA[Ernte bitte einen Schokoriegel, wenn die Schokopflanze fertig ist und gib ihn mir. ]]></MASTER_HEIDI_0064A>
+<MASTER_HEIDI_0065><![CDATA[Nanu, ich sehe noch keinen Schokoriegel?! Oder hast du etwa heimlich genascht? ]]></MASTER_HEIDI_0065>
+<MASTER_HEIDI_0066><![CDATA[Hmmm...schöner, reifer Schokoriegel. Der wird auf der Zunge zergehen. Dankeschön! ]]></MASTER_HEIDI_0066>
+<MASTER_HEIDI_0067><![CDATA[Jetzt wird’s ein bisschen pieksig, denn wir pflanzen Stachelbeeren! Dazu musst du die Fruchtpflanze düngen. Für die giftgrüne Farbe brauchst du einen Kuhfurz. Dann kommen ein paar Kaktusstacheln dazu. Die findest du beim weisen Baum. Damit du dir die Pfoten nicht verkratzt, brauchst du noch einen roten Handschuh, die gibts hier. ]]></MASTER_HEIDI_0067>
+<MASTER_HEIDI_0067A><![CDATA[Bitte bring' mir ein paar reife Stachelbeeren. ]]></MASTER_HEIDI_0067A>
+<MASTER_HEIDI_0068><![CDATA[Hast du dich etwa gepiekst und die Stachelbeeren fallen lassen? Aber ich brauche welche! Bitte bring' mir ein paar reife Stachelbeeren. ]]></MASTER_HEIDI_0068>
+<MASTER_HEIDI_0069><![CDATA[Sehr gut, danke! Die Stachelbeeren kann Roger sehr gut für seinen Kugelfisch gebrauchen. ]]></MASTER_HEIDI_0069>
+<MASTER_HEIDI_0070A><![CDATA[So, momentan gibt es auf meiner Farm nichts zu tun. Aber ich habe gehört, dass Bernard dir was zeigen will. Schau' doch nächste Woche bei ihm vorbei. ]]></MASTER_HEIDI_0070A>
+<MASTER_HEIDI_0070B><![CDATA[So, momentan gibt es auf meiner Farm nichts zu tun. Aber ich habe gehört, dass Bernard dir was zeigen will. Schau' doch gleich bei ihm vorbei. ]]></MASTER_HEIDI_0070B>
+<MASTER_HEIDI_0071><![CDATA[Gerade ist nicht so viel los auf meiner Farm. Versuch' es später nochmal. ]]></MASTER_HEIDI_0071>
+<MASTER_HEIDI_0072><![CDATA[Hühner haben wir schon. Kühe auch. Was noch fehlt, sind Bienen! Um Bienen zu züchten, braucht man viel Fingerspitzengefühl. Du willst schließlich nicht gestochen werden, oder? Also setz' ein Baby-Tier auf den Strohballen in deinem Gehege und füttere es mit Zucker, Fruchtsaft und einer Magischen Karotte. Und schon wird ein prächtiger Bienenstock draus!]]></MASTER_HEIDI_0072>
+<MASTER_HEIDI_0072A><![CDATA[Bitte züchte einen Bienenstock heran. ]]></MASTER_HEIDI_0072A>
+<MASTER_HEIDI_0073><![CDATA[Ich höre kein Summen. Dein Bienenstock scheint noch nicht fertig zu sein. ]]></MASTER_HEIDI_0073>
+<MASTER_HEIDI_0073A><![CDATA[Bevor du mit dem Züchten anfängst, schaue ich gerade mal schnell, ob denn nicht schon ein Bienenstock im Gehege steht. Warte bitte einen Moment. ]]></MASTER_HEIDI_0073A>
+<MASTER_HEIDI_0074><![CDATA[Einen prächtigen Bienenstock hast du hingekriegt! Super gemacht! ]]></MASTER_HEIDI_0074>
+<MASTER_HEIDI_0075><![CDATA[Es gibt kaum was Süßeres als kleine Babys. Meine Baby-Bananen sehen nicht nur süß aus, sie schmecken auch so! Probier’s selbst aus. Du kannst aus einer Fruchtpflanze Baby-Bananen züchten, wenn du sie mit Sonnenmilch düngst und mit gelber Farbe anstreichst. Wie bei fast allen Babys darfst du auch bei der Banane den Schnuller nicht vergessen, he he!]]></MASTER_HEIDI_0075>
+<MASTER_HEIDI_0075A><![CDATA[Bitte bring' mir eine reife Baby-Banane. ]]></MASTER_HEIDI_0075A>
+<MASTER_HEIDI_0076><![CDATA[Nanu? Hat dir etwa ein hungriger Affe die Banane geklaut? Komm' bitte wieder, wenn du die Aufgabe erledigt hast. ]]></MASTER_HEIDI_0076>
+<MASTER_HEIDI_0077><![CDATA[Sowas nenne ich eine sonnengereifte Baby-Banane! Danke! Du bist ein hervorragender Farmer! Ich habe dir alles gezeigt. Mehr gibt es auf meiner Farm nicht zu tun. ]]></MASTER_HEIDI_0077>
+<MASTER_HEIDI_0078A><![CDATA[Aber ich habe gehört, dass Rose dir nächste Woche die Bienenblumen zeigen möchte. Wir sehen uns eines Tages auf meiner Hochzeit! Mach’s gut! ]]></MASTER_HEIDI_0078A>
+<MASTER_HEIDI_0078B><![CDATA[Aber ich hoffe doch, du kommst zu meiner Hochzeit?! Ich bitte darum! Schließlich haben Bernard und ich dank deiner Hilfe zueinander gefunden. Sei unser Ehrengast! Doch jetzt wartet erst mal Rose mit neuen Aufgaben auf dich. ]]></MASTER_HEIDI_0078B>
+<MASTER_HEIDI_0078C><![CDATA[Ich habe gehört, dass Rose dir nächste Woche die Bienenblume zeigen möchte. Wir sehen uns eines Tages auf meiner Hochzeit! Mach's gut! ]]></MASTER_HEIDI_0078C>
+<MASTER_ROGER_0003><![CDATA[Salut! Sie sind also bereit, die hohe Kunst des Gourmet-Kochens zu erlernen. Formidable! ]]></MASTER_ROGER_0003>
+<MASTER_ROGER_0004><![CDATA[Aha, Sie wollen also Chef-Gourmet werden, was? Das will Roger doch mal sehen. Als erstes bereiten Sie bitte ein Fischfilet zu. Dafür nehmen Sie frischen Fisch, der in Butter geschwenkt und mit feinsten Kräutern zubereitet wird. Das ganze wird dann im Mega Ofen überbacken.]]></MASTER_ROGER_0004>
+<MASTER_ROGER_0004A><![CDATA[Bitte bereiten Sie das Fischfilet zu.]]></MASTER_ROGER_0004A>
+<MASTER_ROGER_0005><![CDATA[Rogers feine Nase riecht noch kein mit Kräutern überbackenes Fisch-Filet. Roger hat noch keins bekommen.]]></MASTER_ROGER_0005>
+<MASTER_ROGER_0006><![CDATA[Gut, gut. Das mit dem Fisch-Filet hat für's erste vorzüglich geklappt.]]></MASTER_ROGER_0006>
+<MASTER_ROGER_0007><![CDATA[Jetzt dürfen Sie einen Kicherkuchen backen. Dazu brauchen Sie Teig, einen Schuss Olivenöl und natürlich Zucker. Die Zutaten schieben Sie in den supermodernen Mega-Ofen. Roger wünscht Ihnen viel Erfolg! ]]></MASTER_ROGER_0007>
+<MASTER_ROGER_0007A><![CDATA[Backen Sie einen Kicherkuchen und geben Sie ihn mir, bitte. ]]></MASTER_ROGER_0007A>
+<MASTER_ROGER_0008><![CDATA[Nanu. Sie haben mir noch keinen Kicherkuchen gegeben. Kommen Sie wieder, wenn Sie mit der Aufgabe fertig sind.]]></MASTER_ROGER_0008>
+<MASTER_ROGER_0009><![CDATA[Excellent. Sie sind wirklich richtig gut, das muss Roger schon zugeben. Dieser Kuchen wird jeden Gast anlachen! ]]></MASTER_ROGER_0009>
+<MASTER_ROGER_0010><![CDATA[In einem Gourmet-Restaurant müssen Sie auf Zack sein mit Gerichten aus allen Ländern. Wie mit dem Sushi aus Asien zum Beispiel. Mal sehen, wie Ihre internationalen Kochkenntnisse aussehen. Und nicht vergessen: Das Auge isst mit! Schöne, gleichmäßige Sushi-Röllchen machen! ]]></MASTER_ROGER_0010>
+<MASTER_ROGER_0010A><![CDATA[Bereiten Sie bitte Sushi vor und kommen Sie damit wieder zu mir. ]]></MASTER_ROGER_0010A>
+<MASTER_ROGER_0011><![CDATA[Non, non. Ich habe noch kein Sushi bekommen. Kommen Sie wieder, wenn Sie Sushi gemacht haben.]]></MASTER_ROGER_0011>
+<MASTER_ROGER_0012><![CDATA[Formidable! Merci beaucoup! ]]></MASTER_ROGER_0012>
+<MASTER_ROGER_0013><![CDATA[Ah, für das nächste Gericht bräuchte Roger noch ein paar Sternkräuter. Gehen Sie zu Rose in den Garten und fragen Sie sie danach. ]]></MASTER_ROGER_0013>
+<MASTER_ROGER_0014><![CDATA[Waaaas? Rose hat die Sternkräuter gar nicht angebaut?! Zut alors! Und wie soll Roger jetzt seine berühmte Stern-Mousse machen? Da bekocht Roger sie jeden Tag mit den besten Gourmet-Gerichten, damit er stets die frischesten und seltensten Zutaten aus ihrem Garten bekommt und sie baut nicht einmal Sternkräuter an! Das ist ja eine Unverschämtheit! Bei Roger im Restaurant braucht sie sich nicht mehr blicken lassen, die undankbare Rose!
+]]></MASTER_ROGER_0014>
+<MASTER_ROGER_0015><![CDATA[Rogers Restaurant rühmt sich mit den selbst gemachten, feinen Trüffelpralinen. Die werden aus seltenen Trüffeln gemacht, die gar nicht einfach zu finden sind. Diese müssen Sie am Flower Hill suchen. Wenn Sie Trüffel gefunden haben, tun Sie sie in den Mixer. 
+Noch Zucker und Eier dazu - fertig. Dann mal los! ]]></MASTER_ROGER_0015>
+<MASTER_ROGER_0015A><![CDATA[Bringen Sie mir die fertigen Trüffelpralinen, bitte. ]]></MASTER_ROGER_0015A>
+<MASTER_ROGER_0016><![CDATA[Wo bleiben die Trüffelpralinen? Sie haben mir noch keine Trüffelpralinen gegeben, Sie können keine neue Aufgabe bekommen. ]]></MASTER_ROGER_0016>
+<MASTER_ROGER_0017><![CDATA[Excellent! Die Trüffelpralinen sind Ihnen sehr gut gelungen. Rogers Glückwunsch! Sie werden mal ein richtig guter Gourmetkoch. ]]></MASTER_ROGER_0017>
+<MASTER_ROGER_0018><![CDATA[Sind Sie bereit für die Chef-Aufgabe? Bereiten Sie ein Mega-Menü zu. Als Hauptgang gibt es Gallo Bomba und zum Dessert das exotische Eis Glace Fatal. Eine wahre Gaumenfreude für Genießer! Für den Hauptgang werden Sie magische Möhren, Wasser und ein Hühnchen brauchen, das mit Oliven drapiert und in Butter geschwenkt wird. Danach kommt das Dessert. Neben Trüffeln brauchen Sie für das Glace Fatal noch Eisblume und Schnee. Mal sehen, wie gut es Ihnen gelingt. ]]></MASTER_ROGER_0018>
+<MASTER_ROGER_0018A><![CDATA[Bereiten Sie bitte das Mega-Menü vor und kommen Sie mit Gallo Bomba und Glace Fatal wieder zu mir. ]]></MASTER_ROGER_0018A>
+<MASTER_ROGER_0019><![CDATA[Bitte kommen Sie wieder, wenn Sie mit dem Menü fertig sind und geben Sie es mir. Ich habe Zeit, ich warte hier. ]]></MASTER_ROGER_0019>
+<MASTER_ROGER_0020><![CDATA[Formidable! Das haben Sie erstklassig gemeistert!]]></MASTER_ROGER_0020>
+<MASTER_ROGER_0020A><![CDATA[Also ich weiß nicht, wie es Ihnen geht, aber ich lege jetzt eine kleine Verdauungspause ein. Bitte kommen Sie später wieder, dann bringe ich Ihnen weitere Gourmetspeisen bei. ]]></MASTER_ROGER_0020A>
+<MASTER_ROGER_0021><![CDATA[Bonjour! Nett, Sie wiederzusehen! Sie wollen noch mehr über die Kunst des Gourmet-Kochens lernen? Kein Problem! Dann machen Sie bitte ein Stachelbeer-Parfait. Es ist ein vorzügliches, eisgekühltes Dessert aus Wasser, Zucker, Eis, Stachelbeeren und einem Hauch Schokolade. Das alles wird vom Schluckauffrosch durchgeschüttelt, wodurch diese Speise ihre besonders geschmeidige Konsistenz gewinnt. ]]></MASTER_ROGER_0021>
+<MASTER_ROGER_0021A><![CDATA[Bitte bereiten Sie eine Portion Stachelbeer-Parfait vor und bringen Sie sie mir. ]]></MASTER_ROGER_0021A>
+<MASTER_ROGER_0022><![CDATA[Hat sich der Frosch am Stachelbeer-Parfait verschluckt oder wo bleibt es? Bitte kommen Sie erst wieder, wenn Sie dieses exquisite Dessert zubereitet haben. ]]></MASTER_ROGER_0022>
+<MASTER_ROGER_0023><![CDATA[Formidable! Ich muss zugeben, Sie haben wirklich ein Händchen für exquisite Desserts. ]]></MASTER_ROGER_0023>
+<MASTER_ROGER_0024><![CDATA[So, jetzt kommt die Königsdisziplin in Punkto Gourmet-Kochkunst: die Zubereitung eines Kugelfischs! Dazu nehmen Sie einen Fisch und stopfen ihn mit Kaugummi und Stachelbeeren, damit er sich schön aufbläht und Stacheln bekommt. Für die Sauce brauchen Sie frische Butter, Kräuter und ein paar Eier. Der Kugelfisch schmeckt am besten getoastet. Aber psssst...verraten Sie Speedy nicht, dass Roger seinen Toaster benutzt. Dann mal los! ]]></MASTER_ROGER_0024>
+<MASTER_ROGER_0024A><![CDATA[Bitte bereiten Sie einen Kugelfisch zu und bringen Sie ihn mir. ]]></MASTER_ROGER_0024A>
+<MASTER_ROGER_0025><![CDATA[Nanu, wo ist der Kugelfisch? Bitte bereiten Sie einen Kugelfisch vor und bringen Sie ihn mir. ]]></MASTER_ROGER_0025>
+<MASTER_ROGER_0026><![CDATA[Magnifique! Ich sehe, der Schüler wächst langsam über den Meister hinaus. ]]></MASTER_ROGER_0026>
+<MASTER_ROGER_0026A><![CDATA[Zur Zeit gibt es in meinem Restaurant keine neuen Aufgaben. Bitte versuchen Sie es später nochmal. ]]></MASTER_ROGER_0026A>
+<MASTER_ROGER_0027><![CDATA[Eine Hochzeit steht uns bevor! Das ist natürlich eine hervorragende Gelegenheit für Roger, seine Gourmetkünste zu präsentieren! Da werden alle staunen! Vielleicht ist auch ein Restaurantkritiker als Gast dabei? Bereiten Sie bitte einen knusprigen Hummer in Gourmetsoße vor. ]]></MASTER_ROGER_0027>
+<MASTER_ROGER_0027A><![CDATA[Bringen Sie mir bitte einen Gourmet-Hummer.]]></MASTER_ROGER_0027A>
+<MASTER_ROGER_0028><![CDATA[Nanu, wo bleibt der Hummer? Roger muss ihn auf der Hochzeit präsentieren. ]]></MASTER_ROGER_0028>
+<MASTER_ROGER_0029><![CDATA[Aaah, formidable! Das ist ein Gourmet-Hummer, wie ihn sich Restaurantkritiker wünschen! Damit wird Roger auf der Hochzeit punkten. Merci! ]]></MASTER_ROGER_0029>
+<MASTER_ROGER_0030><![CDATA[Es ist zu Rogers Ohren gekommen, dass Bernard schon eine Torte für seine Hochzeit gebacken hat. Bestimmt hat er aber noch keine Hochzeitsfiguren! Es wäre schön, wenn Sie welche machen könnten. Da werden sich die beiden aber freuen! Das müssen Sie am Tisch in der Bäckerei zubereiten. Aber lassen Sie Bernard nicht über Ihre Schulter schauen! Am besten lassen sich die Figuren aus einem Kicherkuchen formen.]]></MASTER_ROGER_0030>
+<MASTER_ROGER_0030A><![CDATA[Bitte bereiten Sie Hochzeitsfiguren für die Torte von Heidi und Bernard zu. ]]></MASTER_ROGER_0030A>
+<MASTER_ROGER_0031><![CDATA[Die Hochzeit naht, aber Roger hat noch keine Figuren für die Torte! Bitte machen Sie welche! ]]></MASTER_ROGER_0031>
+<MASTER_ROGER_0032><![CDATA[Wie schön! Da geht sogar Roger das Herz auf. Die Tortenfiguren sind wirklich vorzüglich geworden. Sie sind ein hervorragender Gourmetkoch. Roger kann Ihnen nichts mehr beibringen, sonst werden Sie noch besser als er selbst. ]]></MASTER_ROGER_0032>
+<MASTER_ROGER_0033><![CDATA[So. Dann kann die Hochzeit beginnen. 
+Sie soll schon morgen auf dem Flower Hill stattfinden. Das dürfen Sie nicht verpassen!
+]]></MASTER_ROGER_0033>
+<MASTER_ROGER_0034><![CDATA[Bis morgen am Flower Hill. Au revoir! ]]></MASTER_ROGER_0034>
+<MASTER_ROSE_0031><![CDATA[Du hast gerade den Master-Level erreicht. Herzlichen Glückwunsch!
+]]></MASTER_ROSE_0031>
+<MASTER_ROSE_0032><![CDATA[Schon mal von einem Süßigkeitenbaum gehört? Nein? Den gibt es auch nur bei mir! Pflanze wie gewohnt eine Babypflanze und dünge sie ordentlich mit viel Zucker. Und schon kannst du sehen, wie der Süßigkeitenbaum wächst.]]></MASTER_ROSE_0032>
+<MASTER_ROSE_0032A><![CDATA[Ernte bitte die Süßigkeiten und bring' sie mir.]]></MASTER_ROSE_0032A>
+<MASTER_ROSE_0033><![CDATA[Nanu, wo bleiben die Süßigkeiten? Hast Du sie etwa alle selbst aufgegessen? Süßigkeiten sind eine Sünde wert, aber jetzt solltest du zu Potte kommen. ]]></MASTER_ROSE_0033>
+<MASTER_ROSE_0034><![CDATA[Schön, schön. Toll gemacht! Manchmal bringe ich Roger ein paar Süßigkeiten mit. Aber er mag eigentlich lieber seine hausgemachten Trüffelpralinen. Es ist eben nicht leicht, einen anspruchsvollen Gourmetkoch zufrieden zu stellen. ]]></MASTER_ROSE_0034>
+<MASTER_ROSE_0035><![CDATA[Gute Nachrichten für dich- ab sofort darfst du dich auch unter der Obhut des Großmeisters der Küchen, Roger Ragout, zum Gourmetkoch ausbilden lassen. Das ist eine große Ehre, sag' ich dir! Ich selbst bin den Gaumenfreuden von Monsieur Ragout verfallen. 
+]]></MASTER_ROSE_0035>
+<MASTER_ROSE_0036><![CDATA[Achtung: Hier kommt deine Masteraufgabe! Pflanze bitte eine Regenbogenblume, deren Blüten in den schönsten Farben schimmern. Als Dünger braucht sie sehr viele Früchte und Ketchup, um daraus die Farbstoffe zu ziehen. Diese Pflanze braucht genau eine Woche, um zu wachsen und kann nur Sonntags gepflanzt und Sonntags geerntet werden. Aber zwischendurch gießen nicht vergessen! Ich wünsche dir viel Erfolg!]]></MASTER_ROSE_0036>
+<MASTER_ROSE_0036A><![CDATA[Bitte pflücke die Regenbogenblüte und bring' sie mir. ]]></MASTER_ROSE_0036A>
+<MASTER_ROSE_0037><![CDATA[Noch habe ich keine Regenbogenpflanze. Vielleicht musst du den richtigen Tag abwarten.]]></MASTER_ROSE_0037>
+<MASTER_ROSE_0038><![CDATA[Suuuper! Du hast es geschafft! Du hast alle Aufgaben in meinem Garten ausgezeichnet gemeistert! Ich wünschte, ich könnte dich länger bei mir behalten, aber ich habe nichts mehr für dich zu tun. Ich würde mich jedoch sehr freuen, wenn du mich besuchen kommst. ]]></MASTER_ROSE_0038>
+<MASTER_ROSE_0039><![CDATA[Ich gratuliere, soweit hast du alle Aufgaben, die ich dir gegeben habe, ausgezeichnet bestanden. Das zeigt nicht nur, dass du ein guter Gärtner bist, sondern auch, dass du viel Herzensgüte in dir trägst. Momentan habe ich keine neue Aufgabe für dich. Schau' bitte später bei mir vorbei. ]]></MASTER_ROSE_0039>
+<MASTER_ROSE_0040><![CDATA[Roger will Sternkräuter von mir? Aber...die habe ich nicht angebaut. Geh' und sag' Roger, dass ich keine Sternkräuter habe. Ich komme gleich nach. ]]></MASTER_ROSE_0040>
+<MASTER_ROSE_0040A><![CDATA[Lass' mich überlegen...was könnte ich dir noch beibringen? Guck' am besten erst mal, ob jemand anderes noch Aufgaben für dich hat. Aber komm' später wieder zu mir, okay?]]></MASTER_ROSE_0040A>
+<MASTER_ROSE_0041><![CDATA[Du bist schon ein erfahrener Gärtner. Nun kannst du dich an der Feuerblume versuchen. Aber verbrenn' dir nicht die Pfoten! Die Feuerblume wird aus der Herzblume gemacht und mit Hot Chilis, Feuer und Ketchup gedüngt. ]]></MASTER_ROSE_0041>
+<MASTER_ROSE_0041A><![CDATA[Bitte ernte eine Feuerblüte und bring' sie mir. ]]></MASTER_ROSE_0041A>
+<MASTER_ROSE_0042><![CDATA[Hey, wo bleibt die Feuerblüte? ]]></MASTER_ROSE_0042>
+<MASTER_ROSE_0043><![CDATA[Ooh, heiß! Eine prächtige Feuerblüte. Das hast du prima hingekriegt! ]]></MASTER_ROSE_0043>
+<MASTER_ROSE_0044><![CDATA[So, die Feuerprobe hast du bestanden. Jetzt bringe ich dir bei, wie man die zarteste Blume auf Oloko züchtet: Die Schmetterlingsblume. Die wird aus der Kaumgummipflanze gemacht und mit Kleeblatt und einem Milchshake gedüngt. Dazu kommt Sonnenmilch, damit ihre Blüten geschmeidig werden. ]]></MASTER_ROSE_0044>
+<MASTER_ROSE_0044A><![CDATA[Bitte bring' mir die Blüte von der Schmetterlingsblume. ]]></MASTER_ROSE_0044A>
+<MASTER_ROSE_0045><![CDATA[Ist dir die Schmetterlingsblüte davon geflattert? Bitte komme wieder, wenn du mir die Blüte geben kannst.]]></MASTER_ROSE_0045>
+<MASTER_ROSE_0046><![CDATA[Hmmm, das duftet doch nach...nach der Schmetterlingsblüte! Ich bin beeindruckt, wirklich! ]]></MASTER_ROSE_0046>
+<MASTER_ROSE_0047A><![CDATA[Du hast wirklich einen grünen Daumen! Aber hast du auch das Händchen für klebrige, zuckersüße Speisen? Geh' nächste Woche zu Speedy ins Fast-Food-Restaurant und finde es heraus! ]]></MASTER_ROSE_0047A>
+<MASTER_ROSE_0047B><![CDATA[Du hast wirklich einen grünen Daumen! Aber hast Ddu auch das Händchen für klebrige, zuckersüße Speisen? Geh' zu Speedy ins Fast-Food-Restaurant und finde es heraus!]]></MASTER_ROSE_0047B>
+<MASTER_ROSE_0048><![CDATA[Momentan hab' ich keine neue Aufgabe für dich. Komm' bitte später nochmal. ]]></MASTER_ROSE_0048>
+<MASTER_ROSE_0049><![CDATA[Aah, wie ich sehe, hast du bei Heidi schon gelernt, Bienen zu züchten? Hervorragend! Die werden wir nämlich jetzt gut gebrauchen können – für die Bienenblume! Wie du dir denken kannst, wächst die Bienenblume nur, wenn sie von Bienen bestäubt wird. ]]></MASTER_ROSE_0049>
+<MASTER_ROSE_0049A><![CDATA[Bitte bring' mir eine gepflückte Bienenblume. ]]></MASTER_ROSE_0049A>
+<MASTER_ROSE_0050><![CDATA[Hmm, du hast mir noch keine Bienenblume gegeben. Du weißt doch: sie wächst nur, wenn sie von Bienen bestäubt wird. ]]></MASTER_ROSE_0050>
+<MASTER_ROSE_0051><![CDATA[Wundervoll! Die Bienenblume ist aber reizend geworden! Das hast du sehr gut gemacht!]]></MASTER_ROSE_0051>
+<MASTER_ROSE_0052><![CDATA[Psssst! Hast du schon gehört? Heidi und Bernard werden heiraten! Lass' uns für Heidi den schönsten Brautstrauß machen, den sie sich je erträumt hat: mit den schönsten Blumen, die mein Garten zu bieten hat. Der Strauß wird übrigens vom Schluckauffrosch gebunden. Lustig, was? ]]></MASTER_ROSE_0052>
+<MASTER_ROSE_0052A><![CDATA[Bitte binde einen Brautstrauß und bring' ihn mir. ]]></MASTER_ROSE_0052A>
+<MASTER_ROSE_0053><![CDATA[Wo bleibt der Brautstrauß? Heidi würde sich sehr über einen freuen!]]></MASTER_ROSE_0053>
+<MASTER_ROSE_0054><![CDATA[Das duftet aber schön! Ach, wenn ich mir diesen Brautstrauß so angucke, würde ich selbst gerne mal heiraten. Vielleicht eines Tages...aber der ist für die liebe Heidi. Die Glückliche hat dir viel zu verdanken! ]]></MASTER_ROSE_0054>
+<MASTER_ROSE_0055A><![CDATA[Und ich auch! Danke für alles! Du hast einen grünen Daumen und ein wirklich großes Herz. In meinem Garten gibt es nichts mehr, was du lernen könntest. Aber schau' nächste Woche bei Bernard vorbei. Ich glaube, er will dir noch was zeigen. ]]></MASTER_ROSE_0055A>
+<MASTER_ROSE_0055B><![CDATA[Danke für alles! Du hast einen grünen Daumen und ein wirklich großes Herz. In meinem Garten gibt es nichts mehr, was du lernen könntest. Aber schau' gleich mal bei Bernard vorbei. Ich glaube, er will dir noch was zeigen.]]></MASTER_ROSE_0055B>
+<MASTER_SPEEDY_0010><![CDATA[Wunderbar, du hast es zum Professional geschafft! Und jetzt Zack Zack, im Professional-Level ist von Ausruhen keine Rede! Der Professional-Level ist was für Profis. Und du hast gute Chancen, einer zu werden! Ich glaube an dich! ]]></MASTER_SPEEDY_0010>
+<MASTER_SPEEDY_0011><![CDATA[Glückwunsch! Du hast den Master-Level erreicht!
+]]></MASTER_SPEEDY_0011>
+<MASTER_SPEEDY_0012><![CDATA[Jetzt kommt es wirklich auf deine Schnelligkeit an. Bereite bitte im Turbotempo einen Stinkekäseburger vor. Dazu brauchst du ein Hühnchen, Stinkekäse, Brot und Ketchup. Den Ketchup kriegst du aus aus Roses Garten. Ihre Ketchupbäume bringen die aromatischsten Früchte hervor. Doch selbst die aromatischsten Früchte können die Duftnote des Stinkekäseburgers nicht übertünchen, ha ha!]]></MASTER_SPEEDY_0012>
+<MASTER_SPEEDY_0012A><![CDATA[Bitte bring' mir einen selbst zubereiteten Stinkekäseburger.]]></MASTER_SPEEDY_0012A>
+<MASTER_SPEEDY_0013><![CDATA[Ich rieche keinen geschmolzenen Stinkekäse. Du hast mir noch keinen Stinkekäseburger gegeben.]]></MASTER_SPEEDY_0013>
+<MASTER_SPEEDY_0014><![CDATA[Top! Das hast du toll gemacht! Mir zieht es die Zehennägel hoch, so gut riecht er!
+]]></MASTER_SPEEDY_0014>
+<MASTER_SPEEDY_0015><![CDATA[Ich sage es zwar ungern, aber das Gourmet-Restaurant ist jetzt auch für dich offen. Doch lass' mich dir eins sagen: Bei Roger lernst du eher, wie man sich hochnäsig verhält, als wie man wirklich gut kocht. Aber das ist nur meine Meinung. ]]></MASTER_SPEEDY_0015>
+<MASTER_SPEEDY_0016><![CDATA[Jetzt kannst du dich an die Mega-Pommes wagen. Dazu wirst du von der Farm die Mega-Kartoffel brauchen. Außerdem brauchst du Olivenöl und Ketchup. Die Mega-Kartoffel wird so lange frittiert, bis die Pommes fertig sind. Frittiere sie aber nicht zu lange, sonst ist alles umsonst!]]></MASTER_SPEEDY_0016>
+<MASTER_SPEEDY_0016A><![CDATA[Bereite die die Mega-Pommes zu und bring' sie mir, bitte. ]]></MASTER_SPEEDY_0016A>
+<MASTER_SPEEDY_0017><![CDATA[Das hat ja noch nicht geklappt mit den Mega-Pommes. Komm' wieder, wenn du mir die Pommes geben kannst. See you later, alligator!]]></MASTER_SPEEDY_0017>
+<MASTER_SPEEDY_0018><![CDATA[Top! Top! Top! Die Pommes sind goldgelb und sehen schön knusprig aus, super! 
+]]></MASTER_SPEEDY_0018>
+<MASTER_SPEEDY_0019><![CDATA[Wir machen hier natürlich nicht nur Burger, sondern auch feinste Fischstäbchen aus frischem Fisch. Natürlich ohne Gräten! Du brauchst Fisch aus dem Fluss und Olivenöl. In die Fritteuse damit und abwarten, bis sie fertig sind. ]]></MASTER_SPEEDY_0019>
+<MASTER_SPEEDY_0019A><![CDATA[Mach' Fischstäbchen und bring' sie mir, bitte. ]]></MASTER_SPEEDY_0019A>
+<MASTER_SPEEDY_0020><![CDATA[Wo bleiben die Fischstäbchen? Du wolltest doch Fischstäbchen machen. Versuch' es bitte nochmal. ]]></MASTER_SPEEDY_0020>
+<MASTER_SPEEDY_0021><![CDATA[Top! Hast du gut gemacht! Da kann sich Roger warm anziehen. Rechteckigen Fisch gibt‘s bei ihm nicht, ha!]]></MASTER_SPEEDY_0021>
+<MASTER_SPEEDY_0022><![CDATA[Jetzt brauchen wir etwas zum Runterspülen. Bereite bitte einen leckeren Milchshake zu. Dazu brauchst du neben Milch noch viele andere Zutaten. Zum einen eine Schneekugel vom Berg, für den Geschmack kommt Kaugummi hinzu. Damit das Ganze gut durchgeschüttelt wird, gibst du die Zutaten dem Schluckauffrosch. Der macht schon den Rest. Aber pass' auf, dass der Milchshake nicht schlecht wird. ]]></MASTER_SPEEDY_0022>
+<MASTER_SPEEDY_0022A><![CDATA[Bitte bring' mir den fertigen Milchshake. ]]></MASTER_SPEEDY_0022A>
+<MASTER_SPEEDY_0023><![CDATA[Das hat wohl noch nicht geklappt mit der Aufgabe. Ich warte noch auf den Milchshake. ]]></MASTER_SPEEDY_0023>
+<MASTER_SPEEDY_0024><![CDATA[Top! Wieder super gemacht! Wenn das so weiter geht, krieg' ich noch Angst vor Konkurrenz!
+]]></MASTER_SPEEDY_0024>
+<MASTER_SPEEDY_0025><![CDATA[Oh oh. Der Milchshake rumort in meinem Magen. Ich glaube, ich brauche eine Pause. Außerdem gibt es gerade bei mir nicht so viel zu tun. Gehe erst in das Gourmet-Restaurant zu Roger. Und grüße die schöne Rose von mir, falls du sie dort siehst. Komme wieder zu mir, wenn du bei Roger fertig bist, dann zeige ich dir, wie man das super leckere Kaugummihühnchen macht. ]]></MASTER_SPEEDY_0025>
+<MASTER_SPEEDY_0026><![CDATA[Das Fast-Food-Restaurant ist berühmt für das leckere Kaugummihühnchen. Jetzt wirst auch du in das geheime Rezept eingeweiht. Aber wehe, du plauderst es aus! Bereite bitte für mich und Rose ein Kaugummihühnchen zu. Ich will, dass Rose endlich erkennt, dass meine Fast-Food-Gerichte den Gourmetgerichten in nichts nachstehen. Sie wird Augen machen! Toaste ein Hühnchen, bis es goldbraun geworden ist und fülle es mit Kaugummi. Dazu kommt ein Klecks Ketchup. ]]></MASTER_SPEEDY_0026>
+<MASTER_SPEEDY_0026A><![CDATA[Bereite ein Kaugummihühnchen zu und bring' es mir, bitte. ]]></MASTER_SPEEDY_0026A>
+<MASTER_SPEEDY_0027><![CDATA[Sorry, aber ich sehe noch kein Kaugummihühnchen. See you later, alligator!]]></MASTER_SPEEDY_0027>
+<MASTER_SPEEDY_0028><![CDATA[Top! Hoffentlich wird es auch Rose schmecken! Sooo...wenn Liebe tatsächlich durch den Magen geht, wird das doch ein Klacks...hoffentlich. 
+]]></MASTER_SPEEDY_0028>
+<MASTER_SPEEDY_0029><![CDATA[Jetzt kommt die Masteraufgabe, also sperr' deine Ohren besser ganz weit auf! Unsere Schildkröte mag es gerne, hin und wieder verwöhnt zu werden. So ein riesiges Tier kann ganz schön viel auf einmal essen, musst du wissen. Bereite bitte ihre Lieblingsspeise vor: Gooba. Dazu wirst du ganz viele Zutaten brauchen, die frittiert werden: ein Kaugummihähnchen, Ketchup, Olivenöl, Hot Chili, Stinkekäse und Fisch. Ich drücke dir die Daumen!]]></MASTER_SPEEDY_0029>
+<MASTER_SPEEDY_0029A><![CDATA[Bereite Gooba zu und bring' mir das fertige Gericht, bitte. ]]></MASTER_SPEEDY_0029A>
+<MASTER_SPEEDY_0030><![CDATA[Du hast die letzte Aufgabe noch nicht erledigt. Bereite Gooba vor: Olokos Leibspeise aus Kaugummihühnchen, Ketchup, Olivenöl, Stinkekäse, Hot Chili und Fisch. Es ist nicht einfach, aber ich bin mir sicher, du schaffst es!]]></MASTER_SPEEDY_0030>
+<MASTER_SPEEDY_0031><![CDATA[Top, top, toppest! Over the top! Du bist der beste Fast-Food-Mitarbeiter, den ich je hatte.]]></MASTER_SPEEDY_0031>
+<MASTER_SPEEDY_0031A><![CDATA[Boah, das ist alles so aufregend! Ich brauch' mal eine Pause. Komm' bitte später wieder zu mir, dann zeige ich dir, wie man leckere Brownies macht.]]></MASTER_SPEEDY_0031A>
+<MASTER_SPEEDY_0032><![CDATA[Heeey! Wieder da? Du hast wohl mein leckeres Fast Food vermisst, wie? Das kann ich dir nicht verübeln. Gut, dann zeig' ich dir jetzt, wie man die besten Brownies macht. Zuerst brauchst du gaaaanz viel Schokolade. Das ist das „A“ und „O“. Dazu kommen Milch, Eier, Butter und für die Glasur: Schnee und Zucker. Alles in die Fritteuse rein und abwarten!]]></MASTER_SPEEDY_0032>
+<MASTER_SPEEDY_0032A><![CDATA[Bitte bring' mir einen von dir selbst gebackenen Brownie! ]]></MASTER_SPEEDY_0032A>
+<MASTER_SPEEDY_0033><![CDATA[Ich warte noch auf den Brownie. Komm' schon, ist gar nicht so schwer! ]]></MASTER_SPEEDY_0033>
+<MASTER_SPEEDY_0034><![CDATA[Dieser Brownie sieht aber zum Fingerlecken gut aus! Super! Am liebsten würde ich gleich reinbeißen, aber die Zeit rennt. Lass' uns am besten gleich weiter machen. ]]></MASTER_SPEEDY_0034>
+<MASTER_SPEEDY_0035><![CDATA[Jetzt hab' ich Lust auf etwas Herzhaftes: Nachos mit Salsa und geschmolzenem Käse! Dafür brauchen wir eine Megakartoffel, die schön in Olivenöl frittiert wird. Für die Salsa-Sauce brauchen wir Hot Chilis und Kräuter. Am Schluss schmelzen wir ein bisschen vom Stinkekäse. Alles rein in die Fritteuse! ]]></MASTER_SPEEDY_0035>
+<MASTER_SPEEDY_0035A><![CDATA[Bitte bring' mir eine Portion Nachos mit Salsa und Käse.]]></MASTER_SPEEDY_0035A>
+<MASTER_SPEEDY_0036><![CDATA[Wo bleiben die Nachos? Du hast sie doch nicht selbst gegessen? Bitte komme mit einer Portion knuspriger Nachos wieder. ]]></MASTER_SPEEDY_0036>
+<MASTER_SPEEDY_0037><![CDATA[Woah, die Nachos sind dir echt sehr gut gelungen: so goldgelb und knusprig! Top! ]]></MASTER_SPEEDY_0037>
+<MASTER_SPEEDY_0038A><![CDATA[Ich mach' mich gleich über die leckeren Nachos her. Ach so...fast hätte ich’s vergessen: Roger hat noch mehr Aufgaben für dich. Aber erst nächste Woche. ]]></MASTER_SPEEDY_0038A>
+<MASTER_SPEEDY_0038B><![CDATA[Ich mach' mich gleich über die leckeren Nachos her. Ach so...fast hätte ich’s vergessen: Roger hat noch mehr Aufgaben für dich. ]]></MASTER_SPEEDY_0038B>
+<MASTER_SPEEDY_0039><![CDATA[Kaum zu glauben, aber gerade hab' ich nichts zu tun. Das ändert sich bestimmt bald wieder! ]]></MASTER_SPEEDY_0039>
+<MASTER_SPEEDY_0040><![CDATA[Na? Lust auf mehr Fast Food? Kein Problem! Lass' uns Hähnchenflügel machen, lecker mariniert in Olivenöl, mit Hot Chilis, Kräutern und ein paar Blüten der Feuerblume. Dieses Gericht haut alle aus den Socken!]]></MASTER_SPEEDY_0040>
+<MASTER_SPEEDY_0040A><![CDATA[Bitte bereite ein paar marinierte Hähnchenflügel zu. ]]></MASTER_SPEEDY_0040A>
+<MASTER_SPEEDY_0041><![CDATA[Du hast mir noch keine marinierten Hähnchenflügel gebracht. Lass' sie bloß nicht anbrennen! ]]></MASTER_SPEEDY_0041>
+<MASTER_SPEEDY_0042><![CDATA[Lecker! Deine Hähnchenflügel sehen sehr knusprig aus. Top! ]]></MASTER_SPEEDY_0042>
+<MASTER_SPEEDY_0043><![CDATA[Es ist wieder Zeit für ein Fast Dessert. Heute gibt es frittierte Honigbananen! Alles was du dazu brauchst, sind Babybananen, etwas Honig, Olivenöl und eine Bienen- und Schmetterlingsblume für die Deko. ]]></MASTER_SPEEDY_0043>
+<MASTER_SPEEDY_0043A><![CDATA[Bring' mir bitte eine fertig frittierte Honigbanane. ]]></MASTER_SPEEDY_0043A>
+<MASTER_SPEEDY_0044><![CDATA[Wo bleibt mein Dessert? Bring' mir bitte eine fritierte Honigbanane. Ich weiß, du kannst es! ]]></MASTER_SPEEDY_0044>
+<MASTER_SPEEDY_0045><![CDATA[Wow! Diese Honigbanane wird in Null Komma Nix auf der Zunge zergehen! Super! Du bist echt gut geworden! Besser geht's gar nicht. Deswegen hab ich auch keine Aufgaben mehr für dich. ]]></MASTER_SPEEDY_0045>
+<MASTER_SPEEDY_0046A><![CDATA[Aber schau' doch nächste Woche bei Roger vorbei. Er wollte etwas Besonderes für Heidis und Bernards Hochzeit vorbereiten. Mach's gut! ]]></MASTER_SPEEDY_0046A>
+<MASTER_SPEEDY_0046B><![CDATA[Aber schau' doch bei Roger vorbei. Er wollte etwas Besonderes für Heidis und Berndards Hochzeit vorbereiten. Mach's gut!]]></MASTER_SPEEDY_0046B>
+<PROF_BERNARD_0019><![CDATA[Ab sofort bist du Professional! Gratulation! Lass' mich aus dir einen richtig guten Bäcker machen! 
+]]></PROF_BERNARD_0019>
+<PROF_BERNARD_0020><![CDATA[Meine Mutter hat immer gesagt: Wenn du Bäcker wirst, kannst du dir eine Traumfrau selber backen!
+Meine Traumfrau habe ich schon gefunden, die schöne Heidi! Nur weiß sie noch nichts davon. Und selbst gebacken ist sie auch nicht. Ich will die schöne Heidi mit einem Früchtekuchen überraschen. Kannst du einen machen, bitte? Die Grundlage ist natürlich Teig für einen Kuchenboden. Den belegst du dann mit den süßesten Früchten aus Roses Garten. Wasser darfst du nicht vergessen. 
+]]></PROF_BERNARD_0020>
+<PROF_BERNARD_0020A><![CDATA[Back' einen Früchtekuchen, bitte. Komm' wieder zu mir, wenn der Kuchen fertig ist, dann werde ich dich zu Heidi schicken. 
+]]></PROF_BERNARD_0020A>
+<PROF_BERNARD_0021><![CDATA[Pustekuchen? Wo bleibt der Früchtekuchen? Mit leeren Händen kann ich dich leider nicht zu Heidi schicken. ]]></PROF_BERNARD_0021>
+<PROF_BERNARD_0022><![CDATA[Mmmm, der Kuchen ist sehr gut geworden! Da wird sich Heidi aber freuen! Geh' auf die Farm und schenke ihn ihr, bitte. Ich hoffe sehr, dass er ihr schmeckt.
+]]></PROF_BERNARD_0022>
+<PROF_BERNARD_0022B><![CDATA[Bring' Heidi den Früchtekuchen. Wenn du keinen mehr hast, musst du wohl nochmal einen neuen backen.]]></PROF_BERNARD_0022B>
+<PROF_BERNARD_0022C><![CDATA[Danke, dass du Heidi den Früchtekuchen gebracht hast! ]]></PROF_BERNARD_0022C>
+<PROF_BERNARD_0023><![CDATA[Der Früchtekuchen hat noch keinen Zucker gebraucht, weil die Früchte süß genug waren. Den brauchen wir aber, bevor wir uns an richtige Süßspeisen wagen. Am Flower Hill wächst ein Zuckerkristall, der in der Mühle gemahlen werden muss. ]]></PROF_BERNARD_0023>
+<PROF_BERNARD_0023A><![CDATA[Bitte mahle den Kristall zu Zucker und bring' ihn mir. ]]></PROF_BERNARD_0023A>
+<PROF_BERNARD_0024><![CDATA[Du hast mir noch keinen Zucker gebracht. Um Zucker zu bekommen, muss der Zuckerkristall gemahlen werden.]]></PROF_BERNARD_0024>
+<PROF_BERNARD_0025><![CDATA[Toll gemacht! Mit dem Zucker werden wir ganz tolle Süßspeisen kreieren, mit denen ich Heidi verwöhnen werde. Man sagt nicht umsonst: Liebe geht durch den Magen. Wirst schon sehen! ]]></PROF_BERNARD_0025>
+<PROF_BERNARD_0026><![CDATA[Super! Da wir jetzt Zucker haben, kannst du einen Sandkuchen backen. Den kriegt dann die schöne Heidi, vielleicht gewinne ich so ihr Herz, was denkst du? Ach, wäre das ein Traum. Für den Kuchen brauchst du neben Teig für den Kuchenboden auch feinsten Sand aus dem Gewächshaus. Dann kommen die Zutaten in den Ofen. ]]></PROF_BERNARD_0026>
+<PROF_BERNARD_0026A><![CDATA[Bitte back' einen Sandkuchen. Komm' wieder zu mir, wenn der Kuchen fertig ist. 
+]]></PROF_BERNARD_0026A>
+<PROF_BERNARD_0027><![CDATA[Der Sandkuchen ist irgendwie im Sande verlaufen, ha ha! Bitte komm' wieder, wenn du den Kuchen gebacken hast.]]></PROF_BERNARD_0027>
+<PROF_BERNARD_0028><![CDATA[Wunderbar, der duftet aber gut! Tu' mir bitte den Gefallen und bringe den Sandkuchen zu Heidi. Ich traue mich nicht, da selbst hinzugehen. Danke für deine Hilfe, das ist sehr lieb von dir!
+]]></PROF_BERNARD_0028>
+<PROF_BERNARD_0028B><![CDATA[Wenn du keinen Sandkuchen mehr hast, backe bitte nochmal einen neuen und bring' ihn zu Heidi.]]></PROF_BERNARD_0028B>
+<PROF_BERNARD_0028C><![CDATA[Vielen Dank, dass du mir geholfen hast, Heidi eine Freude zu machen!]]></PROF_BERNARD_0028C>
+<PROF_BERNARD_0029><![CDATA[Übrigens ist gerade auch das Fast-Food-Restaurant für dich geöffnet worden. Speedy wird sich sicher über dich als Mitarbeiter freuen.]]></PROF_BERNARD_0029>
+<PROF_BERNARD_0030><![CDATA[Hast du Lust auf Popcorn? Ich schon! Popcorn ist immer gut für ein Date im Kino. Und es geht ganz einfach! Man nehme Samenkörner und schiebe sie in den Ofen. ]]></PROF_BERNARD_0030>
+<PROF_BERNARD_0030A><![CDATA[Mach' bitte Popcorn und bring' mir eine Tüte. ]]></PROF_BERNARD_0030A>
+<PROF_BERNARD_0031><![CDATA[Ich sehe kein Popcorn. Komme erst wieder, wenn du mir Popcorn geben kannst, bitte. 
+]]></PROF_BERNARD_0031>
+<PROF_BERNARD_0032><![CDATA[Super. Jetzt brauchen wir nur noch ein Date, he he. Nein, war nur ein Witz. 
+]]></PROF_BERNARD_0032>
+<PROF_BERNARD_0033><![CDATA[Ein guter Bäcker setzt auf sein gelerntes Handwerk. Aber ein bisschen Glück kann nicht schaden! Backe bitte einen Glückskeks. Die spezielle Zutat, den Glücksklee, findest du am Flower Hill. Den Grundteig mische bitte mit Zucker,
+damit der Keks auch schön süß schmeckt. In einen richtigen Glückskeks gehört natürlich noch eine Nachricht. Die Nachricht findest du in der Flasche. Finde die Flasche und nimm die Nachricht heraus, um sie mit den restlichen Zutaten zu vermischen. Doch beachte: Man kann nur einmal am Tag eine Nachricht aus der Flasche ziehen.]]></PROF_BERNARD_0033>
+<PROF_BERNARD_0033A><![CDATA[Backe bitte einen Glückskeks und komm' wieder zu mir. ]]></PROF_BERNARD_0033A>
+<PROF_BERNARD_0034><![CDATA[Hey, der Glückskeks ist noch nicht fertig. Komme erst wieder, wenn du ihn gebacken hast. 
+]]></PROF_BERNARD_0034>
+<PROF_BERNARD_0035><![CDATA[Das ist aber ein gelungener Glückskeks! Bitte geh' zu Heidi und gib ihr den Keks. Wenn dieser Keks wirklich Glück bringen soll, wird die darin enthaltene Nachricht Heidis Gefühle für mich wecken. Puuuh...Ich bin ganz schön nervös! ]]></PROF_BERNARD_0035>
+<PROF_BERNARD_0035B><![CDATA[Du hast diesen besonderen Glückskeks verloren! Bitte backe einen neuen und gib ihn bitte sofort an Heidi, ohne ihn zu verlieren.]]></PROF_BERNARD_0035B>
+<PROF_BERNARD_0035C><![CDATA[Das hat Heidi gesagt...Ich kann's kaum glauben! Man kann sich auf dich echt verlassen!]]></PROF_BERNARD_0035C>
+<PROF_BERNARD_0035D><![CDATA[Du bist ja ein Vollprofi, das muss man sagen! Also bei mir geht’s erst im Master's Level weiter. Frag' doch mal bitte die anderen, ob sie noch Profi-Aufgaben für dich haben.]]></PROF_BERNARD_0035D>
+<PROF_BERNARD_0036><![CDATA[Gratulation – du hast den Professional-Level erfolgreich bestanden!
+]]></PROF_BERNARD_0036>
+<PROF_HEIDI_0033><![CDATA[Super! Jetzt bist du Profi-Farmer! Aber ruhe dich nicht zu lange aus, die Arbeit wartet!
+]]></PROF_HEIDI_0033>
+<PROF_HEIDI_0034><![CDATA[Wahnsinn, du lernst echt schnell! Tiere züchten könntest du jetzt wohl sogar im Schlaf. Aber kannst du auch einen Fisch fangen? Im Fluss wimmelt es nur so von zappelnden Fischen. Dort findest du eine Angel, die du benutzen kannst. Pass' auf, dass der Fisch dir nicht durch die Finger flutscht. Die sind glitschig wie nasse Seife! Aber wasch' dir lieber nicht das Gesicht damit, ha ha! Wenn du einen Fisch gefangen hast, kannst du wieder zu mir kommen. ]]></PROF_HEIDI_0034>
+<PROF_HEIDI_0034A><![CDATA[Bring' mir frischen Fisch, bitte. 
+]]></PROF_HEIDI_0034A>
+<PROF_HEIDI_0035><![CDATA[Ich brauche frischen Fisch. Du wolltest mir doch welchen bringen, oder? ]]></PROF_HEIDI_0035>
+<PROF_HEIDI_0036><![CDATA[Sehr gut! Das hast du mal wieder bravourös erledigt! Dankeschön!
+]]></PROF_HEIDI_0036>
+<PROF_HEIDI_0036A><![CDATA[Ein Früchtekuchen? Für mich? Von Bernard? Aber ich habe doch gar nicht Geburtstag. Hmmm. Danke!
+]]></PROF_HEIDI_0036A>
+<PROF_HEIDI_0036B><![CDATA[Hallo $$name$$, schön, dass du mal wieder vorbei schaust! Warst du in letzter Zeit mal bei Bernard? Es würde mich interessieren, was er gerade macht.]]></PROF_HEIDI_0036B>
+<PROF_HEIDI_0037><![CDATA[Es ist Eiszeit! Nein...wir züchten jetzt keine Pinguine, ha ha! Ich zeige dir, wie du die bekannte Eispflanze anbauen kannst. 
+Das Besondere an der Pflanze ist: Als Früchte trägt sie leckeres Eis!
+Pass' jetzt gut auf: Du wirst wieder ein Samenkorn einpflanzen und bewässern, bis der Samen zu einer Babypflanze
+heranwächst. Und jetzt kommt die geheime Zutat: Schnee! Den Schnee gibt es an der Spitze des Berges.]]></PROF_HEIDI_0037>
+<PROF_HEIDI_0037A><![CDATA[Ernte die Eisfrucht, wenn sie reif ist und bringe sie mir. Aber pass' auf, dass sie nicht schmilzt! ]]></PROF_HEIDI_0037A>
+<PROF_HEIDI_0038><![CDATA[Hast du kein Eis für mich? Du hast es doch nicht in deiner Tache versteckt, oder? Bitte bring' mir Eis. ]]></PROF_HEIDI_0038>
+<PROF_HEIDI_0039><![CDATA[Hmmmm...lecker! Es gibt nichts besseres als fruchtiges, selbst angebautes Eis. Ausgezeichnet! ]]></PROF_HEIDI_0039>
+<PROF_HEIDI_0040><![CDATA[Jetzt kriegst du eins auf die Nase! Oder besser gesagt: In die Nase! Ich zeige dir, wie man Stinkekäse macht.
+Der muss so stinken, dass es dich fast aus den Socken haut! Nur dann ist er wirklich gut!
+Zuerst brauchst du Milch. Wie man Milch erzeugt, hast du ja schon gelernt. Die Milch kommt in den Mixer. Einen Mixer findest du zum Beispiel in der Bäckerei. Und jetzt kommt‘s: Damit der Käse seine typische Duftnote entfaltet, braucht er eine Spezialzutat - einen Kuhpups! Dazu musst du eine ausgewachsene Kuh mit Kaugummi füttern. Falls du noch keine Kuh hast, musst du eine züchten. Der Pups kommt auch in den Mixer. Warte ein bisschen, bis alles gut gemixt wurde. Aber nicht zu lange, sonst explodiert der Mixer und alles ist umsonst.]]></PROF_HEIDI_0040>
+<PROF_HEIDI_0040A><![CDATA[Bring' mir bitte ein schönes Stück aromatischen Stinkekäse.]]></PROF_HEIDI_0040A>
+<PROF_HEIDI_0041><![CDATA[Ich rieche nichts. Du hast noch keinen Stinkekäse gemacht. Oder hast du ihn selbst aufgegessen? Ich habe jedenfalls keinen Stinkekäse von dir bekommen. ]]></PROF_HEIDI_0041>
+<PROF_HEIDI_0042><![CDATA[Sag‘ mal, hast du dir heute die Füße nicht gewaschen? 
+Ahhh, du hast den Stinkekäse mitgebracht! Sehr gut! 
+Es ist nicht so einfach, einen guten Stinkekäse zu machen. 
+Aber du hast es auf jeden Fall drauf!]]></PROF_HEIDI_0042>
+<PROF_HEIDI_0043><![CDATA[Noch ein Kuchen für mich? Das ist aber lieb! Es ist so schön, von Bernard Geschenke zu bekommen. Er scheint ja ein richtiger Gentleman zu sein und bemüht sich um mich. Ich glaube, ich fange an, mich in ihn zu verlieben. ]]></PROF_HEIDI_0043>
+<PROF_HEIDI_0043B><![CDATA[Hi $$name$$, kannst du mir etwas Neues von Bernard erzählen?]]></PROF_HEIDI_0043B>
+<PROF_HEIDI_0044><![CDATA[Übrigens ist ab sofort das Fast-Food-Restaurant für dich geöffnet. Da kannst du auch arbeiten, wenn du willst. Speedy kann dir zeigen, wie man das berühmte Kaugummihühnchen zubereitet, von dem ich dir schon erzählt habe. 
+]]></PROF_HEIDI_0044>
+<PROF_HEIDI_0045><![CDATA[Wie man Milch macht, hast du ja schon gelernt. Jetzt kommt Butter bei die Fische, ha ha! Für die Butter wirst du besonders viel Milch brauchen. Also ran an die Kuh!]]></PROF_HEIDI_0045>
+<PROF_HEIDI_0045A><![CDATA[Bring' mir die Butter, die du gemacht hast, bitte.]]></PROF_HEIDI_0045A>
+<PROF_HEIDI_0046><![CDATA[Wo bleibt die Butter? Ich habe noch keine bekommen. Komm' wieder, wenn du mir welche geben kannst. ]]></PROF_HEIDI_0046>
+<PROF_HEIDI_0047><![CDATA[Super! Na, dann ist ja alles in Butter! Gut gemacht! ]]></PROF_HEIDI_0047>
+<PROF_HEIDI_0048><![CDATA[So, jetzt zeige ich dir, wie du die feinsten Kräuter anpflanzen kannst. Dazu muss eine Getreidepflanze ordentlich gedüngt werden: mit dem Spezialdünger und mit Glücksklee, damit die Kräuter ihre besondere Wirkung entfalten. ]]></PROF_HEIDI_0048>
+<PROF_HEIDI_0048A><![CDATA[Bitte pflanze Kräuter an und bring' sie mir. ]]></PROF_HEIDI_0048A>
+<PROF_HEIDI_0049><![CDATA[Nanu, ich habe noch keine Kräuter bekommen. ]]></PROF_HEIDI_0049>
+<PROF_HEIDI_0050><![CDATA[Danke! Das hast du gut gemacht. Roger wird sich freuen. Mit diesen Kräutern bereitet er sein delikates Fischfilet zu. Das musst du mal probieren!]]></PROF_HEIDI_0050>
+<PROF_HEIDI_0051><![CDATA[Noch ein Geschenk für mich? Toll! Ein Glückskeks! Da ist eine Nachricht drin! Da steht: „Mach' die Augen auf und du wirst Liebe erfahren.“ Ich traue meinen eigenen Augen nicht! Natürlich! ]]></PROF_HEIDI_0051>
+<PROF_HEIDI_0051B><![CDATA[Du schon wieder hier, du hast doch nicht wieder etwas mitgebracht, oder doch?]]></PROF_HEIDI_0051B>
+<PROF_HEIDI_0051C><![CDATA[Super, du bist ein Vollblutfarmer! Bei mir geht es im Master Level weiter. Aber erst dann, wenn du alle Profi-Aufgaben erledigt hast. Guck' doch in deiner Aufgabenliste nach, was dir fehlt. Du findest sie oben rechts im Menü. ]]></PROF_HEIDI_0051C>
+<PROF_HEIDI_0052><![CDATA[Herzlichen Glückwunsch – Du hast den Professional-Level erfolgreich bestanden. Du bist ein richtig guter Farmer! 
+]]></PROF_HEIDI_0052>
+<PROF_ROGER_0002><![CDATA[Ach, eine Herzblüte, sehr gut. Sie wird perfekt Rogers Gourmet-Gerichte verfeinern. Die gute Rose hat wieder einmal ein Händchen für erstklassige Zutaten bewiesen. Kommen Sie später zu mir, dann wird Roger Sie in die hohe Gourmetkunst einweihen.]]></PROF_ROGER_0002>
+<PROF_ROGER_0002B><![CDATA[Oh, ich rieche den feinen Geruch von Blumen, warst du etwa bei Rose?]]></PROF_ROGER_0002B>
+<PROF_ROSE_0013><![CDATA[Meinen herzlichsten Glückwunsch zum Erreichen des Professional-Levels! 
+]]></PROF_ROSE_0013>
+<PROF_ROSE_0014><![CDATA[Magst du Kaugummi? Bei mir wird der Kaugummi nicht im Supermarkt gekauft, sondern direkt vom Gummibaum gepflückt! Damit der Kaugummi schön fruchtig schmeckt, musst du die Babypflanze mit Früchten düngen. Und schon bald wird ein prächtiger Gummibaum daraus! ]]></PROF_ROSE_0014>
+<PROF_ROSE_0014A><![CDATA[Ernte bitte den Kaugummi, wenn er reif ist und komm' wieder zu mir. ]]></PROF_ROSE_0014A>
+<PROF_ROSE_0015><![CDATA[Ähm... stehe ich auf dem Gartenschlauch oder hast du noch keinen Kaugummi geerntet? Versuch‘s nochmal und komm' wieder zu mir. ]]></PROF_ROSE_0015>
+<PROF_ROSE_0016><![CDATA[Gut gemacht! Mit dem Kaugummi wird der Kiefer schön in Schwung kommen! Erst recht als Fast-Food-Gericht mit leckerem Hühnchen. Bring' den Kaugummi in das Fast-Food-Restaurant. Speedy wird daraus sein berühmtes Kaugummihühnchen machen. Er ist ganz stolz darauf. Ich persönlich esse kein Fast Food. Ich gehe lieber zu Roger ins Gourmet-Restaurant. ]]></PROF_ROSE_0016>
+<PROF_ROSE_0016B><![CDATA[Kannst du bitte Kaugummi anpflanzen und ihn zu Speedy bringen. Er braucht ihn für sein Kaugummihühnchen.]]></PROF_ROSE_0016B>
+<PROF_ROSE_0016C><![CDATA[Schön, dass wir Speedy helfen konnten.]]></PROF_ROSE_0016C>
+<PROF_ROSE_0017><![CDATA[Einen grünen Daumen hast du schon bewiesen, aber hast du denn auch das Herz eines guten Gärtners? Pflanze eine Herzblume. Sie braucht besonders viele süße Früchte als Dünger. Lass' sie bloß nicht eingehen! ]]></PROF_ROSE_0017>
+<PROF_ROSE_0017A><![CDATA[Ernte die Herzblüte und komm' wieder zu mir, bitte.]]></PROF_ROSE_0017A>
+<PROF_ROSE_0018><![CDATA[Wo ist die Herzblume? Komme wieder, wenn du sie geerntet hast. ]]></PROF_ROSE_0018>
+<PROF_ROSE_0019><![CDATA[Ach, wie schön. So eine wunderschöne Blume! HERZlichen Glückwunsch! Die soll Roger bekommen, als Zeichen meiner Liebe zu ihm. Bitte gehe ins Gourmet-Restaurant und gib ihm die Blume. ]]></PROF_ROSE_0019>
+<PROF_ROSE_0019B><![CDATA[Du hast die Herzblüte für Roger verloren. Bitte bring' ihm eine andere, du weißt jetzt ja, wie man sie anpflanzt. Aber achte darauf, dass sie wieder genauso makellos wird.]]></PROF_ROSE_0019B>
+<PROF_ROSE_0019C><![CDATA[Vielen Dank, Roger wird das Zeichen meiner Gefühle sicher verstanden haben.]]></PROF_ROSE_0019C>
+<PROF_ROSE_0020><![CDATA[Roger macht die beste Möhrencremesuppe in der ganzen Stadt. Dass sie so gut schmeckt, hat er meinen magischen 
+Möhren zu verdanken. Die kannst du anpflanzen. Die magische Möhre braucht viel Herz beim Wachsen, deswegen wird sie mit der Herzblume gedüngt. Und mit Milch, damit sie besonders viel Calcium bekommt. Ist gut für gesunde Zähne! Aber zuerst brauchst du natürlich eine Babypflanze. Oder noch besser: Einen Gummibaum, den du umzüchten kannst. ]]></PROF_ROSE_0020>
+<PROF_ROSE_0020A><![CDATA[Bitte ernte die Möhre und bring' sie mir. ]]></PROF_ROSE_0020A>
+<PROF_ROSE_0021><![CDATA[Sag‘ mal, stehe ich auf dem Gartenschlauch oder wo ist die magische Möhre, die du ernten solltest? Komm' wieder, wenn du mir die magische Möhre geben kannst. ]]></PROF_ROSE_0021>
+<PROF_ROSE_0022><![CDATA[Das hast du ganz vorzüglich gemacht. Ich bin sehr stolz auf dich! Die magische Möhre ist ein sehr wichtiges Gemüse. Aber was sag‘ ich dir da! Das wirst du noch selbst herausfinden. 
+]]></PROF_ROSE_0022>
+<PROF_ROSE_0023><![CDATA[Aha, ich habe gerade gesehen, dass auch das Fast-Food-Restaurant ab sofort für dich offen steht. Da arbeitet Speedy. Ein netter Kerl. 
+]]></PROF_ROSE_0023>
+<PROF_ROSE_0024><![CDATA[Woher kommt der Ketchup auf den Pommes und Burgern in Speedys Fast-Food-Restaurant? Klar, von meinem Ketchupbaum, woher sonst! Pflanze eine Babypflanze und gieß' sie außer mit Wasser auch ordentlich mit roter Farbe. So werden die Ketchupflaschen sprießen! ]]></PROF_ROSE_0024>
+<PROF_ROSE_0024A><![CDATA[Bitte ernte den Ketchup und bring' ihn mir. ]]></PROF_ROSE_0024A>
+<PROF_ROSE_0025><![CDATA[Hmmm? Du hast mir noch keinen Ketchup gegeben. Komme wieder, wenn du welchen geerntet hast.]]></PROF_ROSE_0025>
+<PROF_ROSE_0026><![CDATA[Sehr schön! Das hast du wieder sehr gut gemacht! Aber pssst...Verrate bitte Roger nicht, dass ich Ketchup anbaue. Das würde er bestimmt nicht gut finden. ]]></PROF_ROSE_0026>
+<PROF_ROSE_0027><![CDATA[Damit du später Pommes frittieren und Gourmetgerichte braten kannst, brauchst du viel Öl. Hier im Tropischen Garten baue ich saftige Oliven an, die du zu Öl pressen kannst. Aber zuerst musst du sie anpflanzen. Die Bäume werden außer Wasser auch viel Sonnenmilch brauchen, damit sie sonnengereifte und ölhaltige Oliven bekommen. Außerdem bleiben sie so bestens vor Sonnenbrand geschützt!]]></PROF_ROSE_0027>
+<PROF_ROSE_0027A><![CDATA[Ernte die reifen Oliven und presse sie in der Mühle zu Öl. Bring' mir das Olivenöl, bitte.]]></PROF_ROSE_0027A>
+<PROF_ROSE_0028><![CDATA[Noch kein Olivenöl in Sicht. Ich kann dir ohne Olivenöl keine weitere Aufgabe geben. ]]></PROF_ROSE_0028>
+<PROF_ROSE_0029><![CDATA[Wunderbar! Das geht ja runter wie Öl! Wenn du so weiter machst, werde ich selbst nichts mehr zu tun haben in meinem eigenen Garten. ]]></PROF_ROSE_0029>
+<PROF_ROSE_0029A><![CDATA[Als Profi hast du erstklassige Arbeit geleistet! Aber es fehlen noch ein paar Aufgaben, um Master zu werden. Schau' am besten in deiner Aufgabenliste nach. ]]></PROF_ROSE_0029A>
+<PROF_ROSE_0030><![CDATA[Wunderbar, du kannst wirklich hervorragend mit exotischen Pflanzen umgehen – du hast den Professional-Level mit Bravour gemeistert!
+]]></PROF_ROSE_0030>
+<PROF_SPEEDY_0002><![CDATA[Oh, Kaugummi aus Rose‘s Garten? Wie schön! Komme später wieder, dann zeige ich dir, wie man das beste Kaugummihühnchen macht. Schade eigentlich, dass Rose es noch nie probiert hat... ]]></PROF_SPEEDY_0002>
+<PROF_SPEEDY_0002B><![CDATA[Hey $$name$$, na wie geht's? Gibt's was Neues?]]></PROF_SPEEDY_0002B>
+<PROF_SPEEDY_0003><![CDATA[Juhu! Du bist bereit für einen neuen Job? Kein Problem! Ich weihe dich in das Geheimnis meiner Fast-Food-Küche ein.
+]]></PROF_SPEEDY_0003>
+<PROF_SPEEDY_0004><![CDATA[Hey, alles roger in Kambodscha? Hehe, wir sind hier nicht beim Roger im Gourmet-Restaurant. Lass' uns mit etwas Leichtem anfangen: einem Fruchtsaft. Man nehme Früchte, Zucker und Wasser. Das alles kommt in den Mixer. Dann noch abfüllen in eine Flasche, fertig! See you later, alligator!]]></PROF_SPEEDY_0004>
+<PROF_SPEEDY_0004A><![CDATA[Einmal Fruchtsaft zubereiten, bitte! Komm' mit dem fertigen Fruchtsaft wieder zu mir. ]]></PROF_SPEEDY_0004A>
+<PROF_SPEEDY_0005><![CDATA[Hey, wo bleibt der Fruchtsaft, den du machen wolltest? Also ich habe noch keinen von dir bekommen. ]]></PROF_SPEEDY_0005>
+<PROF_SPEEDY_0006><![CDATA[Top! Ich stehe auf Zuverlässigkeit. Gut gemacht!]]></PROF_SPEEDY_0006>
+<PROF_SPEEDY_0007><![CDATA[In meinem Fast-Food-Restaurant gibt es Doughnuts, die auf der Zunge zergehen! Ich zeige dir, wie man sie macht: Du brauchst Teig und natürlich Olivenöl zum Frittieren. Alles kommt in die Super-Fritteuse. Die sind schnell fertig und schmecken super!]]></PROF_SPEEDY_0007>
+<PROF_SPEEDY_0007A><![CDATA[Gib mir bitte die fertigen Doughnuts.]]></PROF_SPEEDY_0007A>
+<PROF_SPEEDY_0008><![CDATA[Wo bleiben die Doughnuts? See you later, alligator!]]></PROF_SPEEDY_0008>
+<PROF_SPEEDY_0009><![CDATA[Top! Super! Eins A! Dieser Doughnut ist ein Fast-Food-Genuss! ]]></PROF_SPEEDY_0009>
+<PROF_SPEEDY_0009A><![CDATA[Ein Vollprofi bist du! Naja, noch nicht ganz. Ein paar Profi-Aufgaben fehlen dir noch. Die musst du noch erledigen, bevor es bei mir weiter geht. Schau' doch mal in deiner Aufgabenliste nach. ]]></PROF_SPEEDY_0009A>
+<PROF_SPEEDY_0010><![CDATA[Glückwunsch – du hast den Master-Level erreicht!
+]]></PROF_SPEEDY_0010>
+<WEDDINGCAKE><![CDATA[Hochzeitstorte]]></WEDDINGCAKE>
+<WEDDINGFIGURESHEIDIBERNARD><![CDATA[Hochzeitsfiguren von Heidi und Bernard]]></WEDDINGFIGURESHEIDIBERNARD>
+<WEDDING_BERNARD_01><![CDATA[Da bist du ja, sehr gut. Hast du schon die Hochzeitstorte gesehen? Da sind Figuren von mir und Heidi drauf! Sieht aus, als ob Roger sich ganz schön ins Zeug gelegt hätte! ]]></WEDDING_BERNARD_01>
+<WEDDING_BERNARD_02><![CDATA[Wieee...du hast die Figuren gemacht!? Wow, nicht schlecht! Den Hummer auch? Dankeschön! ]]></WEDDING_BERNARD_02>
+<WEDDING_BERNARD_03><![CDATA[Wie ich sehe, bist du ein richtiger Profi geworden. Ich kann mich noch erinnern, wie du dein erstes Brot gebacken hast. Oder wie du mir geholfen hast, Heidis Herz zu erobern. Mit einem Glückskeks, weißt du noch? Das werde ich nie vergessen!]]></WEDDING_BERNARD_03>
+<WEDDING_BERNARD_04><![CDATA[Heidi und ich haben dir wirklich viel zu verdanken. Aber jetzt ist Feiern angesagt! Schlag' dir den Bauch voll und schwing' das Bein!]]></WEDDING_BERNARD_04>
+<WEDDING_HEIDI_01><![CDATA[Grüß dich! Wie schön, dass du zu unserer Hochzeit gekommen bist! ]]></WEDDING_HEIDI_01>
+<WEDDING_HEIDI_02><![CDATA[Ich würde ja gerne meinen Brautstrauß werfen, damit ihn eine zukünftige Braut fängt. Aber der ist sooo schön, dass ich ihn nicht weggeben möchte. Vielen Dank dafür! Du und Rose habt euch wirklich viel Mühe gemacht. ]]></WEDDING_HEIDI_02>
+<WEDDING_HEIDI_03><![CDATA[Ach... Es ist schon eine Weile her, dass du deine erste Babypflanze angebaut hast. Damals hatte ich nur Augen für meine Pflanzen und meine Tiere. Nur meine Farm war mir wichtig. Aber du hast mir die Augen für die Liebe geöffnet!]]></WEDDING_HEIDI_03>
+<WEDDING_HEIDI_04><![CDATA[Ohne dich wären Bernard und ich vielleicht nie zusammen gekommen. Du hast uns verkuppelt! Vielen Dank nochmal! ]]></WEDDING_HEIDI_04>
+<WEDDING_HEIDI_05><![CDATA[Und jetzt hab' viel Spaß auf der Hochzeit. Probiere doch ein Stück von der Torte, die du selbst gebacken hast. Sie ist köstlich! ]]></WEDDING_HEIDI_05>
+<YELLOWPAINT><![CDATA[Gelbe Farbe]]></YELLOWPAINT>
+</snippets>

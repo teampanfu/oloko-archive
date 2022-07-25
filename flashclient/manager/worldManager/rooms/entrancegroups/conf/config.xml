@@ -1,0 +1,30 @@
+<config>
+	<assets>
+		<asset id="room" path="assets/room.swf" />
+
+	</assets>
+	
+	<sounds>
+		<sound id="roomBackground" type="music" volume="0.4" path="audio/OLO_01_wise_tree.mp3" loops="-1" />
+	</sounds>
+	
+	
+	<module>
+		<elements>
+			<element type="door" button="1" visible="1">
+				<button type="over" over="open" out="close" />
+			</element>
+		</elements>
+		
+		<hotspots>
+			<!--hotspot target="21" 		type="room" 			sharetype="unique" shape="round" x="753" y="296" rad="50" dirAngle="-60"/ --> <!-- ekeagroup -->
+			<!--hotspot target="22" 		type="room" 			sharetype="unique" shape="round" x="448" y="244" rad="50" dirAngle="-90"/ --> <!-- zurakgroup -->
+			<!--hotspot target="23" 		type="room" 			sharetype="unique" shape="round" x="191" y="300" rad="50" dirAngle="-180"/ --> <!-- deikagroup -->
+			<hotspot target="19" 		type="room" 			sharetype="unique" shape="round" x="446" y="672" rad="50" dirAngle="90"/> <!-- big tree -->
+		</hotspots>
+		<!-- changes of monica -->
+		<!-- scale>
+			<value minScale="80" maxScale="95"/>
+		</scale -->
+	</module>
+</config>

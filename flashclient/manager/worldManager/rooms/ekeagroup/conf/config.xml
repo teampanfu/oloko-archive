@@ -1,0 +1,50 @@
+<config>
+	<assets>
+		<asset id="room" path="assets/room.swf" />
+		<asset id="activeQuestPanel" path="assets/activeQuestPanel.swf" />
+	</assets>
+	
+	<sounds>
+		<sound id="roomBackground" volume="0.4" path="audio/background.mp3" loops="-1" />
+	</sounds>
+	
+	
+	<module>
+		<group>
+			<activeQuestPanel>
+				<pos x='750' y='300'/>
+			</activeQuestPanel>
+			<inviteGroupPanel>
+				<pos x='750' y='300'/>
+			</inviteGroupPanel>
+		</group>
+		<elements>
+			<element id="door" button="1" visible="1">
+				<button type="overClick" over="over" out="out" click="1"/>
+				<message value="gotoHotSpot" >
+					<hotspot value="door" />
+				</message>
+			</element>
+			<element id="ekaProducer" button="1" visible="1">
+				<button type="overClick" over="over" out="out" click="1" toolTip="GROUP_EKA_PRODUCER_MOUSEOVER" />
+				<message value="submitGroupItems" />
+			</element>
+			<!--element id="activeQuestPanel" button="1" visible="1">
+				<button type="overClick" over="over" out="out" click="1"/>
+				<message value="openAtiveQuestPanel" />
+			</element-->
+			
+			
+			<!--element id="invitePanel" button="1" visible="1">
+				<button type="overClick" over="over" out="out" click="1"/>
+				<message value="openMobileGroup" >
+				</message>
+			</element-->
+			
+		</elements>
+		
+		<hotspots>
+			<hotspot target="19" id="door"	type="room" shape="round" x="451" y="241" rad="50" /> <!-- entrancegroups -->
+		</hotspots>
+	</module>
+</config>

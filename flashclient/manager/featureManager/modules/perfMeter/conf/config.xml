@@ -1,0 +1,21 @@
+<config>
+	<!-- snippets path='manager/featureManager/modules/mobile/conf/snippets/mobile_snippets_$$lang$$.xml' _REPLACE_='1' / -->
+	<!--<snippets path='conf/allSnippets/$$lang$$/mobile_snippets_$$lang$$.xml' _REPLACE_='1' /> -->
+	
+	<dates />
+	
+	<assets>
+			</assets>
+	
+	<!-- device, panel -->
+	<sounds path="assets/audio/">
+			</sounds>
+	
+	<module>
+	  <!-- -->
+	  <settings overwriteframerateonstart="0" throttlewehninbackground="0" />
+	  <helplink>http://wiki.panfu.de/twiki/bin/view/Main/FrameMeter</helplink>
+	</module>
+	
+	
+</config>

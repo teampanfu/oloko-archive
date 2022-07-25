@@ -1,0 +1,74 @@
+<config> <!-- Kittyoto-->
+	<assets>
+		<asset id="room" path="assets/room.swf" />
+	</assets>
+	
+	<sounds>
+		<sound id="roomBackground" type="music" volume="0.4" path="audio/OLO_08_cat_style.mp3" loops="-1" />
+	</sounds>
+	
+	
+	<module>
+		<elementSounds>
+			<sound id="slidingdoor" path="assets/audio/ol_interface_mousover_sliding.mp3" loops="1" type="effect" volume="1" />
+		</elementSounds>
+		
+		<elements>
+		
+			<element id="door1" button="1" visible="1">
+				<button type="overClickSound" over="2" out="1" click="2" sound="slidingdoor" />
+				<message value="gotoHotSpot" >
+					<hotspot value="door1" />
+				</message>
+			</element>
+		<!--	<element id="door2" button="1" visible="1">
+				<button type="overClick" over="2" out="1" click="1"/>
+				<message value="gotoHotSpot" >
+					<hotSpot value="door2" />
+				</message>
+			</element>
+		-->
+			<element id="searchBallon" button="1" visible="1" dev="0" >
+				<button type="overTipClick" over="2" out="1" click="1" toolTip="MINI_GAMES_QUICKSEARCHDUELL" />
+				<message value="gotoHotGatherPoint"><x value="322" /> <y value="610" /><radius value="75" /></message>
+				<message value="enterMiniGame" type="miniGamesManager"> <gameId value="quickSearchDuell" /></message>
+			</element>
+						
+			<element id="fourWinsBallon" button="1" visible="1" dev="0" >
+				<button type="overTipClick" over="2" out="1" click="1" toolTip="MINI_GAMES_FOURWINS" />
+				<message value="gotoHotGatherPoint"><x value="390" /> <y value="480" /><radius value="75" /></message>
+				<message value="enterMiniGame" type="miniGamesManager"> <gameId value="fourWins" /></message>
+			</element>
+			
+			<element id="cloudJumperBallon" button="1" visible="1" dev="0" >
+				<button type="overTipClick" over="2" out="1" click="1" toolTip="MINI_GAMES_CLOUDNUMBERONE" />
+				<message value="gotoHotGatherPoint"><x value="480" /> <y value="568" /><radius value="75" /></message>
+				<message value="enterMiniGame" type="miniGamesManager"> <gameId value="cloudNumberOne" /></message>
+			</element>
+			<element id="door3" button="1" visible="1">
+				<button type="overClickSound" over="2" out="1" click="2" sound="slidingdoor" />
+				<message value="gotoHotSpot" >
+					<hotspot value="door3" />
+				</message>
+			</element>
+			
+		</elements>
+		
+		<hotspots>
+			<hotspot target="19" 		type="room" 			sharetype="unique" shape="round" x="608" y="278" rad="50" dirAngle="-30"/> <!-- bigtree -->
+			<hotspot target="7" 		type="room" 			sharetype="unique" shape="round" x="873" y="478" rad="50" dirAngle="23"/> <!-- foodcorner -->
+			<hotspot target="14" 		type="room" 			sharetype="unique" shape="round" x="45" y="590" rad="50" dirAngle="145"/> <!-- las shoppas -->
+			<!--hotspot target="" 		type="room" 			sharetype="unique" shape="round" x="" y="" rad="50" /--> <!-- horse home -->
+			
+			<hotspot target="16" 		type="room"  id="door3"		sharetype="unique" shape="round" x="777" y="345" rad="50"  /> <!-- welcomeskiosk -->
+			<hotspot target="19" 		type="room" 			sharetype="unique" shape="round" x="362" y="229" rad="30" dirAngle="-35" /> <!-- big tree -->
+			<hotspot target="26" id="door1" type="room" sharetype="unique" shape="round" x="273" y="394" rad="80" /> <!-- mobile shop -->
+		</hotspots>
+		<scale>
+			<value minScale="60" maxScale="70"/>
+		</scale>
+		<faces>
+			<face name="wiseTree"/>
+		</faces>
+	</module>
+</config>

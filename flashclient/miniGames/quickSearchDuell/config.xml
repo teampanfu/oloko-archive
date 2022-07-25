@@ -1,0 +1,22 @@
+<miniGameConfig>
+	
+	<flaAssets path="assets/searchAssets.swf" />
+	<sounds>
+		<sound id="background" volume="1" path="assets/BGM_SEARCHGAME_1.mp3" preload="1" />
+		<sound id="go3signal" volume="0.5" path="assets/SXF_countdown_3.mp3"  preload="1" />
+		<sound id="go2signal" volume="0.5" path="assets/SXF_countdown_2.mp3"  preload="1" />
+		<sound id="go1signal" volume="0.5" path="assets/SXF_countdown_1.mp3"  preload="1" />
+
+		<sound id="startSignal" volume="0.5" path="assets/SFX_start_whistle.mp3"  preload="1" />
+		<sound id="endSignal" volume="0.5" path="assets/SFX_finish_whistle.mp3"  preload="1" />
+		
+		<sound id="mouseOver" volume="0.3" path="assets/SFX_search_item_mouseover.mp3"  preload="1" />
+		<sound id="rightPick" volume="0.5" path="assets/SFX_search_right_item_1.mp3"  preload="1" />
+		<sound id="wrongPick" volume="0.5" path="assets/SFX_search_wrong_item_1.mp3"  preload="1" />
+		<sound id="opponnentRightPick" volume="1" path="assets/SFX_search_opponent_item_1.mp3"  preload="1" />
+
+	</sounds>
+	
+	<snippets path="assets/snippets/minigame_quick_search_duell_$$lang$$.xml" />
+
+</miniGameConfig>

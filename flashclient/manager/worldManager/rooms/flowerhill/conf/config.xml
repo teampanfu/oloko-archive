@@ -1,0 +1,31 @@
+<config><!-- FLOWERHILL-->
+	<assets> 
+		<asset id="room" path="assets/room.swf" />
+	</assets>
+	
+	<sounds>
+		<sound id="roomBackground" type="music" volume="0.4" path="audio/OLO_03_farm_land.mp3" loops="-1" />
+	</sounds>
+	
+	
+	<module>
+		<elements>
+			<element id="picnic" button="0" visible="1" dev="1">
+				<button type="overTipClick" over="2" out="1" click="1" toolTip="MINI_GAMES_FOURWINS" />
+				<message value="gotoHotGatherPoint"><x value="360" /> <y value="420" /><radius value="75" /></message>
+				<message value="enterMiniGame" type="miniGamesManager"> <gameId value="fourWins" /></message>
+			</element>
+		</elements>
+		
+		<hotspots>
+			<hotspot target="9" 		type="room" 			sharetype="unique" shape="round" x="90" y="693" rad="60" dirAngle="160"/> <!-- rioazul-->
+			<hotspot target="10" 		type="room" 			sharetype="unique" shape="round" x="594" y="679" rad="60" dirAngle="80"/> <!-- sunny farm TODO : SQUARE-->
+			<hotspot target="17" 		type="room" 			sharetype="unique" shape="round" x="771" y="342" rad="50" dirAngle="-15"/> <!-- monte cielo -->
+			<hotspot target="1000" type="home" 			sharetype="unique" shape="round" x="845" y="455" rad="50" dirAngle="0"/> <!-- home -->
+			<!--hotspot target="" 		type="room" 			sharetype="unique" shape="round" x="" y="" rad="50" /--> <!-- rabbit home-->
+		</hotspots>
+		<scale>
+			<value minScale="60" maxScale="80"/>
+		</scale>
+	</module>
+</config>

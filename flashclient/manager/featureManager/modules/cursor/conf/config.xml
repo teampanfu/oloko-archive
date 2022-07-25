@@ -1,0 +1,7 @@
+<config>
+
+	<assets>
+		<asset id='crossHair' path='assets/crossHair.swf' />
+	</assets>
+	
+</config>

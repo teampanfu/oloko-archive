@@ -1,0 +1,29 @@
+<config> <!--montecielo -->
+	<assets>
+		<asset id="room" path="assets/room.swf" />
+	</assets>
+	
+	<sounds>
+		<sound id="roomBackground" type="music" volume="0.4" path="audio/OLO_04_sugar_peak.mp3" loops="-1" />
+		<sound id="christmasSong" type="music" volume="0.4" path="audio/christmasSong.mp3" loops="1" />
+	</sounds>
+	
+	
+	<module>
+		<elements>
+			
+		</elements>
+		
+		<hotspots>
+			<hotspot target="7" type="room" sharetype="unique" shape="round" x="23" y="379" rad="50" dirAngle="165"/> <!-- foodcorner -->
+			<hotspot target="6" type="room" sharetype="unique" shape="round" x="42" y="682" rad="50" dirAngle="155" /> <!-- flowerhill -->
+		</hotspots>
+		<faces>
+			<face name="wiseTree"/>
+		</faces>
+		<!-- changes of monica -->
+		<!-- scale>
+			<value minScale="60" maxScale="80"/>
+		</scale -->
+	</module>
+</config>

@@ -1,0 +1,47 @@
+<log active="0">
+	<targets default="console">
+		<console>
+			<levels>
+				<_remote />
+				<_socket />
+				<_client />
+				<_menu />
+				<_mobile />
+				<_world />
+				<_checks />
+				<_libs />
+				<_avatar />
+				<_home />
+				<_playerManager />
+				<_asset />
+				<_player />
+				<_snippets/>
+				<_npcs />
+				<_quests />
+				<_tasks />
+				<_jobs />
+				<_avatarManager />
+				<_producer />
+				<_fame />
+				<_warning />
+				<_states />
+				<_sound />
+				<_trade />
+				<_storage />
+				<_ga_debug />
+				<error />
+				<_tvtracking />
+				<_trade />
+				<_chat />
+				<_jobline/>
+			</levels>
+		</console>
+
+		<!--panfu_cookie>
+			<levels>
+				<vars />
+				<line />
+			</levels>
+		</panfu_cookie-->
+	</targets>
+</log>

@@ -1,0 +1,308 @@
+﻿<snippets date="05.04.2012 11:03:40">
+<ABILITY_BLOCKED><![CDATA[Leider musst du zuerst Level $$levelID$$ erreichen, bevor du diese Fähigkeit benutzen kannst.]]></ABILITY_BLOCKED>
+<AGE_POP_UP_AGE><![CDATA[Alter]]></AGE_POP_UP_AGE>
+<AGE_POP_UP_DAY><![CDATA[Tag]]></AGE_POP_UP_DAY>
+<AGE_POP_UP_ERROR_AGE><![CDATA[Ups! Bitte wähle zuerst aus, wie alt du bist!]]></AGE_POP_UP_ERROR_AGE>
+<AGE_POP_UP_ERROR_BIRTHDATE><![CDATA[Ups! Bitte wähle zuerst den Tag und Monat aus, an dem du Geburtstag hast!]]></AGE_POP_UP_ERROR_BIRTHDATE>
+<AGE_POP_UP_HEADLINE><![CDATA[Trage bitte dein Geburtsdatum ein und du bekommst 500 Goldmünzen! Außerdem wartet an deinem Geburtstag eine Überraschung auf dich!]]></AGE_POP_UP_HEADLINE>
+<AGE_POP_UP_HEADLINE_V2><![CDATA[Falls dein Geburtsdatum oder dein Alter nicht richtig sind, kannst du sie hier ändern. Bitte pass' auf, dass du deine Daten richtig eingibst. Du kannst sie nicht noch einmal ändern.]]></AGE_POP_UP_HEADLINE_V2>
+<AGE_POP_UP_MONTH><![CDATA[Monat]]></AGE_POP_UP_MONTH>
+<AGE_POP_UP_MONTHS><![CDATA[Januar%Februar%März%April%Mai%Juni%Juli%August%September%Oktober%November%Dezember]]></AGE_POP_UP_MONTHS>
+<AGE_POP_UP_YOUR_BIRTHDAY><![CDATA[Wann hast du Geburtstag?]]></AGE_POP_UP_YOUR_BIRTHDAY>
+<BIGGER_GARDEN_POPUP><![CDATA[Das Beet im Hof wurde vergrößert. Jetzt habt ihr noch mehr Platz, um eure Pflanzen anzubauen. ]]></BIGGER_GARDEN_POPUP>
+<BLACKLIST_MSG><![CDATA[Lieber Olokaner,
+auf Oloko achten wir sehr darauf, dass du dich an die Regeln hältst. Tust du das nicht, muss ein Moderator dein Spiel beenden.
+
+Regeln:
+Sei niemals gemein! Ärgere die anderen Olokaner nicht und behandle sie nicht schlecht. Gib niemals private Daten wie zum Beispiel deine Adresse, deinen richtigen Namen oder MSN-Kontaktdaten heraus! Sag' keine schlimmen Wörter!]]></BLACKLIST_MSG>
+<BUTTON_CANCEL><![CDATA[Abbrechen]]></BUTTON_CANCEL>
+<BUTTON_SAVE_BIRTHDAY><![CDATA[Geburtstag speichern]]></BUTTON_SAVE_BIRTHDAY>
+<CANCELLATION_PRODUCTION><![CDATA[Möchtest du den Prozess abbrechen?
+Durch das Abbrechen gehen bereits verwendete Materialien verloren.]]></CANCELLATION_PRODUCTION>
+<CONNECTION_LOST_BUTTON><![CDATA[Einloggen]]></CONNECTION_LOST_BUTTON>
+<CONNECTION_LOST_TEXT><![CDATA[Die Verbindung wurde unterbrochen.]]></CONNECTION_LOST_TEXT>
+<DEFAULT_CANCEL_BUTTON><![CDATA[Abbrechen]]></DEFAULT_CANCEL_BUTTON>
+<DEFAULT_NO_BUTTON><![CDATA[Nein]]></DEFAULT_NO_BUTTON>
+<DEFAULT_OK_BUTTON><![CDATA[OK]]></DEFAULT_OK_BUTTON>
+<DEFAULT_YES_BUTTON><![CDATA[Ja]]></DEFAULT_YES_BUTTON>
+<ENTER_ROOM_FEEDBACK_NOT_PREMIUM><![CDATA[Diesen Raum kannst du nur mit der Gold-Mitgliedschaft betreten.]]></ENTER_ROOM_FEEDBACK_NOT_PREMIUM>
+<EXIT_POPUP_INFO><![CDATA[Möchtest du Oloko wirklich verlassen?]]></EXIT_POPUP_INFO>
+<GOLDDAY_POPUP_HEADER><![CDATA[Heute is Goldtag auf Oloko und du kannst alle Funktionen nutzen: ]]></GOLDDAY_POPUP_HEADER>
+<GOLDDAY_POPUP_PARENTS><![CDATA[Wenn dir die Oloko Gold-Mitgliedschaft gefällt, kannst du du dich gemeinsam mit deinen Eltern darüber informieren. Bitte deine Mutter oder deinen Vater darum, sich das Angebot genauer anzusehen.]]></GOLDDAY_POPUP_PARENTS>
+<GOLDDAY_POPUP_TEXT1><![CDATA[Style deinen Avatar mit Anziehsachen und Accessoires
+]]></GOLDDAY_POPUP_TEXT1>
+<GOLDDAY_POPUP_TEXT2><![CDATA[Gestalte dein Haus und deinen Garten individuell]]></GOLDDAY_POPUP_TEXT2>
+<GOLDDAY_POPUP_TEXT3><![CDATA[Handele so oft du willst]]></GOLDDAY_POPUP_TEXT3>
+<GOLDDAY_POPUP_TEXT4><![CDATA[Nutze Helfer, um schneller Pflanzen anzubauen
+]]></GOLDDAY_POPUP_TEXT4>
+<GOLDPOPUP_AVATARS_HEADER><![CDATA[Neue Tiere!]]></GOLDPOPUP_AVATARS_HEADER>
+<GOLDPOPUP_AVATARS_TEXT><![CDATA[Als Gold-Mitglied kannst du mit drei weiteren Spielfiguren spielen!]]></GOLDPOPUP_AVATARS_TEXT>
+<GOLDPOPUP_BEAVER_BODY><![CDATA[Dieser Biber beliefert Gold-Mitglieder mit frisch gestückeltem Holz. ]]></GOLDPOPUP_BEAVER_BODY>
+<GOLDPOPUP_BEAVER_HEADER><![CDATA[Hausbiber!]]></GOLDPOPUP_BEAVER_HEADER>
+<GOLDPOPUP_BEAVER_TEXT><![CDATA[Der Hausbiber beliefert Gold-Mitglieder mit frisch gestückeltem Holz.]]></GOLDPOPUP_BEAVER_TEXT>
+<GOLDPOPUP_CLOTHES_BODY><![CDATA[Mit der Gold-Mitgliedschaft kannst du deinen Avatar jede Woche neu schick einkleiden! ]]></GOLDPOPUP_CLOTHES_BODY>
+<GOLDPOPUP_CLOTHES_HEADER><![CDATA[Klamottenladen]]></GOLDPOPUP_CLOTHES_HEADER>
+<GOLDPOPUP_CLOTHES_TEXT><![CDATA[Als Gold-Mitglied kannst du deine Spielfigur mit tollen Klamotten und Accessoires stylen!]]></GOLDPOPUP_CLOTHES_TEXT>
+<GOLDPOPUP_DIGITALITEM_BODY><![CDATA[Gold-Mitglieder können ihr Handy mit tollen Extras ausstatten und es viel attraktiver machen!]]></GOLDPOPUP_DIGITALITEM_BODY>
+<GOLDPOPUP_FURNITURE_BODY><![CDATA[Mit der Gold-Mitgliedschaft kannst du dein Haus mit den schönsten Möbeln bestücken! ]]></GOLDPOPUP_FURNITURE_BODY>
+<GOLDPOPUP_FURNITURE_HEADER><![CDATA[Möbelladen!]]></GOLDPOPUP_FURNITURE_HEADER>
+<GOLDPOPUP_FURNITURE_TEXT><![CDATA[Als Gold-Mitglied kannst du dein Haus mit tollen Möbeln ausstatten!]]></GOLDPOPUP_FURNITURE_TEXT>
+<GOLDPOPUP_GARDEN_HEADER><![CDATA[Eigener großer Garten!]]></GOLDPOPUP_GARDEN_HEADER>
+<GOLDPOPUP_GARDEN_HELPER_HEADER><![CDATA[Gartenhelfer!]]></GOLDPOPUP_GARDEN_HELPER_HEADER>
+<GOLDPOPUP_GARDEN_HELPER_TEXT><![CDATA[Nur Gold-Mitglieder können aus dem Brunnen in ihrem hinteren Garten schneller Wasser schöpfen!]]></GOLDPOPUP_GARDEN_HELPER_TEXT>
+<GOLDPOPUP_GARDEN_TEXT><![CDATA[Als Gold-Mitglied kannst du den eigenen großen Garten beflanzen!]]></GOLDPOPUP_GARDEN_TEXT>
+<GOLDPOPUP_GOLDPLANTS_HEADER><![CDATA[Besonders seltene Pflanzen]]></GOLDPOPUP_GOLDPLANTS_HEADER>
+<GOLDPOPUP_GOLDPLANTS_TEXT><![CDATA[Gold-Mitglieder können hier seltene Samen kaufen, die zu besonderen Pflanzen heranwachsen. ]]></GOLDPOPUP_GOLDPLANTS_TEXT>
+<GOLDPOPUP_HANDY_HEADER><![CDATA[Handyladen!]]></GOLDPOPUP_HANDY_HEADER>
+<GOLDPOPUP_HANDY_TEXT><![CDATA[Als Gold-Mitglied kannst du dein Handy mit vielen tollen Extras ausstatten und es viel attraktiver machen!]]></GOLDPOPUP_HANDY_TEXT>
+<GOLDPOPUP_HARVEST_BODY><![CDATA[Du hast einen seltenen Gegenstand geerntet: $$item$$]]></GOLDPOPUP_HARVEST_BODY>
+<GOLDPOPUP_HARVEST_HEADER><![CDATA[Neuen Gegenstand erhalten!]]></GOLDPOPUP_HARVEST_HEADER>
+<GOLDPOPUP_INFORM_WITH_PARENTS2><![CDATA[Informiere dich zusammen mit deinen Eltern über die Vorteile einer Gold-Mitgliedschaft!]]></GOLDPOPUP_INFORM_WITH_PARENTS2>
+<GOLDPOPUP_NEW_AVATAR_BODY><![CDATA[Als Gold-Mitglied kannst du dir zusätzlich neue Tiere kaufen!]]></GOLDPOPUP_NEW_AVATAR_BODY>
+<GOLDPOPUP_TO_GOLD_MEMBERSHIP2><![CDATA[Zur Gold-Mitgliedschaft]]></GOLDPOPUP_TO_GOLD_MEMBERSHIP2>
+<GOLDPOPUP_TRADE_HEADER><![CDATA[Handele mit anderen!]]></GOLDPOPUP_TRADE_HEADER>
+<GOLDPOPUP_TRADE_LIMIT_BODY><![CDATA[Du hast dein heutiges Tauschlimit erreicht. Mit der Gold-Mitgliedschaft kannst du unbegrenzt tauschen! ]]></GOLDPOPUP_TRADE_LIMIT_BODY>
+<GOLDPOPUP_TRADE_LIMIT_HEADER><![CDATA[Tauschlimit]]></GOLDPOPUP_TRADE_LIMIT_HEADER>
+<GOLDPOPUP_TRADE_TEXT><![CDATA[Als Gold-Mitglied kannst du Handel mit anderen starten und so Gegenstände mit anderen Olokanern tauschen!]]></GOLDPOPUP_TRADE_TEXT>
+<GOLDPOPUP_USELESSCLOTHES_BODY><![CDATA[Dieses Kleidungsstück kann nur von Gold-Mitgliedern getragen werden. ]]></GOLDPOPUP_USELESSCLOTHES_BODY>
+<GOLDPOPUP_USELESSCLOTHES_HEADER><![CDATA[Anziehen nicht möglich]]></GOLDPOPUP_USELESSCLOTHES_HEADER>
+<GOLDPOPUP_USELESSFURNITURE_BODY><![CDATA[Dieses Möbelstück kann nur von Gold-Mitgliedern benutzt werden. ]]></GOLDPOPUP_USELESSFURNITURE_BODY>
+<GOLDPOPUP_USELESSFURNITURE_HEADER><![CDATA[Möblieren nicht möglich]]></GOLDPOPUP_USELESSFURNITURE_HEADER>
+<GOLDPOPUP_WATERING_BODY><![CDATA[Mit der Gießfunktion kannst du als Gold-Mitglied deine ausgewachsenen Pflanzen länger im Garten behalten! ]]></GOLDPOPUP_WATERING_BODY>
+<GOLDPOPUP_WATERING_HEADER><![CDATA[Gießkanne!]]></GOLDPOPUP_WATERING_HEADER>
+<GOLDPOPUP_WELL_BODY><![CDATA[Gold-Mitglieder können aus dem Brunnen in ihrem hinteren Garten schneller Wasser schöpfen.]]></GOLDPOPUP_WELL_BODY>
+<GREYLIST_MSG><![CDATA[Lieber Olokaner, auf Oloko achten wir sehr darauf, dass du dich an die Regeln hältst. Tust du das nicht, muss ein Moderator dein Spiel beenden.
+
+Regeln:
+Sei niemals gemein! Ärgere die anderen Olokaner nicht oder behandle sie schlecht. Gib niemals private Daten wie zum Beispiel deine Adresse, deinen richtigen Namen oder MSN-Kontaktdaten heraus! Sag' keine schlimmen Wörter!]]></GREYLIST_MSG>
+<GROUPS_DEIKA_TSHIRT_DESCRIPTION><![CDATA[Als Willkommensgeschenk bei den Deika erhältst du dieses exclusives Deika T-Shirt! Trage es mit Stolz!]]></GROUPS_DEIKA_TSHIRT_DESCRIPTION>
+<GROUPS_DEIKA_TSHIRT_HEADER><![CDATA[Deika T-Shirt]]></GROUPS_DEIKA_TSHIRT_HEADER>
+<GROUPS_EKA_TSHIRT_DESCRIPTION><![CDATA[Als Willkommensgeschenk bei den Eka erhältst du dieses exclusives Eka T-Shirt! Trage es mit Stolz!]]></GROUPS_EKA_TSHIRT_DESCRIPTION>
+<GROUPS_EKA_TSHIRT__HEADER><![CDATA[Eka T-Shirt]]></GROUPS_EKA_TSHIRT__HEADER>
+<GROUPS_ZURAK_TSHIRT_DESCRIPTION><![CDATA[Als Willkommensgeschenk bei den Zuraks erhältst du dieses exclusives Zurak T-Shirt! Trage es mit Stolz!]]></GROUPS_ZURAK_TSHIRT_DESCRIPTION>
+<GROUPS_ZURAK_TSHIRT_HEADER><![CDATA[Zurak T-Shirt]]></GROUPS_ZURAK_TSHIRT_HEADER>
+<HOW_OLD_ARE_YOU><![CDATA[Wie alt bist du?]]></HOW_OLD_ARE_YOU>
+<INTROTOUR_NEW_FIN_POPUP><![CDATA[Du hast die Intro-Tour erfolgreich abgeschlossen! 
+Es wird Zeit, Bernard Breadstone kennenzulernen. Folge dem Ausrufezeichen! ]]></INTROTOUR_NEW_FIN_POPUP>
+<INTROTOUR_NEW_FIN_POPUP_A><![CDATA[Als Belohnung bekommst du einen Farmer-Anzug. Klicke auf dein Handy und ziehe ihn gleich an.]]></INTROTOUR_NEW_FIN_POPUP_A>
+<INTROTOUR_NEW_FIN_POPUP_HEADER><![CDATA[Herzlichen Glückwunsch! ]]></INTROTOUR_NEW_FIN_POPUP_HEADER>
+<INTRO_TOUR_REWARD_POPUP2><![CDATA[Du hast dein eigenes Oloko Handy erhalten! Du kannst damit deine Gegenstände ansehen, Kleidung kaufen und anziehen, deine Freunde verwalten, Nachrichten lesen und vieles mehr!]]></INTRO_TOUR_REWARD_POPUP2>
+<INVITE_ECARD_BUTTON_BACK><![CDATA[Zurück]]></INVITE_ECARD_BUTTON_BACK>
+<INVITE_ECARD_BUTTON_CONFIRM><![CDATA[Weiter]]></INVITE_ECARD_BUTTON_CONFIRM>
+<INVITE_ECARD_BUTTON_SEND><![CDATA[Abschicken]]></INVITE_ECARD_BUTTON_SEND>
+<JOBSTREE_JOB_AVAILABLE_GO><![CDATA[Geh dorthin]]></JOBSTREE_JOB_AVAILABLE_GO>
+<JOBSTREE_NEWJOB_RECIPE><![CDATA[Super, du kannst nun $$itemName$$ produzieren!]]></JOBSTREE_NEWJOB_RECIPE>
+<JOBSTREE_NEWJOB_RECIPE_TWO_ITEMS><![CDATA[Super, du kannst nun $$itemName1$$ und $$itemName2$$ produzieren!]]></JOBSTREE_NEWJOB_RECIPE_TWO_ITEMS>
+<JOBSTREE_PRODUCTION_TALKTONPC><![CDATA[Rede mit $$NPC_Name$$ um das Rezept für das Item zu lernen]]></JOBSTREE_PRODUCTION_TALKTONPC>
+<JOBSTREE_PRODUCTION_TALKTONPC_POPUP><![CDATA[Du kannst hier noch nichts herstellen. Erfülle weitere Aufgaben für $$NPC_Name$$, um neue Rezepte zu erlernen.]]></JOBSTREE_PRODUCTION_TALKTONPC_POPUP>
+<KICK_BLACKLIST_MSG><![CDATA[Lieber Olokaner,
+weil du dich leider nicht an die Regeln gehalten hast, wurde dein Spiel beendet. Der Chat ist für einen Tag für dich gesperrt.
+
+Regeln:
+Sei niemals gemein! Ärgere die anderen Olokaner nicht oder behandle sie schlecht. Gib niemals private Daten wie zum Beispiel deine Adresse, deinen richtigen Namen, oder MSN-Kontaktdaten heraus! Sag' keine schlimmen Wörter!]]></KICK_BLACKLIST_MSG>
+<KICK_IDLE_MSG><![CDATA[Du warst länger als 10 Minuten inaktiv, deswegen wurde das Spiel automatisch beendet. Bitte logge dich erneut ein.]]></KICK_IDLE_MSG>
+<KICK_LOGIN_FAILED><![CDATA[Das Einloggen ist fehlgeschlagen. Bitte versuche es erneut.]]></KICK_LOGIN_FAILED>
+<KICK_MODERATOR_MSG><![CDATA[Lieber Olokaner,
+weil du dich nicht an die Oloko-Regeln gehalten hast, hat ein Moderator dein Spiel beendet. Du kannst dich immer noch einloggen, aber der Chat ist für $$duration_of_blocked_chat$$für dich gesperrt.
+
+Regeln:
+Sei niemals gemein! Ärgere die anderen Olokaner nicht oder behandle sie schlecht. Gib niemals private Daten wie zum Beispiel deine Adresse, deinen richtigen Namen, oder MSN-Kontaktdaten heraus! Sag' keine schlimmen Wörter!]]></KICK_MODERATOR_MSG>
+<KICK_MODERATOR_MSG_DELETE><![CDATA[Liebe(r) Olokaner,
+dein Spielerkonto wurde von einem Moderator gelöscht, weil du dich nicht an die Oloko-Regeln gehalten hast. Es ist uns sehr wichtig, Oloko so zu gestalten, dass kein Kind beleidigt oder verletzt wird.
+
+Regeln:
+Sei niemals gemein! Ärgere die anderen Olokaner nicht oder behandle sie schlecht. Gib niemals private Daten wie zum Beispiel deine Adresse, deinen richtigen Namen, oder MSN-Kontaktdaten heraus! Sag' keine schlimmen Wörter!]]></KICK_MODERATOR_MSG_DELETE>
+<KICK_SHUTDOWN_MSG><![CDATA[Das Spiel wurde systembedingt beendet.]]></KICK_SHUTDOWN_MSG>
+<LEVEL10_REWARD><![CDATA[Glückwunsch, du hast nun den Rang eines Guppy! 
+Deine Arme sind stärker als die stärkste Flosse und du kannst Strohballen durch ganz Oloko werfen! Alles in Deckung und Köpfe runter!]]></LEVEL10_REWARD>
+<LEVEL11_REWARD><![CDATA[Gut gemacht, du erhälst den Rang eines Golden Frog!
+Ein Golden Frog liebt einen erfrischenden Regen aus Gold über alles. Damit auch du ein goldenes Leben führen kannst, bekommst du 500 Münzen extra! Sauber!]]></LEVEL11_REWARD>
+<LEVEL12_REWARD><![CDATA[Du bist einen Level aufgestiegen! Mit dem großartigen Rang eines Chameleon wirst du beliebter sein als jemals zuvor!
+Außerdem bekommst du einen Fußabtreter, mit dem du deine Besucher willkommen heißen kannst. Füße abtreten nicht vergessen!]]></LEVEL12_REWARD>
+<LEVEL13_REWARD><![CDATA[Du hast Level 13 erreicht und erhältst den Rang eines Seal!
+Als Seal ist das Wasser dein Element; aus jeder Quelle erhältst du nun eine zusätzliche Portion Wasser!]]></LEVEL13_REWARD>
+<LEVEL14_REWARD><![CDATA[Großartig, du erreichst den Rang eines Millipede.
+Du lernst nun, dich unsichtbar zu machen. Benutze diese Fähigkeit, um dich beobachtenden Blicken zu entziehen und eins mit der Natur zu werden.]]></LEVEL14_REWARD>
+<LEVEL15_REWARD><![CDATA[Als Rooster kannst du strotzen vor Stolz, denn du hast Level 15 erreicht!
+Zur Belohnung erhältst du einen Rooster-Klingelton für dein Handy. Lass' die Welt deinen Stolz hören!]]></LEVEL15_REWARD>
+<LEVEL16_REWARD><![CDATA[Sehr gut, du hast nun Level 16 erreicht und erhältst den Rang eines Pigeon.
+Dekoriere dein Handy mit dem schicken Town-Hintergrund und trage so immer einen Teil von Carrot Town bei dir.]]></LEVEL16_REWARD>
+<LEVEL17_REWARD><![CDATA[Glückwunsch, auf Level 17 bist du nun eine strahlend helle Firefly!
+Du kannst jetzt mit kleinen Schokokuchen um dich werfen. Lass' ein paar Kalorienbomben fliegen und überrasche deine Freunde!]]></LEVEL17_REWARD>
+<LEVEL18_REWARD><![CDATA[Wow, du hast Level 18 erreicht! In diesem Level erhältst du den Rang einer Bee!
+Dafür bekommst du eine Vase voll wunderschöner Blumen. Sie spenden dir zwar keinen Honig, machen sich dafür aber wunderbar in deinem Haus.]]></LEVEL18_REWARD>
+<LEVEL19_REWARD><![CDATA[Du hast nun Level 19 erreicht! Eine Flut an Geld erwartet dich auf dem Magpie Rang!
+Fülle deine Taschen mit 1500 glitzernden Münzen! Aber werde nicht zu gierig!]]></LEVEL19_REWARD>
+<LEVEL1_REWARD><![CDATA[Alle Oloko-Spieler starten auf dem Newbie-Level.
+Als Willkommensgeschenk erhältst du ein schickes Oloko T-Shirt.]]></LEVEL1_REWARD>
+<LEVEL20_REWARD><![CDATA[Glückwunsch, du hast Level 20 erreicht und erhältst den Rang eines Hummingbird!
+Schnell wie der Blitz erhältst du nun von jeder magischen Blume ein extra Samenkorn.]]></LEVEL20_REWARD>
+<LEVEL21_REWARD><![CDATA[Ausgezeichnet, du wirst befördert! Level 21 verleiht dir den Rang einer Checkered Cow!
+Genieß' das Landleben und die tägliche Arbeit auf den Feldern mit diesem schicken Farmeranzug. Nun siehst du aus wie ein erfahrener Bauer!]]></LEVEL21_REWARD>
+<LEVEL22_REWARD><![CDATA[Du bist einen Level aufgestiegen und hast den Rang einer Bumblebee erreicht!
+Um deine Erfolge zu feiern, bekommst du eine goldene Hummelstatue! Stelle sie auf einen Ehrenplatz, du hast sie dir mit mühsamer Arbeit verdient!]]></LEVEL22_REWARD>
+<LEVEL23_REWARD><![CDATA[Nun bist du auf Level 23! Genieße die Früchte deiner Arbeit mit dem Rang eines Weasel!
+Als Belohnung erhältst du einen rustikalen Maisteppich! Sieht echt so aus, als käme er direkt von deinen Feldern!]]></LEVEL23_REWARD>
+<LEVEL24_REWARD><![CDATA[Howdy Partner! Mit Level 24 wird dir der Rang eines Goldfish verliehen!
+Zur Belohnung bekommst du den tollen Western-Klingelton. Bei jeder Nachricht erzeugt dein Handy nun eine schaurig-romantische Stimmung!]]></LEVEL24_REWARD>
+<LEVEL25_REWARD><![CDATA[Sehr schön! Der Rang eines Sparrow erwartet dich auf Level 25!
+Ein kluger Sparrow weiß, wie er das Meiste aus seiner Arbeit herausholt. Im Treibhaus bekommst du nun eine extra Schachtel mit Dünger!]]></LEVEL25_REWARD>
+<LEVEL26_REWARD_OLD><![CDATA[Super, du hast Level 23 erreicht und erhältst nun den Rang eines Weasel.
+Mach' es dir gemütlich und lege dich hin auf den Boden. Halt' ein kleines Nickerchen oder schaue hinauf in den Himmel und beobachte die Wolken. ]]></LEVEL26_REWARD_OLD>
+<LEVEL27_REWARD_OLD><![CDATA[Welch ein Meilenstein! Du bist nun auf Level 25 und erreichst den Rang eines Sparrow.
+Als Sparrow erlernst du die mysteriöse Change-Fähigkeit. Verwirre deine Freunde und verwandele dich in eine andere Tierart! ]]></LEVEL27_REWARD_OLD>
+<LEVEL28_REWARD><![CDATA[Super, du bist wieder einen Level aufgestiegen! Auf Level 28 erreichst du den Rang eines Badger!
+Arbeitest du gerne in der Bäckerei? Mit dem Bäckeranzug macht die Arbeit gleich doppelt soviel Spaß und ist viermal so stylisch!]]></LEVEL28_REWARD>
+<LEVEL29_REWARD><![CDATA[Alle Achtung, nun bist du auf Level 29, dem Woodpecker-Level.
+Alle Woodpecker lieben es, Holz zu bearbeiten. Dieser elegante Rindenholz-Tisch wurde in einem Stück aus einem großen Baumstamm geschnitzt.]]></LEVEL29_REWARD>
+<LEVEL2_REWARD><![CDATA[Glückwunsch, du hast Level 2 erreicht und erhältst den Rang eines Chick!
+Nun kannst du Smileys erzeugen und allen zeigen, wie du dich fühlst. Schenke uns allen ein groooßes Lächeln und wähle einen Smiley aus dem Aktionen-Menü!]]></LEVEL2_REWARD>
+<LEVEL30_REWARD><![CDATA[Endlich! Auf Level 30 erhältst du den Rang eines Penguin!
+Penguins sind Kreaturen der See und der Ozeane. Damit du immer nahe am Wasser bist, bekommst du einen tollen Strand-Hintergrund für deine Spielerkarte!]]></LEVEL30_REWARD>
+<LEVEL3_REWARD><![CDATA[Gut gemacht, du bist einen Level aufgestiegen! Level 3 verleiht dir den Rang einer Ant.
+Ants sind nicht nur stark, sondern können auch weit springen! Doppelklicke auf einen Ort, um sofort und schnell dorthin zu springen!]]></LEVEL3_REWARD>
+<LEVEL4_REWARD><![CDATA[Welche Ehre! Auf Level 4 erhältst du den Rang eines Arctic Hare!
+Als Arctic Hare kannst du einer der drei Gruppen von Oloko beitreten. Dies ist eine große Ehre! Arbeite hart und gib dein Bestes für ganz Oloko! Gehe schnell zum Weisen Baum und tritt einer Gruppe bei!]]></LEVEL4_REWARD>
+<LEVEL5_REWARD><![CDATA[Du bist um einen weiteren Level aufgestiegen und hast den Rang eines Grasshopper erreicht!
+Grasshopper sind für ihre Freundlichkeit bekannt. Nun kannst du Freunden und Fremden zuwinken und sie begrüßen! Klicke im Aktionsmenü auf Winken und probiere es aus.]]></LEVEL5_REWARD>
+<LEVEL6_REWARD><![CDATA[Nun bist du auf Level 6 und hast den Rang eines Peacock!
+Die Peacocks sind für ihre Eleganz bekannt. Mit der weißen Hülle erhält dein Handy einen Hauch von Klasse. Gehe zum Rucksack und wähle deine neue Handyhülle aus.]]></LEVEL6_REWARD>
+<LEVEL7_REWARD><![CDATA[Wieder bist du einen Level aufgestiegen! Level 7 verleiht dir den Rang eines Hedgehog!
+Es ist Zeit für eine kleine Pause. Du kannst dich nun auf den Boden setzen. Mach' doch ein Picknick mit deinen Freunden. Klicke im Aktionen-Menü einfach auf hinsetzen.]]></LEVEL7_REWARD>
+<LEVEL8_REWARD><![CDATA[Du erreichst Level 8, den Level des Mole!
+Als Belohnung für deine Fortschritte bekommst du ein tolles Bett. Sieht es nicht gemütlich aus?]]></LEVEL8_REWARD>
+<LEVEL9_REWARD><![CDATA[Spektakulär! Level 9 befördert dich auf den Rang eines Pig!
+Dein Garten ist eine wahre Bereicherung für Oloko. Um dies zu feiern, bekommst du einen Farm-Hintergrund für deine Spielerkarte! Gehe zu deinem Rucksack und klick' auf deinen neuen Hintergrund!]]></LEVEL9_REWARD>
+<LOCKED_SAFE_CHAT_MSG><![CDATA[Leider bist du gesperrt und darfst deswegen nicht frei chatten.]]></LOCKED_SAFE_CHAT_MSG>
+<MEMBERSHIP_POPUP_NEW_CLOTHES><![CDATA[Style deine Spielfigur mit Kleidung und Accessoires]]></MEMBERSHIP_POPUP_NEW_CLOTHES>
+<MEMBERSHIP_POPUP_NEW_GROUP><![CDATA[Beeindrucke deine Freunde mit VIP-Gruppenaktionen]]></MEMBERSHIP_POPUP_NEW_GROUP>
+<MEMBERSHIP_POPUP_NEW_HELPERS><![CDATA[Habe Spaß am Bepflanzen deines großen Gartens mit speziellen Helfern]]></MEMBERSHIP_POPUP_NEW_HELPERS>
+<MEMBERSHIP_POPUP_NEW_HOUSE><![CDATA[Gestalte dein Haus und deinen Hof individuell]]></MEMBERSHIP_POPUP_NEW_HOUSE>
+<MEMBERSHIP_POPUP_NEW_LEVEL><![CDATA[Erlebe noch mehr Spaß mit Level-Belohnungen]]></MEMBERSHIP_POPUP_NEW_LEVEL>
+<MEMBERSHIP_POPUP_NEW_MAGIC><![CDATA[Verwende Zaubertränke um den Spielverlauf zu beschleunigen]]></MEMBERSHIP_POPUP_NEW_MAGIC>
+<MEMBERSHIP_POPUP_NEW_PLANTING><![CDATA[Bepflanze deinen eigenen Garten mit besonderen Helfern]]></MEMBERSHIP_POPUP_NEW_PLANTING>
+<MEMBERSHIP_POPUP_NEW_STYLE><![CDATA[Style deine Spielfigur und richte dein Haus ein]]></MEMBERSHIP_POPUP_NEW_STYLE>
+<MODERATION_AUTO_LOCK_HEADING><![CDATA[Liebe/r $$name$$, du hast gegen die Chatregeln verstossen und wurdest vom Chat ausgeschlossen.]]></MODERATION_AUTO_LOCK_HEADING>
+<MODERATION_AUTO_LOCK_INFO_OLOKO><![CDATA[Du kannst weiterhin Oloko spielen, aber du wirst 1 Tag lang nicht chatten können.]]></MODERATION_AUTO_LOCK_INFO_OLOKO>
+<MODERATION_AUTO_LOCK_WARNING><![CDATA[Wenn du die Regeln noch einmal brichst, riskierst du, länger vom Chat ausgeschlossen zu werden!]]></MODERATION_AUTO_LOCK_WARNING>
+<MODERATION_AUTO_WARNING_HEADING><![CDATA[Ups! Offensichtlich hast du etwas gesagt, dass gegen unsere Chatregeln verstößt.]]></MODERATION_AUTO_WARNING_HEADING>
+<MODERATION_AUTO_WARNING_TEXT><![CDATA[Folge diesen einfachen Regeln und du wirst eine Menge Spaß haben. Spieler, die gegen die Regeln verstoßen, werden durch unsere Moderatoren vom Chat ausgeschlossen.]]></MODERATION_AUTO_WARNING_TEXT>
+<MODERATION_CHAT_HOURS_HOLIDAYS><![CDATA[Schulferien und Feiertage: siehe Wochenenden]]></MODERATION_CHAT_HOURS_HOLIDAYS>
+<MODERATION_CHAT_HOURS_OLOKO><![CDATA[Liebe/r $$name$$, der Oloko-Chat ist derzeit nicht geöffnet.]]></MODERATION_CHAT_HOURS_OLOKO>
+<MODERATION_CHAT_HOURS_OPEN_OLOKO><![CDATA[Der Chat auf Oloko ist zu den folgenden Zeiten geöffnet:]]></MODERATION_CHAT_HOURS_OPEN_OLOKO>
+<MODERATION_CHAT_HOURS_RETURN><![CDATA[Komme zu diesen Zeiten wieder vorbei, um mit deinen Freunden zu chatten.]]></MODERATION_CHAT_HOURS_RETURN>
+<MODERATION_CHAT_HOURS_SPECIAL><![CDATA[$$start$$:00-$$end$$:00 Uhr]]></MODERATION_CHAT_HOURS_SPECIAL>
+<MODERATION_CHAT_HOURS_WEEKDAYS><![CDATA[Werktage: 12:00-22:00 Uhr]]></MODERATION_CHAT_HOURS_WEEKDAYS>
+<MODERATION_CHAT_HOURS_WEEKENDS><![CDATA[Wochenenden und Feiertage: 08:00-22:00 Uhr]]></MODERATION_CHAT_HOURS_WEEKENDS>
+<MODERATION_CHAT_UNABLE_LOCK><![CDATA[Liebe/r $$name$$, du hast die Chatregeln gebrochen und wurdest deshalb vom Chat ausgeschlossen.]]></MODERATION_CHAT_UNABLE_LOCK>
+<MODERATION_CHAT_UNABLE_LOCK_COUNTDOWN_OLOKO><![CDATA[Du kannst weiterhin Oloko spielen, aber du kannst derzeit nicht chatten. Du wirst den Chat in $$hour$$ Stunde(n) und $$minute$$ Minute(n) wieder nutzen können.]]></MODERATION_CHAT_UNABLE_LOCK_COUNTDOWN_OLOKO>
+<MODERATION_CHAT_UNABLE_LOCK_WARNING><![CDATA[Denke daran, die Regeln nicht erneut zu brechen, wenn du wieder chatten kannst. Falls du es doch tun solltest, könntest du für eine längere Zeit gesperrt werden oder dein Nutzerkonto verlieren.]]></MODERATION_CHAT_UNABLE_LOCK_WARNING>
+<MODERATION_CHAT_WHY_SAFE_OLOKO><![CDATA[Das macht den Chat auf Oloko sicher:]]></MODERATION_CHAT_WHY_SAFE_OLOKO>
+<MODERATION_CHOOSE_WHY_PLAYER><![CDATA[Dieser Spieler:]]></MODERATION_CHOOSE_WHY_PLAYER>
+<MODERATION_CHOOSE_WHY_PLAYER_CHEATING><![CDATA[hat betrogen.]]></MODERATION_CHOOSE_WHY_PLAYER_CHEATING>
+<MODERATION_CHOOSE_WHY_PLAYER_LANGUAGE><![CDATA[war unhöflich oder hat Schimpfworte benutzt.]]></MODERATION_CHOOSE_WHY_PLAYER_LANGUAGE>
+<MODERATION_CHOOSE_WHY_PLAYER_MEAN><![CDATA[war fies zu mir.]]></MODERATION_CHOOSE_WHY_PLAYER_MEAN>
+<MODERATION_CHOOSE_WHY_PLAYER_PASSWORD><![CDATA[hat mich nach meinem Passwort gefragt.]]></MODERATION_CHOOSE_WHY_PLAYER_PASSWORD>
+<MODERATION_CHOOSE_WHY_PLAYER_PERSONAL><![CDATA[hat über persönliche Informationen gesprochen.]]></MODERATION_CHOOSE_WHY_PLAYER_PERSONAL>
+<MODERATION_CHOOSE_WHY_PLAYER_WEBSITES><![CDATA[hat von anderen Webseiten gesprochen.]]></MODERATION_CHOOSE_WHY_PLAYER_WEBSITES>
+<MODERATION_CONFIRM_IGNORE_NAME><![CDATA[Wenn du $$ignored_name$$ ignorierst, wirst du ihn oder sie nicht mehr sehen können und auch nicht mehr mit ihm oder ihr chatten können!]]></MODERATION_CONFIRM_IGNORE_NAME>
+<MODERATION_CONFIRM_IGNORE_USER><![CDATA[Möchtest du diesen Spieler wirklich ignorieren?]]></MODERATION_CONFIRM_IGNORE_USER>
+<MODERATION_CONFIRM_REPORT_USER><![CDATA[Möchtest du $$offender$$ wirklich an einen Moderator melden?]]></MODERATION_CONFIRM_REPORT_USER>
+<MODERATION_CONFIRM_REPORT_USER_CHOOSE><![CDATA[Bitte wähle aus, wieso du diesen Spieler melden möchtest:]]></MODERATION_CONFIRM_REPORT_USER_CHOOSE>
+<MODERATION_CONFIRM_REPORT_USER_CONTACT_OLOKO><![CDATA[Wenn du den Oloko-Support wegen dieses Nutzers kontaktieren möchtest, klicke bitte <b><font color="#45ACF5" size="14">hier</font></b>]]></MODERATION_CONFIRM_REPORT_USER_CONTACT_OLOKO>
+<MODERATION_CONFIRM_REPORT_USER_IGNORE><![CDATA[Wenn du jemanden meldest, wird er oder sie für dich nicht mehr sichtbar sein. Das bedeutet, dass du diesen Spieler nicht mehr im Spiel sehen wirst.]]></MODERATION_CONFIRM_REPORT_USER_IGNORE>
+<MODERATION_CONFIRM_REPORT_USER_SUBHEAD><![CDATA[Denke daran, nur Spieler zu melden, die auch wirklich Chatregeln gebrochen haben.]]></MODERATION_CONFIRM_REPORT_USER_SUBHEAD>
+<MODERATION_DEACTIVATED_CONTACT_OLOKO><![CDATA[Wenn du dein Nutzerkonto wieder verwenden möchtest, solltest du deine Eltern darum bitten, den Support für Oloko zu kontaktieren. Klicke %1$shier%2$s, um unser Support-Team zu kontaktieren.]]></MODERATION_DEACTIVATED_CONTACT_OLOKO>
+<MODERATION_DEACTIVATED_HEADING><![CDATA[Liebe/r $$name$$, dein Nutzerkonto wurde von einem Moderator deaktiviert.]]></MODERATION_DEACTIVATED_HEADING>
+<MODERATION_DEACTIVATED_WARNING_OLOKO><![CDATA[Du hast die Regeln entweder schwerwiegend gebrochen, oder du hast die Regeln zu oft gebrochen. Deshalb wirst du dich künftig nicht mehr auf Oloko einloggen können.]]></MODERATION_DEACTIVATED_WARNING_OLOKO>
+<MODERATION_MODERATOR_LOCK_DAY_OLOKO><![CDATA[Du kannst weiterhin Oloko spielen, aber du wirst einen Tag lang nicht chatten können.]]></MODERATION_MODERATOR_LOCK_DAY_OLOKO>
+<MODERATION_MODERATOR_LOCK_HEADING><![CDATA[Liebe/r $$name$$, du hast die Chatregeln gebrochen und ein Moderator hat dich deshalb vom Chat ausgeschlossen.]]></MODERATION_MODERATOR_LOCK_HEADING>
+<MODERATION_MODERATOR_LOCK_MINUTES_OLOKO><![CDATA[Du kannst weiterhin Oloko spielen, aber du wirst 30 Minuten lang nicht chatten können.]]></MODERATION_MODERATOR_LOCK_MINUTES_OLOKO>
+<MODERATION_SAFE_FILTER_AUTO><![CDATA[Moderne automatische Filtersysteme, die das Anzeigen von unangemessenen Worten und persönlichen Informationen verhindern.]]></MODERATION_SAFE_FILTER_AUTO>
+<MODERATION_SAFE_FILTER_EMAIL><![CDATA[Alle Spieler müssen sich registrieren und ihre Registrierung mittels einer real vorhandenen E-Mail-Adresse abschließen.]]></MODERATION_SAFE_FILTER_EMAIL>
+<MODERATION_SAFE_FILTER_HELP><![CDATA[Ein umfangreicher und gut strukturierter Hilfebereich.]]></MODERATION_SAFE_FILTER_HELP>
+<MODERATION_SAFE_FILTER_HOURS><![CDATA[Außerhalb der Chatzeiten können die Spieler nur vorformulierte Chatnachrichten versenden.]]></MODERATION_SAFE_FILTER_HOURS>
+<MODERATION_SAFE_FILTER_IGNORE><![CDATA[Wenn du einen anderen Spieler ignorierst, werden alle seine Chatfunktionen und Nachrichten für dich unsichtbar sein.]]></MODERATION_SAFE_FILTER_IGNORE>
+<MODERATION_SAFE_FILTER_REPORT><![CDATA[Eine Meldefunktion, die Spieler dazu nutzen können, unangemessenes Verhalten an die Moderatoren zu melden.]]></MODERATION_SAFE_FILTER_REPORT>
+<MODERATION_SAFE_FILTER_TRAFFIC><![CDATA[Professionelle Teams von Moderatoren, die aktiv den Chatverlauf überprüfen.]]></MODERATION_SAFE_FILTER_TRAFFIC>
+<MODERATION_USER_IGNORED_OLOKO><![CDATA[Du ignorierst nun den Olokaner $$ignored_name$$.]]></MODERATION_USER_IGNORED_OLOKO>
+<MODERATION_USER_IGNORED_OLOKO_SEE><![CDATA[Das bedeutet, dass du ihn oder sie nicht mehr im Spiel sehen wirst. Er oder sie wird auch dich nicht sehen können.]]></MODERATION_USER_IGNORED_OLOKO_SEE>
+<MODERATION_USER_REPORTED_OLOKO><![CDATA[Du hast den Olokaner $$reported_name$$ einem Moderator gemeldet.]]></MODERATION_USER_REPORTED_OLOKO>
+<MODERATION_USER_REPORTED_OLOKO_IGNORED><![CDATA[$$reported_name$$ wird nun automatisch von dir ignoriert. Das bedeutet, dass du ihn oder sie nun nicht mehr im Spiel sehen wirst.]]></MODERATION_USER_REPORTED_OLOKO_IGNORED>
+<NOT_ENOUGH_COINS><![CDATA[Du hast nicht genügend Münzen, um diese Item zu kaufen.]]></NOT_ENOUGH_COINS>
+<ONLY_SAFE_CHAT_MSG><![CDATA[Du kannst in der Woche von 12:00 Uhr mittags bis 20:00 Uhr abends chatten und am Wochenende von 8:00 Uhr morgens bis 22:00 Uhr abends!]]></ONLY_SAFE_CHAT_MSG>
+<PLAYER_RECIEVE_ITEM><![CDATA[Du hast folgenden Gegenstand erhalten:]]></PLAYER_RECIEVE_ITEM>
+<POLL_QUESTIONS_Q3_ERROR><![CDATA[Ups! Bitte wähle zuerst eine Antwort aus! ]]></POLL_QUESTIONS_Q3_ERROR>
+<POLL_QUESTIONS_WEEKLY><![CDATA[Liebe Olokaner, eure Stimme zählt!
+%Stimmt ab und macht Oloko noch besser!
+%Was gefällt dir auf Oloko am besten?
+%Pflanzen und ernten 
+%Tiere züchten
+%Jobs erledigen
+%Einkaufen
+%Meine Freunde treffen
+%Handeln
+%Minigames spielen
+%Die wöchentliche Gruppenaufgabe lösen
+%Anderes]]></POLL_QUESTIONS_WEEKLY>
+<POLL_QUESTIONS_WEEKLY_OPTION1><![CDATA[Pflanzen und ernten ]]></POLL_QUESTIONS_WEEKLY_OPTION1>
+<POLL_QUESTIONS_WEEKLY_OPTION2><![CDATA[Tiere züchten]]></POLL_QUESTIONS_WEEKLY_OPTION2>
+<POLL_QUESTIONS_WEEKLY_OPTION3><![CDATA[Jobs erledigen]]></POLL_QUESTIONS_WEEKLY_OPTION3>
+<POLL_QUESTIONS_WEEKLY_OPTION4><![CDATA[Einkaufen]]></POLL_QUESTIONS_WEEKLY_OPTION4>
+<POLL_QUESTIONS_WEEKLY_OPTION5><![CDATA[Meine Freunde treffen]]></POLL_QUESTIONS_WEEKLY_OPTION5>
+<POLL_QUESTIONS_WEEKLY_OPTION6><![CDATA[Handeln]]></POLL_QUESTIONS_WEEKLY_OPTION6>
+<POLL_QUESTIONS_WEEKLY_OPTION7><![CDATA[Minigames spielen]]></POLL_QUESTIONS_WEEKLY_OPTION7>
+<POLL_QUESTIONS_WEEKLY_OPTION8><![CDATA[Die wöchentliche Gruppenaufgabe lösen]]></POLL_QUESTIONS_WEEKLY_OPTION8>
+<POLL_QUESTIONS_WEEKLY_OPTION9><![CDATA[Anderes]]></POLL_QUESTIONS_WEEKLY_OPTION9>
+<POLL_QUESTIONS_WEEKLY_TITLE1><![CDATA[Liebe Olokaner, eure Stimme zählt!]]></POLL_QUESTIONS_WEEKLY_TITLE1>
+<POLL_QUESTIONS_WEEKLY_TITLE2><![CDATA[Stimmt ab und macht Oloko noch besser!]]></POLL_QUESTIONS_WEEKLY_TITLE2>
+<POLL_QUESTIONS_WEEKLY_TITLE3><![CDATA[Was gefällt dir auf Oloko am besten?]]></POLL_QUESTIONS_WEEKLY_TITLE3>
+<POPUP_BUTTON_BACK><![CDATA[Schließen]]></POPUP_BUTTON_BACK>
+<POPUP_BUTTON_GOLD><![CDATA[Jetzt holen!]]></POPUP_BUTTON_GOLD>
+<POP_UP_BUTTON_ACCEPT><![CDATA[Ja, ich akzeptiere die Regeln]]></POP_UP_BUTTON_ACCEPT>
+<POP_UP_BUTTON_NO><![CDATA[Nein]]></POP_UP_BUTTON_NO>
+<POP_UP_BUTTON_OK><![CDATA[OK]]></POP_UP_BUTTON_OK>
+<POP_UP_BUTTON_YES><![CDATA[JA]]></POP_UP_BUTTON_YES>
+<PURCHASE_FEEDBACK_NOT_PREMIUM><![CDATA[<b>Hierfür musst du die Oloko-Gold-Mitgliedschaft haben.</b>
+Hol' sie dir!]]></PURCHASE_FEEDBACK_NOT_PREMIUM>
+<REWARD_BEGINNER_HEADER><![CDATA[Herzlichen Glückwunsch!]]></REWARD_BEGINNER_HEADER>
+<REWARD_BEGINNER_MSG><![CDATA[Super! Du hast den Beginner-Level erfolgreich abgeschlossen und bekommst eine Belohnung: den Farmer Suit! ]]></REWARD_BEGINNER_MSG>
+<REWARD_MASTER_MSG><![CDATA[Super! Du hast den Master-Level erfolgreich abgeschlossen und bekommmst eine Belohnung: den Master Suit! ]]></REWARD_MASTER_MSG>
+<REWARD_PROFESSIONAL_MSG><![CDATA[Super! Du hast den Professional-Level erfolgreich abgeschlossen und bekommst eine Belohnung: den Chef Suit! ]]></REWARD_PROFESSIONAL_MSG>
+<RULES_ACCEPT_BUTTON><![CDATA[Ja, ich akzeptiere diese Regeln.]]></RULES_ACCEPT_BUTTON>
+<RULES_ACCEPT_INTRO_OLOKO><![CDATA[Um Oloko zu einem schönen und angenehmen Ort zu machen, haben wir ein paar einfache Chatregeln:]]></RULES_ACCEPT_INTRO_OLOKO>
+<RULES_GAME_SCREEN_SIGNOFF><![CDATA[Viel Spaß beim Spielen! Deine Freunde auf Oloko.]]></RULES_GAME_SCREEN_SIGNOFF>
+<RULES_NEW_CHEATING_FLASH><![CDATA[Kein Betrügen.]]></RULES_NEW_CHEATING_FLASH>
+<RULES_NEW_LANGUAGE_FLASH><![CDATA[Schikaniere niemandem, sei nicht unhöflich und verwende keine Schimpfworte.]]></RULES_NEW_LANGUAGE_FLASH>
+<RULES_NEW_MEET_FLASH><![CDATA[Triff dich ohne die Begleitung deiner Eltern niemals mit anderen Spielern.]]></RULES_NEW_MEET_FLASH>
+<RULES_NEW_PASSWORD_FLASH><![CDATA[Verrate niemals jemandem dein Passwort.]]></RULES_NEW_PASSWORD_FLASH>
+<RULES_NEW_REPORT_FLASH><![CDATA[Wenn du dich im Chat mit jemandem unwohl fühlst, höre auf, mit dieser Person zu chatten und benachrichtige einen Moderator! ]]></RULES_NEW_REPORT_FLASH>
+<RULES_NEW_SHARE_FLASH><![CDATA[Verrate keine persönlichen Informationen wie zum Beispiel deine E-Mail-Adresse, Telefonnr., deine Schule oder deine Instant Messenger ID.]]></RULES_NEW_SHARE_FLASH>
+<RULES_NEW_TREAT_FLASH><![CDATA[Sei freundlich und behandele andere so, wie du selbst auch behandelt werden möchtest.]]></RULES_NEW_TREAT_FLASH>
+<RULES_NEW_WEBSITES_FLASH><![CDATA[Bitte nenne keine anderen Webseiten, da wir auf diesen nicht für deine Sicherheit garantieren können.]]></RULES_NEW_WEBSITES_FLASH>
+<RULES_OLOKO_GAME_SCREEN_INTRO><![CDATA[Liebe Olokaner!
+Wir lieben die Chatfunktion ebenso sehr wie ihr. Deshalb bitten wir euch darum, unseren Moderatoren zu helfen und euren Beitrag dazu zu leisten, dass die Chats auf Oloko besonders sicher und frei von Mobbing und Schimpfworten gehalten werden.]]></RULES_OLOKO_GAME_SCREEN_INTRO>
+<STORAGE_WELCOME_MSG><![CDATA[Safe
+
+Jeder Spieler hat einen Safe, in dem alle Gegenstände verstaut werden können.
+
+Wenn Du Gegenstände zwischen deinen Avataren tauschen möchtest, leg' sie einfach in den Safe. Dann musst du sie nur noch mit dem richtigen Avatar wieder aufnehmen.
+]]></STORAGE_WELCOME_MSG>
+<SUMMERPARTY_POPUP_REWARD><![CDATA[Sally hat dir ein Kleidungsstück für deine Hilfe geschenkt! 
+
+Texa Partyanzug erhalten.
+]]></SUMMERPARTY_POPUP_REWARD>
+<SUNNY_FARM_RENOVATED><![CDATA[Sie ist jetzt ein Treffpunkt für alle zum Chatten und Tauschen. Schaut vorbei!]]></SUNNY_FARM_RENOVATED>
+<TASK_REWARD_BODY><![CDATA[Du hast die Aufgabe bewältigt! <br>Dafür erhältst du diese Belohnung:]]></TASK_REWARD_BODY>
+<TASK_REWARD_HEAD><![CDATA[Glückwunsch!]]></TASK_REWARD_HEAD>
+<TRASH_FUNCTION_POPUP><![CDATA[Ihr bereitet gerade ein Gericht im Ofen, Mixer oder einem anderen Gerät zu, aber wollt es nicht beenden? Ab sofort könnt ihr die Produktion durch Klicken auf den Mülleimer abbrechen. ]]></TRASH_FUNCTION_POPUP>
+<TVSPOT_BODY><![CDATA[Willkommen!!]]></TVSPOT_BODY>
+<TVSPOT_HEADER><![CDATA[Hast Du unseren Oloko-Werbespot gesehen? ]]></TVSPOT_HEADER>
+<TVSPOT_OPTION_NO><![CDATA[Nein]]></TVSPOT_OPTION_NO>
+<TVSPOT_OPTION_YES><![CDATA[Ja, auf $channelName$]]></TVSPOT_OPTION_YES>
+<TYPE_IN_ANSWER_FIRST><![CDATA[Oops! Bitte gib zuerst deine Antwort in diesem Feld ein!]]></TYPE_IN_ANSWER_FIRST>
+<UNIT_TIME_SECONDS><![CDATA[Sekunden]]></UNIT_TIME_SECONDS>
+<WARING_INACTIVITY_MESSAGE><![CDATA[Du musst dich bewegen, sonst wirst du ausgeloggt.]]></WARING_INACTIVITY_MESSAGE>
+<WELL_HEADER><![CDATA[Gartenhelfer]]></WELL_HEADER>
+<YOUR_OLOKO_TEAM><![CDATA[Dein Oloko-Team]]></YOUR_OLOKO_TEAM>
+</snippets>

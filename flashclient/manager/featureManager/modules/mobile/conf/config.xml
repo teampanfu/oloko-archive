@@ -1,0 +1,1538 @@
+<config>
+	<!-- snippets path='manager/featureManager/modules/mobile/conf/snippets/mobile_snippets_$$lang$$.xml' _REPLACE_='1' / -->
+	<snippets path='conf/allSnippets/$$lang$$/mobile_snippets_$$lang$$.xml' _REPLACE_='1' /> 
+	
+	<dates />
+	
+	<assets>
+		<asset id='mobile' path='assets/mobile.swf' />
+		<asset id='profile' path='assets/profile.swf' />
+		<asset id='items' path='assets/items.swf' />
+		<asset id='quests' path='assets/quests.swf' />
+		<asset id='friends' path='assets/friends.swf' />
+		<asset id='map' path='assets/map.swf' />
+		<asset id='jobs' path='assets/jobs.swf' />
+		<asset id='messages' path='assets/messages.swf' />
+		<asset id='loading' path='assets/loading.swf' />
+		<asset id='fbox' path='assets/fbox.swf' /> //ui component for friends screen
+		<asset id='qbox' path='assets/qbox.swf' /> //ui component for quests screen
+		<asset id='mbox' path='assets/mbox.swf' /> //ui component for messages screen
+		<asset id='hbox' path='assets/hbox.swf' /> //ui component for houses screen
+		<asset id='marketbox' path='assets/marketbox.swf' />
+		<asset id='catalogbox' path='assets/catalogbox.swf' /> //ui component for catalog screens
+		<asset id='messageview' path='assets/messageview.swf' /> //ui component for messages screen message view
+		<asset id='addfrienddialog' path='assets/addfrienddialog.swf' />
+		<asset id='blockuserdialog' path='assets/blockuserdialog.swf' />
+		<asset id='deleteuserdialog' path='assets/deleteuserdialog.swf' />
+		<asset id='reportuserdialog' path='assets/reportuserdialog.swf' />
+		<asset id='changeavatardialog' path='assets/changeavatardialog.swf' />
+		<asset id='clothingcatalog' path='assets/clothingcatalog.swf' />
+		<asset id='furniturecatalog' path='assets/furniturecatalog.swf' />
+		<asset id='mobilecatalog' path='assets/mobilecatalog.swf' />
+		<asset id='houses' path='assets/houses.swf' />
+		<asset id='housesMap' path='assets/housesMap.swf' />
+		<asset id='trading' path='assets/trading.swf' />
+		<asset id='purchasesuccessdialog' path='assets/purchasesuccessdialog.swf' />
+		<asset id='genericdialog' path='assets/genericdialog.swf' />
+		<asset id='successdialog' path='assets/successdialog.swf' />
+		<asset id='joinGroupSuccessDialog' path='assets/joinGroupSuccessDialog.swf' />
+		<asset id='confirmbuydialog' path='assets/confirmbuydialog.swf' />
+		<asset id='confirmselldialog' path='assets/confirmselldialog.swf' />
+		<asset id='notenoughitemstosell' path='assets/notenoughitemstosell.swf' />
+		<asset id='notenoughdialog' path='assets/notenoughdialog.swf' />
+		<asset id='tradeproposeddialog' path='assets/tradeproposeddialog.swf' />
+		<asset id='tradecancelleddialog' path='assets/tradecancelleddialog.swf' />
+		<asset id='tradeinviteaccepteddialog' path='assets/tradeinviteaccepteddialog.swf' />
+		<asset id='tradeinvitesentdialog' path='assets/tradeinvitesentdialog.swf' />
+		<asset id='tradeInviteExceededThreeDialog' path='assets/tradeInviteExceededThreeDialog.swf' />
+		<asset id='jobRestartDialog' path='assets/jobRestartDialog.swf' />
+		<asset id='jobRestartConfirmDialog' path='assets/jobRestartConfirmDialog.swf' />
+		
+		
+		<asset id='duplicateconfirmdialog' path='assets/duplicateconfirmdialog.swf' />
+		<asset id='chatpanel' path='assets/chatpanel.swf' />
+		<asset id='deniedtradedialog' path='assets/deniedtradedialog.swf' />
+		<asset id='alreadyInTradeDialog' path='assets/alreadyInTradeDialog.swf' />
+		<asset id='tradeaccepteddialog' path='assets/tradeaccepteddialog.swf' />
+		<asset id='tradepreparedialog' path='assets/tradepreparedialog.swf' />
+		<asset id='tradedecidingdialog' path='assets/tradedecidingdialog.swf' />
+		<asset id='marketplace' path='assets/marketplace.swf' />
+		
+		<asset id='groups' path='assets/groups.swf' />
+		<asset id='userRow' path='assets/userRow.swf' />
+		<asset id='activeBackground' path='assets/activeBackground.swf' />
+		<asset id='ringtonePreview' path='assets/ringtonePreview.swf' />
+	</assets>
+	
+	<!-- device, panel -->
+	<sounds path="assets/audio/">
+		<type name="mobile">
+			<sound id="new_message" path="assets/audio/ol_interface_chatnewmessage.mp3" type="effect" loops="1" volume="1.0" />
+			<sound id="rollOver" path="assets/audio/ol_interface_mouseover.mp3" type="effect" loops="1" volume="1.0" />
+			<sound id="mouseDown" path="assets/audio/ol_mouse_over.mp3" type="effect" loops="1" volume="1.0" />
+			<sound id="logout" path="assets/audio/ol_interface_logout.mp3" type="effect" loops="1" volume="1.0" />
+		</type>
+		<type name="dialog">
+			<sound id="sell" path="assets/audio/ol_interface_soldstuff.mp3" type="effect" loops="1" volume="1.0" />
+			<sound id="popup" path="assets/audio/ol_window_pop_up.mp3" type="effect" loops="1" volume="1.0" />
+			<sound id="tradeAbort" path="assets/audio/ol_interface_tradeabort.mp3" type="effect" loops="1" volume="1.0" />
+		</type>
+		<type name="map">
+			<sound id="rollOver" path="assets/audio/ol_interface_mouseover.mp3" type="effect" loops="1" volume="1.0" />
+			<sound id="mouseDown" path="assets/audio/ol_mouse_over.mp3" type="effect" loops="1" volume="1.0" />
+		</type>
+		<type name="items">
+			<sound id="rollOver" path="assets/audio/ol_interface_mouseover.mp3" type="effect" loops="1" volume="1.0" />
+			<sound id="mouseDown" path="assets/audio/ol_mouse_over.mp3" type="effect" loops="1" volume="1.0" />
+		</type>
+		<type name="houses">
+			<sound id="rollOver" path="assets/audio/ol_interface_mouseover.mp3" type="effect" loops="1" volume="1.0" />
+			<sound id="mouseDown" path="assets/audio/ol_mouse_over.mp3" type="effect" loops="1" volume="1.0" />
+		</type>
+		<type name="chat">
+			<sound id="new_message" path="assets/audio/ol_interface_chatnewmessage.mp3" type="effect" loops="1" volume="1.0" />
+			<sound id="rollOver" path="assets/audio/ol_interface_mouseover.mp3" type="effect" loops="1" volume="1.0" />
+			<sound id="mouseDown" path="assets/audio/ol_mouse_over.mp3" type="effect" loops="1" volume="1.0" />
+		</type>
+		<type name="dialogs">
+			<sound id="rollOver" path="assets/audio/ol_interface_mouseover.mp3" type="effect" loops="1" volume="1.0" />
+			<sound id="mouseDown" path="assets/audio/ol_mouse_over.mp3" type="effect" loops="1" volume="1.0" />
+		</type>
+		<type name="trading">
+			<sound id="rollOver" path="assets/audio/ol_interface_mouseover.mp3" type="effect" loops="1" volume="1.0" />
+			<sound id="mouseDown" path="assets/audio/ol_mouse_over.mp3" type="effect" loops="1" volume="1.0" />
+		</type>
+		<type name="quests">
+			<sound id="rollOver" path="assets/audio/ol_interface_mouseover.mp3" type="effect" loops="1" volume="1.0" />
+			<sound id="mouseDown" path="assets/audio/ol_mouse_over.mp3" type="effect" loops="1" volume="1.0" />
+		</type>
+		<type name="marketplace">
+			<sound id="rollOver" path="assets/audio/ol_interface_mouseover.mp3" type="effect" loops="1" volume="1.0" />
+			<sound id="mouseDown" path="assets/audio/ol_mouse_over.mp3" type="effect" loops="1" volume="1.0" />
+		</type>
+		<type name="profile">
+			<sound id="rollOver" path="assets/audio/ol_interface_mouseover.mp3" type="effect" loops="1" volume="1.0" />
+			<sound id="mouseDown" path="assets/audio/ol_mouse_over.mp3" type="effect" loops="1" volume="1.0" />
+		</type>
+		<type name="groups">
+			<sound id="rollOver" path="assets/audio/ol_interface_mouseover.mp3" type="effect" loops="1" volume="1.0" />
+			<sound id="mouseDown" path="assets/audio/ol_mouse_over.mp3" type="effect" loops="1" volume="1.0" />
+		</type>
+		<type name="messages">
+			<sound id="rollOver" path="assets/audio/ol_interface_mouseover.mp3" type="effect" loops="1" volume="1.0" />
+			<sound id="mouseDown" path="assets/audio/ol_mouse_over.mp3" type="effect" loops="1" volume="1.0" />
+			<sound id="become_friends" path="assets/audio/ol_interface_becomefriends.mp3" type="effect" loops="1" volume="1.0" />
+		</type>
+		<type name="friends">
+			<sound id="rollOver" path="assets/audio/ol_interface_mouseover.mp3" type="effect" loops="1" volume="1.0" />
+			<sound id="mouseDown" path="assets/audio/ol_mouse_over.mp3" type="effect" loops="1" volume="1.0" />
+		</type>
+	</sounds>
+	
+	<mobileData>
+		<buttonData>
+			<button id='MyProfile'></button>
+			<button id='MyHouses'></button>	
+			<!--button id='MyMap'></button-->
+			<button id='MyClothes'></button>
+			<button id='MyMessages'></button>
+			<button id='MyFriends'></button>
+			<button id='MyFurniture'></button>
+			<!-- <button id='MyHighscore'></button> --> 
+			<!-- <button id='MyFame'></button> --> 
+			<!-- <button id='MyPremium'></button> --> 
+			<button id='MyMarket'></button>
+			<button id='MyItems'></button>
+			<!-- <button id='MyGroups'></button> --> 
+			<button id='MyJobs'></button>
+			<!--<button id='MyOptions'></button>-->
+			<button id='MyCatalogMobile'></button>
+			<button id='MyFame'></button>
+			<!--<button id='MyPhone'></button> --> 
+		</buttonData>	
+		<buttonOtherData>
+			<button id='invitefriend'></button>
+			<button id='trade'></button>
+			<button id='setbestfriend'></button>
+			<button id='gohome'></button>
+			<button id='report'></button>
+			<button id='blockuser'></button>
+			<button id='unfriend'></button>
+			<!-- <button id='OtherProfile'></button> --> 
+			<!--<button id='OtherHouses'></button>	-->
+			<!--<button id='OtherClothes'></button>-->
+			<!--<button id='OtherItems'></button>-->
+			<!--<button id='OtherFriends'></button>-->
+			<!-- <button id='OtherHighscore'></button> -->
+			<!-- <button id='OtherFame'></button> -->
+			<!-- <button id='OtherGroups'></button> -->
+		</buttonOtherData>	
+	</mobileData>	
+	<mapData>
+		<buttonData>
+			<button name='bigtree' id="4" ></button>	
+			<!-- <button name='dogville' id="4"></button> -->
+			<button name='flowerhill' id="6"></button>
+			<button name='foodcorner' id="7"></button>
+			<button name='kittyoto' id="13"></button>
+			<button name='lasshoppas' id="14"></button>
+			<button name='mainislandhead' id="18"></button>
+			<button name='montecielo' id="18"></button>
+			<button name='rioazul' id="9"></button>
+			<button name='sunnyfarm' id="9"></button>
+			<button name='player_homes' ></button>
+			<!-- <button name='texarelexa' id="12"></button> -->
+			<!-- button name='watermill' id="11"></button -->
+		</buttonData>	
+	</mapData>	
+	<profileData>
+	</profileData>	
+	<itemsData>
+	</itemsData>
+	<jobsData>
+	<!-- <task itemid='testitem' --> 
+	</jobsData>
+	<mobileCatalogData>
+		<!-- CW 14 -->
+		<item id='1026' order='10' date="05 Apr 2012"/>		<!-- MobileBarbecuePcBg -->
+		<item id='1027' order='10' date="05 Apr 2012"/>		<!-- MobileScaryPcBg -->
+		<item id='1028' order='10' date="05 Apr 2012"/>		<!-- MobileSchoolBusPcBg -->
+		<item id='1029' order='10' date="05 Apr 2012"/>		<!-- MobileVolleyBallPcBg -->
+	
+	
+		<!-- CW 12 -->
+		<item id='643' order='10' date="22 Mar 2012"/>		<!-- MobileBeachPcBg -->
+		<item id='1019' order='10' date="22 Mar 2012"/>		<!-- MobileTrainRingtone -->
+		<item id='1020' order='10' date="22 Mar 2012"/>		<!-- MobileMushroomsPcBg -->
+		<item id='1021' order='10' date="22 Mar 2012"/>		<!-- MobileSpringSkin -->
+	
+		<!-- CW 09 -->
+		<item id='1005' order='10' date="01 Mar 2012"/>		<!-- MobileDogPcBg -->
+		<item id='1006' order='10' date="01 Mar 2012"/>		<!-- MobileCatPcBg -->
+		<item id='1007' order='10' date="01 Mar 2012"/>		<!-- MobileHorsePcBg -->
+		<item id='1008' order='10' date="01 Mar 2012"/>		<!-- MobileWiseTreePcBg -->
+	
+	
+		<!-- CW 06 -->
+		<item id='995' order='10' date="09 Feb 2012"/>		<!-- MobileHeartPcBg -->
+		<item id='996' order='10' date="09 Feb 2012"/>		<!-- MobileHeartsSkin -->
+	
+		<!-- CW 05 -->
+		<item id='986' order='10' date="02 Feb 2012"/>		<!-- MobileAnimalFarmPcBg -->
+		<item id='987' order='10' date="02 Feb 2012"/>		<!-- MobileCarrotTownPcBg -->
+		<item id='988' order='10' date="02 Feb 2012"/>		<!-- MobileBabyCowRingtone -->
+		<item id='989' order='10' date="02 Feb 2012"/>		<!-- MobileFarmSkin -->
+	
+	
+		<!-- CW 03 -->
+		<item id='977' order='10' date="19 Jan 2012"/>		<!-- MobileDesertPcBg -->
+		<item id='978' order='10' date="19 Jan 2012"/>		<!-- MobileSpacePcBg -->
+		<item id='979' order='10' date="19 Jan 2012"/>		<!-- MobileSchoolPcBg -->
+		<item id='980' order='10' date="19 Jan 2012"/>		<!-- MobileCuckooRingtone -->
+
+	
+		<!-- skins -->
+		<!--<item id='641' order='10' date="20 Jan 2009"/>-->		<!-- MobileDefaultSkin -->
+		<item id='967' order='10' date="12 Jan 2012"/>		<!-- MobileBlueSkin -->
+		<item id='642' order='10' date="05 Jan 2012"/>		<!-- MobileWhiteSkin -->
+		<item id='681' order='10' date="20 Jan 2009"/>	<!-- MobileRedSkin -->
+		<item id='954' order='10' date="29 Dec 2011"/>		<!-- MobileGoldSkin -->
+
+		
+		<!-- backgrounds -->
+		<!--<item id='643' order='10' date="7 Jan 2011"/>-->		<!-- MobileBeachPcBg -->
+		<!--<item id='644' order='10' date="7 Jan 2011"/>-->		<!-- MobileFarmPcBg -->
+		<!--<item id='656' order='10' date="7 Jan 2011"/>	-->	<!-- MobileTownPcBg -->
+		
+		<item id='964' order='10' date="12 Jan 2012"/>		<!-- MobileRainyDayPcBg -->
+		<item id='965' order='10' date="12 Jan 2012"/>		<!-- MobileRoomPcBg -->
+		
+		<item id='675' order='10' date="7 Jan 2011"/>		<!-- MobileIcePcBg -->
+		<item id='676' order='10' date="7 Jan 2011"/>		<!-- MobileMermaidPcBg -->
+		<item id='680' order='10' date="7 Jan 2011"/>		<!-- MobileValentinPcBg -->
+		
+		
+		<item id='951' order='10' date="22 Dec 2011"/>		<!-- MobileWinterPcBg -->
+		<item id='952' order='10' date="22 Dec 2011"/>		<!-- MobileXmasPcBg -->
+		<item id='953' order='10' date="29 Dec 2011"/>		<!-- MobileNewYearPcBg -->
+		
+
+		<!-- ringtones -->
+		<!--<item id='646' order='10' date="20 Jan 2009"/>-->		<!-- MobileDefaultRingtone -->
+		<item id='966' order='10' date="12 Jan 2012"/>		<!-- MobileXylophoneRingtone -->
+		
+		<item id='645' order='10' date="05 Jan 2012"/>		<!-- MobileRoosterRingtone -->
+		<item id='647' order='10' date="05 Jan 2012"/>		<!-- MobileWesternRingtone -->
+		<item id='682' order='10' date="20 Jan 2009"/>		<!-- MobileBirdyRingtone -->
+		
+		<item id='947' order='10' date="22 Dec 2011"/>		<!-- MobileXmasRingtone -->
+		<item id='948' order='10' date="22 Dec 2011"/>		<!-- MobileOldRingtone -->
+		
+		<item id='949' order='10' date="29 Dec 2011"/>		<!-- MobileFanfareRingtone -->
+		<item id='950' order='10' date="29 Dec 2011"/>		<!-- MobileOddnoteRingtone -->
+		
+
+		
+	</mobileCatalogData>
+	<clothingCatalogData>
+		<!-- wood items, do not change ! -->
+		<item id='84' order='10' date="01 Jan 2008"/>		<!-- COOL SWEATER -->
+		<item id='219' order='10' date="01 Jan 2008"/>		<!-- BLUE BLOUSE -->
+		<item id='192' order='10' date="01 Jan 2008"/>		<!-- LIGHT BLUE JEANS -->
+		<item id='575' order='10' date="01 Jan 2008"/>		<!-- GREEN PLEATED SKIRT -->
+		<item id='195' order='10' date="01 Jan 2008"/>		<!-- BROWN HIKING BOOTS -->
+		<item id='189' order='10' date="01 Jan 2008"/>		<!-- BLACK MARY JANES -->
+
+		
+		<!-- CW 10 -->
+		<item id='1009' order='10' date="8 Mar 2012"/>		<!-- TopYellowSilk -->
+		<item id='1010' order='10' date="8 Mar 2012"/>		<!-- SkirtGreenSilk -->
+		<item id='1011' order='10' date="8 Mar 2012"/>		<!-- BlazerVestTie -->
+		<item id='1012' order='10' date="8 Mar 2012"/>		<!-- JeansBluewillowd -->
+		<item id='1013' order='10' date="8 Mar 2012"/>		<!-- ShoesAnkleStraps -->
+		<item id='1014' order='10' date="8 Mar 2012"/>		<!-- ShoesBrownRed -->
+		
+		<!-- CW 50 -->
+		<item id='943' order='10' date="15 Dec 2011"/>		<!-- DressGlamour -->
+		<item id='944' order='10' date="15 Dec 2011"/>		<!-- SuitGlamour -->
+		<item id='945' order='10' date="15 Dec 2011"/>		<!-- ShoesGlamour -->
+		<item id='946' order='10' date="15 Dec 2011"/>		<!-- PumpsGlamour -->
+	
+		<!-- CW 48 -->
+		<item id='938' order='10' date="1 Dec 2011"/>		<!-- SuitGingerbread -->
+		<item id='939' order='10' date="1 Dec 2011"/>		<!-- TopXmasElf -->
+		<item id='940' order='10' date="1 Dec 2011"/>		<!-- TrousersXmasElf -->
+		<item id='941' order='10' date="1 Dec 2011"/>		<!-- ShoesGingerbread -->
+		<item id='942' order='10' date="1 Dec 2011"/>		<!-- ShoesXmasElf -->
+	
+		<!-- CW 47 -->
+		<!-- nothing -->
+	
+		<!-- CW 46 -->
+		<item id='929' order='10' date="17 Nov 2011"/>		<!-- DressWool -->
+		<item id='930' order='10' date="17 Nov 2011"/>		<!-- SweaterWinter -->
+		<item id='931' order='10' date="17 Nov 2011"/>		<!-- PantsWinter -->
+		<item id='932' order='10' date="17 Nov 2011"/>		<!-- ShoesReindeer -->
+		<item id='933' order='10' date="17 Nov 2011"/>		<!-- ShoesRabbit -->
+	
+		<!-- CW 45 -->
+		<!-- nothing -->
+	
+		<!-- CW 44 -->
+		<item id='921' order='10' date="3 Nov 2011"/>		<!-- DressCorn -->
+		<item id='922' order='10' date="3 Nov 2011"/>		<!-- SuitPumpkin -->
+		<item id='923' order='10' date="3 Nov 2011"/>		<!-- BootsGreen -->
+		<item id='924' order='10' date="3 Nov 2011"/>		<!-- BootsStitches -->
+
+		<!-- CW 43 -->
+		<!-- nothing -->
+		
+		<!-- CW 42 -->
+		<item id='910' order='10' date="20 Oct 2011"/>		<!-- DressHalloween -->
+		<item id='911' order='10' date="20 Oct 2011"/>		<!-- SuitHalloween -->
+		<item id='912' order='10' date="20 Oct 2011"/>		<!-- ShoesHalloween -->
+		
+		<!-- CW 41 -->
+		<!-- nothing -->
+		
+		<!-- CW 40 -->
+		<item id='900' order='10' date="6 Oct 2011"/>		<!-- JacketFall -->
+		<item id='901' order='10' date="6 Oct 2011"/>		<!-- SkirtMustard -->
+		<item id='902' order='10' date="6 Oct 2011"/>		<!-- VestFall -->
+		<item id='903' order='10' date="6 Oct 2011"/>		<!-- PantsFall -->
+		<item id='904' order='10' date="6 Oct 2011"/>		<!-- SneakersFall -->
+		<item id='905' order='10' date="6 Oct 2011"/>		<!-- BallerinasFall -->
+
+	
+		<!-- CW 39 -->
+		<!-- nothing -->
+	
+		<!-- CW 38 -->
+		<item id='895' order='10' date="22 Sep 2011"/>		<!-- DressBallerina -->
+		<item id='896' order='10' date="22 Sep 2011"/>		<!-- ShoesBallett -->
+		<item id='897' order='10' date="22 Sep 2011"/>		<!-- ShirtBasketball -->
+		<item id='898' order='10' date="22 Sep 2011"/>		<!-- ShoesBasketball -->
+		<item id='899' order='10' date="22 Sep 2011"/>		<!-- PantsBasketball -->
+	
+		<!-- CW 37 -->
+		<!-- nothing -->
+		
+		<!-- CW 36 -->
+		<item id='887' order='10' date="8 Sep 2011"/>		<!-- DressHauteCouture -->
+		<item id='888' order='10' date="8 Sep 2011"/>		<!-- ShirtHauteCouture -->
+		<item id='889' order='10' date="8 Sep 2011"/>		<!-- PantsHauteCouture -->
+		<item id='890' order='10' date="8 Sep 2011"/>		<!-- BootsHauteCouture -->
+
+		<!-- CW 35 -->
+		<item id='879' order='10' date="1 Sep 2011"/>		<!-- DressScottish -->
+		<item id='880' order='10' date="1 Sep 2011"/>		<!-- KiltScottish -->
+		<item id='881' order='10' date="1 Sep 2011"/>		<!-- BootsBasicBrown -->
+		<item id='882' order='10' date="1 Sep 2011"/>		<!-- ShirtScottish -->
+	
+		<!-- CW 34 -->
+		<item id='872' order='10' date="25 Aug 2011"/>		<!-- DressMedievel -->
+		<item id='873' order='10' date="25 Aug 2011"/>		<!-- SuitMedievel -->
+		<item id='874' order='10' date="25 Aug 2011"/>		<!-- ShoesKnight -->
+	
+		<!-- CW 33-->
+		<item id='864' order='10' date="18 Aug 2011"/>		<!-- JacketRain -->
+		<item id='865' order='10' date="18 Aug 2011"/>		<!-- CapeRain -->
+		<item id='866' order='10' date="18 Aug 2011"/>		<!-- BootsRubberYellow -->
+		<item id='867' order='10' date="18 Aug 2011"/>		<!-- BootsRubberBlue -->
+		<item id='26' order='10' date="26 Aug 2010"/>		 <!-- CowboyWaistcoat -->
+	
+		<!-- CW 32-->
+		<item id='855' order='10' date="11 Aug 2011"/>		<!-- TopBellydancer -->
+		<item id='856' order='10' date="11 Aug 2011"/>		<!-- TrowsersBellydancer -->
+		<item id='857' order='10' date="11 Aug 2011"/>		<!-- TopAladdin -->
+		<item id='858' order='10' date="11 Aug 2011"/>		<!-- PantsAladdin -->
+
+	
+		<!-- CW 31-->
+		<item id='847' order='10' date="4 Aug 2011"/>		<!-- SuitAerobic80s -->
+		<item id='848' order='10' date="4 Aug 2011"/>		<!-- Blazer80s -->
+		<item id='849' order='10' date="4 Aug 2011"/>		<!-- Pants80s -->
+	
+	
+		<!-- CW 30-->
+		<item id='840' order='10' date="28 Jul 2011"/>		<!-- DressOctopus -->
+		<item id='841' order='10' date="28 Jul 2011"/>		<!-- SuitShark -->
+		
+		<!-- CW 29-->
+		<item id='832' order='10' date="21 Jul 2011"/>		<!-- SkirtAfrica -->
+		<item id='833' order='10' date="21 Jul 2011"/>		<!-- TopAfrica -->
+		<item id='834' order='10' date="21 Jul 2011"/>		<!-- PantsAfrica -->
+		<item id='835' order='10' date="21 Jul 2011"/>		<!-- ShirtAfrica -->
+
+		<!-- CW 28-->
+		<item id='825' order='10' date="14 Jul 2011"/>		<!-- DressHippie -->
+		<item id='826' order='10' date="14 Jul 2011"/>		<!-- ShirtHippie -->
+		<item id='827' order='10' date="14 Jul 2011"/>		<!-- PantsButtons -->
+		
+		<!-- CW 27-->
+		<item id='813' order='10' date="7 Jul 2011"/>		<!-- ShoesBee -->
+		<item id='814' order='10' date="7 Jul 2011"/>		<!-- ShoesCroco -->
+		<item id='815' order='10' date="7 Jul 2011"/>		<!-- ShoesScales -->
+		<item id='816' order='10' date="7 Jul 2011"/>		<!-- ShoesHearts -->
+
+		<!-- CW 26-->
+		<item id='809' order='10' date="30 Jun 2011"/>		<!-- BlazerBlouseHipster -->
+		<item id='810' order='10' date="30 Jun 2011"/>		<!-- BlazerShirtHipster -->
+		<item id='811' order='10' date="30 Jun 2011"/>		<!-- PantsHipster -->
+		<item id='812' order='10' date="30 Jun 2011"/>		<!-- SkirtHipster -->
+
+	
+		<!-- CW 25-->
+		<item id='803' order='10' date="23 Jun 2011"/>		<!-- SuitRocket -->
+		<item id='804' order='10' date="23 Jun 2011"/>		<!-- SuitAstronaut -->
+	
+		<!-- CW 24-->
+		<item id='797' order='10' date="16 Jun 2011"/>		<!-- Dress20s -->
+		<item id='798' order='10' date="16 Jun 2011"/>		<!-- Suit20s -->
+		
+		<!-- CW 23-->
+		<item id='794' order='10' date="9 Jun 2011"/>		<!-- BikiniGreenBlue -->
+		<item id='795' order='10' date="9 Jun 2011"/>		<!-- ShirtGreenBlue -->
+		<item id='796' order='10' date="9 Jun 2011"/>		<!-- ShortsGreenBlue -->
+		
+		<!-- CW 22-->
+		<item id='784' order='10' date="2 Jun 2011"/>		<!-- DressAmerica -->
+		<item id='785' order='10' date="2 Jun 2011"/>		<!-- SuitAmerica -->
+	
+	
+		<!-- CW 21-->
+		<item id='776' order='10' date="26 May 2011"/>		<!-- ShirtSailorboy -->
+		<item id='777' order='10' date="26 May 2011"/>		<!-- ShirtSailorgirl -->
+		<item id='778' order='10' date="26 May 2011"/>		<!-- ShortsSailorboy -->
+		<item id='779' order='10' date="26 May 2011"/>		<!-- SkirtSailorgirl -->
+
+	
+		<!-- CW  20-->
+		<item id='770' order='10' date="19 May 2011"/>		<!-- SariIndia -->
+		<item id='771' order='10' date="19 May 2011"/>		<!-- SherwaniIndia -->
+		<item id='82' order='10' date="26 Aug 2010"/>		<!-- CowboyTrousers -->
+		
+		<!-- CW  19 -->
+		<item id='759' order='10' date="12 May 2011"/>		<!-- DressPineapple -->
+		<item id='760' order='10' date="12 May 2011"/>		<!-- PantsBanana -->
+		<item id='761' order='10' date="12 May 2011"/>		<!-- ShirtPear -->
+		
+		<!-- CW 18 -->
+		<item id='754' order='10' date="5 May 2011"/>		<!-- DressPicnic -->
+		<item id='755' order='10' date="5 May 2011"/>		<!-- ShirtPicnic -->
+		<item id='756' order='10' date="5 May 2011"/>		<!-- PantsPicnic -->
+
+	
+		<!-- CW 17-->
+		<item id='752' order='10' date="28 Apr 2011"/>		<!-- MexicanPoncho -->
+		<item id='753' order='10' date="28 Apr 2011"/>		<!-- MexicanDress -->
+	
+		<!-- CW 16-->
+		<item id='745' order='10' date="21 Apr 2011"/>		<!-- DressEaster -->
+		<item id='746' order='10' date="21 Apr 2011"/>		<!-- PantsEaster -->
+		<item id='747' order='10' date="21 Apr 2011"/>		<!-- ShirtEaster -->
+
+		<!-- CW 15-->
+		<item id='734' order='10' date="14 Apr 2011"/>		<!-- EggPinkO -->
+		<item id='735' order='10' date="14 Apr 2011"/>		<!-- EggBrownL -->
+		<item id='736' order='10' date="14 Apr 2011"/>		<!-- EggRedO -->
+		<item id='737' order='10' date="14 Apr 2011"/>		<!-- EggBlueK -->
+		<item id='738' order='10' date="14 Apr 2011"/>		<!-- EggGreenO -->
+
+		<!-- CW 14-->
+		<item id='739' order='10' date="7 Apr 2011"/>		<!-- waterGirl -->
+		<item id='740' order='10' date="7 Apr 2011"/>		<!-- waterBoy -->
+
+		<!-- CW 13-->
+		<item id='732' order='10' date="31 Mar 2011"/>		<!-- airGirl -->
+		<item id='733' order='10' date="31 Mar 2011"/>		<!-- airBoy -->
+		
+		<!-- CW 12 -->
+		<item id='726' order='10' date="24 Mar 2011"/>		<!-- earthGirl -->
+		<item id='727' order='10' date="24 Mar 2011"/>		<!-- earthBoy -->
+	
+		<!-- CW 11 -->
+		<item id='720' order='10' date="17 Mar 2011"/>		<!-- fireGirl -->
+		<item id='721' order='10' date="17 Mar 2011"/>		<!-- fireBoy -->
+
+		<!-- CW 10 -->
+		<item id='709' order='10' date="10 Mar 2011"/>		<!-- PatricksBoy -->
+		<item id='710' order='10' date="10 Mar 2011"/>		<!-- PatricksGirl -->
+	
+		<!-- CW 09 -->
+		<item id='695' order='10' date="3 Mar 2011"/>		<!-- Fly -->
+		<item id='696' order='10' date="3 Mar 2011"/>		<!-- Butterfly -->
+		
+		<!-- CW 08 -->
+		<item id='693' order='10' date="24 Feb 2011"/>		<!-- SuperolokoBoy -->
+		<item id='694' order='10' date="24 Feb 2011"/>		<!-- SuperolokoGirl -->
+	
+		<!-- CW 07 -->
+		<item id='671' order='10' date="17 Feb 2011"/>		<!-- TopMermaid -->
+		<item id='672' order='10' date="17 Feb 2011"/>		<!-- TailMermaidPink -->
+		<item id='673' order='10' date="17 Feb 2011"/>		<!-- NecklaceShells -->
+		<item id='674' order='10' date="17 Feb 2011"/>		<!-- TailMermaidBlue -->
+
+		<!-- CW 06 -->
+		<item id='683' order='10' date="10 Feb 2011"/>		<!-- DressValentine -->
+		<item id='684' order='10' date="10 Feb 2011"/>		<!-- SuitValentine -->
+
+	
+		<!-- CW 05 -->
+		<item id='663' order='10' date="3 Feb 2011"/>		<!-- JacketInuitBlue -->
+		<item id='664' order='10' date="3 Feb 2011"/>		<!-- PantsInuitBlue -->
+		<item id='665' order='10' date="3 Feb 2011"/>		<!-- JacketInuitRed -->
+		<item id='666' order='10' date="3 Feb 2011"/>		<!-- PantsInuitRed -->
+		
+		<!-- CW 03 -->
+		<item id='637' order='10' date="20 Jan 2011"/>		<!-- SweaterBear -->
+		<item id='638' order='10' date="20 Jan 2011"/>		<!-- JeansBearBelt -->
+		<item id='639' order='10' date="20 Jan 2011"/>		<!-- SweaterCow -->
+		<item id='640' order='10' date="20 Jan 2011"/>		<!-- JeansLeafBelt -->
+	
+		<!-- CW 02 -->
+		<item id='623' order='10' date="13 Jan 2011"/>		<!-- SuitSki1 -->
+		<item id='624' order='10' date="13 Jan 2011"/>		<!-- PantsSki1 -->
+		<item id='625' order='10' date="13 Jan 2011"/>		<!-- SuitSki2 -->
+		<item id='626' order='10' date="13 Jan 2011"/>		<!-- PantsSki2 -->
+
+	
+		<!-- CW 01 -->
+		<item id='618' order='10' date="6 Jan 2011"/>		<!-- SuitMelchior -->
+		<item id='619' order='10' date="6 Jan 2011"/>		<!-- SuitGaspar -->
+		<item id='620' order='10' date="6 Jan 2011"/>		<!-- SuitBalthasar -->
+	
+		<!-- CW 52 -->
+		<item id='621' order='10' date="30 Dec 2010"/>		<!-- DressNewYearsEve -->
+		<item id='622' order='10' date="30 Dec 2010"/>		<!-- SuitNewYearsEve -->
+		<item id='84' order='10' date="26 Aug 2010"/>		<!-- CoolSweater -->
+		
+		<!-- CW 51 -->
+		<item id='615' order='10' date="23 Dec 2010"/>		<!-- DressChristmasEve -->
+		<item id='616' order='10' date="23 Dec 2010"/>		<!-- PantsChristmasEve -->
+		<item id='617' order='10' date="23 Dec 2010"/>		<!-- ShirtChristmasEve -->
+	
+		<!-- CW 50 -->
+		<item id='609' order='10' date="16 Dec 2010"/>		<!-- DressChristmasTree -->
+		<item id='610' order='10' date="16 Dec 2010"/>		<!-- SuitChristmasPresent -->
+
+		<!-- CW 49 -->
+		<item id='594' order='10' date="9 Dec 2010"/>		<!-- PulliScarfSnow -->
+		<item id='595' order='10' date="9 Dec 2010"/>		<!-- DressScarfWool -->
+		<item id='596' order='10' date="9 Dec 2010"/>		<!-- PantsGreenBrown -->
+		<item id='597' order='10' date="9 Dec 2010"/>		<!-- LegginsSnow -->
+
+		<!-- CW 48 -->
+		<item id='598' order='10' date="2 Dec 2010"/>		<!-- PantsSanta -->
+		<item id='599' order='10' date="2 Dec 2010"/>		<!-- JacketSanta -->
+		<item id='600' order='10' date="2 Dec 2010"/>		<!-- DressSanta -->
+	
+		<!-- CW 47 -->
+		<item id='579' order='10' date="25 Nov 2010"/>		<!-- JeansRough -->
+		<item id='580' order='10' date="25 Nov 2010"/>		<!-- SweaterBabyBanana -->
+		<item id='581' order='10' date="25 Nov 2010"/>		<!-- DressYellowHeart -->
+		
+		<!-- CW 46 -->
+		<item id='571' order='10' date="18 Nov 2010"/>		<!-- PantsKhaki -->
+		<item id='572' order='10' date="18 Nov 2010"/>		<!-- JacketOlokoBlack -->
+		<item id='573' order='10' date="18 Nov 2010"/>		<!-- SkirtTubeLeather -->
+		<item id='574' order='10' date="18 Nov 2010"/>		<!-- BlouseGreenFurry -->
+		
+		<!-- CW 45 -->
+		<item id='575' order='10' date="11 Nov 2010"/>		<!-- SkirtFlaredGreen -->
+		<item id='576' order='10' date="11 Nov 2010"/>		<!-- BlouseMustard -->
+		<item id='116' order='11' date="26 Aug 2010"/>		<!-- Partydress -->
+		<item id='577' order='10' date="11 Nov 2010"/>		<!-- PantsDenimGrey -->
+		<item id='578' order='10' date="11 Nov 2010"/>		<!-- JacketSweaterBlue -->
+	
+		<!-- CW 44 -->
+		<item id='560' order='10' date="4 Nov 2010"/>		<!-- JacketVampire  -->
+		<item id='561' order='10' date="4 Nov 2010"/>		<!-- PantsVampire  -->
+		<item id='562' order='10' date="4 Nov 2010"/>		<!-- DressMagicFairy  -->
+
+	
+		<!-- CW 43 -->
+		<item id='557' order='10' date="28 Oct 2010"/>		<!-- DressWitchHeidi -->
+		<item id='558' order='10' date="28 Oct 2010"/>		<!-- PantsSkeleton -->
+		<item id='559' order='10' date="28 Oct 2010"/>		<!-- SweaterSkeleton -->
+	
+		<!-- CW 42 -->
+		<item id='547' order='10' date="21 Oct 2010"/>		<!-- DressModernTokyo -->
+		<item id='548' order='10' date="21 Oct 2010"/>		<!-- PantsNinja -->
+		<item id='549' order='10' date="21 Oct 2010"/>		<!-- ShirtNinja -->
+	
+		<!-- CW 41 -->
+		<item id='533' order='10' date="14 Oct 2010"/>		<!-- DressKimonoPink  -->
+		<item id='534' order='10' date="14 Oct 2010"/>		<!-- DressSamuraiRed  -->
+	
+		<!-- CW 40 -->
+		<item id='526' order='10' date="7 Oct 2010"/>		<!-- JacketBellboy -->
+		<item id='527' order='10' date="7 Oct 2010"/>		<!-- PantsBellboy -->
+		<item id='528' order='10' date="7 Oct 2010"/>		<!-- DressBellboy -->
+	
+	
+		<!-- CW 39 -->
+		<item id='495' order='10' date="30 Sep 2010"/>		<!-- SweaterSchool -->
+		<item id='496' order='10' date="30 Sep 2010"/>		<!-- SkirtCargo -->
+		<item id='497' order='10' date="30 Sep 2010"/>		<!-- ShirtGenius -->
+		<item id='498' order='10' date="30 Sep 2010"/>		<!-- JeansABC -->
+		
+		<!-- CW 38 -->
+		<item id='459' order='10' date="23 Sep 2010"/>		<!-- Tshirt07 -->
+		<item id='460' order='10' date="23 Sep 2010"/>		<!-- Dress03 -->
+		<item id='461' order='10' date="23 Sep 2010"/>		<!-- Dress05 -->
+		<item id='462' order='10' date="23 Sep 2010"/>		<!-- Pants07 -->
+		
+		
+		<!-- CW 37 -->
+		<item id='480' order='10' date="16 Sep 2010"/>		<!-- ShirtBaseballBlue -->
+		<item id='481' order='10' date="16 Sep 2010"/>		<!-- ShirtBaseballRed -->
+		<item id='482' order='10' date="16 Sep 2010"/>		<!-- PantsBaseballBlue -->
+		<item id='483' order='10' date="16 Sep 2010"/>		<!-- PantsBaseballRed -->
+		<item id='85' order='10' date="26 Aug 2010"/>		<!-- CoolPants -->
+		
+		<!-- CW 36 -->
+		<item id='451' order='10' date="9 Sep 2010"/>		<!-- ShirtUniformBrown -->
+		<item id='452' order='10' date="9 Sep 2010"/>		<!-- ShirtUniformGreen -->
+		<item id='453' order='10' date="9 Sep 2010"/>		<!-- SkirtUniformGreyish -->
+		<item id='454' order='10' date="9 Sep 2010"/>		<!-- PantsUniformBrown -->
+
+		<!-- CW 35 -->
+		<item id='441' order='10' date="2 Sep 2010"/>		<!-- BodyFutureWhite  -->
+		<item id='440' order='10' date="2 Sep 2010"/>		<!-- SuitFutureWhite   -->
+	
+		<item id='415' order='10' date="26 Aug 2010"/>		<!-- ShirtBeachVolley  -->
+		<item id='416' order='10' date="26 Aug 2010"/>		<!-- PantsBeachVolley  -->
+		<item id='417' order='10' date="26 Aug 2010"/>		<!-- BikiniBeachVolley  -->
+	
+		<item id='404' order='10' date="26 Aug 2010"/>		<!-- SkirtFendiBrown   -->
+		<item id='405' order='10' date="26 Aug 2010"/>		<!-- BlouseFendiRaw   -->
+		<item id='406' order='10' date="26 Aug 2010"/>		<!-- PantsShortBrown   -->
+		<item id='407' order='10' date="26 Aug 2010"/>		<!-- SakoColorstripes   -->
+	
+		<item id='389' order='10' date="26 Aug 2010"/>		<!-- SakoCrinoline  -->
+		<item id='390' order='10' date="26 Aug 2010"/>		<!-- PantsCrinoline  -->
+		<item id='391' order='10' date="26 Aug 2010"/>		<!-- DressCrinolinePinkBlue  -->
+		<item id='392' order='10' date="26 Aug 2010"/>		<!-- DressCrinolineGreen  -->
+	
+		<item id='388' order='10' date="26 Aug 2010"/>		<!-- DressGreekBlue -->
+		<item id='387' order='10' date="26 Aug 2010"/>		<!-- DressGreekWhite -->
+		<item id='386' order='10' date="26 Aug 2010"/>		<!-- DressGreekPink -->
+	
+		<item id='384' order='10' date="26 Aug 2010"/>		<!-- BikiniPareoStars  -->
+		<item id='383' order='10' date="26 Aug 2010"/>		<!-- ShirtEivissa -->
+		<item id='382' order='10' date="26 Aug 2010"/>		<!-- PantsEivissa -->
+		<item id='381' order='10' date="26 Aug 2010"/>		<!-- DressEivissa  -->
+				
+		<item id='380' order='10' date="26 Aug 2010"/>		<!-- FloatYellowDuck -->
+		<item id='379' order='10' date="26 Aug 2010"/>		<!-- Bikini -->
+		<item id='378' order='10' date="26 Aug 2010"/>		<!-- TshirtOrangeSurf -->
+		<item id='377' order='10' date="26 Aug 2010"/>		<!-- SwimsuitGreenBlue -->
+		<item id='376' order='10' date="26 Aug 2010"/>		<!-- SwimsuitOrangeGreen  -->
+		<!-- CW 29 remove until duck is fixed -->		
+				
+		<item id='367' order='10' date="26 Aug 2010"/>		<!-- JeansFlaredBlue -->
+		<item id='366' order='10' date="26 Aug 2010"/>		<!-- TshirtCowboy -->
+		<item id='365' order='10' date="26 Aug 2010"/>		<!-- DressHippieChic -->
+				
+		<item id='364' order='10' date="26 Aug 2010"/>		<!-- PantsFan -->
+		<item id='363' order='10' date="26 Aug 2010"/>		<!-- ShirtFan -->
+				
+		<item id='354' order='10' date="26 Aug 2010"/>		<!-- PantsFrance -->
+		<item id='353' order='10' date="26 Aug 2010"/>		<!-- ShirtFrance -->
+		<item id='352' order='10' date="26 Aug 2010"/>		<!-- PantsSwiss -->
+		<item id='351' order='10' date="26 Aug 2010"/>		<!-- ShirtSwiss -->
+		<item id='348' order='10' date="26 Aug 2010"/>		<!-- PantsEngland -->
+		<item id='347' order='10' date="26 Aug 2010"/>		<!-- ShirtEngland  -->
+				
+		<item id='346' order='10' date="26 Aug 2010"/>		<!-- PantsBrasil-->
+		<item id='345' order='10' date="26 Aug 2010"/>		<!-- ShirtBrasil-->
+				
+		<item id='340' order='10' date="26 Aug 2010"/>		<!-- PantsArgentina  -->
+		<item id='339' order='10' date="26 Aug 2010"/>		<!-- ShirtArgentina  -->
+		<item id='338' order='10' date="26 Aug 2010"/>		<!-- PantsHolland  -->
+		<item id='337' order='10' date="26 Aug 2010"/>		<!-- ShirtHolland  -->
+				
+		<item id='316' order='10' date="26 Aug 2010"/>		<!-- Jeans_green -->
+		<item id='119' order='11' date="26 Aug 2010"/>		<!-- WhitePinkCardigan -->
+		<item id='315' order='10' date="26 Aug 2010"/>		<!-- ShirtwhiteCool -->
+		<item id='314' order='10' date="26 Aug 2010"/>		<!-- JacketLeather -->
+		<item id='313' order='10' date="26 Aug 2010"/>		<!-- Dress60Blue -->
+		<item id='312' order='10' date="26 Aug 2010"/>		<!-- Dress60Yellow  -->
+				
+		<item id='324' order='10' date="26 Aug 2010"/>		<!-- PantsGermany -->
+		<item id='323' order='10' date="26 Aug 2010"/>		<!-- PantsItaly -->
+		<item id='322' order='10' date="26 Aug 2010"/>		<!-- ShirtGermany -->
+		<item id='321' order='10' date="26 Aug 2010"/>		<!-- ShirtItaly -->
+				
+		<item id='320' order='10' date="26 Aug 2010"/>		<!-- PantsMexico  -->
+		<item id='319' order='10' date="26 Aug 2010"/>		<!-- ShirtMexico  -->
+		<item id='318' order='10' date="26 Aug 2010"/>		<!-- PantsSouthAfrica  -->
+		<item id='317' order='10' date="26 Aug 2010"/>		<!-- ShirtSouthAfrica  -->
+				
+		<item id='307' order='10' date="26 Aug 2010"/>		<!-- ShirtHawaii  -->
+		<item id='87' order='10' date="26 Aug 2010"/>		
+		<!-- item id='306' order='10'/ -->		<!-- BlueSwimmsuit  replace by previous item : -->
+		<item id='305' order='10' date="26 Aug 2010"/>		<!-- ShortsCool  -->
+		<item id='304' order='10' date="26 Aug 2010"/>		<!-- TshirtCool  -->
+				
+		<item id='311' order='10' date="26 Aug 2010"/>		<!-- jeans_hiphopBlue  -->
+		<item id='310' order='10' date="26 Aug 2010"/>		<!-- skirt_hiphopBlue -->
+		<item id='309' order='10' date="26 Aug 2010"/>		<!-- TShirt_hiphopColorfull  -->
+		<item id='308' order='10' date="26 Aug 2010"/>		<!-- poloShirt_hiphopColorfull -->
+				
+		<item id='1' order='10' date="26 Aug 2010"/>		<!-- JeansDarkGrey  -->
+		<item id='24' order='10' date="26 Aug 2010"/>		<!-- JeansMiniSkirt -->
+		<item id='290' order='10' date="26 Aug 2010"/>		<!-- hoodie_squarepink  -->
+		<item id='289' order='10' date="26 Aug 2010"/>		<!-- hoodie_squarered  -->
+		<item id='288' order='10' date="26 Aug 2010"/>		<!-- tshirt_black_lovemusic  -->
+		<item id='287' order='10' date="26 Aug 2010"/>		<!-- tshirt_black_bunnychain  -->
+				
+		<item id='278' order='10' date="26 Aug 2010"/>		<!-- shirt_hiphopWhiteRed -->
+		<item id='277' order='10' date="26 Aug 2010"/>		<!-- shirt_hiphopGreen  -->
+		<item id='276' order='10' date="26 Aug 2010"/>		<!-- jeans_hiphopBlack  -->
+		<item id='275' order='10' date="26 Aug 2010"/>		<!-- short_hiphopWhite  -->
+				
+		<item id='258' order='10' date="26 Aug 2010"/>		<!-- TrousersStripedBlack -->
+		<item id='257' order='10' date="26 Aug 2010"/>		<!-- DressRedEvening -->
+		<item id='256' order='10' date="26 Aug 2010"/>		<!-- DressPinkRed -->
+		<item id='255' order='10' date="26 Aug 2010"/>		<!-- shirt_dandy -->
+				
+		<item id='186' order='10' date="26 Aug 2010"/>		<!-- blackbelt_jeans -->
+		<item id='184' order='10' date="26 Aug 2010"/>		<!-- jeans_skirt -->
+		<item id='120' order='11' date="26 Aug 2010"/>		<!-- WhiteTshirt -->
+		<item id='245' order='10' date="26 Aug 2010"/>		<!-- turtle_pullover -->
+		<item id='244' order='10' date="26 Aug 2010"/>		<!-- chick_pullover -->
+				
+		<!-- item id='233' order='10'/ -->		<!-- dandyshirt, to reactivate when the name problems will be fixed -->
+		<item id='232' order='10' date="26 Aug 2010"/>		<!-- skirt_legginspink -->
+		<item id='231' order='10' date="26 Aug 2010"/>		<!-- tshirt_yellow -->
+		<item id='230' order='10' date="26 Aug 2010"/>		<!-- spagshirt_blue  -->
+		<item id='114' order='10' date="26 Aug 2010"/>		<!-- dandysweater -->
+		<item id='113' order='10' date="26 Aug 2010"/>		<!-- dandypants -->
+		<item id='112' order='10' date="26 Aug 2010"/>		<!-- dandyjacket -->
+				
+		<item id='196' order='10' date="26 Aug 2010"/>		<!-- pyjama_bluetrousers   -->
+		<item id='198' order='10' date="26 Aug 2010"/>		<!-- shark_shirt   -->
+		<item id='193' order='10' date="26 Aug 2010"/>		<!-- lila_nightdress   -->
+				
+		<item id='221' order='10' date="26 Aug 2010"/>		<!-- shoes_bluekickers -->
+		<item id='220' order='10' date="26 Aug 2010"/>		<!-- skirt_jeansballoon -->
+		<item id='219' order='10' date="26 Aug 2010"/>		<!-- blouse_bluewhitelace -->
+		<!--item id='218' order='10'/-->		<!-- shoes_blueflipflop -->
+		<item id='217' order='10' date="26 Aug 2010"/>		<!-- trousers_blackred -->
+		<item id='216' order='10' date="26 Aug 2010"/>		<!-- shirt_greenopened -->
+				
+		<item id='206' order='10' date="26 Aug 2010"/>		<!-- shoes_zebra  -->
+		<item id='187' order='10' date="26 Aug 2010"/>		<!-- zebra_dress  -->
+		<item id='129' order='10' date="26 Aug 2010"/>		<!-- BlackSmokingJacket -->
+		<item id='205' order='10' date="26 Aug 2010"/>		<!-- drmartens_black  -->
+		<item id='185' order='10' date="26 Aug 2010"/>		<!-- greyish_jeans -->
+		<item id='188' order='10' date="26 Aug 2010"/>		<!-- military_jacket -->
+				
+		<item id='189' order='10' date="26 Aug 2010"/>		<!-- black_maryjane -->
+		<item id='199' order='10' date="26 Aug 2010"/>		<!-- whiteassymetric_shirt -->
+		<item id='197' order='10' date="26 Aug 2010"/>		<!-- reddishclasp_skirt -->
+		<item id='195' order='10' date="26 Aug 2010"/>		<!-- panamaiack_shoes -->
+		<item id='192' order='10' date="26 Aug 2010"/>		<!-- lightblue_jeans -->
+		<item id='200' order='10' date="26 Aug 2010"/>		<!-- brownsquares_pullover -->
+		<item id='173' order='10' date="26 Aug 2010"/>		<!-- BlueJeansChain -->
+		
+		
+	</clothingCatalogData>
+	
+	<furnitureCatalogData>
+		<!-- wood items, do not change ! -->
+		<item id='341' order='10' date="01 Jan 2008"/>		<!-- WHITE WICKER CHAIR -->
+		<item id='790' order='10' date="01 Jan 2008"/>		<!-- DIVAN BED -->
+		<item id='635' order='10' date="01 Jan 2008"/>		<!-- SWEET FRIDGE -->
+		<item id='400' order='10' date="01 Jan 2008"/>		<!-- BLUE WOODEN VANITY -->
+
+		
+		<!-- CW 13 -->
+		<item id='1022' order='10' date="29 Mar 2012"/>		<!-- mirror_icecream -->
+		<item id='1023' order='10' date="29 Mar 2012"/>		<!-- tub_icecream -->
+		<item id='1024' order='10' date="29 Mar 2012"/>		<!-- bed_icecream -->
+		<item id='1025' order='10' date="29 Mar 2012"/>		<!-- fridge_icecream -->
+		
+		<!-- CW 11 -->
+		<item id='1015' order='10' date="15 Mar 2012"/>		<!-- couch_Spring -->
+		<item id='1016' order='10' date="15 Mar 2012"/>		<!-- chair_Spring -->
+		<item id='1017' order='10' date="15 Mar 2012"/>		<!-- table_Ladybug -->
+		<item id='1018' order='10' date="15 Mar 2012"/>		<!-- pond_Spring -->
+		
+		
+		<!-- CW 06 -->
+		<item id='993' order='10' date="09 Feb 2012"/>		<!-- couch_Heart -->
+		<item id='994' order='10' date="09 Feb 2012"/>		<!-- plushy_puppy -->
+
+		
+		<!-- CW 49 -->
+		<item id='934' order='10' date="08 Dec 2011"/>		<!-- chair_GingerBread -->
+		<item id='935' order='10' date="08 Dec 2011"/>		<!-- couch_GingerBread -->
+		<item id='936' order='10' date="08 Dec 2011"/>		<!-- closet_GingerBread -->
+		<item id='937' order='10' date="08 Dec 2011"/>		<!-- bed_GingerBread -->
+
+
+		<!-- CW 48 -->
+		<!-- nothing -->
+	
+		<!-- CW 47 -->
+		<item id='925' order='10' date="24 Nov 2011"/>		<!-- garland_christmas -->
+		<item id='926' order='10' date="24 Nov 2011"/>		<!-- lamp_christmas -->
+		<item id='927' order='10' date="24 Nov 2011"/>		<!-- clock_artdeco -->
+		<item id='928' order='10' date="24 Nov 2011"/>		<!-- deco_snowglobe -->
+	
+		<!-- CW 46 -->
+		<!-- nothing -->
+		
+		<!-- CW 45 -->
+		<item id='917' order='10' date="10 Nov 2011"/>		<!-- tub_pumpkin -->
+		<item id='918' order='10' date="10 Nov 2011"/>		<!-- teddy_turkey -->
+		<item id='919' order='10' date="10 Nov 2011"/>		<!-- window_autumn -->
+		<item id='920' order='10' date="10 Nov 2011"/>		<!-- dresser_indian -->
+	
+		<!-- CW 44 -->
+		<!-- nothing -->
+	
+		<!-- CW 43 -->
+		<item id='913' order='10' date="27 Oct 2011"/>		<!-- couch_monster -->
+		<item id='914' order='10' date="27 Oct 2011"/>		<!-- candle_skull -->
+		<item id='915' order='10' date="27 Oct 2011"/>		<!-- window_graves -->
+		<item id='916' order='10' date="27 Oct 2011"/>		<!-- fridge_coffin -->
+	
+		<!-- CW 42 -->
+		<!-- nothing -->
+	
+		<!-- CW 41 -->
+		<item id='906' order='10' date="13 Oct 2011"/>		<!-- chair_arms -->
+		<item id='907' order='10' date="13 Oct 2011"/>		<!-- fireplace_inWall -->
+		<item id='908' order='10' date="13 Oct 2011"/>		<!-- carpet_bear -->
+		<item id='909' order='10' date="13 Oct 2011"/>		<!-- shelfs_simpleWood -->
+	
+		<!-- CW 40 -->
+		<!-- nothing -->
+	
+		<!-- CW 39 -->
+		<item id='891' order='10' date="29 Sep 2011"/>		<!-- bed_sports -->
+		<item id='892' order='10' date="29 Sep 2011"/>		<!-- carpet_football -->
+		<item id='893' order='10' date="29 Sep 2011"/>		<!-- deco_basketball -->
+		<item id='894' order='10' date="29 Sep 2011"/>		<!-- chair_baseball -->
+	
+		<!-- CW 38 -->
+		<!-- noting -->
+		
+		<!-- CW 37 -->
+		<item id='883' order='10' date="15 Sep 2011"/>		<!-- fridge_stylishBrown -->
+		<item id='884' order='10' date="15 Sep 2011"/>		<!-- tub_stylishBrown -->
+		<item id='885' order='10' date="15 Sep 2011"/>		<!-- sink_stylishBrown -->
+		<item id='886' order='10' date="15 Sep 2011"/>		<!-- shelf_stylishBrown -->
+		
+	
+		<!-- CW 36 --> <!-- no furniture -->
+		
+		<!-- CW 35 -->
+		<item id='875' order='10' date="1 Sep 2011"/>		<!-- pond_nessi -->
+		<item id='876' order='10' date="1 Sep 2011"/>		<!-- decoration_cowhead -->
+		<item id='877' order='10' date="1 Sep 2011"/>		<!-- decoration_ruins -->
+		<item id='878' order='10' date="1 Sep 2011"/>		<!-- window_ruins -->
+	
+		<!-- CW 34 -->
+		<item id='868' order='10' date="25 Aug 2011"/>		<!-- bed_medieval -->
+		<item id='869' order='10' date="25 Aug 2011"/>		<!-- chair_throne -->
+		<item id='870' order='10' date="25 Aug 2011"/>		<!-- candle_medieval -->
+		<item id='871' order='10' date="25 Aug 2011"/>		<!-- cauldron_medieval -->
+	
+		<!-- CW 33-->
+		<item id='859' order='10' date="18 Aug 2011"/>		<!-- bathtub_umbrella -->
+		<item id='860' order='10' date="18 Aug 2011"/>		<!-- decoration_splash -->
+		<item id='861' order='10' date="18 Aug 2011"/>		<!-- carpet_cloud -->
+		<item id='862' order='10' date="18 Aug 2011"/>		<!-- fireplace_raindrop -->
+		
+		<!-- CW 32-->
+		<item id='850' order='10' date="11 Aug 2011"/>		<!-- bed_oriental -->
+		<item id='851' order='10' date="11 Aug 2011"/>		<!-- window_oriental -->
+		<item id='852' order='10' date="11 Aug 2011"/>		<!-- lamp_oriental -->
+		<item id='853' order='10' date="11 Aug 2011"/>		<!-- rug_persian -->
+
+	
+		<!-- CW 31-->
+		<item id='843' order='10' date="4 Aug 2011"/>		<!-- poster_80s -->
+		<item id='844' order='10' date="4 Aug 2011"/>		<!-- carpet_cassette -->
+		<item id='845' order='10' date="4 Aug 2011"/>		<!-- table_rubikscube -->
+		<item id='846' order='10' date="4 Aug 2011"/>		<!-- clock_80s -->
+
+	
+		<!-- CW 30-->
+		<item id='836' order='10' date="28 Jul 2011"/>		<!-- chair_tentacle -->
+		<item id='837' order='10' date="28 Jul 2011"/>		<!-- table_tentacle -->
+		<item id='838' order='10' date="28 Jul 2011"/>		<!-- shelf_tentacle -->
+		<item id='839' order='10' date="28 Jul 2011"/>		<!-- window_tentacle -->
+	
+		<!-- CW 29-->
+		<item id='828' order='10' date="21 Jul 2011"/>		<!-- sink_elephant -->
+		<item id='829' order='10' date="21 Jul 2011"/>		<!-- tub_giraffe -->
+		<item id='830' order='10' date="21 Jul 2011"/>		<!-- mask_africa -->
+		<item id='831' order='10' date="21 Jul 2011"/>		<!-- fridge_cheetah -->
+	
+		<!-- CW 28-->
+		<item id='821' order='10' date="14 Jul 2011"/>		<!-- chair_Peace -->
+		<item id='822' order='10' date="14 Jul 2011"/>		<!-- table_peace -->
+		<item id='823' order='10' date="14 Jul 2011"/>		<!-- window_peace -->
+		<item id='824' order='10' date="14 Jul 2011"/>		<!-- lamp_lava -->
+	
+		<!-- CW 27-->
+		<item id='817' order='10' date="7 Jul 2011"/>		<!-- stool_heart -->
+		<item id='818' order='10' date="7 Jul 2011"/>		<!-- mirror_bee -->
+		<item id='819' order='10' date="7 Jul 2011"/>		<!-- chair_croco -->
+		<item id='820' order='10' date="7 Jul 2011"/>		<!-- carpet_fish -->
+	
+		<!-- CW 26-->
+		<item id='805' order='10' date="30 Jun 2011"/>		<!-- chair_eames -->
+		<item id='806' order='10' date="30 Jun 2011"/>		<!-- stool_eames -->
+		<item id='807' order='10' date="30 Jun 2011"/>		<!-- table_kidney -->
+		<item id='808' order='10' date="30 Jun 2011"/>		<!-- lamp_hipster -->
+	
+		<!-- CW 25-->
+		<item id='799' order='10' date="23 Jun 2011"/>		<!-- table_saturn -->
+		<item id='800' order='10' date="23 Jun 2011"/>		<!-- shelf_rocket -->
+		<item id='801' order='10' date="23 Jun 2011"/>		<!-- lamp_UFO -->
+		<item id='802' order='10' date="23 Jun 2011"/>		<!-- mobile_space -->
+		
+		<!-- CW 24-->
+		<item id='790' order='10' date="16 Jun 2011"/>		<!-- kanapee_20s -->
+		<item id='791' order='10' date="16 Jun 2011"/>		<!-- chair_20s -->
+		<item id='792' order='10' date="16 Jun 2011"/>		<!-- lamp_20s -->
+		<item id='793' order='10' date="16 Jun 2011"/>		<!-- bathtub_20s -->
+	
+		<!-- CW 23-->
+		<item id='786' order='10' date="9 Jun 2011"/>		<!-- towl_beach -->
+		<item id='787' order='10' date="9 Jun 2011"/>		<!-- castle_sand -->
+		<item id='788' order='10' date="9 Jun 2011"/>		<!-- decoration_flamingos -->
+		<item id='789' order='10' date="9 Jun 2011"/>		<!-- window_ocean -->
+	
+		<!-- CW 22-->
+		<item id='780' order='10' date="2 Jun 2011"/>		<!-- chair_america -->
+		<item id='781' order='10' date="2 Jun 2011"/>		<!-- couch_america -->
+		<item id='782' order='10' date="2 Jun 2011"/>		<!-- lamp_liberty -->
+		<item id='783' order='10' date="2 Jun 2011"/>		<!-- banner_america -->
+	
+		<!-- CW 21-->
+		<item id='772' order='10' date="26 May 2011"/>		<!-- tub_nautics -->
+		<item id='773' order='10' date="26 May 2011"/>		<!-- fridge_nautics -->
+		<item id='774' order='10' date="26 May 2011"/>		<!-- oven_nautics -->
+		<item id='775' order='10' date="26 May 2011"/>		<!-- window_bullseye -->
+	
+		<!-- CW 20-->
+		<item id='766' order='10' date="19 May 2011"/>		<!-- statue_pandaBuddah -->
+		<item id='767' order='10' date="19 May 2011"/>		<!-- seat_cushions -->
+		<item id='768' order='10' date="19 May 2011"/>		<!-- sunshade_india -->
+		<item id='769' order='10' date="19 May 2011"/>		<!-- chair_lotos -->
+		
+		<!-- CW 19-->
+		<item id='762' order='10' date="12 May 2011"/>		<!-- mirror_apple -->
+		<item id='763' order='10' date="12 May 2011"/>		<!-- sink_apple -->
+		<item id='764' order='10' date="12 May 2011"/>		<!-- tub_melon -->
+		<item id='765' order='10' date="12 May 2011"/>		<!-- closet_pear -->
+		
+		<!-- CW 18 -->
+		<item id='748' order='10' date="5 May 2011"/>		<!-- blanket_picnic -->
+		<item id='749' order='10' date="5 May 2011"/>		<!-- chair_picnic -->
+		<item id='750' order='10' date="5 May 2011"/>		<!-- tent_picnic -->
+		<item id='751' order='10' date="5 May 2011"/>		<!-- lanterns_picnic -->
+		
+		<!-- CW 17-->
+		<item id='741' order='10' date="28 Apr 2011"/>		<!-- couch_sombrero -->
+		<item id='742' order='10' date="28 Apr 2011"/>		<!-- fridge_cactus -->
+		<item id='743' order='10' date="28 Apr 2011"/>		<!-- pinatas_mexico -->
+		<item id='744' order='10' date="28 Apr 2011"/>		<!-- hammock_mexico -->
+
+		
+		<!-- CW 16-->
+		<item id='722' order='10' date="21 Apr 2011"/>		<!-- bed_easter -->
+		<item id='723' order='10' date="21 Apr 2011"/>		<!-- wardrobe_easter -->
+		<item id='724' order='10' date="21 Apr 2011"/>		<!-- table_easter -->
+		<item id='725' order='10' date="21 Apr 2011"/>		<!-- sink_easter -->
+	
+	
+		<!-- CW 15-->
+		<item id='715' order='10' date="14 Apr 2011"/>		<!-- lamp_lamb -->
+		<item id='716' order='10' date="14 Apr 2011"/>		<!-- bunny_huge -->
+		<item id='717' order='10' date="14 Apr 2011"/>		<!-- bath_bunny -->
+		<item id='718' order='10' date="14 Apr 2011"/>		<!-- sofa_easter -->
+		
+		<!-- CW 14-->
+		<item id='728' order='10' date="7 Apr 2011"/>		<!-- waterfall_deco -->
+		<item id='729' order='10' date="7 Apr 2011"/>		<!-- table_drop -->
+		<item id='730' order='10' date="7 Apr 2011"/>		<!-- lamp_drop -->
+		<item id='731' order='10' date="7 Apr 2011"/>		<!-- carpet_pool -->
+		
+		
+		<!-- CW 13-->
+		<item id='705' order='10' date="31 Mar 2011"/>		<!-- sofa_cloud -->
+		<item id='706' order='10' date="31 Mar 2011"/>		<!-- bed_cloud -->
+		<item id='707' order='10' date="31 Mar 2011"/>		<!-- pegasus -->
+		<item id='708' order='10' date="31 Mar 2011"/>		<!-- carpet_flying -->
+	
+		<!-- CW 12 -->
+		<item id='711' order='10' date="24 Mar 2011"/>		<!-- sofa_earth -->
+		<item id='712' order='10' date="24 Mar 2011"/>		<!-- chair_earth -->
+		<item id='713' order='10' date="24 Mar 2011"/>		<!-- table_earth -->
+		<item id='714' order='10' date="24 Mar 2011"/>		<!-- dresser_earth -->
+	
+		<!-- CW 11 -->
+		<item id='701' order='10' date="17 Mar 2011"/>		<!-- pet_fire -->
+		<item id='702' order='10' date="17 Mar 2011"/>		<!-- fireplace_whitepink_glass -->
+		<item id='703' order='10' date="17 Mar 2011"/>		<!-- table_fire -->
+		<item id='704' order='10' date="17 Mar 2011"/>		<!-- sculpture_fire -->
+	
+	
+		<!-- CW 10 -->
+		<item id='697' order='10' date="10 Mar 2011"/>		<!-- table_patrick -->
+		<item id='698' order='10' date="10 Mar 2011"/>		<!-- teddy_patrick -->
+		<item id='699' order='10' date="10 Mar 2011"/>		<!-- bath_patrick -->
+		<item id='700' order='10' date="10 Mar 2011"/>		<!-- shelf_patrick -->
+	
+		<!-- CW 09 -->
+		<item id='689' order='10' date="3 Mar 2011"/>		<!-- table_krampfen -->
+		<item id='690' order='10' date="3 Mar 2011"/>		<!-- mirror_clown -->
+		<item id='691' order='10' date="3 Mar 2011"/>		<!-- carpet_clown -->
+		<item id='692' order='10' date="3 Mar 2011"/>		<!-- bed_shoe -->
+
+		<!-- CW 08 -->
+		<item id='685' order='10' date="24 Feb 2011"/>		<!-- sofa_mask-->
+		<item id='686' order='10' date="24 Feb 2011"/>		<!-- carriage_carnival-->
+		<item id='687' order='10' date="24 Feb 2011"/>		<!-- wardrobe_chick-->
+		<item id='688' order='10' date="24 Feb 2011"/>		<!-- venetian_mask-->
+
+		<!-- CW 07 -->
+		<item id='652' order='10' date="17 Feb 2011"/>		<!-- sofa_oceanshell -->
+		<item id='653' order='10' date="17 Feb 2011"/>		<!-- mirror_star -->
+		<item id='654' order='10' date="17 Feb 2011"/>		<!-- table_snail -->
+		<item id='655' order='10' date="17 Feb 2011"/>		<!-- bath_jellyfish -->
+	
+		<!-- CW 06 -->
+		<item id='667' order='10' date="10 Feb 2011"/>		<!-- column_valentine -->
+		<item id='668' order='10' date="10 Feb 2011"/>		<!-- sticker_valentine -->
+		<item id='669' order='10' date="10 Feb 2011"/>		<!-- cupid -->
+		<item id='670' order='10' date="10 Feb 2011"/>		<!-- table_valentine -->
+	
+		<!-- CW 04 -->
+		<item id='648' order='10' date="27 Jan 2011"/>		<!-- bed_ice -->
+		<item id='649' order='10' date="27 Jan 2011"/>		<!-- igloo -->
+		<item id='650' order='10' date="27 Jan 2011"/>		<!-- baby_seal -->
+		<item id='651' order='10' date="27 Jan 2011"/>		<!-- window_snow -->
+	
+		<!-- CW 03 -->
+		<item id='631' order='10' date="20 Jan 2011"/>		<!-- sofa_cow -->
+		<item id='632' order='10' date="20 Jan 2011"/>		<!-- teddy_bear_green -->
+		<item id='633' order='10' date="20 Jan 2011"/>		<!-- teddy_bear_blue -->
+		<item id='634' order='10' date="20 Jan 2011"/>		<!-- teddy_bear_red -->
+		<item id='635' order='10' date="20 Jan 2011"/>		<!-- fridge_sweets -->
+		<item id='636' order='10' date="20 Jan 2011"/>		<!-- table_donut -->
+	
+		<!-- CW 02 -->
+		<item id='627' order='10' date="13 Jan 2011"/>		<!-- sofa_ski -->
+		<item id='628' order='10' date="13 Jan 2011"/>		<!-- table_ski -->
+		<item id='629' order='10' date="13 Jan 2011"/>		<!-- shelf_ski -->
+		<item id='630' order='10' date="13 Jan 2011"/>		<!-- bath_ski -->
+		
+		<!-- CW 01 -->
+		<item id='611' order='10' date="6 Jan 2011"/>		<!-- camel_king -->
+		<item id='612' order='10' date="6 Jan 2011"/>		<!-- pillows_king -->
+		<item id='613' order='10' date="6 Jan 2011"/>		<!-- gifts_king -->
+		<item id='614' order='10' date="6 Jan 2011"/>		<!-- star_king -->
+
+	
+		<!-- CW 52 -->
+		<item id='605' order='10' date="30 Dec 2010"/>		<!-- newYear_2011 -->
+		<item id='606' order='10' date="30 Dec 2010"/>		<!-- newYear_lights -->
+		<item id='607' order='10' date="30 Dec 2010"/>		<!-- carpet_newYear -->
+		<item id='608' order='10' date="30 Dec 2010"/>		<!-- balloons_NewYear -->
+		
+		
+		<!-- CW 51 -->
+		<item id='601' order='10' date="23 Dec 2010"/>		<!-- tree_christmas_4 -->
+		<item id='602' order='10' date="23 Dec 2010"/>		<!-- crib_holyfamily -->
+		<item id='603' order='10' date="23 Dec 2010"/>		<!-- crib_magi -->
+		<item id='604' order='10' date="23 Dec 2010"/>		<!-- table_turkey -->
+
+		<!-- CW 50 -->
+		<item id='590' order='10' date="16 Dec 2010"/>		<!-- tree_christmas_3  -->
+		<item id='591' order='10' date="16 Dec 2010"/>		<!-- fireplace_carrot_christmas  -->
+		<item id='592' order='10' date="16 Dec 2010"/>		<!-- crib_stable  -->
+		<item id='593' order='10' date="16 Dec 2010"/>		<!-- crib_shepherd  -->
+
+		<!-- CW 49 -->
+		<item id='586' order='10' date="9 Dec 2010"/>		<!-- tree_christmas_2  -->
+		<item id='587' order='10' date="9 Dec 2010"/>		<!-- plushie_reindeer  -->
+		<item id='588' order='10' date="9 Dec 2010"/>		<!-- crown_christmas  -->
+		<item id='589' order='10' date="9 Dec 2010"/>		<!-- package_presents  -->
+
+		<!-- CW 48 -->
+		<item id='582' order='10' date="2 Dec 2010"/>		<!-- tree_christmas_1  -->
+		<item id='583' order='10' date="2 Dec 2010"/>		<!-- table_christmas_bill  -->
+		<item id='584' order='10' date="2 Dec 2010"/>		<!-- snowman_cute  -->
+		<item id='585' order='10' date="2 Dec 2010"/>		<!-- nikolaus_schoko  -->
+
+		<!-- CW 47 -->
+		<item id='567' order='10' date="25 Nov 2010"/>		<!-- fireplace_wood_stone -->
+		<item id='568' order='10' date="25 Nov 2010"/>		<!-- bed_wood_stone -->
+		<item id='569' order='10' date="25 Nov 2010"/>		<!-- carpet_stones -->
+		<item id='570' order='10' date="25 Nov 2010"/>		<!-- model_Bunnyhouse -->
+		
+		<!-- CW 46 -->
+		<item id='563' order='10' date="18 Nov 2010"/>		<!-- carpet_chatel -->
+		<item id='564' order='10' date="18 Nov 2010"/>		<!-- table_glass_lion_paw -->
+		<item id='565' order='10' date="18 Nov 2010"/>		<!-- sofa_lion_paw -->
+		<item id='566' order='10' date="18 Nov 2010"/>		<!-- lamp_lion_paw -->
+	
+		<!-- CW 45 -->
+		<item id='550' order='10' date="11 Nov 2010"/>		<!-- sofa_egg_green -->
+		<item id='551' order='10' date="11 Nov 2010"/>		<!-- table_egg_red -->
+		<item id='552' order='10' date="11 Nov 2010"/>		<!-- bookcase_contemporary -->
+		<item id='553' order='10' date="11 Nov 2010"/>		<!-- lantern_sun -->
+		<item id='554' order='10' date="11 Nov 2010"/>		<!-- lantern_traditional -->
+		<item id='555' order='10' date="11 Nov 2010"/>		<!-- lantern_oloko -->
+		<item id='556' order='10' date="11 Nov 2010"/>		<!-- lantern_woolball -->
+	
+		<!-- CW 44 -->
+		<item id='539' order='10' date="4 Nov 2010"/>		<!-- sink_skull -->
+		<item id='540' order='10' date="4 Nov 2010"/>		<!-- kitchen_tomb -->
+		<item id='541' order='10' date="4 Nov 2010"/>		<!-- bed_halloween -->
+		<item id='542' order='10' date="4 Nov 2010"/>		<!-- ghost_happy -->
+		
+		<!-- CW 43 -->
+		<item id='529' order='10' date="28 Oct 2010"/>		<!-- bath_skull -->
+		<item id='530' order='10' date="28 Oct 2010"/>		<!-- fridge_tomb -->
+		<item id='531' order='10' date="28 Oct 2010"/>		<!-- carpet_bat -->
+		<item id='532' order='10' date="28 Oct 2010"/>		<!-- pumpkin_halloween -->
+	
+		<!-- CW 42 -->
+		<item id='514' order='10' date="21 Oct 2010"/>		<!-- table_sushi_maki -->
+		<item id='515' order='10' date="21 Oct 2010"/>		<!-- chair_sushi_maki -->
+		<item id='516' order='10' date="21 Oct 2010"/>		<!-- umbrella_paper -->
+		<item id='517' order='10' date="21 Oct 2010"/>		<!-- sink_hot_japanese -->
+	
+		<!-- CW 41 -->
+		<item id='510' order='10' date="14 Oct 2010"/>		<!-- lamp_japanese_paper -->
+		<item id='511' order='10' date="14 Oct 2010"/>		<!-- painting_Fuji -->
+		<item id='512' order='10' date="14 Oct 2010"/>		<!-- table_tea_japanese -->
+		<item id='513' order='10' date="14 Oct 2010"/>		<!-- spring_hot_japanese -->
+	
+		<!-- CW 40 -->
+		<item id='506' order='10' date="7 Oct 2010"/>		<!-- poster_Bill_home -->
+		<item id='507' order='10' date="7 Oct 2010"/>		<!-- chair_bill_leather -->
+		<item id='508' order='10' date="7 Oct 2010"/>		<!-- bookshelf_bill_plastic -->
+		<item id='509' order='10' date="7 Oct 2010"/>		<!-- toy_car_police -->
+
+	
+		<!-- CW 39 -->
+		<item id='494' order='10' date="30 Sep 2010"/>		<!-- poster_Nico_home -->
+		<item id='502' order='10' date="30 Sep 2010"/>		<!-- fridge_8shape -->
+		<item id='503' order='10' date="30 Sep 2010"/>		<!-- sofa_woolball -->
+		<item id='504' order='10' date="30 Sep 2010"/>		<!-- Shelf_2shaped -->
+		
+		<!-- CW 38 -->
+		<item id='478' order='10' date="23 Sep 2010"/>		<!-- poster_Marla_home -->
+		<item id='479' order='10' date="23 Sep 2010"/>		<!-- bookshelf_K -->
+		<item id='492' order='10' date="23 Sep 2010"/>		<!-- lamp_oldbook -->
+		<item id='493' order='10' date="23 Sep 2010"/>		<!-- bath_old -->
+		
+		<!-- CW 37 -->
+		<item id='448' order='10' date="16 Sep 2010"/>		<!-- chair_medieval_wood -->
+		<item id='449' order='10' date="16 Sep 2010"/>		<!-- carpet_TicTacToe -->
+		<item id='450' order='10' date="16 Sep 2010"/>		<!-- bookshelf_L -->
+		<item id='477' order='10' date="16 Sep 2010"/>		<!-- wardrobe_T -->
+		
+		<!-- CW 36 -->
+		<item id='431' order='10' date="9 Sep 2010"/>		<!-- letter_a -->
+		<item id='432' order='10' date="9 Sep 2010"/>		<!-- letter_b -->
+		<item id='433' order='10' date="9 Sep 2010"/>		<!-- letter_c -->
+		
+		<item id='499' order='10' date="9 Sep 2010"/>		<!-- number_1  -->
+		<item id='500' order='10' date="9 Sep 2010"/>		<!-- number_2 -->
+		<item id='501' order='10' date="9 Sep 2010"/>		<!-- number_3 -->
+		
+		
+		<item id='437' order='10' date="9 Sep 2010"/>		<!-- bookshelf_O -->
+		<item id='438' order='10' date="9 Sep 2010"/>		<!-- table_medieval_wood -->
+		<item id='439' order='10' date="9 Sep 2010"/>		<!-- candelabrum_gold -->
+	
+	
+	
+		<item id='408' order='10' date="2 Sep 2010"/>		<!-- standMirror_white_plastic -->
+		<item id='409' order='10' date="2 Sep 2010"/>		<!-- table_white_plastic_floating -->
+		<item id='410' order='10' date="2 Sep 2010"/>		<!-- tv_wood -->
+		<item id='411' order='10' date="2 Sep 2010"/>		<!-- washbasin_pinkrose_plastic -->
+	
+		<item id='455' order='10' date="26 Aug 2010"/>		<!-- beachvolley_set  -->
+		<item id='456' order='10' date="26 Aug 2010"/>		<!-- hamaca_palmtree  -->
+		<item id='457' order='10' date="26 Aug 2010"/>		<!-- litter_beach  -->
+		<item id='458' order='10' date="26 Aug 2010"/>		<!-- umbrella_sun  -->
+	
+		<item id='397' order='10' date="26 Aug 2010"/>		<!-- barbecue_red  -->
+		<item id='398' order='10' date="26 Aug 2010"/>		<!-- bath_pink  -->
+		<item id='399' order='10' date="26 Aug 2010"/>		<!-- bunkbed_rabbit_wooden -->
+		<item id='400' order='10' date="26 Aug 2010"/>		<!-- washbasin_blue_wood -->
+	
+	
+		<item id='393' order='10' date="26 Aug 2010"/>		<!-- fountain_cupid_cat  -->
+		<item id='394' order='10' date="26 Aug 2010"/>		<!-- nighttable_black_glassiron  -->
+		<item id='395' order='10' date="26 Aug 2010"/>		<!-- standMirror_black_iron  -->
+		<item id='396' order='10' date="26 Aug 2010"/>		<!-- table_whitepink_plastic  -->
+	
+		<item id='375' order='10' date="26 Aug 2010"/>		<!-- sculpture_Samothrace  -->
+		<item id='374' order='10' date="26 Aug 2010"/>		<!-- chair_greek_wooden -->
+		<item id='373' order='10' date="26 Aug 2010"/>		<!-- shelf_amphora_greek -->
+		<item id='372' order='10' date="26 Aug 2010"/>		<!-- temple_greek -->
+				
+				
+		<item id='371' order='10' date="26 Aug 2010"/>		<!-- seat_inflatable  -->
+		<item id='370' order='10' date="26 Aug 2010"/>		<!-- optimist_dinghy -->
+		<item id='369' order='10' date="26 Aug 2010"/>		<!-- mobile_seagullseagull -->
+		<item id='368' order='10' date="26 Aug 2010"/>		<!-- bar_beach -->
+				
+		<item id='333' order='10' date="26 Aug 2010"/>		<!-- tv_plastic -->
+		<item id='336' order='10' date="26 Aug 2010"/>		<!-- swing_tyre -->
+		<item id='334' order='10' date="26 Aug 2010"/>		<!-- sofa_blue_pencil -->
+		<item id='335' order='10' date="26 Aug 2010"/>		<!-- slide_elephant -->
+				
+		<item id='344' order='10' date="26 Aug 2010"/>		<!-- washbasin_pink_plastic  -->
+		<item id='343' order='10' date="26 Aug 2010"/>		<!-- table_white_plastic_roundfloating  -->
+		<item id='342' order='10' date="26 Aug 2010"/>		<!-- standMirror_orange_carrot  -->
+		<item id='341' order='10' date="26 Aug 2010"/>		<!-- sofa_natural_wicker  -->
+				
+		<item id='362' order='10' date="26 Aug 2010"/>		<!-- cup_world_oloko  -->
+		<item id='361' order='10' date="26 Aug 2010"/>		<!-- bed_football  -->
+		<item id='360' order='10' date="26 Aug 2010"/>		<!-- table_football  -->
+		<item id='359' order='10' date="26 Aug 2010"/>		<!-- lamp_vuvuzela_yellow  -->
+		<item id='358' order='10' date="26 Aug 2010"/>		<!-- lamp_vuvuzela_blue  -->
+		<item id='357' order='10' date="26 Aug 2010"/>		<!-- lamp_vuvuzela_green  -->
+		<item id='356' order='10' date="26 Aug 2010"/>		<!-- lamp_vuvuzela_red  -->
+		<item id='355' order='10' date="26 Aug 2010"/>		<!-- lamp_vuvuzela_black  -->
+				
+		<item id='328' order='10' date="26 Aug 2010"/>		<!--  wardrobe_blue_wood  -->
+		<item id='327' order='10' date="26 Aug 2010"/>		<!--  table_black_ironglass  -->
+		<item id='326' order='10' date="26 Aug 2010"/>		<!--  kitchen_sink_striped  -->
+		<item id='325' order='10' date="26 Aug 2010"/>		<!--  aquarium_white_wall  -->
+				
+		<item id='332' order='10' date="26 Aug 2010"/>		<!--  pinnwand_blue_plastic  -->
+		<item id='331' order='10' date="26 Aug 2010"/>		<!--  wardrobekitchen_wood_striped  -->
+		<item id='330' order='10' date="26 Aug 2010"/>		<!--  kitchen_cooker_striped  -->
+		<item id='329' order='10' date="26 Aug 2010"/>		<!--  fireplace_blue_gold  -->
+				
+		<item id='286' order='10' date="26 Aug 2010"/>		<!-- table_carrot  -->
+		<item id='285' order='10' date="26 Aug 2010"/>		<!-- fridge_blue_wooden  -->
+		<item id='284' order='10' date="26 Aug 2010"/>		<!-- chair_carrot  -->
+		<item id='283' order='10' date="26 Aug 2010"/>		<!-- aquarium_brown_plastic  -->
+				
+		<item id='282' order='10' date="26 Aug 2010"/>		<!-- wardrobekitchen_bluebrown_wooden  -->
+		<item id='281' order='10' date="26 Aug 2010"/>		<!-- picture_pinkRose_plastic  -->
+		<item id='280' order='10' date="26 Aug 2010"/>		<!-- lamp_white_paperwood  -->
+		<item id='279' order='10' date="26 Aug 2010"/>		<!-- kitchen_sink_wooden  -->
+				
+		<item id='274' order='10' date="26 Aug 2010"/>		<!-- kitchen_sink_pink -->
+		<item id='273' order='10' date="26 Aug 2010"/>		<!-- kitchen_cooker_Wooden -->
+		<item id='272' order='10' date="26 Aug 2010"/>		<!-- clothesRack_pinkRose_plastic  -->
+		<item id='271' order='10' date="26 Aug 2010"/>		<!-- armchair_pinkRose -->
+				
+		<item id='270' order='10' date="26 Aug 2010"/>		<!-- sofa_cyan_cushions -->
+		<item id='269' order='10' date="26 Aug 2010"/>		<!-- nighttable_pinkRose_plastic -->
+		<item id='268' order='10' date="26 Aug 2010"/>		<!-- chestofdrawers_pinkRose_plastic -->
+		<item id='267' order='10' date="26 Aug 2010"/>		<!-- chair_red_iron -->
+				
+		<item id='266' order='10' date="26 Aug 2010"/>		<!-- table_pinkRose_tablecloth -->
+		<item id='265' order='10' date="26 Aug 2010"/>		<!-- sofa_pinkRose -->
+		<item id='264' order='10' date="26 Aug 2010"/>		<!-- picture_carrot  -->
+		<item id='263' order='10' date="26 Aug 2010"/>		<!-- aquarium_glass_round -->
+				
+		<item id='262' order='10' date="26 Aug 2010"/>		<!-- wardrobe_pinkRose_plastic -->
+		<item id='261' order='10' date="26 Aug 2010"/>		<!-- tv_greenstripped_wood -->
+		<item id='260' order='10' date="26 Aug 2010"/>		<!-- table_carrotlegs_wood -->
+		<item id='259' order='10' date="26 Aug 2010"/>		<!-- Bed_pinkRose_plastic -->
+				
+		<item id='249' order='10' date="26 Aug 2010"/>		<!-- tv_white_plastic -->
+		<item id='248' order='10' date="26 Aug 2010"/>		<!-- table_blueflower_glass -->
+		<item id='247' order='10' date="26 Aug 2010"/>		<!-- bookcase_white_plastic -->
+		<item id='246' order='10' date="26 Aug 2010"/>		<!-- alarmclock_pink_rabbitears -->
+				
+		<item id='229' order='10' date="26 Aug 2010"/>		<!-- carpet_yellow_star -->
+		<item id='228' order='10' date="26 Aug 2010"/>		<!-- wardrobe_red_wood -->
+		<item id='227' order='10' date="26 Aug 2010"/>		<!-- kitchen_cooker_orange -->
+		<item id='226' order='10' date="26 Aug 2010"/>		<!-- fridge_orange_carrot -->
+				
+		<item id='225' order='10' date="26 Aug 2010"/>		<!--  standMirror_red_wood -->
+		<item id='224' order='10' date="26 Aug 2010"/>		<!--  wardrobeKitchen_pink_plastic -->
+		<item id='223' order='10' date="26 Aug 2010"/>		<!--  chair_white_hanging -->
+		<item id='222' order='10' date="26 Aug 2010"/>		<!--  bath_stone -->
+				
+		<item id='215' order='10' date="26 Aug 2010"/>		<!-- table_white_plastic  -->
+		<item id='214' order='10' date="26 Aug 2010"/>		<!-- cooker_pink_plastic  -->
+		<item id='213' order='10' date="26 Aug 2010"/>		<!-- fridge_pink_plastic  -->
+		<item id='212' order='10' date="26 Aug 2010"/>		<!-- chaise_cat_long  -->
+				
+		<item id='210' order='10' date="26 Aug 2010"/>		<!-- wardrobe_white_plastic  -->
+		<item id='209' order='10' date="26 Aug 2010"/>		<!-- table_greenStripped_wood  -->
+		<item id='208' order='10' date="26 Aug 2010"/>		<!-- wardrobeKitchen_orange_wood  -->
+		<item id='207' order='10' date="26 Aug 2010"/>		<!-- sink_orange_stone  -->
+				
+		<item id='204' order='61' date="26 Aug 2010"/>		
+		<item id='203' order='60' date="26 Aug 2010"/>		
+		<item id='202' order='59' date="26 Aug 2010"/>		
+		<item id='201' order='58' date="26 Aug 2010"/>		
+		<!--		
+		<item id='173' order='58'/>		
+		-->		
+		<item id='172' order='57' date="26 Aug 2010"/>		
+		<item id='171' order='56' date="26 Aug 2010"/>		
+		<item id='170' order='55' date="26 Aug 2010"/>		
+		<item id='169' order='54' date="26 Aug 2010"/>		
+		<item id='168' order='53' date="26 Aug 2010"/>		
+		<item id='167' order='10' date="26 Aug 2010"/>		
+		<!-- MetallicPinboard, fla not there		
+		<item id='166' order='51'/>		
+		-->		
+		<item id='165' order='50' date="26 Aug 2010"/>		
+		<item id='164' order='49' date="26 Aug 2010"/>		
+		<item id='163' order='48' date="26 Aug 2010"/>		
+		<item id='162' order='10' date="26 Aug 2010"/>		
+		<item id='161' order='46' date="26 Aug 2010"/>		
+		<item id='160' order='45' date="26 Aug 2010"/>		
+		<item id='159' order='44' date="26 Aug 2010"/>		
+		<item id='158' order='43' date="26 Aug 2010"/>		
+		<item id='157' order='42' date="26 Aug 2010"/>		
+		<item id='156' order='41' date="26 Aug 2010"/>		
+		<item id='155' order='40' date="26 Aug 2010"/>		
+		<item id='154' order='39' date="26 Aug 2010"/>		
+		<item id='153' order='38' date="26 Aug 2010"/>		
+		<item id='152' order='37' date="26 Aug 2010"/>		
+		<item id='151' order='10' date="26 Aug 2010"/>		
+		<item id='150' order='35' date="26 Aug 2010"/>		
+		<item id='149' order='34' date="26 Aug 2010"/>		
+		<item id='148' order='33' date="26 Aug 2010"/>		
+		<item id='147' order='32' date="26 Aug 2010"/>		
+		<item id='146' order='31' date="26 Aug 2010"/>		
+		<item id='145' order='30' date="26 Aug 2010"/>		
+		<!-- ClassicPinkChair, fla not there		
+		<item id='144' order='29'/>		
+		-->		
+		<item id='143' order='28' date="26 Aug 2010"/>		
+		<item id='142' order='27' date="26 Aug 2010"/>		
+		<item id='141' order='26' date="26 Aug 2010"/>		
+		<item id='140' order='25' date="26 Aug 2010"/>		
+
+		<!-- PinkStripesCarpet, fla not there		
+		<item id='139' order='24'/>		
+		-->		
+		<item id='138' order='23' date="27 Aug 2010"/>		
+		<item id='137' order='22' date="27 Aug 2010"/>		
+		<item id='136' order='10' date="27 Aug 2010"/>		
+		<item id='135' order='10' date="27 Aug 2010"/>		
+		<item id='134' order='10' date="27 Aug 2010"/>		
+		<item id='133' order='18' date="27 Aug 2010"/>		
+		<item id='132' order='17' date="27 Aug 2010"/>		
+
+		<!-- RoundBed, fla not there		
+		<item id='131' order='16'/>		
+		-->		
+		<item id='130' order='16' date="27 Aug 2010"/>		
+				
+		<item id='101' order='15' date="27 Aug 2010"/>		
+		<item id='100' order='16' date="27 Aug 2010"/>		
+		<item id='99' order='17' date="27 Aug 2010"/>		
+		<item id='98' order='18' date="27 Aug 2010"/>		
+		<item id='16' order='19' date="27 Aug 2010"/>		
+		<item id='15' order='20' date="27 Aug 2010"/>		
+		<item id='14' order='21' date="27 Aug 2010"/>		
+		<item id='13' order='22' date="27 Aug 2010"/>		
+		
+		
+		<!-- living area furnitures, never remove ! -->
+		<item id='997' order='10' date="01 Jan 2008"/>		<!-- DogYard -->
+		<item id='998' order='10' date="01 Jan 2008"/>		<!-- DogHome -->
+		<item id='999' order='10' date="01 Jan 2008"/>		<!-- BunnyYard -->
+		<item id='1000' order='10' date="01 Jan 2008"/>		<!-- BunnyHome -->
+		<item id='1001' order='10' date="01 Jan 2008"/>		<!-- CatYard -->
+		<item id='1002' order='10' date="01 Jan 2008"/>		<!-- CatHome -->
+		<item id='1003' order='10' date="01 Jan 2008"/>		<!-- HorseYard -->
+		<item id='1004' order='10' date="01 Jan 2008"/>		<!-- HorseHome -->
+		
+	</furnitureCatalogData>
+	<marketPlaceData>
+		<item id='1' order='1' price='20'/>
+		<item id='2' order='2' price='20'/>
+		<item id='3' order='3' price='20'/>
+		<item id='4' order='4' price='20'/>
+		<item id='5' order='5' price='20'/>
+		<item id='6' order='6' price='20'/>
+		<item id='7' order='7' price='20'/>
+		<item id='8' order='8' price='20'/>
+		<item id='9' order='9' price='20'/>
+		<item id='10' order='10' price='20'/>
+		<item id='11' order='11' price='20'/>
+		<item id='12' order='12' price='20'/>
+		<item id='13' order='13' price='10'/>
+		<item id='14' order='14' price='20'/>
+		<item id='15' order='15' price='20'/>
+		<item id='16' order='16' price='20'/>
+		<item id='17' order='17' price='20'/>
+		<item id='18' order='18' price='20'/>
+		<item id='19' order='19' price='20'/>
+		<item id='20' order='20' price='20'/>
+		<item id='21' order='21' price='20'/>
+		<item id='22' order='22' price='20'/>
+		<item id='23' order='23' price='20'/>
+		<item id='24' order='24' price='20'/>
+		<item id='25' order='25' price='20'/>
+		<item id='26' order='26' price='20'/>
+		<item id='27' order='27' price='20'/>
+		<item id='28' order='28' price='20'/>
+		<item id='29' order='29' price='20'/>
+		<item id='30' order='30' price='20'/>
+		
+		<item id='31' order='61' price='20'/>
+		<item id='32' order='62' price='20'/>
+		<item id='33' order='63' price='20'/>
+		<item id='34' order='64' price='20'/>
+		<item id='35' order='65' price='20'/>
+		<item id='36' order='66' price='20'/>
+		<item id='37' order='67' price='20'/>
+		<item id='38' order='68' price='20'/>
+		<item id='39' order='69' price='20'/>
+		<item id='40' order='70' price='20'/>
+		<item id='41' order='61' price='20'/>
+		<item id='42' order='62' price='20'/>
+		<item id='43' order='63' price='20'/>
+		<item id='44' order='64' price='20'/>
+		<item id='45' order='65' price='20'/>
+		<item id='46' order='66' price='20'/>
+		<item id='47' order='67' price='20'/>
+		<item id='48' order='68' price='20'/>
+		<item id='49' order='69' price='20'/>
+		
+		<item id='50' order='70' price='20'/>
+		<item id='51' order='61' price='20'/>
+		<item id='52' order='62' price='20'/>
+		<item id='53' order='63' price='20'/>
+		<item id='54' order='64' price='20'/>
+		<item id='55' order='65' price='20'/>
+		<item id='56' order='66' price='20'/>
+		<item id='57' order='67' price='20'/>
+		<item id='58' order='68' price='20'/>
+		<item id='59' order='69' price='20'/>
+		
+		<item id='60' order='60' price='20'/>
+		<item id='61' order='61' price='20'/>
+		<item id='62' order='62' price='20'/>
+		<item id='63' order='63' price='20'/>
+		<item id='64' order='64' price='20'/>
+		<item id='65' order='65' price='20'/>
+		<item id='66' order='66' price='20'/>
+		<item id='67' order='67' price='20'/>
+		<item id='68' order='68' price='20'/>
+		<item id='69' order='69' price='20'/>
+		<item id='70' order='70' price='20'/>
+	
+		<item id='71' order='61' price='20'/>
+		<item id='72' order='62' price='20'/>
+		<item id='73' order='63' price='20'/>
+		<item id='74' order='64' price='20'/>
+		<item id='75' order='65' price='20'/>
+		<item id='76' order='66' price='20'/>
+		<item id='77' order='67' price='20'/>
+		<item id='78' order='68' price='20'/>
+		<item id='79' order='69' price='20'/>
+		<item id='80' order='70' price='20'/>
+		
+		<item id='81' order='61' price='20'/>
+		<item id='82' order='62' price='20'/>
+		<item id='83' order='63' price='20'/>
+		<item id='84' order='64' price='20'/>
+		<item id='85' order='65' price='20'/>
+		<item id='86' order='66' price='20'/>
+		<item id='87' order='67' price='20'/>
+		<item id='88' order='68' price='20'/>
+		<item id='89' order='69' price='20'/>
+		<item id='90' order='70' price='20'/>
+		
+		<item id='91' order='61' price='20'/>
+		<item id='92' order='62' price='20'/>
+		<item id='93' order='63' price='20'/>
+		<item id='94' order='64' price='20'/>
+		<item id='95' order='65' price='20'/>
+		<item id='96' order='66' price='20'/>
+		<item id='97' order='67' price='20'/>
+		<item id='98' order='68' price='20'/>
+		<item id='99' order='69' price='20'/>
+		<item id='100' order='70' price='20'/>
+
+
+		<!-- item id='189' order='1' price='82'/>
+		<item id='192' order='1' price='96'/>
+		<item id='195' order='1' price='119'/>
+		<item id='197' order='1' price='199'/>
+		<item id='199' order='1' price='279'/>
+		<item id='200' order='1' price='105'/ -->
+		
+          
+	</marketPlaceData>
+	<friendsData>
+		<buttonData>
+			<button id='profilebtn' toolTip='SHOW_PROFILE' ></button>	
+			<button id='premiumbtn' toolTip='Gold Member' ></button>
+			<button id='blockfriendbtn' toolTip='BLOCK_FRIEND' toolTipUnBlock='UNBLOCK_FRIEND' ></button>
+			<button id='bestfriendbtn' toolTip='CONVERT_TO_BEST_FRIEND' ></button>
+			<button id='deleteFriendbtn' toolTip='REMOVE_FRIEND' ></button>
+			<button id='viewAllBtn' toolTip='VIEW_ALL_FRIENDS'></button>
+			<button id='viewOnlineBtn' toolTip='VIEW_ONLINE_FRIENDS'></button>
+			<button id='viewOfflineBtn' toolTip='VIEW_OFFLINE_FRIENDS'></button>
+			<button id='viewBlockedBtn' toolTip='VIEW_BLOCKED_USERS'></button>
+			<button id='homebtn' toolTip='GO_TO_USER_HOME'></button>
+		</buttonData>	
+	</friendsData>
+	<module>
+	</module>
+	
+	
+</config>

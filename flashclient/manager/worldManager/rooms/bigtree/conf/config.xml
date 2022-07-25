@@ -1,0 +1,103 @@
+<config><!-- Big Tree-->
+	<assets>
+		<asset id="room" path="assets/room.swf" />
+		<asset id="wiseTreePopup" path="assets/wiseTreePopup.swf" />
+		<asset id="storyIcon" path="assets/storyIcon.swf" />
+		<asset id="quizObject" path="assets/quizObject.swf" />
+		<asset id="chooseGroupObject" path="assets/chooseGroupObject.swf" />
+		<asset id='Activities' path='assets/hints/Activities.swf' />
+		<asset id='Activity' path='assets/hints/Activity.swf' />
+		<asset id='Back' path='assets/hints/Back.swf' />
+		<asset id='Cancel' path='assets/hints/Cancel.swf' />
+		<asset id='chatHistory' path='assets/hints/chatHistory.swf' />
+		<asset id='Clock' path='assets/hints/Clock.swf' />
+		<asset id='Generators' path='assets/hints/Generators.swf' />
+		<asset id='Homes' path='assets/hints/Homes.swf' />
+		<asset id='Jobhints' path='assets/hints/Jobhint.swf' />
+		<asset id='Minigames' path='assets/hints/Minigames.swf' />
+		<asset id='PremiumGarden' path='assets/hints/PremiumGarden.swf' />
+		<asset id='Shop' path='assets/hints/Shop.swf' />
+		<asset id='Subscribe' path='assets/hints/Subscribe.swf' />
+		<asset id='Timer' path='assets/hints/Timer.swf' />
+		<asset id='wateringCan' path='assets/hints/wateringCan.swf' />
+		<asset id='WaterLocations' path='assets/hints/waterLocations.swf' />		
+	</assets>
+	
+	<sounds>
+		<sound id="roomBackground" type="music" volume="0.4" path="audio/OLO_01_wise_tree.mp3" loops="-1" />
+		<sound id="wiseTreeNPCPopup" path="audio/wiseTreeNPCPopup.mp3" type="effect" loops="1" volume="1.0" />		
+	</sounds>
+	
+	
+	<module>
+		<elementSounds>
+			<sound id="woodendoor" path="assets/audio/ol_interface_woodendoor.mp3" loops="1" type="effect" volume="1" />
+		</elementSounds>
+		
+		<elements>
+			<element id="doorEka" button="1" visible="1">
+				<button type="overClickSound" over="2" out="1" click="2" sound="woodendoor"/>
+				<message value="gotoHotSpot" >
+					<hotspot value="doorEka" />
+				</message>
+			</element>	
+			<element id="doorZurak" button="1" visible="1">
+				<button type="overClickSound" over="2" out="1" click="2" sound="woodendoor"/>
+				<message value="gotoHotSpot" >
+					<hotspot value="doorZurak" />
+				</message>
+			</element>	
+			<!--element id="doorDeika" button="1" visible="1">
+				<button type="overClickSound" over="2" out="1" click="2" sound="woodendoor"/>
+				<button type="overClick" over="over" out="out" click="1"/>
+				<message value="checkDeikaRoomAccess" />
+			</element-->		
+			<element id="doorDeika" button="1" visible="1">
+				<button type="overClickSound" over="2" out="1" click="2" sound="woodendoor"/>
+				<message value="gotoHotSpot" >
+					<hotspot value="doorDeika" />
+				</message>
+			</element>		
+		</elements>
+		
+		<hotspots>
+			<hotspot target="14" 		type="room"  			sharetype="unique" shape="round" x="24" y="376" rad="50" dirAngle="-170"/> <!-- lasshopas -->
+			<hotspot target="7" 		type="room" 			sharetype="unique" shape="round" x="620" y="731" rad="90" dirAngle="70"/> <!-- food corner -->
+
+			<hotspot target="17" 		type="room" 			sharetype="unique" shape="round" x="860" y="522" rad="50" dirAngle="-60"/> <!-- montecielo -->
+			<hotspot target="13" 		type="room" 			sharetype="unique" shape="round" x="90" y="680" rad="50" dirAngle="145"/> <!-- kittyoto -->
+			
+			<hotspot target="21" 		type="groupRoom"  id="doorEka"	 groupId="3" sharetype="unique" shape="round" x="527" y="564" rad="50"/> <!-- entrancegroup -->
+			<hotspot target="22" 		type="groupRoom"  id="doorZurak" groupId="2" sharetype="unique" shape="round" x="560" y="420" rad="25"/> <!-- entrancegroup -->
+			<hotspot target="23" 		type="groupRoom"  id="doorDeika" groupId="1" sharetype="unique" shape="round" x="320" y="500" rad="25"/> <!-- entrancegroup -->
+		
+			<hotspot target="18" 		type="room" 			sharetype="unique" shape="round" x="469" y="271" rad="50" dirAngle="90"/> <!-- kittyoto -->
+
+			
+		</hotspots>
+		<scale>
+			<value minScale="60" maxScale="70"/>
+		</scale>
+		
+		<hints x='540' y='100'>
+			<hint id='1' snippetHeader='WISETREE_DIDYOUKNOW' snippetText='WISETREE_RANDOMHINT_01' asset='chatHistory' />
+			<hint id='1' snippetHeader='WISETREE_DIDYOUKNOW' snippetText='WISETREE_RANDOMHINT_02' asset='Shop' />
+			<hint id='1' snippetHeader='WISETREE_DIDYOUKNOW' snippetText='WISETREE_RANDOMHINT_03' asset='Generators'  />
+
+			<hint id='1' snippetHeader='WISETREE_DIDYOUKNOW' snippetText='WISETREE_RANDOMHINT_05' asset='Timer' />
+			<hint id='1' snippetHeader='WISETREE_DIDYOUKNOW' snippetText='WISETREE_RANDOMHINT_06' asset='wateringCan' />
+			<hint id='1' snippetHeader='WISETREE_DIDYOUKNOW' snippetText='WISETREE_RANDOMHINT_07' asset='Clock' />
+			<hint id='1' snippetHeader='WISETREE_DIDYOUKNOW' snippetText='WISETREE_RANDOMHINT_08' asset='Back' />
+			<hint id='1' snippetHeader='WISETREE_DIDYOUKNOW' snippetText='WISETREE_RANDOMHINT_09' asset='Cancel' />
+
+			<hint id='1' snippetHeader='WISETREE_DIDYOUKNOW' snippetText='WISETREE_RANDOMHINT_11' asset='Shop' />
+			<hint id='1' snippetHeader='WISETREE_DIDYOUKNOW' snippetText='WISETREE_RANDOMHINT_12' asset='Activity' />
+			<hint id='1' snippetHeader='WISETREE_DIDYOUKNOW' snippetText='WISETREE_RANDOMHINT_13' asset='Minigames' />
+			
+			<hint id='1' snippetHeader='WISETREE_DIDYOUKNOW' snippetText='WISETREE_RANDOMHINT_17' asset='PremiumGarden' />
+			<hint id='1' snippetHeader='WISETREE_DIDYOUKNOW' snippetText='WISETREE_RANDOMHINT_18' asset='Jobhints' />
+			<hint id='1' snippetHeader='WISETREE_DIDYOUKNOW' snippetText='WISETREE_RANDOMHINT_19' asset='Homes' />
+
+		</hints>		
+	</module>
+</config>

@@ -1,0 +1,61 @@
+<config> <!-- SUNNY Farm-->
+	<assets>
+		<asset id="room" path="assets/room.swf" />
+	</assets>
+	
+	<sounds>
+		<sound id="roomBackground" type="music" volume="0.4" path="audio/OLO_03_farm_land.mp3" loops="-1" />
+	</sounds>
+	
+	
+	<module >
+		<elementSounds>
+			<sound id="glasdoor" path="assets/audio/ol_interface_mouseover_glas.mp3" loops="1" type="effect" volume="1" />
+		</elementSounds>
+		
+		<elements>
+				<!--
+			<element id="garden" button="1" visible="1">
+				<button type="overClick" over="2" out="1" click="2" overCursor="shovel"/>
+				<message value="createProducer" >
+					<style value="AF" />
+					<nodeId value="1000" />
+					<elementID value="garden" />
+				</message>
+			</element>
+			-->
+			<!--
+			<element id="gardenRight" button="1" visible="1">
+				<button type="overClick" over="2" out="1" click="2" overCursor="shovel"/>
+				<message value="createProducer" >
+					<style value="AF" />
+					<nodeId value="1000" />
+					<elementID value="gardenRight" />
+				</message>
+			</element>
+			-->
+			<element id="door" button="1" visible="1">
+				<button type="overClickSound" over="2" out="1" click="2" sound="glasdoor" />
+				<message value="gotoHotSpot" >
+					<hotspot value="door" />
+				</message>
+			</element>
+			
+
+			
+		</elements>
+		
+		<hotspots>
+			<hotspot target="9" 		type="room" 			sharetype="unique" shape="round" x="43" y="550" rad="50" dirAngle="-145"/> <!-- rioazul TODO : SQUARE-->
+			<hotspot target="7" 		type="room" 			sharetype="unique" shape="round" x="90" y="650" rad="50" dirAngle="145"/> <!-- foodcorner TODO : SQUARE -->
+			<hotspot target="6" 		type="room" 			sharetype="unique" shape="round" x="451" y="175" rad="40" dirAngle="-90"/> <!-- flowerhill -->
+			<hotspot target="1000" 		type="home" 			sharetype="unique" shape="round" x="883" y="350" rad="50" dirAngle="0"/> <!-- home -->
+			<hotspot target="15" 	id="door"	type="room" 			sharetype="unique" shape="round" x="607" y="271" rad="50" /> <!-- tropical garden -->
+			
+		</hotspots>
+		<!-- changes of monica -->
+		<!-- scale> 
+			<value minScale="60" maxScale="80"/>
+		</scale -->
+	</module>
+</config>

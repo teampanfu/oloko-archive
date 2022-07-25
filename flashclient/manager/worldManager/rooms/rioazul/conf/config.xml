@@ -1,0 +1,78 @@
+<config><!-- RIO AZUL -->
+	<assets>
+		<asset id="room" path="assets/room.swf" />
+	</assets>
+	
+	<sounds>
+		<sound id="roomBackground" type="music" volume="0.4" path="audio/OLO_05_rabbit_style.mp3" loops="-1" />
+	</sounds>
+	
+	
+	<module>
+		<elementSounds>
+			<sound id="woodendoor" path="assets/audio/ol_interface_woodendoor.mp3" loops="1" type="effect" volume="1" />
+		</elementSounds>
+		
+		<elements>
+		<!-- 
+			<element id="garden" button="1" visible="1">
+				<button type="overClick" over="2" out="1" click="2" overCursor="shovel"/>
+				<message value="createProducer" >
+					<style value="AF" />
+					<nodeId value="1000" />
+					<elementID value="garden" />
+				</message>
+			</element>
+		-->
+			
+			<element id="door1" button="1" visible="1">
+				<button type="overClickSound" over="2" out="1" click="1" sound="woodendoor" />
+				<message value="gotoHotSpot" >
+					<hotspot value="door1" />
+				</message>
+			</element>
+			
+			<element id="door2" button="1" visible="1">
+				<button type="overClickSound" over="2" out="1" click="1" sound="woodendoor" />
+				<message value="gotoHotSpot" >
+					<hotspot value="door2" />
+				</message>
+			</element>
+			<element id="door3" button="1" visible="1">
+				<button type="overClickSound" over="2" out="1" click="1" sound="woodendoor" />
+				<message value="gotoHotSpot" >
+					<hotspot value="door3" />
+				</message>
+			</element>
+			
+			<element id="quickSearchDuell" button="0" visible="1" dev="1">
+				<button type="overTipClick" over="2" out="1" click="1" toolTip="MINI_GAMES_QUICKSEARCHDUELL" />
+				<message value="gotoHotGatherPoint"><x value="300" /> <y value="360" /><radius value="50" /></message>
+				<message value="enterMiniGame" type="miniGamesManager"> <gameId value="quickSearchDuell" /></message>
+			</element>
+			<element id="cloudNumberNine" button="0" visible="1" dev="1">
+				<button type="overTipClick" over="2" out="1" click="1" toolTip="MINI_GAMES_CLOUDNUMBERONE" />
+				<message value="gotoHotGatherPoint"><x value="412" /> <y value="380" /><radius value="25" /></message>
+				<message value="enterMiniGame" type="miniGamesManager"> <gameId value="cloudNumberOne" /></message>
+			</element>
+			
+		</elements>
+		
+		<hotspots>
+			<hotspot target="7" 		type="room" 			sharetype="unique" shape="round" x="11"   y="475" rad="40" dirAngle="170" /> <!-- foodcorner -->
+			<hotspot target="14" 		type="room" 			sharetype="unique" shape="round" x="100"   y="339" rad="50" dirAngle="-80"/> <!-- las shopas -->
+			<hotspot target="10" 		type="room" 			sharetype="unique" shape="round" x="305"   y="675" rad="50" dirAngle="90" /> <!-- sunny farm -->
+			<hotspot target="6" 		type="room" 			sharetype="unique" shape="round" x="892"   y="396" rad="40" dirAngle="-5" /> <!-- flower hill -->
+			
+			<hotspot target="3" 	id="door3"	type="room" 			sharetype="unique" shape="round" x="707"   y="341" rad="30" /> <!-- bakery -->
+			<hotspot target="11" 	id="door2"	type="room" 			sharetype="unique" shape="round" x="600"   y="345" rad="30" /> <!-- watermill -->
+			
+		</hotspots>
+		<scale>
+			<value minScale="60" maxScale="70"/>
+		</scale>
+		<faces>
+			<face name="wiseTree"/>
+		</faces>
+	</module>
+</config>

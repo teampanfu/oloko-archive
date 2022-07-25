@@ -1,0 +1,16 @@
+﻿<snippets date="05.04.2012 11:03:40">
+<ALL_TASKNOTFINISHED_01><![CDATA[Hey! Super, dass du vorbeikommst, aber du musst zuerst deine aktuelle Aufgabe zu Ende bringen. Komm' bitte wieder, wenn du fertig bist. ]]></ALL_TASKNOTFINISHED_01>
+<BERNARD_DEFAULT><![CDATA[Mann, hab' ich Kohldampf! ]]></BERNARD_DEFAULT>
+<ENTRYPOINT_HEIDI_0001><![CDATA[Schön, dass du bei mir vorbeikommst. Ich könnte dir einen Job anbieten. Auf meiner Farm kannst du sehr viel lernen. Willst du auf meiner Farm arbeiten?]]></ENTRYPOINT_HEIDI_0001>
+<ENTRYPOINT_HEIDI_0002><![CDATA[Schade. Komm' später nochmal, falls du deine Meinung ändern solltest.]]></ENTRYPOINT_HEIDI_0002>
+<ENTRYPOINT_NO><![CDATA[Nein]]></ENTRYPOINT_NO>
+<ENTRYPOINT_YES><![CDATA[Ja]]></ENTRYPOINT_YES>
+<HEIDI_DEFAULT><![CDATA[Ach weißt du, auch auf einer Farm muss man sich eine Verschnaufpause gönnen.]]></HEIDI_DEFAULT>
+<HELP_SALLY_01><![CDATA[Hallo $$name$$! Ich bin Sally Kaminski und das ist mein Shop. Hier geht es anders zu als in den üblichen Shops: Es wird nichts verkauft, sondern nur angekauft! ]]></HELP_SALLY_01>
+<HELP_SALLY_02><![CDATA[Du hast schon richtig gehört! Ob Lebensmittel, Pflanzen oder gar Tiere – alles kannst du bei mir gegen Geld eintauschen. Wieviel Geld du dafür bekommst, hängt von der jeweiligen Sache ab. Zum Tauschen kannst du einfach dein Handy benutzen. Das geht ganz einfach!]]></HELP_SALLY_02>
+<HELP_SALLY_03><![CDATA[Also: Solltest du jemals knapp bei Kasse sein, weißt du ja, was du dagegen machen kannst. Aber werde nicht zu gierig! Sonst steigt dir noch das viele Geld zu Kopf! ]]></HELP_SALLY_03>
+<HELP_SALLY_04><![CDATA[In deinem Rucksack kannst du ganz leicht sehen, welchen Wert deine Sachen haben. Möchtest du etwas gegen Geld eintauschen? ]]></HELP_SALLY_04>
+<ROGER_DEFAULT><![CDATA[Ça va? Ach, Roger geht es gut. Danke der Nachfrage.]]></ROGER_DEFAULT>
+<ROSE_DEFAULT><![CDATA[Sieh dich gerne um. In Rose Greens Gewächshaus gibt es viel zu entdecken!]]></ROSE_DEFAULT>
+<SPEEDY_DEFAULT><![CDATA[Hunger? In meinem Fast-Food-Restaurant wird er schnell gestillt. Bedien' dich! ]]></SPEEDY_DEFAULT>
+</snippets>

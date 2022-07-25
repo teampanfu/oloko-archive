@@ -1,0 +1,2333 @@
+<config questId='0'>
+<!--	<snippets path='questManager/quests/bunnyJob/conf/snippets/job_bunny_text_snippets_$$lang$$.xml' _REPLACE_='1' />  -->
+	<!-- snippets path='manager/questManager/quests/bunnyJob/conf/snippets/job_bunny_text_snippets_$$lang$$.xml' _REPLACE_='1' /-->
+	<snippets path='conf/allSnippets/$$lang$$/job_bunny_text_snippets_$$lang$$.xml' _REPLACE_='1' /> 
+	<assets>
+		<!-- 
+			NEVER EVER USE UNDERSCRORES IN IDS
+			OR ELSE YOU WILL SUFFER PAIN AND A KITTEN WILL DIE
+		-->
+		
+		
+		<asset id='Heidi' path='assets/heidi.swf' />
+		<asset id='Rose' path='assets/rose.swf' />
+		<asset id='Bernard' path='assets/bernard.swf' />
+		<asset id='Speedy' path='assets/speedy.swf' />
+		<asset id='Roger' path='assets/roger.swf' />
+		
+		<asset id='BernardWedding' path='assets/bernard_wedding.swf' />
+		<asset id='HeidiWedding' path='assets/heidi_wedding.swf' />
+	</assets>
+	
+	<sounds>
+		<sound id="$$key$$" path="assets/audio/$$lang$$/$$key$$.mp3" type="speaker" loops="1" volume="1.0" />
+	</sounds>
+	
+	<module>
+		<npcs>
+			<npc name='Heidi' roomID='10' x='100' y='500' questId='0' defaultSubQuestID="0,1" faceAsset='HeidiSpeechBubble' forceBubbleOnState="0,1,1">
+				<!-- button type="overClick" over="33" out="2" / -->
+				<button type="overClick" over="over" out="out" />
+
+				<checks>
+					<check gamestate="0,0,0-179" />
+				</checks>
+				
+				<defaultBehaviours>
+					<behaviour id="default_Heidi">
+						<statement key='HEIDI_DEFAULT'/>
+					</behaviour>
+					<behaviourStoryJobs id="defaultStoryjobs_Heidi">
+						<statement key='STORY_JOB_DEFAULT_NPC_SPEECH' noSound="true"/>
+					</behaviourStoryJobs>
+				</defaultBehaviours>
+				
+				<behaviours>
+					
+					
+					<!--  ######    Beginner Heidi    ##### -->
+					
+					
+					<!-- 
+					<behaviour id='baker_Heidi_beginner_start' subQuestID='0,1'> 
+						<statement key='BEGINNER_HEIDI_0001'/>
+						<statement key='BEGINNER_HEIDI_0002'/>
+						<statement key='BEGINNER_HEIDI_0003'/>
+					</behaviour>
+					
+					// dig hole
+					<behaviour id='baker_Heidi_01A_1' subQuestID='0,1' mark="nameBox">
+						<statement key='BEGINNER_HEIDI_0004'/>
+						<statement key='BEGINNER_HEIDI_0004A'>
+							<actions><action id='hint' x='105' y='90' rotation='-90' show='6000' delay='1' /></actions>
+						</statement>
+						<statement key='BEGINNER_HEIDI_0033'/>
+					</behaviour>
+ 					<behaviour id='baker_Heidi_01A_2' subQuestID='0,1' mark="nameBox"> 
+						<statement key='BEGINNER_HEIDI_0005'>
+							<bubble id='headExpl' >
+								<questAsset id='01_01A'/>
+								<header id='SNIPPETKEY' name='myUserName' />
+							</bubble>
+						</statement>
+					</behaviour>
+					<behaviour id='baker_Heidi_01A_3' subQuestID='0,1' mark="nameBox"> 
+						<statement key='BEGINNER_HEIDI_0006'/>
+					</behaviour>
+
+					// grow babyplant
+					<behaviour id='baker_Heidi_02A_1' subQuestID='0,1' mark="nameBox">
+						<statement key='BEGINNER_HEIDI_0007'/>
+						<statement key='BEGINNER_HEIDI_0007A'>
+							<bubble id='headExpl' >
+								<header id='SNIPPETKEY' name='myUserName' /><questAsset id='01_02A'/>
+							</bubble>
+						</statement>
+					</behaviour>
+ 					<behaviour id='baker_Heidi_02A_2' subQuestID='0,1' mark="nameBox"> 
+						<statement key='BEGINNER_HEIDI_0008'>
+							<bubble id='headExpl' >
+								<header id='SNIPPETKEY' name='myUserName' /><questAsset id='01_02A'/>
+							</bubble>
+						</statement>
+					</behaviour>
+					<behaviour id='baker_Heidi_02A_3' subQuestID='0,1'> 
+						<statement key='BEGINNER_HEIDI_0009'/>
+					</behaviour>
+
+					// bring corn 
+					<behaviour id='baker_Heidi_03A_1' subQuestID='0,1' mark="nameBox"> 
+						<statement key='BEGINNER_HEIDI_0010'/>
+						<statement key='BEGINNER_HEIDI_0010A'>
+							<bubble id='headExplInv' showNewItem='true' >
+								<header id='SNIPPETKEY' name='myUserName' /><questAsset id='01_03A'/><npcInventory needed="corn_12" />
+
+							</bubble>
+						</statement>
+						<statement key='BEGINNER_HEIDI_0012'/>
+					</behaviour>
+					<behaviour id='baker_Heidi_03A_2' subQuestID='0,1' mark="nameBox"> 
+						<statement key='BEGINNER_HEIDI_0011'>
+							<bubble id='headExplInv' >
+								<header id='SNIPPETKEY' name='myUserName' /><questAsset id='01_03A'/><npcInventory needed="corn_12" />
+
+							</bubble>
+						</statement>
+						<statement key='BEGINNER_HEIDI_0012'/>
+					</behaviour>
+					<behaviour id='baker_Heidi_After_03A' subQuestID='0,1'> 
+						<statement key='BEGINNER_HEIDI_0013'/>
+					</behaviour>
+					-->
+					
+					<!-- bring wood -->
+					<behaviour id='baker_Heidi_04A_1' subQuestID='0,1' mark="nameBox">
+						<statement key='BEGINNER_HEIDI_0001'/>
+						<statement key='BEGINNER_HEIDI_0002'/>
+						<statement key='BEGINNER_HEIDI_0003'/>
+						<statement key='BEGINNER_HEIDI_0014'/>
+						<statement key='BEGINNER_HEIDI_0014A'>
+							<bubble id='headExplInv'  showNewItem='true'>
+								<header id='SNIPPETKEY' name='myUserName' /><questAsset id='01_04A'/><npcInventory needed="wood_10" />
+								<explanation idTask="01_01A" />
+							</bubble>
+						</statement >
+						<statement key='BEGINNER_HEIDI_0016'/>
+						<statement key='BEGINNER_HEIDI_0013_B'  noSound="true">
+							<action id='updateState' value='0,2,20'/>
+							<actions>
+								<action id='updateState' value='0,2,20'/>
+							</actions>
+						</statement>
+					</behaviour>
+ 					<behaviour id='baker_Heidi_04A_2' subQuestID='0,1' mark="nameBox"> 
+						<statement key='BEGINNER_HEIDI_0015'>
+							<bubble id='headExplInv' >
+								<header id='SNIPPETKEY' name='myUserName' /><questAsset id='01_04A'/><npcInventory needed="wood_10" />
+							</bubble>
+						</statement>
+						<statement key='BEGINNER_HEIDI_0016'/>
+						<statement key='BEGINNER_HEIDI_0013_B'  noSound="true">
+							<actions>
+								<action id='updateState' value='0,2,20'/>
+							</actions>
+						</statement>
+					</behaviour>					
+					<!-- bring animal food -->
+					<behaviour id='baker_Heidi_05A_1' subQuestID='0,1' mark="nameBox">
+						<statement key='BEGINNER_HEIDI_0017'/>
+						<statement key='BEGINNER_HEIDI_0017A'>
+							<bubble id='headExplInv'  showNewItem='true'>
+								<header id='SNIPPETKEY' name='myUserName' /><questAsset id='01_05A'/><npcInventory needed="animalFood_36" />
+							</bubble>
+						</statement>
+						<statement key='BEGINNER_HEIDI_0019'/>
+					</behaviour>
+ 					<behaviour id='baker_Heidi_05A_2' subQuestID='0,1' mark="nameBox"> 
+						<statement key='BEGINNER_HEIDI_0018'>
+							<bubble id='headExplInv' >
+								<header id='SNIPPETKEY' name='myUserName' /><questAsset id='01_05A'/><npcInventory needed="animalFood_36" />
+							</bubble>
+						</statement>
+						<statement key='BEGINNER_HEIDI_0019'/>
+					</behaviour>
+
+					<!-- secret -->
+ 					<behaviour id='question_After_05A' subQuestID='0,1'> 
+						<statement key='BEGINNER_HEIDI_0020'/>
+						<statement key='BEGINNER_HEIDI_0020A' sound='voices' >
+							<bubble id='headMultiAnswer'  >
+								<header id='SNIPPETKEY' name='myUserName' />
+								<answer id='1' snippet='ENTRYPOINT_YES'>
+									<actions continueAfterAnswer='true'>
+										<action id='updateState' value='0,1,75' persist='true' />
+									</actions>
+								</answer>
+								<answer id='2' snippet='ENTRYPOINT_NO'>
+									<actions  continueAfterAnswer='true'>
+										<action id='updateState' value='0,1,80' persist='true' />
+									</actions>
+								</answer>
+							</bubble>
+						</statement>
+					</behaviour>
+ 					<behaviour id='R1_question_After_05A' subQuestID='0,1'> 
+						<statement key='BEGINNER_HEIDI_0021'/>
+					</behaviour>
+ 					<behaviour id='R2_question_After_05A' subQuestID='0,1'> 
+						<statement key='BEGINNER_HEIDI_0022'/>
+					</behaviour>
+
+					<!-- grow cow -->
+					<behaviour id='baker_Heidi_06A_1' subQuestID='0,1' mark="nameBox">
+						<statement key='BEGINNER_HEIDI_0023'/>
+						<statement key='BEGINNER_HEIDI_0023A'>
+							<bubble id='headExpl' >
+								<header id='SNIPPETKEY' name='myUserName' /><questAsset id='01_06A'/>
+							</bubble>
+						</statement>
+						<statement key='BEGINNER_HEIDI_0025'/>
+					</behaviour>
+ 					<behaviour id='baker_Heidi_06A_2' subQuestID='0,1' mark="nameBox"> 
+						<statement key='BEGINNER_HEIDI_0023B'>
+							<bubble id='headWait' >
+								<header id='SNIPPETKEY' name='myUserName' />
+							</bubble>
+						</statement>
+						<statement key='BEGINNER_HEIDI_0024'>
+							<bubble id='headExpl' >
+								<header id='SNIPPETKEY' name='myUserName' /><questAsset id='01_06A'/>
+							</bubble>
+						</statement>
+					</behaviour>
+					<behaviour id='baker_Heidi_06A_3' subQuestID='0,1'> 
+						<statement key='BEGINNER_HEIDI_0025' />
+					</behaviour>
+					
+					<!-- bring milk -->
+					<behaviour id='baker_Heidi_07A_1' subQuestID='0,1' mark="nameBox">
+						<statement key='BEGINNER_HEIDI_0026'/>
+						<statement key='BEGINNER_HEIDI_0026A'>
+							<bubble id='headExplInv'  showNewItem='true'>
+								<header id='SNIPPETKEY' name='myUserName' /><questAsset id='01_07A'/><npcInventory needed="milk_6" />
+							</bubble>
+						</statement>
+						<statement key='BEGINNER_HEIDI_0028'/>
+					</behaviour>
+ 					<behaviour id='baker_Heidi_07A_2' subQuestID='0,1' mark="nameBox"> 
+						<statement key='BEGINNER_HEIDI_0027'>
+							<bubble id='headExplInv' >
+								<header id='SNIPPETKEY' name='myUserName' /><questAsset id='01_07A'/><npcInventory needed="milk_6" />
+							</bubble>
+						</statement>
+						<statement key='BEGINNER_HEIDI_0028'/>
+					</behaviour>
+
+					<!-- bring egg -->
+					<behaviour id='baker_Heidi_08A_1' subQuestID='0,1' mark="nameBox">
+						<statement key='BEGINNER_HEIDI_0029'/>
+						<statement key='BEGINNER_HEIDI_0029A'>
+							<bubble id='headExplInv' showNewItem='true' >
+								<header id='SNIPPETKEY' name='myUserName' /><questAsset id='01_08A'/><npcInventory needed="egg_27" />
+
+							</bubble>
+						</statement>
+						<statement key='BEGINNER_HEIDI_0031'/>
+					</behaviour>
+ 					<behaviour id='baker_Heidi_08A_2' subQuestID='0,1' mark="nameBox"> 
+						<statement key='BEGINNER_HEIDI_0030'>
+							<bubble id='headExplInv' >
+								<header id='SNIPPETKEY' name='myUserName' /><questAsset id='01_08A'/><npcInventory needed="egg_27" />
+							</bubble>
+						</statement>
+						<statement key='BEGINNER_HEIDI_0031'/>
+					</behaviour>
+
+					<behaviour id='baker_Heidi_beginner_end' subQuestID='0,1'> 
+						<statement key='BEGINNER_HEIDI_0032'/>
+					</behaviour>
+					
+					
+					<!--  ######    PROFESSIONAL Heidi    ##### -->
+					
+					
+					<behaviour id='baker_Heidi_professional_start' subQuestID='0,1'> 
+						<statement key='PROF_HEIDI_0033'/>
+					</behaviour>
+					
+					<!-- get fish -->
+					<behaviour id='baker_Heidi_09A_1' subQuestID='0,1' mark="nameBox">
+						<statement key='PROF_HEIDI_0034'/>
+						<statement key='PROF_HEIDI_0034A'>
+							<bubble id='headExplInv' showNewItem='true' >
+								<header id='SNIPPETKEY' name='myUserName' /><questAsset id='01_09A'/><npcInventory needed="fish_46" />
+							</bubble>
+						</statement>
+					</behaviour>
+					<behaviour id='baker_Heidi_09A_2' subQuestID='0,1' mark="nameBox">
+						<statement key='PROF_HEIDI_0035'>
+							<bubble id='headExplInv' >
+								<header id='SNIPPETKEY' name='myUserName' /><questAsset id='01_09A'/><npcInventory needed="fish_46" />
+							</bubble>
+						</statement>
+					</behaviour>
+					<behaviour id='baker_Heidi_09A_3' subQuestID='0,1'>
+						<statement key='PROF_HEIDI_0036'/>
+					</behaviour>
+					
+					<!-- plant an ice flower-->
+					<behaviour id='baker_Heidi_10A_1' subQuestID='0,1' mark="nameBox">
+						<statement key='PROF_HEIDI_0037'/>
+						<statement key='PROF_HEIDI_0037A'>
+							<bubble id='headExplInv'  showNewItem='true'>
+								<header id='SNIPPETKEY' name='myUserName' /><questAsset id='01_10A'/><npcInventory needed="iceflower_57" />
+							</bubble>
+						</statement>
+					</behaviour>
+					<behaviour id='baker_Heidi_10A_2' subQuestID='0,1' mark="nameBox">
+						<statement key='PROF_HEIDI_0038'>
+							<bubble id='headExplInv' >
+								<header id='SNIPPETKEY' name='myUserName' /><questAsset id='01_10A'/><npcInventory needed="iceflower_57" />
+							</bubble>
+						</statement>
+					</behaviour>
+					<behaviour id='baker_Heidi_10A_3' subQuestID='0,1'>
+						<statement key='PROF_HEIDI_0039'/>
+					</behaviour>
+					
+					<!-- produce stinking cheese -->
+					<behaviour id='baker_Heidi_11A_1' subQuestID='0,1' mark="nameBox">
+						<statement key='PROF_HEIDI_0040'/>
+						<statement key='PROF_HEIDI_0040A'>
+							<bubble id='headExplInv'  showNewItem='true'>
+								<header id='SNIPPETKEY' name='myUserName' /><questAsset id='01_11A'/><npcInventory needed="stinkingcheese_73" />
+							</bubble>
+						</statement>
+					</behaviour>
+					<behaviour id='baker_Heidi_11A_2' subQuestID='0,1' mark="nameBox">
+						<statement key='PROF_HEIDI_0041'>
+							<bubble id='headExplInv' >
+								<header id='SNIPPETKEY' name='myUserName' /><questAsset id='01_11A'/><npcInventory needed="stinkingcheese_73" />
+							</bubble>
+						</statement>
+					</behaviour>
+					<behaviour id='baker_Heidi_11A_3' subQuestID='0,1'>
+						<statement key='PROF_HEIDI_0042'/>
+					</behaviour>
+					
+					<!-- speedy open -->
+					<behaviour id='baker_Heidi_prof_speedy_open' subQuestID='0,1'>
+						<statement key='PROF_HEIDI_0044'/>
+					</behaviour>
+					
+					<!-- produce butter -->
+					<behaviour id='baker_Heidi_12A_1' subQuestID='0,1' mark="nameBox">
+						<statement key='PROF_HEIDI_0045'/>
+						<statement key='PROF_HEIDI_0045A'>
+							<bubble id='headExplInv' showNewItem='true' >
+								<header id='SNIPPETKEY' name='myUserName' /><questAsset id='01_12A'/><npcInventory needed="butter_90" />
+							</bubble>
+						</statement>
+					</behaviour>
+					<behaviour id='baker_Heidi_12A_2' subQuestID='0,1' mark="nameBox">
+						<statement key='PROF_HEIDI_0046'>
+							<bubble id='headExplInv' >
+								<header id='SNIPPETKEY' name='myUserName' /><questAsset id='01_12A'/><npcInventory needed="butter_90" />
+							</bubble>
+						</statement>
+					</behaviour>
+					<behaviour id='baker_Heidi_12A_3' subQuestID='0,1'>
+						<statement key='PROF_HEIDI_0047'/>
+					</behaviour>
+					
+					<!-- grow herbs -->
+					<behaviour id='baker_Heidi_13A_1' subQuestID='0,1' mark="nameBox">
+						<statement key='PROF_HEIDI_0048'/>
+						<statement key='PROF_HEIDI_0048A'>
+							<bubble id='headExplInv'  showNewItem='true'>
+								<header id='SNIPPETKEY' name='myUserName' /><questAsset id='01_13A'/><npcInventory needed="herbs_100" />
+							</bubble>
+						</statement>
+					</behaviour>
+					<behaviour id='baker_Heidi_13A_2' subQuestID='0,1' mark="nameBox">
+						<statement key='PROF_HEIDI_0049'>
+							<bubble id='headExplInv' >
+								<header id='SNIPPETKEY' name='myUserName' /><questAsset id='01_13A'/><npcInventory needed="herbs_100" />
+							</bubble>
+						</statement>
+					</behaviour>
+					<behaviour id='baker_Heidi_13A_3' subQuestID='0,1'>
+						<statement key='PROF_HEIDI_0050'/>
+					</behaviour>
+					
+					<behaviour id='baker_Heidi_professionell_end' subQuestID='0,1'>
+						<statement key='PROF_HEIDI_0052'/>
+					</behaviour>
+					
+					
+					<!--  ######    BERNARD INTERACTION    ##### -->
+					<behaviour id='baker_Heidi_fruitcake_missing' subQuestID='0,2' mark="nameBox">
+						<statement key='PROF_HEIDI_0036B' />
+					</behaviour>
+					<behaviour id='baker_Heidi_has_fruitcake' subQuestID='0,2' >
+						<statement key='PROF_HEIDI_0036B'>
+							<bubble id='headExplInv'  showNewItem='true'>
+								<header id='SNIPPETKEY' name='myUserName' /><questAsset id='02_06B'/><npcInventory needed="fruitcake_50" />
+							</bubble>
+						</statement>
+						<statement key='PROF_HEIDI_0036A' />
+					</behaviour>
+					<behaviour id='baker_Heidi_has_fruitcake_rep' subQuestID='0,2' mark="nameBox">
+						<statement key='PROF_HEIDI_0036B'>
+							<bubble id='headExplInv' >
+								<header id='SNIPPETKEY' name='myUserName' /><questAsset id='02_06B'/><npcInventory needed="fruitcake_50" />
+							</bubble>
+						</statement>
+						<statement key='PROF_HEIDI_0036A' />
+					</behaviour>
+					<behaviour id='baker_Heidi_got_fruitcake' subQuestID='0,2' mark="nameBox">
+						<statement key='PROF_HEIDI_0036A' />
+					</behaviour>
+					
+					<behaviour id='baker_Heidi_sandcake_missing' subQuestID='0,2' mark="nameBox">
+						<statement key='PROF_HEIDI_0043B' />
+					</behaviour>
+					<behaviour id='baker_Heidi_has_sandcake' subQuestID='0,2' mark="nameBox">
+						<statement key='PROF_HEIDI_0043B'>
+							<bubble id='headExplInv'>
+								<header id='SNIPPETKEY' name='myUserName' /><questAsset id='02_08B'/><npcInventory needed="sandcake_72" />
+							</bubble>
+						</statement>
+						<statement key='PROF_HEIDI_0043' />
+					</behaviour>
+					<behaviour id='baker_Heidi_has_sandcake_rep' subQuestID='0,2' mark="nameBox">
+						<statement key='PROF_HEIDI_0043B'>
+							<bubble id='headExplInv' >
+								<header id='SNIPPETKEY' name='myUserName' /><questAsset id='02_08B'/><npcInventory needed="sandcake_72" />
+							</bubble>
+						</statement>
+						<statement key='PROF_HEIDI_0043' />
+					</behaviour>
+					<behaviour id='baker_Heidi_got_sandcake' subQuestID='0,2' >
+						<statement key='PROF_HEIDI_0043' />
+					</behaviour>
+					
+					<behaviour id='baker_Heidi_fortunecookie_missing' subQuestID='0,2' mark="nameBox">
+						<statement key='PROF_HEIDI_0051B' />
+					</behaviour>
+					<behaviour id='baker_Heidi_has_fortunecookie' subQuestID='0,2' mark="nameBox">
+						<statement key='PROF_HEIDI_0051B'>
+							<bubble id='headExplInv' showNewItem='true' >
+								<header id='SNIPPETKEY' name='myUserName' /><questAsset id='02_10B'/><npcInventory needed="fortunecookie_47" />
+							</bubble>
+						</statement>
+						<statement key='PROF_HEIDI_0051' />
+					</behaviour>
+					<behaviour id='baker_Heidi_has_fortunecookie_rep' subQuestID='0,2' mark="nameBox">
+						<statement key='PROF_HEIDI_0051B'>
+							<bubble id='headExplInv' >
+								<header id='SNIPPETKEY' name='myUserName' /><questAsset id='02_10B'/><npcInventory needed="fortunecookie_47" />
+							</bubble>
+						</statement>
+						<statement key='PROF_HEIDI_0051' />
+					</behaviour>
+					<behaviour id='baker_Heidi_got_fortunecookie' subQuestID='0,2' >
+						<statement key='PROF_HEIDI_0051' />
+					</behaviour>
+					<!--  ######    END BERNARD INTERACTION    ##### -->
+					
+					
+					<!--  ######    MASTER Heidi    ##### -->
+					
+					
+					<behaviour id='baker_Heidi_master_start' subQuestID='0,1'>
+						<statement key='MASTER_HEIDI_0053'/>
+					</behaviour>
+					
+					<!-- give megapotato -->
+					<behaviour id='baker_Heidi_14A_1' subQuestID='0,1' mark="nameBox">
+						<statement key='MASTER_HEIDI_0054'/>
+						<statement key='MASTER_HEIDI_0054A'>
+							<bubble id='headExplInv'  showNewItem='true'>
+								<header id='SNIPPETKEY' name='myUserName' /><questAsset id='01_14A'/><npcInventory needed="megapotato_62" />
+							</bubble>
+						</statement>
+					</behaviour>
+					<behaviour id='baker_Heidi_14A_2' subQuestID='0,1' mark="nameBox">
+						<statement key='MASTER_HEIDI_0055'>
+							<bubble id='headExplInv' >
+								<header id='SNIPPETKEY' name='myUserName' /><questAsset id='01_14A'/><npcInventory needed="megapotato_62" />
+							</bubble>
+						</statement>
+					</behaviour>
+					<behaviour id='baker_Heidi_14A_3' subQuestID='0,1'>
+						<statement key='MASTER_HEIDI_0056'/>
+					</behaviour>
+					
+					<!-- roger open -->
+					<behaviour id='baker_Heidi_master_roger_open' subQuestID='0,1'>
+						<statement key='MASTER_HEIDI_0057'/>
+					</behaviour>
+					
+					<!-- give hot chillies -->
+					<behaviour id='baker_Heidi_15A_1' subQuestID='0,1' mark="nameBox">
+						<statement key='MASTER_HEIDI_0058'/>
+						<statement key='MASTER_HEIDI_0058A'>
+							<bubble id='headExplInv'  showNewItem='true'>
+								<header id='SNIPPETKEY' name='myUserName' /><questAsset id='01_15A'/><npcInventory needed="hotChillies_101" />
+							</bubble>
+						</statement>
+					</behaviour>
+					<behaviour id='baker_Heidi_15A_2' subQuestID='0,1' mark="nameBox">
+						<statement key='MASTER_HEIDI_0059'>
+							<bubble id='headExplInv' >
+								<header id='SNIPPETKEY' name='myUserName' /><questAsset id='01_15A'/><npcInventory needed="hotChillies_101" />
+							</bubble>
+						</statement>
+					</behaviour>
+					<behaviour id='baker_Heidi_15A_3' subQuestID='0,1'>
+						<statement key='MASTER_HEIDI_0060'/>
+					</behaviour>
+					
+					<!-- give turtle medicine -->
+					<behaviour id='baker_Heidi_16A_1' subQuestID='0,1' mark="nameBox">
+						<statement key='MASTER_HEIDI_0061'/>
+						<statement key='MASTER_HEIDI_0061A'>
+							<bubble id='headExplInv' showNewItem='true' >
+								<header id='SNIPPETKEY' name='myUserName' /><questAsset id='01_16A'/><npcInventory needed="turtleMedicine_93" />
+							</bubble>
+						</statement>
+					</behaviour>
+					<behaviour id='baker_Heidi_16A_2' subQuestID='0,1' mark="nameBox">
+						<statement key='MASTER_HEIDI_0062'>
+							<bubble id='headExplInv' >
+								<header id='SNIPPETKEY' name='myUserName' /><questAsset id='01_16A'/><npcInventory needed="turtleMedicine_93" />
+							</bubble>
+						</statement>
+					</behaviour>
+					<behaviour id='baker_Heidi_16A_3' subQuestID='0,1'>
+						<statement key='MASTER_HEIDI_0063'/>
+					</behaviour>
+					
+					<!-- master end -->
+					<behaviour id='baker_Heidi_master_end' subQuestID='0,1'>
+						<statement key='MASTER_HEIDI_0064'/>
+					</behaviour>
+					
+					
+					<!--  ######    EXTENSION Heidi    ##### -->
+					
+					
+					<!-- give chocolate -->
+					<behaviour id='baker_Heidi_17A_1' subQuestID='0,1' mark="nameBox">
+						<statement key='MASTER_HEIDI_0064'/>
+						<statement key='MASTER_HEIDI_0064A'>
+							<bubble id='headExplInv'  showNewItem='true'>
+								<header id='SNIPPETKEY' name='myUserName' /><questAsset id='01_17A'/><npcInventory needed="chocolate_235" />
+							</bubble>
+						</statement>
+					</behaviour>
+					<behaviour id='baker_Heidi_17A_2' subQuestID='0,1' mark="nameBox">
+						<statement key='MASTER_HEIDI_0065'>
+							<bubble id='headExplInv' >
+								<header id='SNIPPETKEY' name='myUserName' /><questAsset id='01_17A'/><npcInventory needed="chocolate_235" />
+							</bubble>
+						</statement>
+					</behaviour>
+					<behaviour id='baker_Heidi_17A_3' subQuestID='0,1'>
+						<statement key='MASTER_HEIDI_0066'/>
+					</behaviour>
+					
+					<!-- give gooseberry -->
+					<behaviour id='baker_Heidi_18A_1' subQuestID='0,1' mark="nameBox">
+						<statement key='MASTER_HEIDI_0067'/>
+						<statement key='MASTER_HEIDI_0067A'>
+							<bubble id='headExplInv'  showNewItem='true'>
+								<header id='SNIPPETKEY' name='myUserName' /><questAsset id='01_18A'/><npcInventory needed="gooseberry_234" />
+							</bubble>
+						</statement>
+					</behaviour>
+					<behaviour id='baker_Heidi_18A_2' subQuestID='0,1' mark="nameBox">
+						<statement key='MASTER_HEIDI_0068'>
+							<bubble id='headExplInv' >
+								<header id='SNIPPETKEY' name='myUserName' /><questAsset id='01_18A'/><npcInventory needed="gooseberry_234" />
+							</bubble>
+						</statement>
+					</behaviour>
+					<behaviour id='baker_Heidi_18A_3' subQuestID='0,1'>
+						<statement key='MASTER_HEIDI_0069'/>
+					</behaviour>
+					
+					<!-- master end job extension first step -->
+					<!--behaviour id='baker_Heidi_jobextension_1_end' subQuestID='0,1'>
+						<statement key='MASTER_HEIDI_0070A'/>
+					</behaviour-->
+					
+					<!-- master job extension bridge to second step  -->
+					<behaviour id='baker_Heidi_jobextension_1_bridge' subQuestID='0,1'>
+						<statement key='MASTER_HEIDI_0070B'/>
+					</behaviour>
+					
+					<!-- master job extension second step wait -->
+					<behaviour id='baker_Heidi_jobextension_2_wait' subQuestID='0,1'>
+						<statement key='MASTER_HEIDI_0071'/>
+					</behaviour>
+					
+					<!-- wedding extension -->
+					
+					<!-- make magic bees beehive -->
+					<behaviour id='baker_Heidi_19A_1' subQuestID='0,1' mark="nameBox">
+						<statement key='MASTER_HEIDI_0072'/>
+						<statement key='MASTER_HEIDI_0072A'>
+							<bubble id='headExpl' >
+								<header id='SNIPPETKEY' name='myUserName' /><questAsset id='01_19A'/>
+							</bubble>
+						</statement>
+					</behaviour>
+					<behaviour id='baker_Heidi_19A_2' subQuestID='0,1' mark="nameBox"> 
+						<statement key='MASTER_HEIDI_0073A'>
+							<bubble id='headWait' >
+								<header id='SNIPPETKEY' name='myUserName' />
+							</bubble>
+						</statement>
+						<statement key='MASTER_HEIDI_0073'>
+							<bubble id='headExpl' >
+								<header id='SNIPPETKEY' name='myUserName' /><questAsset id='01_19A'/>
+							</bubble>
+						</statement>
+					</behaviour>
+					
+					<behaviour id='baker_Heidi_19A_3' subQuestID='0,1'>
+						<statement key='MASTER_HEIDI_0074'/>
+					</behaviour>
+					
+					<!-- give baby banana -->
+					<behaviour id='baker_Heidi_20A_1' subQuestID='0,1' mark="nameBox">
+						<statement key='MASTER_HEIDI_0075'/>
+						<statement key='MASTER_HEIDI_0075A'>
+							<bubble id='headExplInv'  showNewItem='true'>
+								<header id='SNIPPETKEY' name='myUserName' /><questAsset id='01_20A'/><npcInventory needed="babybanana_293" />
+							</bubble>
+						</statement>
+					</behaviour>
+					<behaviour id='baker_Heidi_20A_2' subQuestID='0,1' mark="nameBox">
+						<statement key='MASTER_HEIDI_0076'>
+							<bubble id='headExplInv' >
+								<header id='SNIPPETKEY' name='myUserName' /><questAsset id='01_20A'/><npcInventory needed="babybanana_293" />
+							</bubble>
+						</statement>
+					</behaviour>
+					<behaviour id='baker_Heidi_20A_3' subQuestID='0,1'>
+						<statement key='MASTER_HEIDI_0077'/>
+						<statement key='MASTER_HEIDI_0078A'/>
+					</behaviour>
+					
+					
+					<!-- wedding some day -->
+					<!--behaviour id='baker_Heidi_jobextension_3_wait' subQuestID='0,1'>
+						<statement key='MASTER_HEIDI_0078C'/>
+					</behaviour-->
+					
+					<!-- wedding next week -->
+					<behaviour id='baker_Heidi_jobextension_3_wait' subQuestID='0,1'>
+						<statement key='MASTER_HEIDI_0078B'/>
+					</behaviour>
+					
+				</behaviours>
+			</npc>
+			
+			
+			<npc name='Rose' roomID='15' x='300' y='350' questId='0' defaultSubQuestID="0,3" faceAsset='RoseSpeechBubble'>
+				<!-- button type="overClick" over="3" out="2" / -->
+				<button type="overClick" over="over" out="out" />
+				
+				<defaultBehaviours>
+					<behaviour id="default_Rose">
+						<statement key='ROSE_DEFAULT'/>
+					</behaviour>
+					<behaviourStoryJobs id="defaultStoryjobs_Rose">
+						<statement key='STORY_JOB_DEFAULT_NPC_SPEECH' noSound="true"/>
+					</behaviourStoryJobs>
+				</defaultBehaviours>
+				
+				<behaviours>
+					
+					
+					
+					<!--  ######    BEGINNER Rose    ##### -->
+					
+					<behaviour id='baker_Rose_beginner_start' subQuestID='0,3'> 
+						<statement key='BEGINNER_ROSE_0002'/>
+					</behaviour>
+					
+					<!-- harvest fruit -->
+					<behaviour id='baker_Rose_01C' subQuestID='0,3' mark="nameBox"> 
+						<statement key='BEGINNER_ROSE_0003'/>
+						<statement key='BEGINNER_ROSE_0003A'>
+							<bubble id='headExplInv'  showNewItem='true'>
+								<header id='SNIPPETKEY' name='myUserName' />
+								<questAsset id='03_01C'/>
+								<npcInventory needed="fruit_49" />
+								<explanation idTask="03_01C" />
+							</bubble>
+						</statement>
+					</behaviour>
+					<behaviour id='baker_Rose_01C_2' subQuestID='0,3'> 
+						<statement key='BEGINNER_ROSE_0004'>
+							<bubble id='headExplInv' >
+								<header id='SNIPPETKEY' name='myUserName' />
+								<questAsset id='03_01C'/>
+								<npcInventory needed="fruit_49" />
+								<explanation idTask="03_01C" />
+							</bubble>
+						</statement>
+					</behaviour>
+					<behaviour id='baker_Rose_01C_3' subQuestID='0,3'> 
+						<statement key='BEGINNER_ROSE_0005'/>
+					</behaviour>
+					
+					<behaviour id='baker_Rose_beginner_end' subQuestID='0,3'> 
+						<statement key='BEGINNER_ROSE_0012A'/>
+					</behaviour>
+					
+					
+					<!--  ######    PROFESSIONAL Rose    ##### -->
+					
+					
+					<behaviour id='baker_Rose_professional_start' subQuestID='0,3'> 
+						<statement key='BEGINNER_ROSE_0013'/>
+					</behaviour>
+					
+					<!-- grow chewinggum -->
+					<behaviour id='baker_Rose_04C_1' subQuestID='0,3' mark="nameBox">
+						<statement key='PROF_ROSE_0014'/>
+						<statement key='PROF_ROSE_0014A'>
+							<bubble id='headExpl' >
+								<header id='SNIPPETKEY' name='myUserName' /><questAsset id='03_04C'/>
+							</bubble>
+						</statement>
+					</behaviour>
+					<behaviour id='baker_Rose_04C_2' subQuestID='0,3'>
+						<statement key='PROF_ROSE_0015'>
+							<bubble id='headExpl' >
+								<header id='SNIPPETKEY' name='myUserName' /><questAsset id='03_04C'/>
+							</bubble>
+						</statement>
+					</behaviour>
+					<behaviour id='baker_Rose_04C_3' subQuestID='0,3'>
+						<statement key='PROF_ROSE_0016'/>
+					</behaviour>
+					<behaviour id='baker_Rose_04C_4' subQuestID='0,3'>
+						<statement key='PROF_ROSE_0016C'/>
+					</behaviour>
+					
+					<!-- grow heartflower -->
+					<behaviour id='baker_Rose_05C_1' subQuestID='0,3' mark="nameBox">
+						<statement key='PROF_ROSE_0017'/>
+						<statement key='PROF_ROSE_0017A'>
+							<bubble id='headExpl' showNewItem='true' >
+								<header id='SNIPPETKEY' name='myUserName' /><questAsset id='03_05C' item='heartflower_58'/>
+							</bubble>
+						</statement>
+					</behaviour>
+					<behaviour id='baker_Rose_05C_2' subQuestID='0,3'>
+						<statement key='PROF_ROSE_0018'>
+							<bubble id='headExpl' >
+								<header id='SNIPPETKEY' name='myUserName' /><questAsset id='03_05C'/>
+							</bubble>
+						</statement>
+					</behaviour>
+					<behaviour id='baker_Rose_05C_3' subQuestID='0,3'>
+						<statement key='PROF_ROSE_0019'/>
+					</behaviour>
+					<behaviour id='baker_Rose_05C_4' subQuestID='0,3'>
+						<statement key='PROF_ROSE_0019C'/>
+					</behaviour>
+					
+					<!-- harvest magic carrot -->
+					<behaviour id='baker_Rose_06C_1' subQuestID='0,3' mark="nameBox">
+						<statement key='PROF_ROSE_0020'/>
+						<statement key='PROF_ROSE_0020A'>
+							<bubble id='headExplInv'  showNewItem='true'>
+								<header id='SNIPPETKEY' name='myUserName' /><questAsset id='03_06C'/><npcInventory needed="magiccarrot_60" />
+							</bubble>
+						</statement>
+					</behaviour>
+					<behaviour id='baker_Rose_06C_2' subQuestID='0,3'>
+						<statement key='PROF_ROSE_0021'>
+							<bubble id='headExplInv' >
+								<header id='SNIPPETKEY' name='myUserName' /><questAsset id='03_06C'/><npcInventory needed="magiccarrot_60" />
+							</bubble>
+						</statement>
+					</behaviour>
+					<behaviour id='baker_Rose_06C_3' subQuestID='0,3'>
+						<statement key='PROF_ROSE_0022'/>
+					</behaviour>
+					
+					
+					<!-- BREAK EVEN -->
+					
+					<behaviour id='baker_Rose_speedy_open' subQuestID='0,3'>
+						<statement key='PROF_ROSE_0023'/>
+					</behaviour>
+					
+					<!-- bring ketchup -->
+					<behaviour id='baker_Rose_07C_1' subQuestID='0,3' mark="nameBox">
+						<statement key='PROF_ROSE_0024'/>
+						<statement key='PROF_ROSE_0024A'>
+							<bubble id='headExplInv'  showNewItem='true'>
+								<header id='SNIPPETKEY' name='myUserName' /><questAsset id='03_07C'/><npcInventory needed="ketchup_59" />
+							</bubble>
+						</statement>
+					</behaviour>
+					<behaviour id='baker_Rose_07C_2' subQuestID='0,3'>
+						<statement key='PROF_ROSE_0025'>
+							<bubble id='headExplInv' >
+								<header id='SNIPPETKEY' name='myUserName' /><questAsset id='03_07C'/><npcInventory needed="ketchup_59" />
+							</bubble>
+						</statement>
+					</behaviour>
+					<behaviour id='baker_Rose_07C_3' subQuestID='0,3'>
+						<statement key='PROF_ROSE_0026'/>
+					</behaviour>
+					
+					<!-- produce oliveoil -->
+					<behaviour id='baker_Rose_08C_1' subQuestID='0,3' mark="nameBox">
+						<statement key='PROF_ROSE_0027'/>
+						<statement key='PROF_ROSE_0027A'>
+							<bubble id='headExplInv'  showNewItem='true'>
+								<header id='SNIPPETKEY' name='myUserName' /><questAsset id='03_08C'/><npcInventory needed="oliveoil_63" />
+							</bubble>
+						</statement>
+					</behaviour>
+					<behaviour id='baker_Rose_08C_2' subQuestID='0,3'>
+						<statement key='PROF_ROSE_0028'>
+							<bubble id='headExplInv' >
+								<header id='SNIPPETKEY' name='myUserName' /><questAsset id='03_08C'/><npcInventory needed="oliveoil_63" />
+							</bubble>
+						</statement>
+					</behaviour>
+					<behaviour id='baker_Rose_08C_3' subQuestID='0,3'>
+						<statement key='PROF_ROSE_0029'/>
+					</behaviour>
+					
+					<!-- Professional Rose end -->
+					<behaviour id='baker_Rose_Prof_end' subQuestID='0,3'>
+						<statement key='PROF_ROSE_0030'/>
+					</behaviour>
+					
+					
+					<!--  ######    MASTER Rose    ##### -->
+					
+					
+					<behaviour id='baker_Rose_master_start' subQuestID='0,3'>
+						<statement key='MASTER_ROSE_0031'/>
+					</behaviour>
+					
+					<!-- bring sweets -->
+					<behaviour id='baker_Rose_09C_1' subQuestID='0,3' mark="nameBox">
+						<statement key='MASTER_ROSE_0032'/>
+						<statement key='MASTER_ROSE_0032A'>
+							<bubble id='headExplInv' showNewItem='true' >
+								<header id='SNIPPETKEY' name='myUserName' /><questAsset id='03_09C'/><npcInventory needed="sweets_79" />
+							</bubble>
+						</statement>
+					</behaviour>
+					<behaviour id='baker_Rose_09C_2' subQuestID='0,3'>
+						<statement key='MASTER_ROSE_0033'>
+							<bubble id='headExplInv' >
+								<header id='SNIPPETKEY' name='myUserName' /><questAsset id='03_09C'/><npcInventory needed="sweets_79" />
+							</bubble>
+						</statement>
+					</behaviour>
+					<behaviour id='baker_Rose_09C_3' subQuestID='0,3'>
+						<statement key='MASTER_ROSE_0034'/>
+					</behaviour>
+					
+					<!-- Roger open -->
+					<behaviour id='baker_Rose_master_roger_open' subQuestID='0,3'>
+						<statement key='MASTER_ROSE_0035'/>
+					</behaviour>
+					
+					<!-- bring rainbow flower -->
+					<behaviour id='baker_Rose_10C_1' subQuestID='0,3' mark="nameBox">
+						<statement key='MASTER_ROSE_0036'/>
+						<statement key='MASTER_ROSE_0036A'>
+							<bubble id='headExplInv'  showNewItem='true'>
+								<header id='SNIPPETKEY' name='myUserName' /><questAsset id='03_10C'/><npcInventory needed="rainbowFlower_66" />
+							</bubble>
+						</statement>
+					</behaviour>
+					<behaviour id='baker_Rose_10C_2' subQuestID='0,3'>
+						<statement key='MASTER_ROSE_0037'>
+							<bubble id='headExplInv' >
+								<header id='SNIPPETKEY' name='myUserName' /><questAsset id='03_10C'/><npcInventory needed="rainbowFlower_66" />
+							</bubble>
+						</statement>
+					</behaviour>
+					<behaviour id='baker_Rose_10C_3' subQuestID='0,3'>
+						<statement key='MASTER_ROSE_0038'/>
+					</behaviour>
+					
+					<!-- Master Rose end -->
+					<behaviour id='baker_Rose_master_end' subQuestID='0,3'>
+						<statement key='MASTER_ROSE_0039'/>
+					</behaviour>
+					
+					<!-- Rose answers Roger -->
+					<behaviour id='baker_Rose_roger_answer' subQuestID='0,3'>
+						<statement key='MASTER_ROSE_0040'/>
+					</behaviour>
+					
+					
+					<!--  ######    EXTENSION Rose    ##### -->
+					
+					
+					<!-- bring fireflower blossom -->
+					<behaviour id='baker_Rose_11C_1' subQuestID='0,3' mark="nameBox">
+						<statement key='MASTER_ROSE_0041'/>
+						<statement key='MASTER_ROSE_0041A'>
+							<bubble id='headExplInv'  showNewItem='true'>
+								<header id='SNIPPETKEY' name='myUserName' /><questAsset id='03_11C'/><npcInventory needed="fireblossom_239" />
+							</bubble>
+						</statement>
+					</behaviour>
+					<behaviour id='baker_Rose_11C_2' subQuestID='0,3'>
+						<statement key='MASTER_ROSE_0042'>
+							<bubble id='headExplInv' >
+								<header id='SNIPPETKEY' name='myUserName' /><questAsset id='03_11C'/><npcInventory needed="fireblossom_239" />
+							</bubble>
+						</statement>
+					</behaviour>
+					<behaviour id='baker_Rose_11C_3' subQuestID='0,3'>
+						<statement key='MASTER_ROSE_0043'/>
+					</behaviour>
+					
+					
+					<!-- bring butterflyblossom -->
+					<behaviour id='baker_Rose_12C_1' subQuestID='0,3' mark="nameBox">
+						<statement key='MASTER_ROSE_0044'/>
+						<statement key='MASTER_ROSE_0044A'>
+							<bubble id='headExplInv'  showNewItem='true'>
+								<header id='SNIPPETKEY' name='myUserName' /><questAsset id='03_12C'/><npcInventory needed="butterflyblossom_254" />
+							</bubble>
+						</statement>
+					</behaviour>
+					<behaviour id='baker_Rose_12C_2' subQuestID='0,3'>
+						<statement key='MASTER_ROSE_0045'>
+							<bubble id='headExplInv' >
+								<header id='SNIPPETKEY' name='myUserName' /><questAsset id='03_12C'/><npcInventory needed="butterflyblossom_254" />
+							</bubble>
+						</statement>
+					</behaviour>
+					<behaviour id='baker_Rose_12C_3' subQuestID='0,3'>
+						<statement key='MASTER_ROSE_0046'/>
+					</behaviour>
+					
+					
+					<!-- master end job extension first step -->
+					<!--behaviour id='baker_Rose_jobextension_1_end' subQuestID='0,3'>
+						<statement key='MASTER_ROSE_0047A'/>
+					</behaviour-->
+					
+					<!-- master job extension bridge to second step  -->
+					<behaviour id='baker_Rose_jobextension_1_bridge' subQuestID='0,3'>
+						<statement key='MASTER_ROSE_0047B'/>
+					</behaviour>
+					
+					<!-- master job extension second step wait -->
+					<behaviour id='baker_Rose_jobextension_2_wait' subQuestID='0,3'>
+						<statement key='MASTER_ROSE_0048'/>
+					</behaviour>
+					
+					
+					<!-- wedding extension -->
+					
+					<!-- bring beeflower -->
+					<behaviour id='baker_Rose_13C_1' subQuestID='0,3' mark="nameBox">
+						<statement key='MASTER_ROSE_0049'/>
+						<statement key='MASTER_ROSE_0049A'>
+							<bubble id='headExplInv'  showNewItem='true'>
+								<header id='SNIPPETKEY' name='myUserName' /><questAsset id='03_13C'/><npcInventory needed="beeflower_296" />
+							</bubble>
+						</statement>
+					</behaviour>
+					<behaviour id='baker_Rose_13C_2' subQuestID='0,3'>
+						<statement key='MASTER_ROSE_0050'>
+							<bubble id='headExplInv' >
+								<header id='SNIPPETKEY' name='myUserName' /><questAsset id='03_13C'/><npcInventory needed="beeflower_296" />
+							</bubble>
+						</statement>
+					</behaviour>
+					<behaviour id='baker_Rose_13C_3' subQuestID='0,3'>
+						<statement key='MASTER_ROSE_0051'/>
+					</behaviour>
+					
+					<!-- bring bridal bouquet -->
+					<behaviour id='baker_Rose_14C_1' subQuestID='0,3' mark="nameBox">
+						<statement key='MASTER_ROSE_0052'/>
+						<statement key='MASTER_ROSE_0052A'>
+							<bubble id='headExplInv'  showNewItem='true'>
+								<header id='SNIPPETKEY' name='myUserName' /><questAsset id='03_14C'/><npcInventory needed="bridalbouquet_297" />
+							</bubble>
+						</statement>
+					</behaviour>
+					<behaviour id='baker_Rose_14C_2' subQuestID='0,3'>
+						<statement key='MASTER_ROSE_0053'>
+							<bubble id='headExplInv' >
+								<header id='SNIPPETKEY' name='myUserName' /><questAsset id='03_14C'/><npcInventory needed="bridalbouquet_297" />
+							</bubble>
+						</statement>
+					</behaviour>
+					<behaviour id='baker_Rose_14C_3' subQuestID='0,3'>
+						<statement key='MASTER_ROSE_0054'/>
+						<statement key='MASTER_ROSE_0055A'/> <!-- ####### replace afer one week! ######-->
+					</behaviour>
+					
+					
+					<!-- wedding some day -->
+					<!--behaviour id='baker_Rose_jobextension_3_wait' subQuestID='0,3'>
+						<statement key='MASTER_ROSE_0055A'/>
+					</behaviour-->
+					
+					<!-- wedding next week -->
+					<behaviour id='baker_Rose_jobextension_3_wait' subQuestID='0,3'>
+						<statement key='MASTER_ROSE_0055B'/>
+					</behaviour>
+					
+				</behaviours>
+			</npc>
+			
+			
+			<npc name='Bernard' roomID='3' x='100' y='500' questId='0' defaultSubQuestID="0,2" faceAsset='BernardSpeechBubble'>
+				<!-- button type="overClick" over="3" out="2" / -->
+				<button type="overClick" over="over" out="out" />
+
+				<checks>
+					<check gamestate="0,0,0-179" />
+				</checks>
+				
+				<defaultBehaviours>
+					<behaviour id="default_Bernard">
+						<statement key='BERNARD_DEFAULT'/>
+					</behaviour>
+					<behaviourStoryJobs id="defaultStoryjobs_Bernard">
+						<statement key='STORY_JOB_DEFAULT_NPC_SPEECH' noSound="true"/>
+					</behaviourStoryJobs>
+				</defaultBehaviours>
+				
+				<behaviours>
+				
+				
+					<!-- ######     BEGINNER Bernard    ###### -->
+					
+					<behaviour id='baker_Bernard_beginner_start' subQuestID='0,2'> 
+						<statement key='BEGINNER_BERNARD_0001' sound="BEGINNER_BERNARD_0001"/>
+					</behaviour>
+					
+					<!-- bring flour -->
+					<behaviour id='baker_Bernard_01B_1' subQuestID='0,2' mark="nameBox"> 
+						<statement key='BEGINNER_BERNARD_0002' sound="BEGINNER_BERNARD_0002"/>
+						<statement key='BEGINNER_BERNARD_0002A' sound="BEGINNER_BERNARD_0002A">
+							<bubble id='headExplInv'  showNewItem='true'>
+								<header id='SNIPPETKEY' name='myUserName' /><questAsset id='02_01B'/><npcInventory needed="flour_28" />
+								
+							</bubble>
+						</statement>
+						<statement key='BEGINNER_BERNARD_0004' sound="BEGINNER_BERNARD_0004"/>
+					</behaviour>
+					<behaviour id='baker_Bernard_01B_2' subQuestID='0,2'> 
+						<statement key='BEGINNER_BERNARD_0003' sound="BEGINNER_BERNARD_0003">
+							<bubble id='headExplInv' >
+								<header id='SNIPPETKEY' name='myUserName' /><questAsset id='02_01B'/><npcInventory needed="flour_28" />
+								
+							</bubble>
+						</statement>
+						<statement key='BEGINNER_BERNARD_0004' sound="BEGINNER_BERNARD_0004"/>
+					</behaviour>
+					<behaviour id='baker_Bernard_01B_3' subQuestID='0,2'> 
+						<statement key='BEGINNER_BERNARD_0004' sound="BEGINNER_BERNARD_0004"/>
+					</behaviour>
+					
+					<!-- make dough -->
+					<behaviour id='baker_Bernard_02B_1' subQuestID='0,2' mark="nameBox"> 
+						<statement key='BEGINNER_BERNARD_0005' sound="BEGINNER_BERNARD_0005"/>						
+						<statement key='BEGINNER_BERNARD_0005A' sound="BEGINNER_BERNARD_0005A">
+							<bubble id='headExplInv'  showNewItem='true'>
+								<header id='SNIPPETKEY' name='myUserName' /><questAsset id='02_02B'/><npcInventory needed="dough_9" />
+								
+							</bubble>
+						</statement>
+						<statement key='BEGINNER_BERNARD_0007' sound="BEGINNER_BERNARD_0007"/>
+					</behaviour>
+					<behaviour id='baker_Bernard_02B_2' subQuestID='0,2' mark="nameBox"> 
+						<statement key='BEGINNER_BERNARD_0006' sound="BEGINNER_BERNARD_0006">
+							<bubble id='headExplInv' >
+								<header id='SNIPPETKEY' name='myUserName' /><questAsset id='02_02B'/><npcInventory needed="dough_9" />
+								
+							</bubble>
+						</statement>
+						<statement key='BEGINNER_BERNARD_0007' sound="BEGINNER_BERNARD_0007"/>
+					</behaviour>
+					<behaviour id='baker_Bernard_02B_3' subQuestID='0,2'> 
+						<statement key='BEGINNER_BERNARD_0007' sound="BEGINNER_BERNARD_0007"/>
+					</behaviour>
+					
+					<behaviour id='baker_Bernard_beginner_rose_open' subQuestID='0,2'> 
+						<statement key='BEGINNER_BERNARD_0008' sound="BEGINNER_BERNARD_0008"/>
+					</behaviour>
+					
+					<!-- fire up oven -->
+					<behaviour id='baker_Bernard_03B_1' subQuestID='0,2' mark="nameBox"> 
+						<statement key='BEGINNER_BERNARD_0009' sound="BEGINNER_BERNARD_0009">
+							<bubble id='headExpl' >
+								<header id='SNIPPETKEY' name='myUserName' /><questAsset id='02_03B'/>
+							</bubble>
+						</statement>
+					</behaviour>
+					<behaviour id='baker_Bernard_03B_2' subQuestID='0,2' mark="nameBox"> 
+						<statement key='BEGINNER_BERNARD_0009B'>
+							<bubble id='headWait' >
+								<header id='SNIPPETKEY' name='myUserName' />
+							</bubble>
+						</statement>
+						<statement key='BEGINNER_BERNARD_0009A'>
+							<bubble id='headExpl' >
+								<header id='SNIPPETKEY' name='myUserName' /><questAsset id='02_03B'/>
+							</bubble>
+						</statement>
+					</behaviour>
+					<behaviour id='baker_Bernard_03B_3' subQuestID='0,2'> 
+						<statement key='BEGINNER_BERNARD_0011' sound="BEGINNER_BERNARD_0011"/>
+					</behaviour>
+					
+					<!-- make bread -->
+					<behaviour id='baker_Bernard_04B_1' subQuestID='0,2' mark="nameBox"> 
+						<statement key='BEGINNER_BERNARD_0012' sound="BEGINNER_BERNARD_0012"/>						
+						<statement key='BEGINNER_BERNARD_0012A' sound="BEGINNER_BERNARD_0012A">
+							<bubble id='headExplInv'  showNewItem='true'>
+								<header id='SNIPPETKEY' name='myUserName' /><questAsset id='02_04B'/><npcInventory needed="bread_7" />
+								
+							</bubble>
+						</statement>
+						<statement key='BEGINNER_BERNARD_0014' sound="BEGINNER_BERNARD_0014"/>
+					</behaviour>
+					<behaviour id='baker_Bernard_04B_2' subQuestID='0,2' mark="nameBox"> 
+						<statement key='BEGINNER_BERNARD_0013' sound="BEGINNER_BERNARD_0013">
+							<bubble id='headExplInv' >
+								<header id='SNIPPETKEY' name='myUserName' /><questAsset id='02_04B'/><npcInventory needed="bread_7" />
+								
+							</bubble>
+						</statement>
+						<statement key='BEGINNER_BERNARD_0014' sound="BEGINNER_BERNARD_0014"/>
+					</behaviour>
+					
+					<!-- bring pretzel -->
+					<behaviour id='baker_Bernard_05B_1' subQuestID='0,2' mark="nameBox"> 
+						<statement key='BEGINNER_BERNARD_0015' sound="BEGINNER_BERNARD_0015"/>						
+						<statement key='BEGINNER_BERNARD_0015A' sound="BEGINNER_BERNARD_0015A">
+							<bubble id='headExplInv' showNewItem='true' >
+								<header id='SNIPPETKEY' name='myUserName' /><questAsset id='02_05B'/><npcInventory needed="pretzel_11" />
+								
+							</bubble>
+						</statement>
+						<statement key='BEGINNER_BERNARD_0017' sound="BEGINNER_BERNARD_0017"/>
+					</behaviour>
+					<behaviour id='baker_Bernard_05B_2' subQuestID='0,2' mark="nameBox"> 
+						<statement key='BEGINNER_BERNARD_0016' sound="BEGINNER_BERNARD_0016">
+							<bubble id='headExplInv' >
+								<header id='SNIPPETKEY' name='myUserName' /><questAsset id='02_05B'/><npcInventory needed="pretzel_11" />
+								
+							</bubble>
+						</statement>
+						<statement key='BEGINNER_BERNARD_0017' sound="BEGINNER_BERNARD_0017"/>
+					</behaviour>
+					
+					<behaviour id='baker_Bernard_beginner_end' subQuestID='0,2'> 
+						<statement key='BEGINNER_BERNARD_0018' sound="BEGINNER_BERNARD_0018"/>
+					</behaviour>
+					
+					
+					<!--  ######    PROFESSIONAL Bernard   ##### -->
+					
+					
+					<behaviour id='baker_Bernard_professional_start' subQuestID='0,2'> 
+						<statement key='PROF_BERNARD_0019'/>
+					</behaviour>
+					
+					<!-- bring fruitcake to heidi -->
+					<behaviour id='baker_Bernard_06B_1' subQuestID='0,2' mark="nameBox"> 
+						<statement key='PROF_BERNARD_0020'/>						
+						<statement key='PROF_BERNARD_0020A'>
+							<bubble id='headExpl'  showNewItem='true'>
+								<header id='SNIPPETKEY' name='myUserName' /><questAsset id='02_06B' item='fruitcake_50'/>
+							</bubble>
+						</statement>
+					</behaviour>
+					<behaviour id='baker_Bernard_06B_2' subQuestID='0,2' mark="nameBox"> 
+						<statement key='PROF_BERNARD_0021'>
+							<bubble id='headExpl' >
+								<header id='SNIPPETKEY' name='myUserName' /><questAsset id='02_06B'/>
+							</bubble>
+						</statement>
+					</behaviour>
+					<behaviour id='baker_Bernard_06B_3' subQuestID='0,2'>
+						<statement key='PROF_BERNARD_0022'/>
+					</behaviour>
+					<behaviour id='baker_Bernard_06B_4' subQuestID='0,2'>
+						<statement key='PROF_BERNARD_0028C'/>
+					</behaviour>
+					
+					<!-- bring sugar -->
+					<behaviour id='baker_Bernard_07B_1' subQuestID='0,2' mark="nameBox"> 
+						<statement key='PROF_BERNARD_0023'/>
+						<statement key='PROF_BERNARD_0023A'>
+							<bubble id='headExplInv' showNewItem='true' >
+								<header id='SNIPPETKEY' name='myUserName' /><questAsset id='02_07B'/><npcInventory needed="sugar_76" />
+							</bubble>
+						</statement>
+					</behaviour>
+					<behaviour id='baker_Bernard_07B_2' subQuestID='0,2' mark="nameBox"> 
+						<statement key='PROF_BERNARD_0024'>
+							<bubble id='headExplInv' >
+								<header id='SNIPPETKEY' name='myUserName' /><questAsset id='02_07B'/><npcInventory needed="sugar_76" />
+							</bubble>
+						</statement>
+					</behaviour>
+					<behaviour id='baker_Bernard_07B_3' subQuestID='0,2'>
+						<statement key='PROF_BERNARD_0025'/>
+					</behaviour>
+					
+					<!-- bring sandcake -->
+					<behaviour id='baker_Bernard_08B_1' subQuestID='0,2' mark="nameBox"> 
+						<statement key='PROF_BERNARD_0026'/>
+						<statement key='PROF_BERNARD_0026A'>
+							<bubble id='headExpl'  showNewItem='true'>
+								<header id='SNIPPETKEY' name='myUserName' /><questAsset id='02_08B' item='sandcake_72'/>
+							</bubble>
+						</statement>
+						<statement key='PROF_BERNARD_0027'/>
+					</behaviour>
+					<behaviour id='baker_Bernard_08B_2' subQuestID='0,2' mark="nameBox"> 
+						<statement key='PROF_BERNARD_0027'>
+							<bubble id='headExpl' >
+								<header id='SNIPPETKEY' name='myUserName' /><questAsset id='02_08B'/>
+							</bubble>
+						</statement>
+						<statement key='PROF_BERNARD_0028B'/>
+					</behaviour>
+					<behaviour id='baker_Bernard_08B_3' subQuestID='0,2'> 
+						<statement key='PROF_BERNARD_0028'/>
+					</behaviour>
+					<behaviour id="baker_Bernard_08B_4" subQuestID='0,2'>
+						<statement key='PROF_BERNARD_0028C'/>
+					</behaviour>
+					
+					<behaviour id="baker_Bernard_prof_speedy_open" subQuestID='0,2'>
+						<statement key='PROF_BERNARD_0029'/>
+					</behaviour>
+					
+					<!-- bring popcorn -->
+					<behaviour id='baker_Bernard_09B_1' subQuestID='0,2' mark="nameBox"> 
+						<statement key='PROF_BERNARD_0030'/>
+						<statement key='PROF_BERNARD_0030A'>
+							<bubble id='headExplInv'  showNewItem='true'>
+								<header id='SNIPPETKEY' name='myUserName' /><questAsset id='02_09B'/><npcInventory needed="popcorn_65" />
+							</bubble>
+						</statement>
+						<statement key='PROF_BERNARD_0032'/>
+					</behaviour>
+					<behaviour id='baker_Bernard_09B_2' subQuestID='0,2' mark="nameBox"> 
+						<statement key='PROF_BERNARD_0031'>
+							<bubble id='headExplInv' >
+								<header id='SNIPPETKEY' name='myUserName' /><questAsset id='02_09B'/><npcInventory needed="popcorn_65" />
+							</bubble>
+						</statement>
+						<statement key='PROF_BERNARD_0032'/>
+					</behaviour>
+					<behaviour id="baker_Bernard_09B_3" subQuestID='0,2'>
+						<statement key='PROF_BERNARD_0032'/>
+					</behaviour>
+					
+					<!-- bring fortunecookie -->
+					<behaviour id='baker_Bernard_10B_1' subQuestID='0,2' mark="nameBox"> 
+						<statement key='PROF_BERNARD_0033'/>
+						<statement key='PROF_BERNARD_0033A'>
+							<bubble id='headExpl' >
+								<header id='SNIPPETKEY' name='myUserName' /><questAsset id='02_10B'/>
+							</bubble>
+						</statement>
+						<statement key='PROF_BERNARD_0035'/>
+					</behaviour>
+					<behaviour id='baker_Bernard_10B_2' subQuestID='0,2' mark="nameBox"> 
+						<statement key='PROF_BERNARD_0035'>
+							<bubble id='headExpl' >
+								<header id='SNIPPETKEY' name='myUserName' /><questAsset id='02_10B'/>
+							</bubble>
+						</statement>
+						<statement key='PROF_BERNARD_0032'/>
+					</behaviour>
+					<behaviour id="baker_Bernard_10B_3" subQuestID='0,2'>
+						<statement key='PROF_BERNARD_0035'/>
+					</behaviour>
+					<behaviour id="baker_Bernard_10B_4" subQuestID='0,2'>
+						<statement key='PROF_BERNARD_0035C'/>
+					</behaviour>
+					
+					<behaviour id="baker_Bernard_prof_end" subQuestID='0,2'>
+						<statement key='PROF_BERNARD_0036'/>
+					</behaviour>
+					
+					
+					<!--  ######    MASTER Bernard   ##### -->
+					
+					
+					<behaviour id="baker_Bernard_master_start" subQuestID='0,2'>
+						<statement key='MASTER_BERNARD_0037'/>
+					</behaviour>
+					
+					<!-- bring stinking pizza -->
+					<behaviour id="baker_Bernard_11B_1" subQuestID='0,2' mark="nameBox">
+						<statement key='MASTER_BERNARD_0038'/>
+						<statement key='MASTER_BERNARD_0038A'>
+							<bubble id='headExplInv'  showNewItem='true'>
+								<header id='SNIPPETKEY' name='myUserName' /><questAsset id='02_11B'/><npcInventory needed="stinkingPizza_75" />
+							</bubble>
+						</statement>
+					</behaviour>
+					<behaviour id="baker_Bernard_11B_2" subQuestID='0,2' mark="nameBox">
+						<statement key='MASTER_BERNARD_0039'>
+							<bubble id='headExplInv' >
+								<header id='SNIPPETKEY' name='myUserName' /><questAsset id='02_11B'/><npcInventory needed="stinkingPizza_75" />
+							</bubble>
+						</statement>
+					</behaviour>
+					<behaviour id="baker_Bernard_11B_3" subQuestID='0,2'>
+						<statement key='MASTER_BERNARD_0040'/>
+					</behaviour>
+					
+					<!-- roger open -->
+					<behaviour id="baker_Bernard_master_roger_open" subQuestID='0,2'>
+						<statement key='MASTER_BERNARD_0041'/>
+					</behaviour>
+					
+					<!-- bring cheesecake -->
+					<behaviour id="baker_Bernard_12B_1" subQuestID='0,2' mark="nameBox">
+						<statement key='MASTER_BERNARD_0042'/>
+						<statement key='MASTER_BERNARD_0042A'>
+							<bubble id='headExplInv' showNewItem='true' >
+								<header id='SNIPPETKEY' name='myUserName' /><questAsset id='02_12B'/><npcInventory needed="cheesecake_91" />
+							</bubble>
+						</statement>
+					</behaviour>
+					<behaviour id="baker_Bernard_12B_2" subQuestID='0,2' mark="nameBox">
+						<statement key='MASTER_BERNARD_0043'>
+							<bubble id='headExplInv' >
+								<header id='SNIPPETKEY' name='myUserName' /><questAsset id='02_12B'/><npcInventory needed="cheesecake_91" />
+							</bubble>
+						</statement>
+					</behaviour>
+					<behaviour id="baker_Bernard_12B_3" subQuestID='0,2'>
+						<statement key='MASTER_BERNARD_0044'/>
+					</behaviour>
+					
+					<behaviour id="baker_Bernard_master_end" subQuestID='0,2'>
+						<statement key='MASTER_BERNARD_0044B'/>
+					</behaviour>
+					
+					
+					<!--  ######    EXTENSION Bernard   ##### -->
+					
+					
+					<!-- bring giantcupcake -->
+					<behaviour id="baker_Bernard_13B_1" subQuestID='0,2' mark="nameBox">
+						<statement key='MASTER_BERNARD_0045'/>
+						<statement key='MASTER_BERNARD_0045A'>
+							<bubble id='headExplInv' showNewItem='true' >
+								<header id='SNIPPETKEY' name='myUserName' /><questAsset id='02_13B'/><npcInventory needed="giantcupcake_237" />
+							</bubble>
+						</statement>
+					</behaviour>
+					<behaviour id="baker_Bernard_13B_2" subQuestID='0,2' mark="nameBox">
+						<statement key='MASTER_BERNARD_0046'>
+							<bubble id='headExplInv' >
+								<header id='SNIPPETKEY' name='myUserName' /><questAsset id='02_13B'/><npcInventory needed="giantcupcake_237" />
+							</bubble>
+						</statement>
+					</behaviour>
+					<behaviour id="baker_Bernard_13B_3" subQuestID='0,2'>
+						<statement key='MASTER_BERNARD_0047'/>
+					</behaviour>
+					
+					<!-- bring layercake -->
+					<behaviour id="baker_Bernard_14B_1" subQuestID='0,2' mark="nameBox">
+						<statement key='MASTER_BERNARD_0048'/>
+						<statement key='MASTER_BERNARD_0048A'>
+							<bubble id='headExplInv' showNewItem='true' >
+								<header id='SNIPPETKEY' name='myUserName' /><questAsset id='02_14B'/><npcInventory needed="layercake_238" />
+							</bubble>
+						</statement>
+					</behaviour>
+					<behaviour id="baker_Bernard_14B_2" subQuestID='0,2' mark="nameBox">
+						<statement key='MASTER_BERNARD_0049'>
+							<bubble id='headExplInv' >
+								<header id='SNIPPETKEY' name='myUserName' /><questAsset id='02_14B'/><npcInventory needed="layercake_238" />
+							</bubble>
+						</statement>
+					</behaviour>
+					<behaviour id="baker_Bernard_14B_3" subQuestID='0,2'>
+						<statement key='MASTER_BERNARD_0050'/>
+					</behaviour>
+					
+					
+					<!-- master end job extension first step -->
+					<!--><behaviour id='baker_Bernard_jobextension_1_end' subQuestID='0,2'>
+						<statement key='MASTER_BERNARD_0051A'/>
+					</behaviour>-->
+					
+					<!-- master job extension bridge to second step  -->
+					<behaviour id='baker_Bernard_jobextension_1_bridge' subQuestID='0,2'>
+						<statement key='MASTER_BERNARD_0051B'/>
+					</behaviour>
+					
+					<!-- master job extension second step wait -->
+					<behaviour id='baker_Bernard_jobextension_2_wait' subQuestID='0,2'>
+						<statement key='MASTER_BERNARD_0052'/>
+					</behaviour>
+					
+					
+					<!-- wedding extension -->
+					
+					<!-- bring ginger bread heart -->
+					<behaviour id="baker_Bernard_15B_1" subQuestID='0,2' mark="nameBox">
+						<statement key='MASTER_BERNARD_0053'/>
+						<statement key='MASTER_BERNARD_0053A'>
+							<bubble id='headExplInv'  showNewItem='true'>
+								<header id='SNIPPETKEY' name='myUserName' /><questAsset id='02_15B'/><npcInventory needed="gingerbreadheart_298" />
+							</bubble>
+						</statement>
+					</behaviour>
+					<behaviour id="baker_Bernard_15B_2" subQuestID='0,2' mark="nameBox">
+						<statement key='MASTER_BERNARD_0054'>
+							<bubble id='headExplInv' >
+								<header id='SNIPPETKEY' name='myUserName' /><questAsset id='02_15B'/><npcInventory needed="gingerbreadheart_298" />
+							</bubble>
+						</statement>
+					</behaviour>
+					<behaviour id="baker_Bernard_15B_3" subQuestID='0,2'>
+						<statement key='MASTER_BERNARD_0055'/>
+					</behaviour>
+					
+					<!-- bring wedding cake -->
+					<behaviour id="baker_Bernard_16B_1" subQuestID='0,2' mark="nameBox">
+						<statement key='MASTER_BERNARD_0056'/>
+						<statement key='MASTER_BERNARD_0056A'>
+							<bubble id='headExplInv'  showNewItem='true'>
+								<header id='SNIPPETKEY' name='myUserName' /><questAsset id='02_16B'/><npcInventory needed="weddingcake_299" />
+							</bubble>
+						</statement>
+					</behaviour>
+					<behaviour id="baker_Bernard_16B_2" subQuestID='0,2' mark="nameBox">
+						<statement key='MASTER_BERNARD_0057'>
+							<bubble id='headExplInv' >
+								<header id='SNIPPETKEY' name='myUserName' /><questAsset id='02_16B'/><npcInventory needed="weddingcake_299" />
+							</bubble>
+						</statement>
+					</behaviour>
+					<behaviour id="baker_Bernard_16B_3" subQuestID='0,2'>
+						<statement key='MASTER_BERNARD_0058'/>
+					</behaviour>
+					
+					
+					<!-- wedding some day -->
+					<!--behaviour id='baker_Bernard_jobextension_3_wait' subQuestID='0,2'>
+						<statement key='MASTER_BERNARD_0059A'/>
+					</behaviour-->
+					
+					<!-- wedding next week -->
+					<behaviour id='baker_Bernard_jobextension_3_wait' subQuestID='0,2'>
+						<statement key='MASTER_BERNARD_0059B'/>
+					</behaviour>
+					
+					
+				</behaviours>
+			</npc>
+			
+			
+			<npc name='Speedy' roomID='5' x='400' y='350' questId='0' defaultSubQuestID="0,4" faceAsset='SpeedySpeechBubble'>
+				<!-- button type="overClick" over="3" out="2" / -->
+				<button type="overClick" over="over" out="out" />
+				
+				<defaultBehaviours>
+					<behaviour id="default_Speedy">
+						<statement key='SPEEDY_DEFAULT'/>
+					</behaviour>
+					<behaviourStoryJobs id="defaultStoryjobs_Speedy">
+						<statement key='STORY_JOB_DEFAULT_NPC_SPEECH' noSound="true"/>
+					</behaviourStoryJobs>
+				</defaultBehaviours>
+				
+				<behaviours>
+					
+					
+					<!--  ######    PROFESSIONAL Speedy   ##### -->
+					
+					
+					<!-- bring fruitjuice -->
+					<behaviour id='baker_Speedy_01D_1' subQuestID='0,4' mark="nameBox">
+						<statement key='PROF_SPEEDY_0004'/>
+						<statement key='PROF_SPEEDY_0004A'>
+							<bubble id='headExplInv'  showNewItem='true'>
+								<header id='SNIPPETKEY' name='myUserName' /><questAsset id='04_01D'/><npcInventory needed="fruitjuice_103" />
+							</bubble>
+						</statement>
+					</behaviour>
+					<behaviour id='baker_Speedy_01D_2' subQuestID='0,4' mark="nameBox">
+						<statement key='PROF_SPEEDY_0005'>
+							<bubble id='headExplInv' >
+								<header id='SNIPPETKEY' name='myUserName' /><questAsset id='04_01D'/><npcInventory needed="fruitjuice_103" />
+							</bubble>
+						</statement>
+					</behaviour>
+					<behaviour id='baker_Speedy_01D_3' subQuestID='0,4'>
+						<statement key='PROF_SPEEDY_0006'/>
+					</behaviour>
+					
+					<!-- bring donuts -->
+					<behaviour id='baker_Speedy_02D_1' subQuestID='0,4' mark="nameBox">
+						<statement key='PROF_SPEEDY_0007'/>
+						<statement key='PROF_SPEEDY_0007A'>
+							<bubble id='headExplInv' showNewItem='true' >
+								<header id='SNIPPETKEY' name='myUserName' /><questAsset id='04_02D'/><npcInventory needed="donuts_42" />
+							</bubble>
+						</statement>
+					</behaviour>
+					<behaviour id='baker_Speedy_02D_2' subQuestID='0,4' mark="nameBox">
+						<statement key='PROF_SPEEDY_0008'>
+							<bubble id='headExplInv' >
+								<header id='SNIPPETKEY' name='myUserName' /><questAsset id='04_02D'/><npcInventory needed="donuts_42" />
+							</bubble>
+						</statement>
+					</behaviour>
+					<behaviour id='baker_Speedy_02D_3' subQuestID='0,4'>
+						<statement key='PROF_SPEEDY_0009'/>
+					</behaviour>
+					
+					<behaviour id='baker_Speedy_prof_end' subQuestID='0,4'>
+						<statement key='PROF_SPEEDY_0010'/>
+					</behaviour>
+					
+					
+					<!--  ######    ROSE INTERACTION    ##### -->
+					<behaviour id='baker_Speedy_chewinggum_missing' subQuestID='0,3' mark="nameBox">
+						<statement key='PROF_SPEEDY_0002B' />
+					</behaviour>
+					<behaviour id='baker_Speedy_has_chewinggum' subQuestID='0,3' mark="nameBox">
+						<statement key='PROF_SPEEDY_0002B'>
+							<bubble id='headExplInv'  showNewItem='true'>
+								<header id='SNIPPETKEY' name='myUserName' /><questAsset id='03_04C'/><npcInventory needed="chewinggum_38" />
+							</bubble>
+						</statement>
+						<statement key='PROF_SPEEDY_0002' />
+					</behaviour>
+					<behaviour id='baker_Speedy_has_chewinggum_rep' subQuestID='0,3' mark="nameBox">
+						<statement key='PROF_SPEEDY_0002B'>
+							<bubble id='headExplInv' >
+								<header id='SNIPPETKEY' name='myUserName' /><questAsset id='03_04C'/><npcInventory needed="chewinggum_38" />
+							</bubble>
+						</statement>
+						<statement key='PROF_SPEEDY_0002' />
+					</behaviour>
+					<behaviour id='baker_Speedy_got_chewinggum' subQuestID='0,3' >
+						<statement key='PROF_SPEEDY_0002' />
+					</behaviour>
+					<!--  ######    END ROSE INTERACTION    ##### -->
+
+
+					<!--  ######    MASTER Speedy    ##### -->
+
+
+					<behaviour id='baker_Speedy_master_start' subQuestID='0,4' >
+						<statement key='MASTER_SPEEDY_0011' />
+					</behaviour>
+					
+					<!-- bring stinking cheeseburger -->
+					<behaviour id='baker_Speedy_03D_1' subQuestID='0,4' mark="nameBox">
+						<statement key='MASTER_SPEEDY_0012'/>
+						<statement key='MASTER_SPEEDY_0012A'>
+							<bubble id='headExplInv'  showNewItem='true'>
+								<header id='SNIPPETKEY' name='myUserName' /><questAsset id='04_03D'/><npcInventory needed="stinkingCheeseburger_74" />
+							</bubble>
+						</statement>
+					</behaviour>
+					<behaviour id='baker_Speedy_03D_2' subQuestID='0,4' mark="nameBox">
+						<statement key='MASTER_SPEEDY_0013'>
+							<bubble id='headExplInv' >
+								<header id='SNIPPETKEY' name='myUserName' /><questAsset id='04_03D'/><npcInventory needed="stinkingCheeseburger_74" />
+							</bubble>
+						</statement>
+					</behaviour>
+					<behaviour id='baker_Speedy_03D_3' subQuestID='0,4'>
+						<statement key='MASTER_SPEEDY_0014'/>
+					</behaviour>
+					
+					<!-- roger open -->
+					<behaviour id='baker_Speedy_master_roger_open' subQuestID='0,4'>
+						<statement key='MASTER_SPEEDY_0015'/>
+					</behaviour>
+					<behaviour id='baker_Speedy_master_roger_open_2' subQuestID='0,4'>
+						<statement key='MASTER_SPEEDY_0015'/>
+					</behaviour>
+					
+					<!-- bring stinking ultimate fries -->
+					<behaviour id='baker_Speedy_04D_1' subQuestID='0,4' mark="nameBox">
+						<statement key='MASTER_SPEEDY_0016'/>
+						<statement key='MASTER_SPEEDY_0016A'>
+							<bubble id='headExplInv'  showNewItem='true'>
+								<header id='SNIPPETKEY' name='myUserName' /><questAsset id='04_04D'/><npcInventory needed="ultimateFries_104" />
+							</bubble>
+						</statement>
+					</behaviour>
+					<behaviour id='baker_Speedy_04D_2' subQuestID='0,4' mark="nameBox">
+						<statement key='MASTER_SPEEDY_0017'>
+							<bubble id='headExplInv' >
+								<header id='SNIPPETKEY' name='myUserName' /><questAsset id='04_04D'/><npcInventory needed="ultimateFries_104" />
+							</bubble>
+						</statement>
+					</behaviour>
+					<behaviour id='baker_Speedy_04D_3' subQuestID='0,4'>
+						<statement key='MASTER_SPEEDY_0018'/>
+					</behaviour>
+					
+					<!-- bring fried fish -->
+					<behaviour id='baker_Speedy_05D_1' subQuestID='0,4' mark="nameBox">
+						<statement key='MASTER_SPEEDY_0019'/>
+						<statement key='MASTER_SPEEDY_0019A'>
+							<bubble id='headExplInv' showNewItem='true' >
+								<header id='SNIPPETKEY' name='myUserName' /><questAsset id='04_05D'/><npcInventory needed="friedFish_48" />
+							</bubble>
+						</statement>
+					</behaviour>
+					<behaviour id='baker_Speedy_05D_2' subQuestID='0,4' mark="nameBox">
+						<statement key='MASTER_SPEEDY_0020'>
+							<bubble id='headExplInv' >
+								<header id='SNIPPETKEY' name='myUserName' /><questAsset id='04_05D'/><npcInventory needed="friedFish_48" />
+							</bubble>
+						</statement>
+					</behaviour>
+					<behaviour id='baker_Speedy_05D_3' subQuestID='0,4'> 
+						<statement key='MASTER_SPEEDY_0021'/>
+					</behaviour>
+					
+					<!-- bring milkshake -->
+					<behaviour id='baker_Speedy_06D_1' subQuestID='0,4' mark="nameBox">
+						<statement key='MASTER_SPEEDY_0022'/>
+						<statement key='MASTER_SPEEDY_0022A'>
+							<bubble id='headExplInv'  showNewItem='true'>
+								<header id='SNIPPETKEY' name='myUserName' /><questAsset id='04_06D'/><npcInventory needed="milkshake_61" />
+							</bubble>
+						</statement>
+					</behaviour>
+					<behaviour id='baker_Speedy_06D_2' subQuestID='0,4' mark="nameBox">
+						<statement key='MASTER_SPEEDY_0023'>
+							<bubble id='headExplInv' >
+								<header id='SNIPPETKEY' name='myUserName' /><questAsset id='04_06D'/><npcInventory needed="milkshake_61" />
+							</bubble>
+						</statement>
+					</behaviour>
+					<behaviour id='baker_Speedy_06D_3' subQuestID='0,4'>
+						<statement key='MASTER_SPEEDY_0024'/>
+					</behaviour>
+					
+					<!-- Roger/Rose break -->
+					<behaviour id='baker_Speedy_roger_break' subQuestID='0,4'>
+						<statement key='MASTER_SPEEDY_0025'/>
+					</behaviour>
+					
+					<!-- bring gumchicken -->
+					<behaviour id='baker_Speedy_07D_1' subQuestID='0,4' mark="nameBox">
+						<statement key='MASTER_SPEEDY_0026'/>
+						<statement key='MASTER_SPEEDY_0026A'>
+							<bubble id='headExplInv' showNewItem='true' >
+								<header id='SNIPPETKEY' name='myUserName' /><questAsset id='04_07D'/><npcInventory needed="gumchicken_56" />
+							</bubble>
+						</statement>
+					</behaviour>
+					<behaviour id='baker_Speedy_07D_2' subQuestID='0,4' mark="nameBox">
+						<statement key='MASTER_SPEEDY_0027'>
+							<bubble id='headExplInv' >
+								<header id='SNIPPETKEY' name='myUserName' /><questAsset id='04_07D'/><npcInventory needed="gumchicken_56" />
+							</bubble>
+						</statement>
+					</behaviour>
+					<behaviour id='baker_Speedy_07D_3' subQuestID='0,4'>
+						<statement key='MASTER_SPEEDY_0028'/>
+					</behaviour>
+					
+					<!-- bring gooba -->
+					<behaviour id='baker_Speedy_08D_1' subQuestID='0,4' mark="nameBox">
+						<statement key='MASTER_SPEEDY_0029'/>
+						<statement key='MASTER_SPEEDY_0029A'>
+							<bubble id='headExplInv'  showNewItem='true'>
+								<header id='SNIPPETKEY' name='myUserName' /><questAsset id='04_08D'/><npcInventory needed="gooba_54" />
+							</bubble>
+						</statement>
+					</behaviour>
+					<behaviour id='baker_Speedy_08D_2' subQuestID='0,4' mark="nameBox">
+						<statement key='MASTER_SPEEDY_0030'>
+							<bubble id='headExplInv' >
+								<header id='SNIPPETKEY' name='myUserName' /><questAsset id='04_08D'/><npcInventory needed="gooba_54" />
+							</bubble>
+						</statement>
+					</behaviour>
+					<behaviour id='baker_Speedy_08D_3' subQuestID='0,4'>
+						<statement key='MASTER_SPEEDY_0031'/>
+					</behaviour>
+					
+					<!-- master end -->
+					<behaviour id='baker_Speedy_master_end' subQuestID='0,4'>
+						<statement key='MASTER_SPEEDY_0031A'/>
+					</behaviour>
+					
+					
+					<!--  ######    EXTENSION Speedy    ##### -->
+					
+					
+					<!-- bring brownie -->
+					<behaviour id='baker_Speedy_09D_1' subQuestID='0,4' mark="nameBox">
+						<statement key='MASTER_SPEEDY_0032'/>
+						<statement key='MASTER_SPEEDY_0032A'>
+							<bubble id='headExplInv' >
+								<header id='SNIPPETKEY' name='myUserName' /><questAsset id='04_09D'/><npcInventory needed="brownie_240" />
+							</bubble>
+						</statement>
+					</behaviour>
+					<behaviour id='baker_Speedy_09D_2' subQuestID='0,4' mark="nameBox">
+						<statement key='MASTER_SPEEDY_0033'>
+							<bubble id='headExplInv' >
+								<header id='SNIPPETKEY' name='myUserName' /><questAsset id='04_09D'/><npcInventory needed="brownie_240" />
+							</bubble>
+						</statement>
+					</behaviour>
+					<behaviour id='baker_Speedy_09D_3' subQuestID='0,4'>
+						<statement key='MASTER_SPEEDY_0034'/>
+					</behaviour>
+					
+					<!-- bring nachos -->
+					<behaviour id='baker_Speedy_10D_1' subQuestID='0,4' mark="nameBox">
+						<statement key='MASTER_SPEEDY_0035'/>
+						<statement key='MASTER_SPEEDY_0035A'>
+							<bubble id='headExplInv'  showNewItem='true'>
+								<header id='SNIPPETKEY' name='myUserName' /><questAsset id='04_10D'/><npcInventory needed="nachos_241" />
+							</bubble>
+						</statement>
+					</behaviour>
+					<behaviour id='baker_Speedy_10D_2' subQuestID='0,4' mark="nameBox">
+						<statement key='MASTER_SPEEDY_0036'>
+							<bubble id='headExplInv' >
+								<header id='SNIPPETKEY' name='myUserName' /><questAsset id='04_10D'/><npcInventory needed="nachos_241" />
+							</bubble>
+						</statement>
+					</behaviour>
+					<behaviour id='baker_Speedy_10D_3' subQuestID='0,4'>
+						<statement key='MASTER_SPEEDY_0037'/>
+					</behaviour>
+					
+					<!-- master end job extension first step -->
+					<behaviour id='baker_Speedy_jobextension_1_end' subQuestID='0,4'>
+						<statement key='MASTER_SPEEDY_0038A'/>
+					</behaviour>
+					
+					<!-- master job extension bridge to second step  -->
+					<behaviour id='baker_Speedy_jobextension_1_bridge' subQuestID='0,4'>
+						<statement key='MASTER_SPEEDY_0038B'/>
+					</behaviour>
+					
+					<!-- master job extension second step wait -->
+					<behaviour id='baker_Speedy_jobextension_2_wait' subQuestID='0,4'>
+						<statement key='MASTER_SPEEDY_0039'/>
+					</behaviour>
+					
+					
+					<!-- wedding extension -->
+					
+					<!-- bring marinated chicken wings -->
+					<behaviour id='baker_Speedy_11D_1' subQuestID='0,4' mark="nameBox">
+						<statement key='MASTER_SPEEDY_0040'/>
+						<statement key='MASTER_SPEEDY_0040A'>
+							<bubble id='headExplInv' showNewItem='true' >
+								<header id='SNIPPETKEY' name='myUserName' /><questAsset id='04_11D'/><npcInventory needed="marinatedchickenwings_300" />
+							</bubble>
+						</statement>
+					</behaviour>
+					<behaviour id='baker_Speedy_11D_2' subQuestID='0,4' mark="nameBox">
+						<statement key='MASTER_SPEEDY_0041'>
+							<bubble id='headExplInv' >
+								<header id='SNIPPETKEY' name='myUserName' /><questAsset id='04_11D'/><npcInventory needed="marinatedchickenwings_300" />
+							</bubble>
+						</statement>
+					</behaviour>
+					<behaviour id='baker_Speedy_11D_3' subQuestID='0,4'>
+						<statement key='MASTER_SPEEDY_0042'/>
+					</behaviour>
+					
+					<!-- bring deepfried honey banana -->
+					<behaviour id='baker_Speedy_12D_1' subQuestID='0,4' mark="nameBox">
+						<statement key='MASTER_SPEEDY_0043'/>
+						<statement key='MASTER_SPEEDY_0043A'>
+							<bubble id='headExplInv' showNewItem='true' >
+								<header id='SNIPPETKEY' name='myUserName' /><questAsset id='04_12D'/><npcInventory needed="deepfriedhoneybanana_301" />
+							</bubble>
+						</statement>
+					</behaviour>
+					<behaviour id='baker_Speedy_12D_2' subQuestID='0,4' mark="nameBox">
+						<statement key='MASTER_SPEEDY_0044'>
+							<bubble id='headExplInv' >
+								<header id='SNIPPETKEY' name='myUserName' /><questAsset id='04_12D'/><npcInventory needed="deepfriedhoneybanana_301" />
+							</bubble>
+						</statement>
+					</behaviour>
+					<behaviour id='baker_Speedy_12D_3' subQuestID='0,4'>
+						<statement key='MASTER_SPEEDY_0045'/>
+					</behaviour>
+					
+					<!-- wedding some day -->
+					<behaviour id='baker_Speedy_jobextension_3_wait' subQuestID='0,4'>
+						<statement key='MASTER_SPEEDY_0046A'/>
+					</behaviour>
+					
+					<!-- wedding next week -->
+					<!--behaviour id='baker_Speedy_jobextension_3_wait' subQuestID='0,4'>
+						<statement key='MASTER_SPEEDY_0046B'/>
+					</behaviour-->
+					
+					
+				</behaviours>
+			</npc>
+			
+			
+			<npc name='Roger' roomID='8' x='300' y='350' questId='0' defaultSubQuestID="0,5" faceAsset='RogerSpeechBubble'>
+				<!-- button type="overClick" over="3" out="2" / -->
+				<button type="overClick" over="over" out="out" />
+				
+				<defaultBehaviours>
+					<behaviour id="default_Roger">
+						<statement key='ROGER_DEFAULT'/>
+					</behaviour>
+					<behaviourStoryJobs id="defaultStoryjobs_Roger">
+						<statement key='STORY_JOB_DEFAULT_NPC_SPEECH' noSound="true"/>
+					</behaviourStoryJobs>
+				</defaultBehaviours>
+				
+				<behaviours>
+					
+					
+					<!--  ######	PROFESSIONAL Roger	######  -->
+					
+					
+					<!--  ######    ROSE INTERACTION    ##### -->
+					<behaviour id='baker_Roger_heartflower_missing' subQuestID='0,3' mark="nameBox">
+						<statement key='PROF_SPEEDY_0002B' />
+					</behaviour>
+					<behaviour id='baker_Roger_has_heartflower' subQuestID='0,3' mark="nameBox">
+						<statement key='PROF_ROGER_0002B'>
+							<bubble id='headExplInv'>
+								<header id='SNIPPETKEY' name='myUserName' /><questAsset id='03_05C'/><npcInventory needed="heartflower_58" />
+							</bubble>
+						</statement>
+						<statement key='PROF_ROGER_0002' />
+					</behaviour>
+					<behaviour id='baker_Roger_has_heartflower_rep' subQuestID='0,3' mark="nameBox">
+						<statement key='PROF_ROGER_0002B'>
+							<bubble id='headExplInv' >
+								<header id='SNIPPETKEY' name='myUserName' /><questAsset id='03_05C'/><npcInventory needed="heartflower_58" />
+							</bubble>
+						</statement>
+						<statement key='PROF_ROGER_0002' />
+					</behaviour>
+					<behaviour id='baker_Roger_got_heartflower' subQuestID='0,3' >
+						<statement key='PROF_ROGER_0002' />
+					</behaviour>
+					<!--  ######    END ROSE INTERACTION    ##### -->
+					
+					
+					<!--  ######    MASTER Roger    ##### -->
+					
+					
+					<!-- roger master start -->
+					<behaviour id='baker_Roger_master_start' subQuestID='0,5'>
+						<statement key='MASTER_ROGER_0003'/>
+					</behaviour>
+					
+					<!-- bring fish filet -->
+					<behaviour id='baker_Roger_01E_1' subQuestID='0,5' mark="nameBox">
+						<statement key='MASTER_ROGER_0004'/>
+						<statement key='MASTER_ROGER_0004A'>
+							<bubble id='headExplInv' showNewItem='true' >
+								<header id='SNIPPETKEY' name='myUserName' /><questAsset id='05_01E'/><npcInventory needed="fishFilet_105" />
+							</bubble>
+						</statement>
+					</behaviour>
+					<behaviour id='baker_Roger_01E_2' subQuestID='0,5' mark="nameBox">
+						<statement key='MASTER_ROGER_0005'>
+							<bubble id='headExplInv' >
+								<header id='SNIPPETKEY' name='myUserName' /><questAsset id='05_01E'/><npcInventory needed="fishFilet_105" />
+							</bubble>
+						</statement>
+					</behaviour>
+					<behaviour id='baker_Roger_01E_3' subQuestID='0,5'>
+						<statement key='MASTER_ROGER_0006'/>
+					</behaviour>
+					
+					<!-- bring giggling cake -->
+					<behaviour id='baker_Roger_02E_1' subQuestID='0,5' mark="nameBox">
+						<statement key='MASTER_ROGER_0007'/>
+						<statement key='MASTER_ROGER_0007A'>
+							<bubble id='headExplInv'  showNewItem='true'>
+								<header id='SNIPPETKEY' name='myUserName' /><questAsset id='05_02E'/><npcInventory needed="gigglingCake_51" />
+							</bubble>
+						</statement>
+					</behaviour>
+					<behaviour id='baker_Roger_02E_2' subQuestID='0,5' mark="nameBox">
+						<statement key='MASTER_ROGER_0008'>
+							<bubble id='headExplInv' >
+								<header id='SNIPPETKEY' name='myUserName' /><questAsset id='05_02E'/><npcInventory needed="gigglingCake_51" />
+							</bubble>
+						</statement>
+					</behaviour>
+					<behaviour id='baker_Roger_02E_3' subQuestID='0,5'>
+						<statement key='MASTER_ROGER_0009'/>
+					</behaviour>
+					
+					<!-- bring sushi -->
+					<behaviour id='baker_Roger_03E_1' subQuestID='0,5' mark="nameBox">
+						<statement key='MASTER_ROGER_0010'/>
+						<statement key='MASTER_ROGER_0010A'>
+							<bubble id='headExplInv'  showNewItem='true'>
+								<header id='SNIPPETKEY' name='myUserName' /><questAsset id='05_03E'/><npcInventory needed="sushi_78" />
+							</bubble>
+						</statement>
+					</behaviour>
+					<behaviour id='baker_Roger_03E_2' subQuestID='0,5' mark="nameBox">
+						<statement key='MASTER_ROGER_0011'>
+							<bubble id='headExplInv' >
+								<header id='SNIPPETKEY' name='myUserName' /><questAsset id='05_03E'/><npcInventory needed="sushi_78" />
+							</bubble>
+						</statement>
+					</behaviour>
+					<behaviour id='baker_Roger_03E_3' subQuestID='0,5'>
+						<statement key='MASTER_ROGER_0012'/>
+					</behaviour>
+					
+					<!-- rose break -->
+					<behaviour id='baker_Roger_rose_question' subQuestID='0,5'>
+						<statement key='MASTER_ROGER_0013'/>
+					</behaviour>
+					
+					<!-- rose answered -->
+					<behaviour id='baker_Roger_rose_answer' subQuestID='0,5'>
+						<statement key='MASTER_ROGER_0014'/>
+					</behaviour>
+					
+					<!-- bring truffle sweets -->
+					<behaviour id='baker_Roger_04E_1' subQuestID='0,5' mark="nameBox">
+						<statement key='MASTER_ROGER_0015'/>
+						<statement key='MASTER_ROGER_0015A'>
+							<bubble id='headExplInv' showNewItem='true' >
+								<header id='SNIPPETKEY' name='myUserName' /><questAsset id='05_04E'/><npcInventory needed="truffelSweets_80" />
+							</bubble>
+						</statement>
+					</behaviour>
+					<behaviour id='baker_Roger_04E_2' subQuestID='0,5' mark="nameBox">
+						<statement key='MASTER_ROGER_0016'>
+							<bubble id='headExplInv' >
+								<header id='SNIPPETKEY' name='myUserName' /><questAsset id='05_04E'/><npcInventory needed="truffelSweets_80" />
+							</bubble>
+						</statement>
+					</behaviour>
+					<behaviour id='baker_Roger_04E_3' subQuestID='0,5'>
+						<statement key='MASTER_ROGER_0017'/>
+					</behaviour>
+					
+					<!-- bring glace fatal -->
+					<behaviour id='baker_Roger_05E_1' subQuestID='0,5' mark="nameBox">
+						<statement key='MASTER_ROGER_0018'/>
+						<statement key='MASTER_ROGER_0018A'>
+							<bubble id='headExplInv'  showNewItem='true'>
+								<header id='SNIPPETKEY' name='myUserName' /><questAsset id='05_05E'/><npcInventory needed="glaceFatal_53+galloBomba_52" />
+							</bubble>
+						</statement>
+					</behaviour>
+					<behaviour id='baker_Roger_05E_2' subQuestID='0,5' mark="nameBox">
+						<statement key='MASTER_ROGER_0019'>
+							<bubble id='headExplInv' >
+								<header id='SNIPPETKEY' name='myUserName' /><questAsset id='05_05E'/><npcInventory needed="glaceFatal_53+galloBomba_52" />
+							</bubble>
+						</statement>
+					</behaviour>
+					<behaviour id='baker_Roger_05E_3' subQuestID='0,5'>
+						<statement key='MASTER_ROGER_0020'/>
+					</behaviour>
+					
+					<!-- master end -->
+					<behaviour id='baker_Roger_master_end' subQuestID='0,5'>
+						<statement key='MASTER_ROGER_0020A'/>
+					</behaviour>
+					<behaviour id='baker_Roger_master_wait_end' subQuestID='0,5'>
+						<statement key='MASTER_ROGER_0020A'/>
+					</behaviour>
+					
+					
+					<!--  ######    EXTENSION Roger    ##### -->
+					
+					
+					<!-- bring gooseberryparfait -->
+					<behaviour id='baker_Roger_06E_1' subQuestID='0,5' mark="nameBox">
+						<statement key='MASTER_ROGER_0021'/>
+						<statement key='MASTER_ROGER_0021A'>
+							<bubble id='headExplInv' showNewItem='true' >
+								<header id='SNIPPETKEY' name='myUserName' /><questAsset id='05_06E'/><npcInventory needed="goosberryparfait_242" />
+							</bubble>
+						</statement>
+					</behaviour>
+					<behaviour id='baker_Roger_06E_2' subQuestID='0,5' mark="nameBox">
+						<statement key='MASTER_ROGER_0022'>
+							<bubble id='headExplInv' >
+								<header id='SNIPPETKEY' name='myUserName' /><questAsset id='05_06E'/><npcInventory needed="goosberryparfait_242" />
+							</bubble>
+						</statement>
+					</behaviour>
+					<behaviour id='baker_Roger_06E_3' subQuestID='0,5'>
+						<statement key='MASTER_ROGER_0023'/>
+					</behaviour>
+					
+					<!-- bring blowfish -->
+					<behaviour id='baker_Roger_07E_1' subQuestID='0,5' mark="nameBox">
+						<statement key='MASTER_ROGER_0024'/>
+						<statement key='MASTER_ROGER_0024A'>
+							<bubble id='headExplInv'  showNewItem='true'>
+								<header id='SNIPPETKEY' name='myUserName' /><questAsset id='05_07E'/><npcInventory needed="blowfish_243" />
+							</bubble>
+						</statement>
+					</behaviour>
+					<behaviour id='baker_Roger_07E_2' subQuestID='0,5' mark="nameBox">
+						<statement key='MASTER_ROGER_0025'>
+							<bubble id='headExplInv' >
+								<header id='SNIPPETKEY' name='myUserName' /><questAsset id='05_07E'/><npcInventory needed="blowfish_243" />
+							</bubble>
+						</statement>
+					</behaviour>
+					<behaviour id='baker_Roger_07E_3' subQuestID='0,5'>
+						<statement key='MASTER_ROGER_0026'/>
+					</behaviour>
+					
+					
+					<!-- master end job extension first step -->
+					<behaviour id='baker_Roger_jobextension_1_end' subQuestID='0,5'>
+						<statement key='MASTER_ROGER_0026A'/>
+					</behaviour>
+					<behaviour id='baker_Roger_jobextension_1_A_end' subQuestID='0,5'>
+						<statement key='MASTER_ROGER_0026A'/>
+					</behaviour>
+					<behaviour id='baker_Roger_jobextension_1_B_end' subQuestID='0,5'>
+						<statement key='MASTER_ROGER_0026A'/>
+					</behaviour>
+					
+					
+					<!-- wedding extenrsion -->
+					
+					<!-- bring gourmet lobster -->
+					<behaviour id='baker_Roger_08E_1' subQuestID='0,5' mark="nameBox">
+						<statement key='MASTER_ROGER_0027'/>
+						<statement key='MASTER_ROGER_0027A'>
+							<bubble id='headExplInv'  showNewItem='true'>
+								<header id='SNIPPETKEY' name='myUserName' /><questAsset id='05_08E'/><npcInventory needed="gourmetlobster_302" />
+							</bubble>
+						</statement>
+					</behaviour>
+					<behaviour id='baker_Roger_08E_2' subQuestID='0,5' mark="nameBox">
+						<statement key='MASTER_ROGER_0028'>
+							<bubble id='headExplInv' >
+								<header id='SNIPPETKEY' name='myUserName' /><questAsset id='05_08E'/><npcInventory needed="gourmetlobster_302" />
+							</bubble>
+						</statement>
+					</behaviour>
+					<behaviour id='baker_Roger_08E_3' subQuestID='0,5'>
+						<statement key='MASTER_ROGER_0029'/>
+					</behaviour>
+					
+					<!-- bring wedding figure -->
+					<behaviour id='baker_Roger_09E_1' subQuestID='0,5' mark="nameBox">
+						<statement key='MASTER_ROGER_0030'/>
+						<statement key='MASTER_ROGER_0030A'>
+							<bubble id='headExplInv'  showNewItem='true'>
+								<header id='SNIPPETKEY' name='myUserName' /><questAsset id='05_09E'/><npcInventory needed="weddingfigure_303" />
+							</bubble>
+						</statement>
+					</behaviour>
+					<behaviour id='baker_Roger_09E_2' subQuestID='0,5' mark="nameBox">
+						<statement key='MASTER_ROGER_0031'>
+							<bubble id='headExplInv' >
+								<header id='SNIPPETKEY' name='myUserName' /><questAsset id='05_09E'/><npcInventory needed="weddingfigure_303" />
+							</bubble>
+						</statement>
+					</behaviour>
+					<behaviour id='baker_Roger_09E_3' subQuestID='0,5'>
+						<statement key='MASTER_ROGER_0032'/>
+						<statement key='MASTER_ROGER_0033'/>
+						<statement key='MASTER_ROGER_0034'>
+							<actions>
+								<action id="sendReward" item="403" amount="1" headKey="REWARD_BEGINNER_HEADER" key="REWARD_MASTER_MSG" />
+							</actions>
+						</statement>
+					</behaviour>
+					
+					<behaviour id='baker_Roger_wedding_ready_tomorrow' subQuestID='0,5'>
+						<statement key='MASTER_ROGER_0034' />
+					</behaviour>
+					
+					<behaviour id='baker_Roger_jobextension_3_wait' subQuestID='0,5'>
+						<statement key='MASTER_ROGER_0026'/>
+					</behaviour>
+					
+				</behaviours>
+			</npc>
+			
+			
+			<!-- Wedding NPCs flowerhill -->
+			
+			<npc name="HeidiWedding" roomID='6' x='540' y='414' scale="0.8" questId='0' defaultSubQuestID="0,1" faceAsset='HeidiWeddingSpeechBubble'  shiftY='-50'>
+				<button type="overClick" over="2" out="1" />
+				<checks>
+					<check timePassed='1' unit='day' state='0,0,180' flex='+' orValue="185" />
+					<check gamestate="0,0,180-190"/>
+				</checks>
+				<behaviours>
+					<behaviour id="BernardHeidi_kiss" subQuestID='0,1' />
+					<behaviour id='baker_Heidi_wedding' subQuestID='0,1'>
+						<statement key='WEDDING_HEIDI_01'/>
+						<statement key='WEDDING_HEIDI_02'/>
+						<statement key='WEDDING_HEIDI_03'/>
+						<statement key='WEDDING_HEIDI_04'/>
+					</behaviour>
+				</behaviours>
+			</npc>
+			
+			
+			<npc name="BernardWedding" roomID='6' x='500' y='400' scale="0.8" questId='0' defaultSubQuestID="0,2" faceAsset='BernardWeddingSpeechBubble'  shiftY='-25'>
+				<button type="overClick" over="2" out="1" />
+				<checks>
+					<check timePassed='1' unit='day' state='0,0,180' flex='+'  orValue="185" />
+					<check gamestate="0,0,180-190"/>
+				</checks>
+				<behaviours>
+					<behaviour id="BernardHeidi_kiss" subQuestID='0,2' />
+					<behaviour id='baker_Bernard_wedding' subQuestID='0,2'>
+						<statement key='WEDDING_BERNARD_01'/>
+						<statement key='WEDDING_BERNARD_02'/>
+						<statement key='WEDDING_BERNARD_03'/>
+						<statement key='WEDDING_BERNARD_04'/>
+					</behaviour>
+				</behaviours>
+			</npc>
+			
+			<npc name='wiseTree' id='wiseTree' staticName='wiseTree' questId='0' roomID='19' defaultSubQuestID="0,6" faceAsset='WiseTreeBubble' shiftX='20' shiftY='-420'>
+				<button type="overClick" over="3" out="1" />
+				<behaviours> 
+					<!-- story 1 -->
+					<behaviour id="wiseTreeStory1Start" subQuestID='0,6'>
+						<statement key='STORY_JOB1_WISETREE_SHORT_WELCOME'  type="wiseTree" />
+						<statement key='STORY_JOB1_WISETREE_TASK_REPEAT'  type="wiseTree" >
+							<actions>
+								<action id='updateState' value='0,6,5' />
+								<action id='updateState' value='0,7,5' />
+							</actions>
+						</statement>
+					</behaviour>
+					<behaviour id="wiseTreeStory1StartRepeat" subQuestID='0,6'> <!-- repeat -->
+						<statement key='STORY_JOB1_WISETREE_TASK_REPEAT'  type="wiseTree" />
+					</behaviour>
+					<!-- feed oloko with wheat -->
+					<behaviour id="wiseTreeStory1End" subQuestID='0,6'>
+						<statement key='STORY_JOB1_WISETREE_WELL_DONE'  type="wiseTree" />
+						<statement key='STORY_JOB1_WISETREE_REWARD'  type="wiseTree" >
+							<actions>
+								<action id='updateState' value='0,6,15' checkTasks='true'/>
+								<action id='message'  target='*' key='finishTask' value="WISE_01_B"/>
+								<action id='avatarAction'  target='*' key='' />
+								<action id="sendTaskRewards" items="115" headKey="TASK_REWARD_HEAD"  key="TASK_REWARD_BODY" yOffset="120" scale="1.4" /> 
+							</actions>
+						</statement>
+					</behaviour>
+					<!-- reward popup -->
+					<behaviour id="wiseTreeStory1EndRepeat" subQuestID='0,6'>
+						<statement key='STORY_JOB1_WISETREE_BYE_REPEAT'  type="wiseTree" />
+					</behaviour>
+					
+					<!-- story 2 -->
+					<behaviour id="wiseTreeStory2Start" subQuestID='0,6'>
+						<statement key='STORY_JOB2_WISETREE_WELCOME'  type="wiseTree" />
+						<statement key='STORY_JOB2_WISETREE_STORY1'  type="wiseTree" />
+						<statement key='STORY_JOB2_WISETREE_STORY2'  type="wiseTree" />
+						<statement key='STORY_JOB2_WISETREE_STORY3'  type="wiseTree" />
+						<statement key='STORY_JOB2_WISETREE_STORY4_REPEAT1'  type="wiseTree" />
+						<statement key='STORY_JOB2_WISETREE_TASK_START'  type="wiseTree" >
+							<actions>
+								<action id="sendTaskRewards" items="49" headKey="TASK_REWARD_HEAD" key="TASK_REWARD_BODY" /> 
+							</actions>
+						</statement>
+						<statement key='STORY_JOB2_WISETREE_TASK_GO_FEED_REPEAT2'  type="wiseTree" >
+							<actions>
+								<action id='updateState' value='0,6,25' />
+								<action id='updateState' value='0,7,25' />
+							</actions>
+						</statement>
+					</behaviour>
+					<behaviour id="wiseTreeStory2StartRepeat" subQuestID='0,6'> <!-- repeat -->
+						<statement key='STORY_JOB2_WISETREE_STORY4_REPEAT1'  type="wiseTree" />
+						<statement key='STORY_JOB2_WISETREE_TASK_GO_FEED_REPEAT2'  type="wiseTree" />
+					</behaviour>
+					<!-- feed oloko with ?? -->
+					<behaviour id="wiseTreeStory2End" subQuestID='0,6'>
+						<statement key='STORY_JOB2_WISETREE_STORY5'  type="wiseTree" />
+						<statement key='STORY_JOB2_WISETREE_STORY6'  type="wiseTree" />
+						<statement key='STORY_JOB2_WISETREE_REWARD'  type="wiseTree" >
+							<actions>
+								<action id='updateState' value='0,6,35' />
+								<action id='message'  target='*' key='finishTask' value="WISE_02_B"/>
+								<action id="sendTaskRewards" items="968,969" headKey="TASK_REWARD_HEAD"  key="TASK_REWARD_BODY" yOffset="80" scale="1.4" /> 
+							</actions>
+						</statement>
+					</behaviour>
+					<!-- reward popup -->
+					<behaviour id="wiseTreeStory2EndRepeat" subQuestID='0,6'>
+						<!-- statement key='STORY_JOB2_WISETREE_BACKTOWORK'  type="wiseTree" / -->
+						<statement key='STORY_JOB2_WISETREE_BACKTOWORK'  type="wiseTree"  />
+					</behaviour>
+					
+					<!-- story 3 -->
+					<behaviour id="wiseTreeStory3Start" subQuestID='0,6'>
+						<statement key='STORY_JOB3_WISETREE_WELCOME'  type="wiseTree" />
+						<statement key='STORY_JOB3_WISETREE_STORY1'  type="wiseTree" />
+						<statement key='STORY_JOB3_WISETREE_STORY2'  type="wiseTree" />
+						<statement key='STORY_JOB3_WISETREE_STORY3'  type="wiseTree" />
+						<statement key='STORY_JOB3_WISETREE_TASK'  type="wiseTree" >
+							<actions>
+								<action id='updateState' value='0,6,45' />
+								<action id='updateState' value='0,7,45' />
+							</actions>
+						</statement>
+					</behaviour>
+					<behaviour id="wiseTreeStory3StartRepeat" subQuestID='0,6'> <!-- repeat -->
+						<statement key='STORY_JOB3_WISETREE_TASK'  type="wiseTree" />
+					</behaviour>
+					<!-- feed oloko with ?? -->
+					<behaviour id="wiseTreeStory3End" subQuestID='0,6'>
+						<statement key='STORY_JOB3_WISETREE_STORY4'  type="wiseTree" />
+						<statement key='STORY_JOB3_WISETREE_STORY5'  type="wiseTree" />
+						<statement key='STORY_JOB3_WISETREE_STORY6'  type="wiseTree" />
+						<statement key='STORY_JOB3_WISETREE_STORY7'  type="wiseTree" />
+						<statement key='STORY_JOB3_WISETREE_STORY8'  type="wiseTree" />
+						<statement key='STORY_JOB3_WISETREE_REWARD'  type="wiseTree" >
+							<actions>
+								<action id='updateState' value='0,6,55' />
+								<action id='message'  target='*' key='finishTask' value="WISE_03_B"/>
+								<action id="sendTaskRewards" items="970,971" headKey="TASK_REWARD_HEAD"  key="TASK_REWARD_BODY" yOffset="80" scale="1.4" /> 
+							</actions>
+						</statement>
+					</behaviour>
+					<!-- reward popup -->
+					<behaviour id="wiseTreeStory3EndRepeat" subQuestID='0,6'>
+						<statement key='STORY_JOB2_WISETREE_BACKTOWORK'  type="wiseTree" />
+					</behaviour>
+					
+					<!-- story 4 -->
+					<behaviour id="wiseTreeStory4Start" subQuestID='0,6'>
+						<statement key='STORY_JOB4_WISETREE_WELCOME'  type="wiseTree"/>
+						<statement key='STORY_JOB4_WISETREE_STORY1'  type="wiseTree" />
+						<statement key='STORY_JOB4_WISETREE_STORY2'  type="wiseTree" />
+						<statement key='STORY_JOB4_WISETREE_STORY3'  type="wiseTree" />
+						<statement key='STORY_JOB4_WISETREE_TASK'  type="wiseTree" >
+							<actions>
+								<action id='updateState' value='0,6,65' />
+								<action id='updateState' value='0,7,65' />
+							</actions>
+						</statement>
+					</behaviour>
+					<behaviour id="wiseTreeStory4StartRepeat" subQuestID='0,6'> <!-- repeat -->
+						<statement key='STORY_JOB4_WISETREE_TASK'  type="wiseTree" />
+					</behaviour>
+					<!-- feed oloko with ?? -->
+					<behaviour id="wiseTreeStory4End" subQuestID='0,6'>
+						<statement key='STORY_JOB4_WISETREE_THANKS'  type="wiseTree" />
+						<statement key='STORY_JOB4_WISETREE_STORY4'  type="wiseTree" />
+						<statement key='STORY_JOB4_WISETREE_STORY5'  type="wiseTree" />
+						<statement key='STORY_JOB3_WISETREE_REWARD'  type="wiseTree" >
+							<actions>
+								<action id='updateState' value='0,6,75' />
+								<action id='message'  target='*' key='finishTask' value="WISE_04_B"/>
+								<action id="sendTaskRewards" items="972,973" headKey="TASK_REWARD_HEAD"  key="TASK_REWARD_BODY" yOffset="80" scale="1.4" /> 
+							</actions>
+						</statement>
+					</behaviour>
+					<!-- reward popup -->
+					<behaviour id="wiseTreeStory4EndRepeat" subQuestID='0,6'>
+						<statement key='STORY_JOB2_WISETREE_BACKTOWORK'  type="wiseTree" />
+					</behaviour>
+					
+					<!-- story 5 -->
+					<behaviour id="wiseTreeStory5End" subQuestID='0,6'>
+						<statement key='STORY_JOB5_WISETREE_WELCOME'  type="wiseTree" />
+						<statement key='STORY_JOB5_WISETREE_STORY1'  type="wiseTree" />
+						<statement key='STORY_JOB5_WISETREE_STORY2'  type="wiseTree" />
+						<statement key='STORY_JOB5_WISETREE_STORY3'  type="wiseTree" />
+						<statement key='STORY_JOB5_WISETREE_STORY4'  type="wiseTree" />
+						<statement key='STORY_JOB5_WISETREE_STORY5'  type="wiseTree" >
+							<actions>
+								<action id='updateState' value='0,6,85' />
+								<action id='message'  target='*' key='finishTask' value="WISE_05"/>
+								<action id="sendTaskRewards" items="974,975,976" headKey="TASK_REWARD_HEAD"  key="TASK_REWARD_BODY" yOffset="80" scale="1.4" /> 
+							</actions>
+						</statement>
+					</behaviour>
+					<!-- reward popup -->
+					<behaviour id="wiseTreeStory5EndRepeat" subQuestID='0,6'>
+						<statement key='STORY_JOB5_WISETREE_GOODBYE'  type="wiseTree"/>
+					</behaviour>
+				</behaviours>
+			</npc>
+
+			<npc name='oloko' id='oloko' staticName='oloko' questId='0' roomID='18' defaultSubQuestID="0,7"  shiftX='150' shiftY='200'>
+				<behaviours>
+					<behaviour id='olokoStory1' subQuestID='0,1' mark="nameBox"/>
+					<behaviour id='olokoStory2' subQuestID='0,1' mark="nameBox"/>
+					<behaviour id='olokoStory3' subQuestID='0,1' mark="nameBox"/>
+					<behaviour id='olokoStory4' subQuestID='0,1' mark="nameBox"/>
+				</behaviours>
+			</npc>
+			
+			
+		</npcs>
+		
+	</module>
+</config>

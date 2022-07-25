@@ -1,0 +1,22 @@
+﻿<snippets date="05.04.2012 11:03:38">
+<MINI_GAMES_MANAGER_CLOUDNUMBERONE><![CDATA[Cloud Jumper]]></MINI_GAMES_MANAGER_CLOUDNUMBERONE>
+<MINI_GAMES_MANAGER_FOURWINS><![CDATA[Pick & Nick]]></MINI_GAMES_MANAGER_FOURWINS>
+<MINI_GAMES_MANAGER_QUICKSEARCHDUELL><![CDATA[Lost & Found]]></MINI_GAMES_MANAGER_QUICKSEARCHDUELL>
+<MINI_GAME_ASKPLAYAGAIN><![CDATA[Möchtest du noch einmal spielen?]]></MINI_GAME_ASKPLAYAGAIN>
+<MINI_GAME_GAMEOVER><![CDATA[Game over!]]></MINI_GAME_GAMEOVER>
+<MINI_GAME_INFO_CLOUDNUMBERONE><![CDATA[Springe mit deinem Hasen von Wolke zu Wolke, indem du ihn durch die Mausbewegung steuerst. Für jede Wolke, die du erreichst, bekommst du 1 Punkt, für einen Stern sogar 10 Punkte! Aber pass' auf die Vögel auf, sie geben Punktabzug.]]></MINI_GAME_INFO_CLOUDNUMBERONE>
+<MINI_GAME_INFO_FOURWINS><![CDATA[Bringe 4 Erdbeeren oder Orangen in eine Reihe - egal ob senkrecht, waagerecht oder diagonal. Wer schneller ist, gewinnt und wird mit Münzen belohnt! ]]></MINI_GAME_INFO_FOURWINS>
+<MINI_GAME_INFO_QUICKSEARCHDUELL><![CDATA[Finde die Gegenstände, die unten aufgelistet sind und klicke sie an. Wenn du alle gefunden hast, kommst du in die nächste Runde. Wer als erster alle Runden geschafft hat, gewinnt und wird mit Münzen belohnt! ]]></MINI_GAME_INFO_QUICKSEARCHDUELL>
+<MINI_GAME_INSTRUCTION><![CDATA[Anleitung]]></MINI_GAME_INSTRUCTION>
+<MINI_GAME_MOREGAMES><![CDATA[Mehr Spiele]]></MINI_GAME_MOREGAMES>
+<MINI_GAME_OTHER_PLAYER_LEFT><![CDATA[Leider hat $$leftPname$$ das Spiel beendet oder die Verbindung verloren und erhält keine Punkte.]]></MINI_GAME_OTHER_PLAYER_LEFT>
+<MINI_GAME_RESTART><![CDATA[Nochmal spielen]]></MINI_GAME_RESTART>
+<MINI_GAME_SCORE_POSTTEXT><![CDATA[Nicht schlecht, du hast ]]></MINI_GAME_SCORE_POSTTEXT>
+<MINI_GAME_SCORE_PRETEXT><![CDATA[Punkte erreicht!]]></MINI_GAME_SCORE_PRETEXT>
+<MINI_GAME_START><![CDATA[Jetzt spielen]]></MINI_GAME_START>
+<MINI_GAME_WAITING_FOR_OTHER><![CDATA[Warte auf andere Spieler.]]></MINI_GAME_WAITING_FOR_OTHER>
+<MINI_GAME_WIN_COINS><![CDATA[Herzlichen Glückwunsch,
+du hast gewonnen und erhältst dafür Münzen.]]></MINI_GAME_WIN_COINS>
+<MINI_GAME_WIN_COINS_MULTIPLAYER><![CDATA[Hier die Ergebnisse:]]></MINI_GAME_WIN_COINS_MULTIPLAYER>
+<MINI_GAME_YOU_LEFT_GAME><![CDATA[Du hast das Spiel verlassen, bevor es fertig war - deswegen erhältst du keine Münzen.]]></MINI_GAME_YOU_LEFT_GAME>
+</snippets>

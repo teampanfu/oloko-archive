@@ -1,0 +1,22 @@
+<miniGameConfig>
+	<flaAssets path="assets/fourWinsAsset.swf" />
+	
+	<sounds>
+		<sound id="background" volume="0.3" path="assets/BGM_2.mp3" preload="1" />
+		
+		<sound id="move" volume="1" path="assets/strawberry_right.mp3"  preload="1" />
+	
+		<sound id="strawberryWalking" volume="0.3" path="assets/strawberry_walking_1.mp3"  preload="1" />
+		<sound id="orangeWalking" volume="0.3" path="assets/orange_walking_1.mp3"  preload="1" />
+		
+		<sound id="strawberryLanding" volume="1" path="assets/strawberry_landing_1.mp3"  preload="1" />
+		<sound id="orangeLanding" volume="1" path="assets/orange_landing_1.mp3"  preload="1" />
+				
+		<sound id="orangeVictory" volume="1" path="assets/Victory_orange_fanfare.mp3"  preload="1" />
+		<sound id="strawberryVictory" volume="1" path="assets/Victory_strawberry_fanfare.mp3"  preload="1" />
+			
+		<sound id="countdown" volume="1" path="assets/countdown.mp3"  preload="1" />
+	</sounds>
+	
+	<points perMove="1" win="33" loose="0" />
+</miniGameConfig>

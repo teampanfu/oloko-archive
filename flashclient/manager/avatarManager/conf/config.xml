@@ -1,0 +1,35 @@
+<config>
+	<assets>
+		<asset id="avatarBodyPart" path="assets/avatarAssets/$$0$$/$$1$$/$$2$$/$$3$$.swf" />
+		<asset id="avatarMovement" path="assets/avatarAssets/$$0$$/$$1$$/$$2$$.swf" />
+		
+		<asset id="avatarClothes" path="assets/avatarClothes/$$0$$/$$1$$.swf" />
+		
+		<asset id="speechBubble" path="assets/SpeechBubble.swf" />
+		<asset id="idleAvatar" path="assets/idle.swf" />
+		
+		<asset id="testClothesWalk" path="assets/avatarClothes/walk.swf" />
+		<asset id='fame' path='assets/fame.swf' />
+		<asset id='flashMovement' path='assets/flashMovement.swf' />
+		<asset id='flyMovement' path='assets/flyMovement.swf' />
+		<asset id='teleportMovement' path='assets/teleportMovement.swf' />
+		
+		<asset id='deikaWinner' path='assets/deikaWinner.swf' />
+		<asset id='zurakWinner' path='assets/zurakWinner.swf' />
+		<asset id='ekaWinner' path='assets/ekaWinner.swf' />
+	
+	</assets>	
+	
+	<sounds>
+		<sound id="beam" type="effect" volume="0.5" path="assets/audio/BEAM.mp3" />
+		<sound id="cloud" type="effect" volume="1" path="assets/audio/CLOUD.mp3" />
+		<sound id="runfire" type="effect" volume="0.5" path="assets/audio/RUNFIRE.mp3" />
+	</sounds>		
+
+	<modules base="manager/$$name$$/" path="$$name$$.swf" >
+		<!--modul name='LoginManager' preload='1' /-->
+	</modules>
+	
+	
+	
+</config>

@@ -1,0 +1,8 @@
+<config>
+
+	<assets>
+		<asset id='Avatar2DAnimalBase' path='assets/Avatar2DAnimalBase.swf' />
+		<asset id='Avatar2DAnimalHand' path='assets/avatar2DHand.swf' />
+	</assets>
+	
+</config>

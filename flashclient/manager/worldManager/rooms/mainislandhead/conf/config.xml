@@ -1,0 +1,36 @@
+<config><!-- mainislandhead-->
+	<assets>
+		<asset id="room" path="assets/room.swf" />
+	</assets>
+	
+	<sounds>
+		<sound id="roomBackground" type="music" volume="0.4" path="audio/OLO_02_oloko.mp3" loops="-1" />
+	</sounds>
+	
+	
+	<module>
+		<elements>
+			<element id="oloko" button="1" visible="1">
+				<button type="click" over="2" out="1" click="2"/>
+				<message value="clickStaticNPC" type="getItem">
+					<statement key='CLICK_ITEM_HEAD' sound='voices' >
+						<bubble id='headMultiAnswer'  >
+							<header id='SNIPPETKEY' name='myUserName' />
+						</bubble>
+					</statement>
+				</message>		
+			</element>
+		</elements>
+		
+		<hotspots>
+			<hotspot target="14" 		type="room" 			sharetype="unique" shape="round" x="880" y="57" rad="90" dirAngle="-35"/> <!-- lasshopas (should be sport)-->
+			<hotspot target="19" 		type="room" 			sharetype="unique" shape="round" x="552" y="568" rad="50" dirAngle="90"/> <!-- bigtree-->
+		</hotspots>
+		<scale>
+			<value minScale="60" maxScale="80"/>
+		</scale>
+		<faces>
+			<face name="oloko"/>
+		</faces>
+	</module>
+</config>

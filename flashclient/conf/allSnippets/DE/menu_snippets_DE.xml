@@ -1,0 +1,264 @@
+﻿<snippets date="05.04.2012 11:03:38">
+<ABO_COMBOPURCHASED_DESCRIPTION><![CDATA[Dein Aktivierungscode ist angenommen!
+Wähle nun dein neues Tier aus.]]></ABO_COMBOPURCHASED_DESCRIPTION>
+<ABO_GOLDPURCHASED_DESCRIPTION><![CDATA[Dein Aktivierungscode ist angenommen!]]></ABO_GOLDPURCHASED_DESCRIPTION>
+<ABO_INIT_GOLDDESCRIPTION><![CDATA[Freie Wahl von Kleidern und Möbeln!
+
+Sammele schneller mehr Wasser!
+
+Gieße deine Pflanzen und behalte sie!
+
+Handele beliebig oft mit Waren!]]></ABO_INIT_GOLDDESCRIPTION>
+<ABO_INIT_GOLDPAKET><![CDATA[Gold-Mitgliedschaft]]></ABO_INIT_GOLDPAKET>
+<ABO_INIT_NEWANIMAL><![CDATA[Neue Tiere]]></ABO_INIT_NEWANIMAL>
+<ABO_INIT_NEWANIMALDESCRIPTION><![CDATA[Sei einzigartig und hole dir jetzt dein Lieblingstier!]]></ABO_INIT_NEWANIMALDESCRIPTION>
+<ABO_NEWANIMAL_DESCRIPTION><![CDATA[Dein Code ist angenommen, jetzt kannst du neue Tier(e) auswählen.]]></ABO_NEWANIMAL_DESCRIPTION>
+<ABO_NEWANIMAL_SUCCESS_BODY><![CDATA[Benutze den Safe in deinem Wohnzimmer, um Gegenstände zwischen deinen Tieren zu tauschen.]]></ABO_NEWANIMAL_SUCCESS_BODY>
+<ABO_NEWANIMAL_SUCCESS_HEADER><![CDATA[Glückwunsch - du hast ein neues Tier aktiviert!]]></ABO_NEWANIMAL_SUCCESS_HEADER>
+<ABO_WRONGSIDE_GOLDPACKET><![CDATA[Der eingegebene Code ist gültig für eine Gold-Mitgliedschaft. Möchtest du ihn jetzt aktivieren?]]></ABO_WRONGSIDE_GOLDPACKET>
+<ABO_WRONGSIDE_NEWANIMAL><![CDATA[Der eingegebene Code ist für neue Tiere. Möchtest du ein neues Tier aktivieren?]]></ABO_WRONGSIDE_NEWANIMAL>
+<ACTION><![CDATA[Aktionen]]></ACTION>
+<APPLY><![CDATA[Bestätigen]]></APPLY>
+<AVATAR_PURCHASED_HEADER2><![CDATA[Tiere wählen]]></AVATAR_PURCHASED_HEADER2>
+<BACKYARD><![CDATA[Mein Garten]]></BACKYARD>
+<BACK_TO_THE_GAME><![CDATA[Zurück zum Spiel]]></BACK_TO_THE_GAME>
+<BUTTON_BACK><![CDATA[Zurück]]></BUTTON_BACK>
+<BUTTON_CONFIRM><![CDATA[Weiter]]></BUTTON_CONFIRM>
+<BUTTON_SEND><![CDATA[Abschicken]]></BUTTON_SEND>
+<BUY_NOW><![CDATA[Jetzt holen!]]></BUY_NOW>
+<CANCEL><![CDATA[Löschen]]></CANCEL>
+<CHATLOG><![CDATA[Chat Log]]></CHATLOG>
+<CHAT_HISTORY><![CDATA[Chatverlauf]]></CHAT_HISTORY>
+<CONFIRM><![CDATA[Bestätigen]]></CONFIRM>
+<CONTINUE><![CDATA[Weiter]]></CONTINUE>
+<DIALOG_NO><![CDATA[Nein]]></DIALOG_NO>
+<DIALOG_YES><![CDATA[Ja]]></DIALOG_YES>
+<EFFECTS><![CDATA[Effekte]]></EFFECTS>
+<EMOTE><![CDATA[Smileys]]></EMOTE>
+<ERROR_SOMETHINGHAPPENED><![CDATA[(NEW TEXT)]]></ERROR_SOMETHINGHAPPENED>
+<FAME><![CDATA[Level]]></FAME>
+<FRONTHOME><![CDATA[Mein Hof]]></FRONTHOME>
+<GOLDPOPUP_ACTIVATE_GM_CODE><![CDATA[Aktivierungscode eintragen]]></GOLDPOPUP_ACTIVATE_GM_CODE>
+<GOLDPOPUP_ACTIVATE_GM_TEXT><![CDATA[Du möchtest deine Gold-Mitgliedschaft aktivieren?
+Dann trage bitte deinen Aktivierungscode ein und klicke auf "ok".]]></GOLDPOPUP_ACTIVATE_GM_TEXT>
+<GOLDPOPUP_ACTIVATIONCODE_ERROR><![CDATA[Dieser Aktivierungscode ist leider ungültig!]]></GOLDPOPUP_ACTIVATIONCODE_ERROR>
+<GOLDPOPUP_ADVANTAGES_GM><![CDATA[Vorteile einer Gold-Mitgliedschaft:]]></GOLDPOPUP_ADVANTAGES_GM>
+<GOLDPOPUP_ADVANTAGES_GM_BULLET1><![CDATA[Drei weitere Spielfiguren]]></GOLDPOPUP_ADVANTAGES_GM_BULLET1>
+<GOLDPOPUP_ADVANTAGES_GM_BULLET2><![CDATA[Exklusive Kleidung und Möbel]]></GOLDPOPUP_ADVANTAGES_GM_BULLET2>
+<GOLDPOPUP_ADVANTAGES_GM_BULLET3><![CDATA[Eigener großer Garten]]></GOLDPOPUP_ADVANTAGES_GM_BULLET3>
+<GOLDPOPUP_ADVANTAGES_GM_BULLET4><![CDATA[Haus und Hof individuell gestalten]]></GOLDPOPUP_ADVANTAGES_GM_BULLET4>
+<GOLDPOPUP_ADVANTAGES_GM_BULLET5><![CDATA[Beliebig oft mit Waren handeln]]></GOLDPOPUP_ADVANTAGES_GM_BULLET5>
+<GOLDPOPUP_ADVANTAGES_GM_BULLET6><![CDATA[Helfer zum schnelleren Anpflanzen]]></GOLDPOPUP_ADVANTAGES_GM_BULLET6>
+<GOLDPOPUP_ADVANTAGES_GM_BULLET7><![CDATA[Zugang zu allen Leveln]]></GOLDPOPUP_ADVANTAGES_GM_BULLET7>
+<GOLDPOPUP_HAVE_FUN><![CDATA[Wir wünschen dir viel Spaß als Gold-Mitglied!]]></GOLDPOPUP_HAVE_FUN>
+<GOLDPOPUP_HEADER><![CDATA[Gold-Mitgliedschaft]]></GOLDPOPUP_HEADER>
+<GOLDPOPUP_INFORM_WITH_PARENTS><![CDATA[Informiere dich zusammen mit deinen Eltern über die Vorteile einer Gold-Mitgliedschaft!]]></GOLDPOPUP_INFORM_WITH_PARENTS>
+<GOLDPOPUP_NOW_YOU_CAN><![CDATA[Jetzt kannst du:]]></GOLDPOPUP_NOW_YOU_CAN>
+<GOLDPOPUP_NOW_YOU_CAN_BULLET1><![CDATA[Mit drei weiteren Spielfiguren spielen]]></GOLDPOPUP_NOW_YOU_CAN_BULLET1>
+<GOLDPOPUP_NOW_YOU_CAN_BULLET2><![CDATA[Exklusive Kleidung und Möbel kaufen]]></GOLDPOPUP_NOW_YOU_CAN_BULLET2>
+<GOLDPOPUP_NOW_YOU_CAN_BULLET3><![CDATA[Den eigenen großen Garten schmücken]]></GOLDPOPUP_NOW_YOU_CAN_BULLET3>
+<GOLDPOPUP_NOW_YOU_CAN_BULLET4><![CDATA[Beliebig oft mit Waren handeln]]></GOLDPOPUP_NOW_YOU_CAN_BULLET4>
+<GOLDPOPUP_NOW_YOU_CAN_BULLET5><![CDATA[Helfer zum schnelleren Anpflanzen verwenden]]></GOLDPOPUP_NOW_YOU_CAN_BULLET5>
+<GOLDPOPUP_NOW_YOU_CAN_BULLET6><![CDATA[Zugang zu allen Leveln erhalten]]></GOLDPOPUP_NOW_YOU_CAN_BULLET6>
+<GOLDPOPUP_SUBHEADER><![CDATA[Herzlichen Glückwunsch, du bist jetzt Gold-Mitglied!]]></GOLDPOPUP_SUBHEADER>
+<GOLDPOPUP_SUBHEADER_ACTIVATE_GM><![CDATA[Aktivierung der Gold-Mitgliedschaft]]></GOLDPOPUP_SUBHEADER_ACTIVATE_GM>
+<GOLDPOPUP_SUBHEADER_NOT_GM><![CDATA[Bist du noch kein Gold-Mitglied?
+]]></GOLDPOPUP_SUBHEADER_NOT_GM>
+<GOLDPOPUP_TO_GOLD_MEMBERSHIP><![CDATA[Zur Gold-Mitgliedschaft]]></GOLDPOPUP_TO_GOLD_MEMBERSHIP>
+<GOLD_PURCHASED_BODY><![CDATA[Hol' dir Kleidung und Möbel!
+
+Richte dein Haus ein!
+
+Tausche Items mit deinen Freunden!
+
+Spiel' mit deinen Haustieren!
+
+Nutze deinen eigenen großen Garten!]]></GOLD_PURCHASED_BODY>
+<GOLD_PURCHASED_HEADER><![CDATA[Glückwunsch!
+Nun kannst du alle Vorteile der Gold-Mitgliedschaft genießen!]]></GOLD_PURCHASED_HEADER>
+<HOME><![CDATA[Mein Haus]]></HOME>
+<INSERT_YOUR_INVITATION_CODE><![CDATA[Gib hier deinen Code ein!]]></INSERT_YOUR_INVITATION_CODE>
+<INVALID_CODE><![CDATA[Ungültiger Code]]></INVALID_CODE>
+<INVISIBLEACTION><![CDATA[Verschwinden]]></INVISIBLEACTION>
+<INVITEFRIENDS><![CDATA[Freunde einladen]]></INVITEFRIENDS>
+<INVITE_DESCRIPTION><![CDATA[Trage die E-Mail-Adressen von deinen Freunden ein:]]></INVITE_DESCRIPTION>
+<INVITE_ECARD_HEADER><![CDATA[LADE DEINE FREUNDE IN DIE OLOKO COMMUNITY EIN!]]></INVITE_ECARD_HEADER>
+<INVITE_ECARD_MESSAGE1_BEST><![CDATA[Du bist klasse! Ich bin so froh, dass wir Freunde sind! Komm' und hab' Spaß in der wirklich coolen Welt von Oloko!]]></INVITE_ECARD_MESSAGE1_BEST>
+<INVITE_ECARD_MESSAGE2_BIRTHDAY><![CDATA[Happy Birthday! Feiere doch in Oloko, wir können eine Party in meinem Haus schmeißen! Ich wünsche dir einen tollen Tag!]]></INVITE_ECARD_MESSAGE2_BIRTHDAY>
+<INVITE_ECARD_MESSAGE3_OLOKOFRIEND><![CDATA[Ich finde es klasse, Oloko zu spielen und du wirst es bestimmt auch toll finden! Mach' mit und werde mein Oloko-Freund!]]></INVITE_ECARD_MESSAGE3_OLOKOFRIEND>
+<INVITE_ECARD_MESSAGE4_JOB><![CDATA[Hey, willst du einen richtig coolen Beruf erlernen? Dann komm auch zu Oloko, da geht das ganz einfach und macht viel Spaß! Wir können auch zusammen arbeiten und uns mit anderen messen.]]></INVITE_ECARD_MESSAGE4_JOB>
+<INVITE_ECARD_MESSAGE5_ADVENTURES><![CDATA[Komm' zu Oloko und gestalte mit mir zusammen eine neue Welt. Hier gibt es so viele spannende Abenteuer zu erleben! Ich freu' mich auf dich!]]></INVITE_ECARD_MESSAGE5_ADVENTURES>
+<INVITE_ECARD_MESSAGE6_HOUSE_GARDEN><![CDATA[Weißt du, dass ich auf Oloko mein eigenes Haus mit eigenem Garten habe? Komm' zu Oloko und du kannst dein Haus mit tollen Möbeln einrichten, in deinem Garten seltene Pflanzen anbauen und Tiere züchten.]]></INVITE_ECARD_MESSAGE6_HOUSE_GARDEN>
+<INVITE_ECARD_POPUP1_TEXT1><![CDATA[Schicke deinen Freunden eine E-Card und lade sie zu Oloko ein!]]></INVITE_ECARD_POPUP1_TEXT1>
+<LEVEL10_DESCRIPTION><![CDATA[Mit Level 10 erreichst du den Rang eines Guppy! 
+Deine Arme werden stärker als die stärkste Flosse und du kannst Strohballen durch ganz Oloko werfen! Alles in Deckung und Köpfe runter!]]></LEVEL10_DESCRIPTION>
+<LEVEL10_NAME><![CDATA[Guppy]]></LEVEL10_NAME>
+<LEVEL11_DESCRIPTION><![CDATA[Mit diesem Level erreichst du den Rang eines Golden Frog.
+Ein Golden Frog liebt einen erfrischenden Regen aus Gold über alles. Damit auch du ein goldenes Leben führen kannst, bekommst du 500 Münzen extra! Sauber!]]></LEVEL11_DESCRIPTION>
+<LEVEL11_NAME><![CDATA[Golden Frog]]></LEVEL11_NAME>
+<LEVEL12_DESCRIPTION><![CDATA[Mit dem großartigen Rang eines Chameleons wirst du beliebter sein als jemals zuvor!
+Außerdem bekommst du einen Fußabtreter, mit dem du deine Besucher willkommen heißen kannst. Füße abtreten nicht vergessen!]]></LEVEL12_DESCRIPTION>
+<LEVEL12_NAME><![CDATA[Chameleon]]></LEVEL12_NAME>
+<LEVEL13_DESCRIPTION><![CDATA[Mit Level 13 erreichst du den Rang eines Seal!
+Als Seal ist das Wasser dein Element und aus jeder Quelle erhältst du eine zusätzliche Portion Wasser!]]></LEVEL13_DESCRIPTION>
+<LEVEL13_NAME><![CDATA[Seal]]></LEVEL13_NAME>
+<LEVEL14_DESCRIPTION><![CDATA[Mit Level 14 erreichst du den Rang eines Millipede.
+Du lernst, dich unsichtbar zu machen. Benutze diese Fähigkeit, um dich beobachtenden Blicken zu entziehen und eins mit der Natur zu werden.]]></LEVEL14_DESCRIPTION>
+<LEVEL14_NAME><![CDATA[Millipede]]></LEVEL14_NAME>
+<LEVEL15_DESCRIPTION><![CDATA[Als Rooster kannst du strotzen vor Stolz!
+Zur Belohnung erhältst du einen Rooster-Klingelton für dein Handy. Lass' die Welt deinen Stolz hören!]]></LEVEL15_DESCRIPTION>
+<LEVEL15_NAME><![CDATA[Rooster]]></LEVEL15_NAME>
+<LEVEL16_DESCRIPTION><![CDATA[Mit Level 16 erreichst du den Rang eines Pigeon.
+Dekoriere deine Spielerkarte mit dem schicken Town-Hintergrund und trage so immer einen Teil von Carrot Town bei dir.]]></LEVEL16_DESCRIPTION>
+<LEVEL16_NAME><![CDATA[Pigeon]]></LEVEL16_NAME>
+<LEVEL17_DESCRIPTION><![CDATA[Mit dem Rang einer Firefly erstrahlt dein Leben in noch größerem Glanz!
+Nun kannst du mit kleinen Schokokuchen um dich werfen. Lass' ein paar Kalorienbomben fliegen und überrasche deine Freunde!]]></LEVEL17_DESCRIPTION>
+<LEVEL17_NAME><![CDATA[Firefly]]></LEVEL17_NAME>
+<LEVEL18_DESCRIPTION><![CDATA[In diesem Level erhältst du den Rang einer Bee!
+Dafür bekommst du eine Vase voll wunderschöner Blumen. Sie mögen dir zwar keinen Honig spenden, machen sich dafür aber wunderbar in deinem Haus.]]></LEVEL18_DESCRIPTION>
+<LEVEL18_NAME><![CDATA[Bee]]></LEVEL18_NAME>
+<LEVEL19_DESCRIPTION><![CDATA[Eine Flut an Geld erwartet dich auch im Magpie-Rang!
+Fülle deine Taschen mit 1500 glitzernden Münzen! Aber werde ja nicht zu gierig!]]></LEVEL19_DESCRIPTION>
+<LEVEL19_NAME><![CDATA[Magpie]]></LEVEL19_NAME>
+<LEVEL1_DESCRIPTION><![CDATA[Alle Oloko-Spieler starten auf dem Newbie-Level.
+Als Willkommensgeschenk erhältst du ein schickes Oloko-T-Shirt.]]></LEVEL1_DESCRIPTION>
+<LEVEL1_NAME><![CDATA[Newbie]]></LEVEL1_NAME>
+<LEVEL20_DESCRIPTION><![CDATA[Mit Level 20 erreichst du den Rang eines Hummingbird!
+Schnell wie der Blitz erhältst du nun von jeder Magischen Blume ein extra Samenkorn.]]></LEVEL20_DESCRIPTION>
+<LEVEL20_NAME><![CDATA[Hummingbird]]></LEVEL20_NAME>
+<LEVEL21_DESCRIPTION><![CDATA[Level 21 verleiht dir den Rang einer Checkered Cow!
+Genieß' das Landleben und die tägliche Arbeit auf den Feldern mit diesem schicken Farmeranzug. Nun siehst du aus wie ein erfahrener Bauer!]]></LEVEL21_DESCRIPTION>
+<LEVEL21_NAME><![CDATA[Checkered Cow]]></LEVEL21_NAME>
+<LEVEL22_DESCRIPTION><![CDATA[Der Rang einer Bumblebee erwartet dich mit Level 22!
+Um deine Erfolge zu feiern, bekommst du eine goldene Hummelstatue! Stelle sie auf einen Ehrenplatz, du hast sie dir mit mühsamer Arbeit verdient!]]></LEVEL22_DESCRIPTION>
+<LEVEL22_NAME><![CDATA[Bumblebee]]></LEVEL22_NAME>
+<LEVEL23_DESCRIPTION><![CDATA[Nun bist du auf Level 23! Genieße die Früchte deiner Arbeit mit dem Rang eines Weasel!
+Als Belohnung erhältst du einen rustikalen Maisteppich! Sieht echt so aus, als käme er direkt von deinen Feldern!
+]]></LEVEL23_DESCRIPTION>
+<LEVEL23_NAME><![CDATA[Weasel]]></LEVEL23_NAME>
+<LEVEL24_DESCRIPTION><![CDATA[Mit Level 24 wird der Rang eines Goldfish verliehen!
+Zur Belohnung bekommst du den tollen Western-Klingelton. Bei jeder Nachricht erzeugt dein Handy nun eine schaurig-romantische Stimmung!]]></LEVEL24_DESCRIPTION>
+<LEVEL24_NAME><![CDATA[Goldfish]]></LEVEL24_NAME>
+<LEVEL25_DESCRIPTION><![CDATA[Sehr schön! The Rang eines Sparrow erwartet dich mit Level 25!
+Ein kluger Sparrow weiß, wie er das Meiste aus seiner Arbeit heraus holt. Im Gewächshaus bekommst du nun eine extra Schachtel mit Dünger!]]></LEVEL25_DESCRIPTION>
+<LEVEL25_NAME><![CDATA[Sparrow]]></LEVEL25_NAME>
+<LEVEL26_DESCRIPTION><![CDATA[Genieße die Früchte deiner Arbeit mit dem Rang eines Butterfly!
+Als Belohnung erhältst du einen rustikalen Maisteppich! Sieht echt so aus, als käme er direkt von deinen Feldern!]]></LEVEL26_DESCRIPTION>
+<LEVEL26_NAME><![CDATA[Butterfly]]></LEVEL26_NAME>
+<LEVEL27_DESCRIPTION><![CDATA[The Rang eines Parrot erwartet dich auf Level 27!
+Ein kluger Parrot weiß, wie er das Meiste aus seiner Arbeit heraus holt. Im Gewächshaus bekommst du nun eine extra Schachtel mit Dünger!]]></LEVEL27_DESCRIPTION>
+<LEVEL27_NAME><![CDATA[Parrot]]></LEVEL27_NAME>
+<LEVEL28_DESCRIPTION><![CDATA[Mit Level 28 erreichst du den Rang eines Badger!
+Arbeitest du gerne in der Bäckerei? Mit dem Bäckeranzug macht die Arbeit gleich doppelt soviel Spaß und ist viermal so stylisch!]]></LEVEL28_DESCRIPTION>
+<LEVEL28_NAME><![CDATA[Badger]]></LEVEL28_NAME>
+<LEVEL29_DESCRIPTION><![CDATA[Level 29 ist der Woodpecker-Level.
+Alle Woodpecker lieben es, Holz zu bearbeiten. Dieser elegante Rindenholztisch wurde in einem Stück aus einem großen Baumstamm geschnitzt.]]></LEVEL29_DESCRIPTION>
+<LEVEL29_NAME><![CDATA[Woodpecker]]></LEVEL29_NAME>
+<LEVEL2_DESCRIPTION><![CDATA[Mit Level 2 erreichst du den Rang eines Chick!
+Nun kannst du Smileys erzeugen und allen zeigen, wie du dich fühlst. Schenke uns allen ein groooßes Lächeln!]]></LEVEL2_DESCRIPTION>
+<LEVEL2_NAME><![CDATA[Chick]]></LEVEL2_NAME>
+<LEVEL30_DESCRIPTION><![CDATA[Mit Level 30 erreichst du den Rang eines Penguin!
+Penguins sind Kreaturen der See und der Ozeane. Damit du immer nahe am Wasser bist, bekommst du einen tollen Strand-Hintergrund für deine Spielerkarte!]]></LEVEL30_DESCRIPTION>
+<LEVEL30_NAME><![CDATA[Penguin]]></LEVEL30_NAME>
+<LEVEL3_DESCRIPTION><![CDATA[Level 3 verleiht dir den Rang einer Ant.
+Ants sind nicht nur stark, sondern können auch weit springen! Doppelklicke auf einen Ort, um sofort und schnell dorthin zu springen!]]></LEVEL3_DESCRIPTION>
+<LEVEL3_NAME><![CDATA[Ant]]></LEVEL3_NAME>
+<LEVEL4_DESCRIPTION><![CDATA[Mit Level 4 erhältst du den Rang eines Arctic Hare!
+Als Arctic Hare kannst du einer der drei Gruppen von Oloko beitreten. Dies ist eine große Ehre! Arbeite hart und gib dein Bestes für ganz Oloko!]]></LEVEL4_DESCRIPTION>
+<LEVEL4_NAME><![CDATA[Arctic Hare]]></LEVEL4_NAME>
+<LEVEL5_DESCRIPTION><![CDATA[Der Rang des Grasshopper wird auf Level 5 verliehen!
+Grasshoppers sind für ihre Freundlichkeit bekannt. Nun kannst du Freunden und Fremden zuwinken und sie begrüßen!]]></LEVEL5_DESCRIPTION>
+<LEVEL5_NAME><![CDATA[Grasshopper]]></LEVEL5_NAME>
+<LEVEL6_DESCRIPTION><![CDATA[Mit Level 6 erreichst du den Rang eines Peacock!
+Die Peacocks sind für ihre Eleganz bekannt. Mit der weißen Hülle erhält dein Handy einen Hauch von Klasse.]]></LEVEL6_DESCRIPTION>
+<LEVEL6_NAME><![CDATA[Peacock]]></LEVEL6_NAME>
+<LEVEL7_DESCRIPTION><![CDATA[Level 7 verleiht dir den Rank eines Hedgehog!
+Es ist Zeit für eine kleine Pause. Du kannst dich nun auf den Boden setzen. Mach' doch ein Picknick mit deinen Freunden.]]></LEVEL7_DESCRIPTION>
+<LEVEL7_NAME><![CDATA[Hedgehog]]></LEVEL7_NAME>
+<LEVEL8_DESCRIPTION><![CDATA[Level 8 ist der Level des Mole!
+Als Belohnung für deine Fortschritte bekommst du ein tolles Bett. Sieht es nicht gemütlich aus?]]></LEVEL8_DESCRIPTION>
+<LEVEL8_NAME><![CDATA[Mole]]></LEVEL8_NAME>
+<LEVEL9_DESCRIPTION><![CDATA[Level 9 befördert dich zum Rang eines Pig!
+Dein Garten ist eine wahre Bereicherung für Oloko. Um dies zu feiern, bekommst du einen Farm-Hintergrund für deine Spielerkarte!]]></LEVEL9_DESCRIPTION>
+<LEVEL9_NAME><![CDATA[Pig]]></LEVEL9_NAME>
+<LEVEL_POPUP_TITLE><![CDATA[Oloko-Levelübersicht]]></LEVEL_POPUP_TITLE>
+<LOGOUT><![CDATA[Ausloggen]]></LOGOUT>
+<MAIN_SCREEN_1_BODY_1><![CDATA[Spiel' als neues Tier!
+
+Tritt einer neuen Gruppe bei!
+
+Erlerne alle Berufe!]]></MAIN_SCREEN_1_BODY_1>
+<MAIN_SCREEN_1_HEADER><![CDATA[Mehr Tiere, mehr Spaß!]]></MAIN_SCREEN_1_HEADER>
+<MAIN_SCREEN_2_BODY><![CDATA[Wähle deine individuelle Kleidung
+
+Bekomme ein größeres, eigenes Haus und richte es ein
+
+Spiele mit neuen Haustieren
+
+Züchte Pflanzen noch schneller im großen, privaten Garten]]></MAIN_SCREEN_2_BODY>
+<MAIN_SCREEN_2_HEADER><![CDATA[Genieß' die Vorteile der Gold-Mitgliedschaft!]]></MAIN_SCREEN_2_HEADER>
+<MAP><![CDATA[Landkarte]]></MAP>
+<MESSAGE_JOBS_HEADLINE><![CDATA[Der Weise Baum ruft dich!]]></MESSAGE_JOBS_HEADLINE>
+<MOBILE><![CDATA[Öffnen]]></MOBILE>
+<MOBILE_TRADE_REQUEST><![CDATA[Du hast eine Einladung zum Tauschen von $USERNAME$ erhalten! Nimmst du an?]]></MOBILE_TRADE_REQUEST>
+<MUSIC><![CDATA[Music]]></MUSIC>
+<MUTE><![CDATA[Mute]]></MUTE>
+<MYCLOTHES><![CDATA[Kleiderladen]]></MYCLOTHES>
+<NEW_CODE><![CDATA[Jetzt holen!]]></NEW_CODE>
+<NORMAL><![CDATA[Normal]]></NORMAL>
+<PROFILE><![CDATA[Profil]]></PROFILE>
+<PURCHASE><![CDATA[Kaufen]]></PURCHASE>
+<SEND_INVITATIONS><![CDATA[Einladungen senden]]></SEND_INVITATIONS>
+<SIT><![CDATA[Sitzen]]></SIT>
+<SOUND><![CDATA[Audio-Einstellungen]]></SOUND>
+<TASKS><![CDATA[Jobs]]></TASKS>
+<TEXT_INVITE><![CDATA[Trage die E-Mail-Adressen deiner Freunde ein:]]></TEXT_INVITE>
+<THROWCAKE><![CDATA[Kuchen werfen]]></THROWCAKE>
+<THROWSTRAW><![CDATA[Stroh werfen]]></THROWSTRAW>
+<TOOLTIPP_MYLEVEL><![CDATA[Mein Level]]></TOOLTIPP_MYLEVEL>
+<TUTORIAL_GROUPS_01><![CDATA[Um einer Gruppe beizutreten, sprich mit Elenora, Zelma oder Guy. 
+Alle Gruppen treten regelmäßig in verschiedenen Aufgaben gegeneinander an.
+Du bekommst eine Einladungsnachricht auf deinem Handy, nachdem du dich bei einer Gruppe angemeldet hast.
+Jedes Tier auf Oloko kann immer nur in einer Gruppe sein.]]></TUTORIAL_GROUPS_01>
+<TUTORIAL_GROUPS_02><![CDATA[Nachdem du eine Einladung angenommen hast, kannst du den exklusiven Gruppenraum betreten.
+Zu diesem haben nur Gruppenmitglieder Zugang!]]></TUTORIAL_GROUPS_02>
+<TUTORIAL_GROUPS_03><![CDATA[Jede Gruppe kämpft um die Gunst der großen Schildkröte.
+Im Handy siehst du auch, wie gut du im Vergleich zu den anderen bist.
+Die allerbesten bekommen eine besonders wertvolle Belohnung!]]></TUTORIAL_GROUPS_03>
+<TUTORIAL_INVITE_01><![CDATA[Mit Freunden macht Oloko noch mehr Spass!
+So einfach kannst du deine Freunde einladen: gehe mit der Maus auf das Symbol in der oberen Leiste
+und trage die E-Mail-Adressen von deinen Freunden ein.
+Für jeden eingeladenen Freund, der sich später anmeldet, bekommst du zusätzliche Levelpunkte.]]></TUTORIAL_INVITE_01>
+<TUTORIAL_JOBS_01><![CDATA[Es gibt viele verschiedene Waren und Gegenstände auf Oloko.
+Wenn du zum Beispiel Wasser nehmen möchtest, musst du auf den Fluss klicken und dann auf das Wassersymbol.
+Einer der wichtigsten Gegenstände ist der Pflanzensamen, den bekommst du von der Magischen Blume.]]></TUTORIAL_JOBS_01>
+<TUTORIAL_JOBS_02><![CDATA[Um deine eigenen Pflanzen zu züchten, musst du zuerst ein Loch auf einem Acker graben.
+Der Maus-Cursor wird automatisch zu einer Schaufel, wenn der Cursor über einem Acker ist.
+Nachdem du geklickt hast, kannst du dort alle möglichen Pflanzen züchten.]]></TUTORIAL_JOBS_02>
+<TUTORIAL_JOBS_03><![CDATA[Jedes Tier auf Oloko hat einen Job.
+Doch bevor du die großen Aufgaben meisterst, solltest du erst einmal bei Heidi auf der Sunny Farm mit einer kurzen
+Ausbildung beginnen.
+Dafür – und für alle anderen gelösten Aufgaben - bekommst du Punkte, die du für Levelaufstiege benötigst.]]></TUTORIAL_JOBS_03>
+<TUTORIAL_NAVIGATION_01><![CDATA[So einfach bewegt man sich auf Oloko: man klickt einfach mit der Maus auf die Stelle, zu der man laufen möchte.
+Und wenn ein Pfeil erscheint, kann man zu einem anderen Ort wechseln. 
+So kommst du auch blitzschnell vom Weisen Baum zu Oloko!]]></TUTORIAL_NAVIGATION_01>
+<TUTORIAL_NAVIGATION_02><![CDATA[Um auf die Weltkarte zu gelangen, muss man nur auf sein Handy klicken.
+Von dort aus hat man den besten Überblick und kommt überall hin!
+Bevor wir aber die Welt erkunden, geht es erst noch einmal zum Weisen Baum.]]></TUTORIAL_NAVIGATION_02>
+<TUTORIAL_NAVIGATION_03><![CDATA[Wenn du etwas zu sagen hast, benutze den Chat.
+Alle Spieler sehen deine Nachricht, sobald du sie mit der Eingabetaste bestätigt hast.
+Im Chatverlauf kannst du dir alle Nachrichten ansehen, auch dann, wenn die Sprechblasen schon weg sind.]]></TUTORIAL_NAVIGATION_03>
+<TUTORIAL_NAVIGATION_04><![CDATA[Um ein Profil von einem Mitspieler zu öffnen, musst du nur auf dessen Avatar klicken.
+Alle wichtigen Informationen findest du dort!
+Außerdem kannst du andere Spieler zu deinen Freunden machen.]]></TUTORIAL_NAVIGATION_04>
+<TUTORIAL_TRADING_01><![CDATA[Eine der wichtigsten Funktionen ist der Handel mit Waren.
+Du kannst jeden Gegenstand mit anderen tauschen.
+Dadurch kannst du deine Ziele schneller erreichen und anderen helfen!]]></TUTORIAL_TRADING_01>
+<TUTORIAL_TRADING_02><![CDATA[Erst bereitet ein Spieler einen Vorschlag vor, dann hat der Tauschpartner die Chance, anzunehmen oder abzulehnen.
+Wenn ein Vorschlag abgelehnt wurde, kann der andere Spieler einen Gegenvorschlag machen.
+Aber schau' dir immer genau an, was du tauschst – was weg ist, ist weg!]]></TUTORIAL_TRADING_02>
+<WARNING_CONFIRM><![CDATA[(NEW TEXT)]]></WARNING_CONFIRM>
+<WARNING_FREEAVATARS_EXCEED><![CDATA[(NEW TEXT)]]></WARNING_FREEAVATARS_EXCEED>
+<WAVE><![CDATA[Winken]]></WAVE>
+<YOUR_OLOKO_TEAM2><![CDATA[Dein Oloko-Team]]></YOUR_OLOKO_TEAM2>
+</snippets>

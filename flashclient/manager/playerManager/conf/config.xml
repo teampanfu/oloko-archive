@@ -1,0 +1,247 @@
+<config>
+	<quests>
+		<types>
+			<type id='1' type='10' prio='1' /> <!--world quests-->
+			<type id='2' type='20' prio='2' /> <!--jobs-->
+			<type id='3' type='30' prio='3' /> <!--normal quests-->
+		</types>
+	</quests>
+	<fame>
+		<levels>
+			<level id="1" from="0" to="100" key="LEVEL1_NAME" member="0" >
+				<popups>
+					<overview descriptionKey="LEVEL1_DESCRIPTION" />
+				</popups>
+				<abilities>
+					<ability id='throwStraw' nameKey="ABILITY_THROWSTRAW"/>
+				</abilities>
+			</level>
+			<level id="2" from="100" to="300" key="LEVEL2_NAME" member="0" >
+				<popups>
+					<overview descriptionKey="LEVEL2_DESCRIPTION" />
+					<reached textKey="LEVEL2_REWARD"/>
+				</popups>
+				<abilities>
+					<ability id='emoticons' nameKey="ABILITY_EMOTICONS"/>
+				</abilities>	
+			</level>
+			<level id="3" from="300" to="500" key="LEVEL3_NAME" member="0" >
+				<popups>
+					<overview descriptionKey="LEVEL3_DESCRIPTION" />
+					<reached textKey="LEVEL3_REWARD"/>
+				</popups>
+				<abilities>
+					<ability id='jump' nameKey="JUMP"/>
+				</abilities>
+			</level>
+			<level id="4" from="500" to="750" key="LEVEL4_NAME" member="0" >
+				<popups>
+					<overview descriptionKey="LEVEL4_DESCRIPTION" />
+					<reached textKey="LEVEL4_REWARD" />
+				</popups>
+				<abilities>
+					<ability id='joinGroup' nameKey="ABILITY_JOINGROUP"/>
+				</abilities>
+			</level>
+			<level id="5" from="750" to="1000" key="LEVEL5_NAME" member="0" >
+				<popups>
+					<overview descriptionKey="LEVEL5_DESCRIPTION" />
+					<reached textKey="LEVEL5_REWARD" />
+				</popups>
+				<abilities>
+					<ability id='wave' nameKey="WAVE"/>
+				</abilities>
+			</level>
+			<level id="6"  from="1000" to="1500"  key="LEVEL6_NAME" member="0" >
+				<popups>
+					<overview descriptionKey="LEVEL6_DESCRIPTION" />
+					<reached textKey="LEVEL6_REWARD" />
+				</popups>
+			</level>
+			<level id="7"  from="1500" to="2000"  key="LEVEL7_NAME" member="0" >
+				<popups>
+					<overview descriptionKey="LEVEL7_DESCRIPTION" />
+					<reached textKey="LEVEL7_REWARD"/>
+				</popups>
+				<abilities>
+					<ability id='sit' nameKey="ABILITY_SIT"/>
+				</abilities>
+			</level>
+			<level id="8"  from="2000" to="2800"  key="LEVEL8_NAME" member="0" >
+				<popups>
+					<overview descriptionKey="LEVEL8_DESCRIPTION" />
+					<reached textKey="LEVEL8_REWARD"/>
+				</popups>
+			</level>
+			<level id="9"  from="2800" to="3500"  key="LEVEL9_NAME" member="0" >
+				<popups>
+					<overview descriptionKey="LEVEL9_DESCRIPTION" />
+					<reached textKey="LEVEL9_REWARD"/>
+				</popups>
+			</level>
+			<level id="10" from="3500" to="5000"  key="LEVEL10_NAME" member="0" >
+				<popups>
+					<overview descriptionKey="LEVEL10_DESCRIPTION" />
+					<reached textKey="LEVEL10_REWARD"/>
+				</popups>
+				<abilities>
+					<ability id='throwStraw' nameKey="ABILITY_THROWSTRAW"/>
+				</abilities>
+			</level>
+			<level id="11" from="5000" to="7500"  key="LEVEL11_NAME" member="0" >
+				<popups>
+					<overview descriptionKey="LEVEL11_DESCRIPTION" />
+					<reached textKey="LEVEL11_REWARD"/>
+				</popups>
+			</level>
+			<level id="12" from="7500" to="10500"  key="LEVEL12_NAME" member="0" >
+				<popups>
+					<overview descriptionKey="LEVEL12_DESCRIPTION" />
+					<reached textKey="LEVEL12_REWARD"/>
+				</popups>
+			</level>
+			<level id="13" from="10500" to="14000"  key="LEVEL13_NAME" member="0" >
+				<popups>
+					<overview descriptionKey="LEVEL13_DESCRIPTION" />
+					<reached textKey="LEVEL13_REWARD"/>
+				</popups>
+				<producerbonus>
+					<producer harvestId="5" count="1" /> <!--water-->
+				</producerbonus>
+			</level>
+			<level id="14" from="14000" to="18000"  key="LEVEL14_NAME" member="0" >
+				<popups>
+					<overview descriptionKey="LEVEL14_DESCRIPTION" />
+					<reached textKey="LEVEL14_REWARD"/>
+				</popups>
+				<abilities>
+					<ability id='invisibleAction' nameKey="INVISIBLE"/>
+				</abilities>
+			</level>
+			<level id="15" from="18000" to="23000" key="LEVEL15_NAME" member="0" >
+				<popups>
+					<overview descriptionKey="LEVEL15_DESCRIPTION" />
+					<reached textKey="LEVEL15_REWARD"/>
+				</popups>
+			</level>
+			<level id="16" from="23000" to="29000" key="LEVEL16_NAME" member="1" >
+				<popups>
+					<overview descriptionKey="LEVEL16_DESCRIPTION" />
+					<reached textKey="LEVEL16_REWARD"/>
+				</popups>
+			</level>
+			<level id="17" from="29000" to="37000" key="LEVEL17_NAME" member="0" >
+				<popups>
+					<overview descriptionKey="LEVEL17_DESCRIPTION" />
+					<reached textKey="LEVEL17_REWARD"/>
+				</popups>
+				<abilities>
+					<ability id='throwCake' nameKey="THROWCAKE"/>
+				</abilities>
+			</level>
+			<level id="18" from="37000" to="46000" key="LEVEL18_NAME" member="1" >
+				<popups>
+					<overview descriptionKey="LEVEL18_DESCRIPTION" />
+					<reached textKey="LEVEL18_REWARD"/>
+				</popups>
+			</level>
+			<level id="19" from="46000" to="56000" key="LEVEL19_NAME" member="0" >
+				<popups>
+					<overview descriptionKey="LEVEL19_DESCRIPTION" />
+					<reached textKey="LEVEL19_REWARD"/>
+				</popups>
+			</level>
+			<level id="20" from="56000" to="67000" key="LEVEL20_NAME" member="0" >
+				<popups>
+					<overview descriptionKey="LEVEL20_DESCRIPTION" />
+					<reached textKey="LEVEL20_REWARD"/>
+				</popups>
+				<producerbonus>
+					<producer harvestId="55" count="1" /> <!--seed-->
+				</producerbonus>
+			</level>
+			<level id="21" from="67000" to="78000" key="LEVEL21_NAME" member="1" >
+				<popups>
+					<overview descriptionKey="LEVEL21_DESCRIPTION" />
+					<reached textKey="LEVEL21_REWARD"/>
+				</popups>
+			</level>
+			<level id="22" from="78000" to="90000" key="LEVEL22_NAME" member="1" >
+				<popups>
+					<overview descriptionKey="LEVEL22_DESCRIPTION" />
+					<reached textKey="LEVEL22_REWARD"/>
+				</popups>
+			</level>
+			<level id="23" from="90000" to="103000" key="LEVEL23_NAME" member="0" >
+				<popups>
+					<overview descriptionKey="LEVEL23_DESCRIPTION" /> <!-- reward change -->
+					<reached textKey="LEVEL23_REWARD"/>
+				</popups>
+				<abilities>
+					<ability id='lieDown' nameKey="LIEDOWN"/>
+				</abilities>
+			</level>
+			<level id="24" from="103000" to="117000" key="LEVEL24_NAME" member="1" >
+				<popups>
+					<overview descriptionKey="LEVEL24_DESCRIPTION" />
+					<reached textKey="LEVEL24_REWARD"/>
+				</popups>
+			</level>
+			<level id="25" from="117000" to="1000000" key="LEVEL25_NAME" member="0" >
+				<popups>
+					<overview descriptionKey="LEVEL25_DESCRIPTION" /> <!-- reward change -->
+					<reached textKey="LEVEL25_REWARD"/>
+				</popups>
+				<producerbonus>
+					<producer harvestId="44" count="1" /> <!--fertilizer-->
+				</producerbonus>
+			</level>
+			<!--<level id="26" from="132000" to="149000" key="LEVEL26_NAME" member="1" >
+				<popups>
+					<overview descriptionKey="LEVEL26_DESCRIPTION" />
+					<reached textKey="LEVEL26_REWARD"/>
+				</popups>
+			</level>
+			<level id="27" from="149000" to="169000" key="LEVEL27_NAME" member="1" >
+				<popups>
+					<overview descriptionKey="LEVEL27_DESCRIPTION" />
+					<reached textKey="LEVEL27_REWARD"/>
+				</popups>
+				<producerbonus>
+					<producer harvestId="44" count="1" />--> <!--fertilizer-->
+				<!--</producerbonus>
+			</level>
+			<level id="28" from="169000" to="194000" key="LEVEL28_NAME" member="0" >
+				<popups>
+					<overview descriptionKey="LEVEL28_DESCRIPTION" />
+					<reached textKey="LEVEL28_REWARD"/>
+				</popups>
+			</level>
+			<level id="29" from="194000" to="244000" key="LEVEL29_NAME" member="1" >
+				<popups>
+					<overview descriptionKey="LEVEL29_DESCRIPTION" />
+					<reached textKey="LEVEL29_REWARD"/>
+				</popups>
+			</level>
+			<level id="30" from="244000" to="2147483640" key="LEVEL30_NAME" member="0" >
+				<popups>
+					<overview descriptionKey="LEVEL30_DESCRIPTION" />
+					<reached textKey="LEVEL30_REWARD"/>
+				</popups>
+			</level>-->
+		</levels>
+		
+		<!-- not level dependent popup information -->
+		<popups>
+			<blocked_ability textKey="ABILITY_BLOCKED" />
+		</popups>
+
+		<incrementevents>
+			<event name="quest_bunny1_end" value="50" />
+			<event name="quest_bunny2_end" value="150" />
+			<event name="quest_bunny3_end" value="250" />
+			<event name="harvest_category_1" value="70" />
+		</incrementevents>
+	</fame>
+	
+</config>

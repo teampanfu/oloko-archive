@@ -1,0 +1,34 @@
+<config> <!-- TROPICAL GARDEN-->
+	<assets>
+		<asset id="room" path="assets/room.swf" />
+	</assets>
+	
+	<sounds>
+		<sound id="roomBackground" type="music" volume="0.4" path="audio/OLO_03_farm_land.mp3" loops="-1" />
+	</sounds>
+	
+	
+	<module>
+		<elementSounds>
+			<sound id="glasdoor" path="assets/audio/ol_interface_mouseover_glas.mp3" loops="1" type="effect" volume="1" />
+		</elementSounds>
+		
+		<elements>
+			<element id="door" button="1" visible="1">
+				<button type="overClickSound" over="2" out="1" click="2" sound="glasdoor" />
+				<message value="gotoHotSpot" >
+					<hotspot value="door" />
+				</message>
+			</element>
+<!--
+			<element id="helicopter" button="1" visible="1">
+				<button type="drag"  />
+			</element>
+-->
+		</elements>
+		
+		<hotspots>
+			<hotspot target="10" 		type="room" 	id="door"		sharetype="unique" shape="round" x="144" y="329" rad="50" /> <!-- sunny farm -->
+		</hotspots>
+	</module>
+</config>

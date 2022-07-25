@@ -1,0 +1,148 @@
+<config>
+	<!-- snippets path='manager/featureManager/modules/popup/conf/snippets/popup_snippets_$$lang$$.xml' _REPLACE_='1' / -->
+	<sounds>
+		<sound id="newProduceItem" path="assets/audio/ol_levelup.mp3" type="speaker" loops="1" volume="1.0" />
+		<sound id="taskSolved" path="assets/audio/introtour3/taskSolved.mp3" type="speaker" loops="1" volume="1.0" />
+	</sounds>
+	<snippets path='conf/allSnippets/$$lang$$/popup_snippets_$$lang$$.xml' _REPLACE_='1' /> 
+	<assets>
+		<asset id='inactivityPopup' path='assets/InactivityPopup.swf' />
+		<asset id='defaultPopup' path='assets/DefaultPopup.swf' />
+		<asset id='newGoldFeatures' path='assets/newGoldFeatures.swf' />
+		<asset id='getItemPopup' path='assets/GetItemPopup.swf' />
+		<asset id='getRewardItemPopup' path='assets/GetRewardItemPopup.swf' />
+		<asset id='aPromoPopup' path='assets/promo/$$0$$/abPromoPopupA.swf' />
+		<asset id='bPromoPopup' path='assets/promo/$$0$$/abPromoPopupB.swf' />
+		<asset id='notEnoughCoinsPopup' path='assets/notEnoughCoinsPopup.swf' />
+		<asset id='christmasPopup' path='assets/ChristmasPopup.swf' />
+		<asset id='levelRewardPopup' path='assets/LevelRewardPopup.swf' />
+		<asset id='abilityBlockedPopup' path='assets/AbilityBlockedPopup.swf' />
+		<asset id='goldAbilityPopup' path='assets/goldAbilityPopup.swf' />
+		<asset id='confirmPopup' path='assets/confirmPopup.swf' />
+		<asset id='birthdayPopup' path='assets/BirthdayPopup.swf' />
+		<asset id='dropDownBackgrounds' path='assets/dropDownBackgrounds.swf' />
+		<asset id='goldDayPopup' path='assets/popupGoldDay.swf' />
+		<asset id='pollPopup' path='assets/Survey_1.swf' />
+		<asset id='exitPopup' path='assets/popup_exit.swf' />
+		<asset id='hintPopup' path='assets/hintPopup.swf' />
+		<asset id='endIntroTour2Popup' path='assets/endIntroTour2.swf' />
+		<asset id='avatarSelectionPopup' path='assets/avatarSelectionPopup.swf' />
+		
+		<!-- guidance popups -->
+		<asset id='friendRequestPopup' path='assets/friendRequestPopup.swf' />
+		
+		<!-- moderator popups -->
+		<asset id='automaticWarning' path='assets/moderator/AutomaticWarning.swf' />
+		<asset id='lockPopup' path='assets/moderator/LockPopup.swf' />
+		<asset id='deactivatedPopup' path='assets/moderator/DeactivatedPopup.swf' />
+		<asset id='safeChatPopup' path='assets/moderator/SafeChatPopup.swf' />
+		<asset id='cannotChatPopup' path='assets/moderator/CannotChatPopup.swf' />
+		<asset id='reportUserPopup' path='assets/moderator/ReportUserPopup.swf' />
+		<asset id='ignoreUserPopup' path='assets/moderator/IgnoreUserPopup.swf' />
+		<asset id='rulesPopup' path='assets/moderator/RulesPopup.swf' />
+		<asset id='reportConfirmPopup' path='assets/moderator/ReportConfirmPopup.swf' />
+		<asset id='ignoreConfirmPopup' path='assets/moderator/IgnoreConfirmPopup.swf' />
+		
+		
+		<!-- news popup -->
+		<asset id='newSunnyFarmPopup' path='assets/newSunnyFarmPopup.swf' />
+		<asset id='newsPopup2' path='assets/newsPopup/newsPopup2.swf' />
+		<asset id='newsPopup3' path='assets/newsPopup/newsPopup3.swf' />
+		<asset id='newsPopup4' path='assets/newsPopup/newsPopup4.swf' />
+		<asset id='newsPopup5' path='assets/newsPopup/newsPopup5.swf' />
+		
+		<!-- hintPopup Assets -->
+		<asset id='Activities' path='assets/hints/Activities.swf' />
+		<asset id='Activity' path='assets/hints/Activity.swf' />
+		<asset id='Back' path='assets/hints/Back.swf' />
+		<asset id='Cancel' path='assets/hints/Cancel.swf' />
+		<asset id='chatHistory' path='assets/hints/chatHistory.swf' />
+		<asset id='Clock' path='assets/hints/Clock.swf' />
+		<asset id='Generators' path='assets/hints/Generators.swf' />
+		<asset id='Homes' path='assets/hints/Homes.swf' />
+		<asset id='Jobhints' path='assets/hints/Jobhint.swf' />
+		<asset id='Minigames' path='assets/hints/Minigames.swf' />
+		<asset id='PremiumGarden' path='assets/hints/PremiumGarden.swf' />
+		<asset id='Shop' path='assets/hints/Shop.swf' />
+		<asset id='Subscribe' path='assets/hints/Subscribe.swf' />
+		<asset id='Timer' path='assets/hints/Timer.swf' />
+		<asset id='wateringCan' path='assets/hints/wateringCan.swf' />
+		<asset id='WaterLocations' path='assets/hints/waterLocations.swf' />
+		
+		<!-- task -->
+		<asset id='taskAvaialblePopup' path='assets/taskAvaialblePopup.swf' />
+		<asset id='newItemAvailablePopup' path='assets/newItemAvailablePopup.swf' />
+		<asset id='producerBlockedPopup' path='assets/producerBlockedPopup.swf' />
+		
+		<!-- intro tour -->
+		<asset id='getHomePopup' path='assets/introTour/GetHomePopup.swf' />
+		<asset id='getMobilePopup' path='assets/introTour/GetMobilePopup.swf' />
+		
+		<!-- avatar benefits -->
+		<asset id='getAvatarBenefitRewardPopup' path='assets/avatarBenefit/GetAvatarBenefitRewardPopup.swf' />
+		
+		<!-- story jobs -->
+		<asset id='storyJobsHistoryPopup' path='assets/storyJobsHistoryPopup.swf' />
+		
+		<!-- group popups -->
+		<asset id='groupRoomAccessDenyPopup' path='assets/groupRoomAccessDeny.swf' />
+		<asset id='joinGroupSuccessPopup' path='assets/joinGroupSuccessPopup.swf' />
+		<asset id='goldAbilityGroupPopup' path='assets/goldAbilityGroupPopup.swf' />
+		<asset id='otherGroupWonNotification' path='assets/otherGroupWonNotification.swf' />
+		<asset id='groupRewardPopup' path='assets/groupRewardPopup.swf' />
+		
+		
+	</assets>
+	<module>
+		<promo>
+			<abPromo>
+				<classPopup name="ABPromoPopupMediator" />
+				<aPromo assetName='aPromoPopup' />
+				<bPromo assetName='bPromoPopup' />
+				<!-- for type everyNDay, set rythm in everyNDayRythm. 1 = once every day, 2 = once every two day, etc.-->
+				<promoType type='everyNDay' everyNDayRythm='1' subSateUsed='20000'/> <!-- uses quest state of helper quest -->
+				<checks>
+					<check dateInterval='19 08 2009-03 09 2010'/>
+					<check isLang="DE" />
+					<check isPremium="false" />
+				</checks>
+			</abPromo>
+		</promo>
+		
+		<goldAbility>
+			<ability id='avatars' snippetHeader='GOLDPOPUP_AVATARS_HEADER' snippetText='GOLDPOPUP_AVATARS_TEXT' asset='goldAbilityPopup.Avatars' trackKey='03' />
+			<ability id='clothes' snippetHeader='GOLDPOPUP_CLOTHES_HEADER' snippetText='GOLDPOPUP_CLOTHES_TEXT' asset='goldAbilityPopup.Clothes' trackKey='01' />
+			<ability id='beaver' snippetHeader='GOLDPOPUP_BEAVER_HEADER' snippetText='GOLDPOPUP_BEAVER_TEXT' asset='goldAbilityPopup.Beaver' trackKey='08' />
+			<ability id='furniture' snippetHeader='GOLDPOPUP_FURNITURE_HEADER' snippetText='GOLDPOPUP_FURNITURE_TEXT' asset='goldAbilityPopup.Furniture' trackKey='02' />
+			<ability id='garden' snippetHeader='GOLDPOPUP_GARDEN_HEADER' snippetText='GOLDPOPUP_GARDEN_TEXT' asset='goldAbilityPopup.Garden' trackKey='10' />
+			<ability id='mobile' snippetHeader='GOLDPOPUP_HANDY_HEADER' snippetText='GOLDPOPUP_HANDY_TEXT' asset='goldAbilityPopup.Mobile' trackKey='09' />
+			<ability id='rarePlants' snippetHeader='GOLDPOPUP_GOLDPLANTS_HEADER' snippetText='GOLDPOPUP_GOLDPLANTS_TEXT' asset='goldAbilityPopup.RarePlants' trackKey='07' />
+			<ability id='trade' snippetHeader='GOLDPOPUP_TRADE_HEADER' snippetText='GOLDPOPUP_TRADE_TEXT' asset='goldAbilityPopup.Trade' trackKey='06' />
+			<ability id='well' snippetHeader='GOLDPOPUP_GARDEN_HELPER_HEADER' snippetText='GOLDPOPUP_GARDEN_HELPER_TEXT' asset='goldAbilityPopup.Well' trackKey='05' />
+			<ability id='water' snippetHeader='GOLDPOPUP_WATERING_HEADER' snippetText='GOLDPOPUP_WATERING_BODY' asset='goldAbilityPopup.Water' trackKey='04' />
+			<ability id='powerup' snippetHeader='GOLDPOPUP_POWERUPS_HEADLINE' snippetText='GOLDPOPUP_POWERUPS_BODY' asset='goldAbilityPopup.Powerup' trackKey='11' />
+			<ability id='house' snippetHeader='GOLDPOPUP_HOUSESTORE_TITLE' snippetText='GOLDPOPUP_HOUSESTORE_BODY' asset='goldAbilityPopup.House' trackKey='12' />
+		</goldAbility>
+		
+		<hints x='540' y='100'>
+			<hint id='1' snippetHeader='WISETREE_DIDYOUKNOW' snippetText='WISETREE_RANDOMHINT_01' asset='chatHistory' />
+			<hint id='1' snippetHeader='WISETREE_DIDYOUKNOW' snippetText='WISETREE_RANDOMHINT_02' asset='Shop' />
+			<hint id='1' snippetHeader='WISETREE_DIDYOUKNOW' snippetText='WISETREE_RANDOMHINT_03' asset='Generators'  />
+
+			<hint id='1' snippetHeader='WISETREE_DIDYOUKNOW' snippetText='WISETREE_RANDOMHINT_05' asset='Timer' />
+			<hint id='1' snippetHeader='WISETREE_DIDYOUKNOW' snippetText='WISETREE_RANDOMHINT_06' asset='wateringCan' />
+			<hint id='1' snippetHeader='WISETREE_DIDYOUKNOW' snippetText='WISETREE_RANDOMHINT_07' asset='Clock' />
+			<hint id='1' snippetHeader='WISETREE_DIDYOUKNOW' snippetText='WISETREE_RANDOMHINT_08' asset='Back' />
+			<hint id='1' snippetHeader='WISETREE_DIDYOUKNOW' snippetText='WISETREE_RANDOMHINT_09' asset='Cancel' />
+
+			<hint id='1' snippetHeader='WISETREE_DIDYOUKNOW' snippetText='WISETREE_RANDOMHINT_11' asset='Shop' />
+			<hint id='1' snippetHeader='WISETREE_DIDYOUKNOW' snippetText='WISETREE_RANDOMHINT_12' asset='Activity' />
+			<hint id='1' snippetHeader='WISETREE_DIDYOUKNOW' snippetText='WISETREE_RANDOMHINT_13' asset='Minigames' />
+			
+			<hint id='1' snippetHeader='WISETREE_DIDYOUKNOW' snippetText='WISETREE_RANDOMHINT_17' asset='PremiumGarden' />
+			<hint id='1' snippetHeader='WISETREE_DIDYOUKNOW' snippetText='WISETREE_RANDOMHINT_18' asset='Jobhints' />
+			<hint id='1' snippetHeader='WISETREE_DIDYOUKNOW' snippetText='WISETREE_RANDOMHINT_19' asset='Homes' />
+
+		</hints>
+	</module>
+</config>

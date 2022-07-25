@@ -1,0 +1,13 @@
+<quest id='3'> <!-- task -->
+	<tasks substate='1'> <!-- SUB TASK--> <!-- Heidi -->
+		<task id='' state='10'> <!-- give chili to turtle --> 
+			<type value='giveItemToNPC'> <properties itemName='101' /> </type>	<!-- chili -->
+			<checks></checks>
+			<finished> <action id='giveItemToNPC' itemName='101'/> </finished>	
+			<actions> 
+				<action id='updateState' value='3,1,20' /> 
+				<action id='message'  target='introTour' key='QC.npcClicked' value='wiseTree'/>
+			</actions>
+		</task>
+	</tasks>
+</quest>

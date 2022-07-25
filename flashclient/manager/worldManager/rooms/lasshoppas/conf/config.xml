@@ -1,0 +1,49 @@
+<config><!-- laasshoppas-->
+	<assets>
+		<asset id="room" path="assets/room.swf" />
+	</assets>
+	
+	<sounds>
+		<sound id="roomBackground" type="music" volume="0.4" path="audio/OLO_08_cat_style.mp3" loops="-1" />
+	</sounds>
+	
+	
+	<module>
+		<elementSounds>
+			<sound id="slidingdoor" path="assets/audio/ol_interface_mousover_sliding.mp3" loops="1" type="effect" volume="1" />
+		</elementSounds>
+		
+		<elements>
+			<element id="door1" button="1" visible="1">
+				<button type="overClickSound" over="2" out="1" click="2" sound="slidingdoor" />
+				<message value="gotoHotSpot" >
+					<hotspot value="door1" />
+				</message>
+			</element>
+			<element id="door2" button="1" visible="1">
+				<button type="overClickSound" over="2" out="1" click="2" sound="slidingdoor" />
+				<message value="gotoHotSpot" >
+					<hotspot value="door2" />
+				</message>
+			</element>
+		</elements>
+		
+		<hotspots>
+			<hotspot target="19" 		type="room" 			sharetype="unique" shape="round" x="468" y="232" rad="50" dirAngle="-35"/> <!-- wise tree  -->
+			<hotspot target="13" 		type="room" 			sharetype="unique" shape="round" x="820" y="454" rad="50" dirAngle="-35"/> <!-- kittyoto  -->
+			<!--<hotspot target="7" 		type="room" 			sharetype="unique" shape="round" x="820" y="454" rad="50" dirAngle="60"/>  foodcroner/watermill -->
+			<hotspot target="18" 		type="room" 			sharetype="unique" shape="round" x="36" y="497" rad="50" dirAngle="165"/> <!-- mainheadisland  -->
+			<hotspot target="24" 		type="room"  id="door2"	sharetype="unique" shape="round" x="508" y="418" rad="30" /> <!-- chatel  -->
+			<hotspot target="25" 		type="room"  id="door1"	sharetype="unique" shape="round" x="227" y="396" rad="30" /> <!-- furnitureshop  -->
+
+			<hotspot target="9" 		type="room" 			sharetype="unique" shape="round" x="716" y="650" rad="50" dirAngle="75"/> <!-- rio azul  -->
+			<hotspot target="1000" type="home" 			sharetype="unique" shape="round" x="5" y="319" rad="50" dirAngle="180"/> <!-- home -->
+		</hotspots>
+		<scale>
+			<value minScale="60" maxScale="70"/>
+		</scale>
+		<faces>
+			<face name="wiseTree"/>
+		</faces>
+	</module>
+</config>

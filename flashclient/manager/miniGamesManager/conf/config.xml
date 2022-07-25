@@ -1,0 +1,21 @@
+<config>
+
+	<snippets path='conf/allSnippets/$$lang$$/minigame_snippets_$$lang$$.xml' _REPLACE_='1' /> 
+	
+	<sounds>
+		<sound id="miniGameWinAnimSound"  path="assets/audio/winAnimSound.mp3" loops="1" type="effect" volume="1" />
+	</sounds>
+	
+	<assets>
+		<asset id='miniGamesMenu'  path='assets/MiniGamesMenu.swf' />
+		<asset id='minigamePopUps' path='assets/MinigamePopUps.swf' />
+		<asset id='youWonPopUp' path='assets/YouWonPopUp.swf' />
+		<asset id='drawAnim' path='assets/DrawAnim.swf' />
+	</assets>
+	<minigames>
+		<game gameId="cloudNumberOne" conversionRate="0.05" gameServerId="-1" />
+				
+		<game gameId="quickSearchDuell" conversionRate="0.5" gameServerId="1" />
+		<game gameId="fourWins" conversionRate="0.7" gameServerId="2" />
+	</minigames>
+</config>

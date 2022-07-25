@@ -1,0 +1,2655 @@
+<config>
+	<!-- snippets path='manager/questManager/conf/snippets/quest_manager_snippets_$$lang$$.xml' _REPLACE_='1' /-->
+	<snippets path='conf/allSnippets/$$lang$$/quest_manager_snippets_$$lang$$.xml' _REPLACE_='1' /> 
+	<assets>
+		<asset id='HeidiEntryPoint' path='assets/heidi.swf' />
+		<asset id='HeidiInternshipEntryPoint' path='assets/heidi.swf' />
+		<asset id='bunnyJobDescription' path='assets/bunnyJob.swf' />
+		
+		<asset id='bunnyJob' path='assets/bunnyJob.swf' />
+		
+		<asset id='questSigns' path='assets/questSigns.swf' />
+
+		
+		<asset id='exclamation' path='assets/explanation.swf' />
+		<asset id='weddingArch' path='assets/WeddingArch.swf' />
+		<asset id='weddingTables' path='assets/WeddingTables.swf' />
+		
+		<!-- summer party elements -->
+		<asset id='table1' path='assets/summerParty/table1.swf' />
+		<asset id='table2' path='assets/summerParty/table2.swf' />
+		<asset id='stoolLeft' path='assets/summerParty/stoolLeft.swf' />
+		<asset id='stoolRight' path='assets/summerParty/stoolRight.swf' />
+		<asset id='balloons' path='assets/summerParty/balloons.swf' />
+		<asset id='bflyFireFlowers' path='assets/summerParty/bflyFireFlowers.swf' />
+		<asset id='nachos' path='assets/summerParty/nachos.swf' />
+		<asset id='stinkyBurgerRight' path='assets/summerParty/stinkyBurgerRight.swf' />
+		<asset id='stinkyBurgerLeft'  path='assets/summerParty/stinkyBurgerLeft.swf' />
+		<asset id='fruitPlate' path='assets/summerParty/fruitPlate.swf' />
+		<asset id='iceCreamLeft' path='assets/summerParty/iceCreamLeft.swf' />
+		<asset id='iceCreamRight' path='assets/summerParty/iceCreamRight.swf' />
+		<asset id='milkShake' path='assets/summerParty/milkShake.swf' />
+		<asset id='flag' path='assets/summerParty/flag.swf' />
+		
+	</assets>
+	
+	<sounds>
+		<sound id="taskFinished" path="assets/audio/ol_interface_tasksolved.mp3" type="effect" loops="1" volume="0.4" />
+		<sound id="weddingBackground" type="music" volume="0.4" path="assets/audio/loop_weddigng_background.mp3" loops="-1" />
+		<sound id="cheering" type="effect" volume="0.4" path="assets/audio/oloko_wedding_kiss_cheering.mp3" loops="1" />
+		<sound id="summerPartyBackground" type="music" volume="0.4" path="assets/audio/summerparty_loop_short_slower.mp3" loops="-1" />
+		<sound id="$$key$$" path="assets/audio/$$lang$$/$$key$$.mp3" type="speaker" loops="1" volume="1.0" />
+	</sounds>
+	
+	<questData>
+		<defaultValues>
+			<!-- helper quest -->
+			<action id='updateState' value='1,0,1' persist='true' />
+			<action id='updateState' value='1,10000,1' persist='true' /> <!-- groups -->
+			<action id='updateState' value='1,10001,1' persist='true' /> <!-- group1 -->
+			<action id='updateState' value='1,10002,1' persist='true' /> <!-- group2 -->
+			<action id='updateState' value='1,10003,1' persist='true' /> <!-- group3 -->
+			<action id='updateState' value='1,10004,1' persist='true' />
+			<action id='updateState' value='1,100,1' persist='true' /> <!-- already play video -->
+			<action id='updateState' value='1,101,1' persist='true' /> <!-- use to save the show of the groupe quest wining -->
+			<action id='updateState' value='1,200,1' persist='true' /> <!-- new sunny farm popup, 2 = popup displayed -->
+			<action id='updateState' value='1,300,1' persist='true' /> <!-- value to store the last hint of the wisetree -->
+			<action id='updateState' value='1,301,1' persist='true' /> <!-- store that player is waiting for the group change -->
+			
+			<!-- action id='updateState' value='5,0,1' persist='true' / --> <!-- summerParty -->
+			<!-- action id='updateState' value='5,1,1' persist='true' / --> <!-- summerParty -->
+			
+			<!-- intro tour -->
+			<!-- action id='updateState' value='4,0,1' persist='true' / -->
+			<!-- action id='updateState' value='4,1,1' persist='true' / -->
+			
+			<!-- intro tour2 -->
+			<!-- action id='updateState' value='6,0,1' persist='true' />
+			<action id='updateState' value='6,1,1' persist='true' / -->
+			
+			<!-- intro tour3 -->
+			<action id='updateState' value='7,0,1' persist='true' />
+			<action id='updateState' value='7,1,1' persist='true' />
+			
+			<!-- internship -->
+			<!--action id='updateState' value='2,0,1' persist='true' /--> <!-- basic state of the level -->
+			<!--action id='updateState' value='2,1,1' persist='true' /--> <!-- heidi -->
+			<!--action id='updateState' value='2,2,1' persist='true' /--> <!-- bernard -->
+			<!--action id='updateState' value='2,3,1' persist='true' /--> <!-- rose -->
+			<!--action id='updateState' value='2,4,1' persist='true' /--> <!-- speedy -->
+			<!--action id='updateState' value='2,5,1' persist='true' /--> <!-- roger -->
+			
+			
+			
+			<!-- bunny job -->
+			<action id='updateState' value='0,0,1' persist='true' /> 
+			<action id='updateState' value='0,1,50' persist='true' /> 
+			<action id='updateState' value='0,2,1' persist='true' /> 
+			<action id='updateState' value='0,3,1' persist='true' /> 
+			<action id='updateState' value='0,4,1' persist='true' />
+			<action id='updateState' value='0,5,1' persist='true' />
+			<action id='updateState' value='0,6,0' persist='true' />
+			
+			
+			<!-- popup birthday -->
+			<action id='updateState' value='1000,0,1' persist='true' />
+			<action id='updateState' value='1000,1,1' persist='true' />
+			
+			<!-- popup poll -->
+			<action id='updateState' value='1001,0,0' persist='true' />
+			<action id='updateState' value='1001,1,0' persist='true' />
+		</defaultValues>
+				
+		<resetStates>
+			<quest id="0">
+					<action id='updateState' value='0,0,1' persist='true' /> 
+					<action id='updateState' value='0,1,1' persist='true' /> 
+					<action id='updateState' value='0,2,1' persist='true' /> 
+					<action id='updateState' value='0,3,1' persist='true' /> 
+					<action id='updateState' value='0,4,1' persist='true' />
+					<action id='updateState' value='0,5,1' persist='true' />
+			</quest>
+		</resetStates>
+		
+		
+		<tasks path='manager/questManager/conf/tasks/$$quest$$.xml' />
+		
+		<entrypoints>
+			<npcs>
+				<!-- npc roomID='10' name='HeidiEntryPoint' questID='0' questNeeded="7" asset='HeidiEntryPoint' faceAsset='HeidiSpeechBubble' x='100' y='450' >
+					<button type="overClick" over="over" out="out" />
+					<behaviours>
+						<behaviour mark="nameBox"> 
+							<statement key='ENTRYPOINT_HEIDI_0001' parse='name' value='myUserName'>
+								<bubble id='headMultiAnswer' >
+									<header id='SNIPPETKEY' name='myUserName' /> 
+									<answer id='1' snippet='ENTRYPOINT_NO'>
+									</answer>
+									<answer id='2' snippet='ENTRYPOINT_YES'>
+										<actions>
+											<action id='updateState' value='0,0,1' persist='true' /> 
+											<action id='updateState' value='0,1,50' persist='true' /> 
+											<action id='updateState' value='0,2,1' persist='true' /> 
+											<action id='updateState' value='0,3,1' persist='true' /> 
+											<action id='updateState' value='0,4,1' persist='true' />
+											<action id='updateState' value='0,5,1' persist='true' />
+											<action id='updateState' value='0,6,1' persist='true' />
+											<action id='loadQuest' value='bunnyJob' />
+										</actions>
+									</answer>
+								</bubble>
+							</statement>
+						</behaviour>
+					</behaviours>
+				</npc -->
+
+				<!-- npc roomID='10' name='HeidiInternshipEntryPoint' questID='2' playerStateNeeded="2" questNeeded='4' asset='HeidiInternshipEntryPoint' faceAsset='HeidiSpeechBubble' x='100' y='450' >
+					<button type="overClick" over="over" out="out" />
+					<behaviours>
+						<behaviour mark="nameBox"> 
+							<statement key='ENTRYPOINT_HEIDI_0001'>
+								<bubble id='headMultiAnswer' >
+									<header id='SNIPPETKEY' name='myUserName' /> 
+									<answer id='1' snippet='ENTRYPOINT_NO'>
+									</answer>
+									<answer id='2' snippet='ENTRYPOINT_YES'>
+										<actions>
+											<action id='updateState' value='2,0,1' persist='true' /> // basic state of the level 
+											<action id='updateState' value='2,1,1' persist='true' /> // heidi 
+											<action id='updateState' value='2,2,1' persist='true' /> // bernard 
+											<action id='updateState' value='2,3,1' persist='true' /> // rose 
+											<action id='updateState' value='2,4,1' persist='true' /> // speedy
+											<action id='updateState' value='2,5,1' persist='true' /> // roger 
+											<action id='loadQuest' value='internship' />
+										</actions>
+									</answer>
+								</bubble>
+							</statement>
+						</behaviour>
+					</behaviours>
+				</npc -->
+			</npcs>
+		</entrypoints>
+		
+		<defaultBehaviours>
+			<defaultBehaviour id="BernardBehaviour" isADefaultBehaviour="true">
+				<statement key='BERNARD_DEFAULT' />
+			</defaultBehaviour>
+			<defaultBehaviour id="RogerBehaviour" isADefaultBehaviour="true">
+				<statement key='ROGER_DEFAULT' />
+			</defaultBehaviour>
+			<defaultBehaviour id="HeidiBehaviour" isADefaultBehaviour="true">
+				<statement key='HEIDI_DEFAULT' />
+			</defaultBehaviour>
+			<defaultBehaviour id="RoseBehaviour" isADefaultBehaviour="true">
+				<statement key='ROSE_DEFAULT' />
+			</defaultBehaviour>
+			<defaultBehaviour id="SpeedyBehaviour" isADefaultBehaviour="true">
+				<statement key='SPEEDY_DEFAULT' />
+			</defaultBehaviour>
+		</defaultBehaviours>
+		
+		<quests>
+			<!-- quest id 0, bunny job -->
+			<quest id='0' name='bunnyJob' type='2' desc='BUNNY_JOB' asset="BUNNY_JOB_PIC" finishState="190" replayable="true">
+				<loadingChecks>
+					<loadingCheck>
+						<checks>
+							<!-- check timePassed='2' unit='days' state='0,0,180' flex='+' / --> // 2 days after the end fo the quest
+							<check timePassed='1' unit='days' state='0,0,185' flex='+' /> // 2 days after the end fo the quest
+							<actions> 
+								<action id='updateState' value='0,0,190' />  <!-- end the quest -->
+							</actions>
+						</checks>
+					</loadingCheck>
+				</loadingChecks>
+				
+				
+				
+				<roomElements>
+					<element roomId="6" assetId="weddingArch" id="weddingArch" x="579" y="326">
+						<checks> 
+							<check timePassed='1' unit='days' state='0,0,180' flex='+' orValue="185"/>
+						</checks>
+					</element>
+					<element roomId="6" assetId="weddingTables" id="weddingTables" x="660" y="520">
+						<checks> 
+							<check timePassed='1' unit='days' state='0,0,180' flex='+' orValue="185" />
+						</checks>
+					</element>
+				</roomElements>
+				
+				<roomSounds>
+					<sound roomId="6" id="weddingBackground">
+						<checks> 
+							<check timePassed='1' unit='days' state='0,0,180' flex='+'  orValue="185"/>
+						</checks>
+					</sound>
+				</roomSounds>
+				
+				<states>
+					<!-- Heidi -->
+					<state id='1' default='1' >
+						<transitions>
+							<!-- HEIDI -->
+							
+							
+							<!--  ######    BEGINNER Heidi    ##### -->
+							
+							<!-- possible marks 
+								<action id='showmark' value='none' /> 			hides all marks
+								<action id='showmark' value='question' /> 		shows question asset
+								<action id='showmark' value='exclamation' /> 	shows exclamation asset
+							-->
+							
+							<!--id must be the same like the behaviour id-->
+							<!-- 
+							<transition id='baker_Heidi_beginner_start'>
+								<checks> <check gamestate='0,1,1'/> </checks>//text intro 
+								<actions> <action id='updateState' value='0,1,10' /> </actions>
+							</transition>
+							<transition id='baker_Heidi_01A_1'> <checks> <check gamestate='0,1,10'/> </checks> //create hole 
+								<actions> <action id='updateState' value='0,1,15' /> </actions>
+							</transition>
+							<transition id='baker_Heidi_01A_2'> <checks> <check gamestate='0,1,15'/> </checks> </transition> // create hole repeat
+							<transition id='baker_Heidi_01A_3'> <checks> <check gamestate='0,1,17'/> </checks>  // hole created 
+								<actions> <action id='updateState' value='0,1,20' /><action id='showmark' value='exclamation' npc="1" /> </actions>
+							</transition>
+							
+							<transition id='baker_Heidi_02A_1'> <checks> <check gamestate='0,1,20'/> </checks> //grow babyplant announce 
+								<actions> <action id='updateState' value='0,1,25' /> </actions>
+							</transition>
+							<transition id='baker_Heidi_02A_2'> <checks> <check gamestate='0,1,25'/> </checks> </transition> //grow babyplant repeat 
+							<transition id='baker_Heidi_02A_3'> <checks> <check gamestate='0,1,30'/> </checks>  //grown babyplant 
+								<actions> <action id='updateState' value='0,1,35' /> </actions>
+							</transition>
+							
+							<transition id='baker_Heidi_03A_1'> <checks> <check gamestate='0,1,35'/> </checks> //give corn announce 
+								<actions> <action id='updateState' value='0,1,45' /> </actions>
+							</transition>
+							<transition id='baker_Heidi_03A_2'> <checks> <check gamestate='0,1,45'/> </checks> </transition> //give corn repeat 
+
+							<transition id='baker_Heidi_After_03A'> <checks> <check gamestate='0,1,50'/> </checks>  // after 03A 
+								<actions> 
+									<action id='updateState' value='0,1,51' /> 
+									<action id='updateState' value='0,2,20' /> 
+								</actions>
+							</transition>
+							-->
+							<!-- transition id='baker_Heidi_04A_1'> <checks> <check gamestate='0,1,51'/> </checks --> <!-- harvest wood announce -->
+							<transition id='baker_Heidi_04A_1'> <checks> <check gamestate='0,1,1-50'/> </checks> <!-- harvest wood announce -->
+								<actions> <action id='updateState' value='0,1,55' /> </actions>
+							</transition>
+							<transition id='baker_Heidi_04A_2'> <checks> <check gamestate='0,1,55'/> </checks> </transition> <!-- give wood repeat -->
+							
+							<transition id='baker_Heidi_05A_1'> <checks> <check gamestate='0,1,60'/> </checks> <!-- give animal food announce -->
+								<actions> <action id='updateState' value='0,1,65' /> </actions>
+							</transition>
+							<transition id='baker_Heidi_05A_2'> <checks> <check gamestate='0,1,65'/> </checks> </transition> <!-- give animal food repeat -->
+							
+							<transition id='question_After_05A'> <checks> <check gamestate='0,1,70'/> </checks>  <!-- ask question after 05A -->
+								<actions>
+									<action id='updateState' value='0,3,10' /><!-- Rose open -->
+								</actions>
+							</transition>
+							<transition id='R1_question_After_05A'> <checks> <check gamestate='0,1,75'/> </checks>  <!-- answer 1 -->
+								<actions> <action id='updateState' value='0,1,90' /> </actions>
+							</transition>
+							<transition id='R2_question_After_05A'> <checks> <check gamestate='0,1,80'/> </checks>  <!-- answer 2-->
+								<actions> 
+									<action id='updateState' value='0,1,90' /> 
+								</actions>
+							</transition>
+							
+							<transition id='baker_Heidi_06A_1'> <checks> <check gamestate='0,1,90'/> </checks> <!-- grow cow announce -->
+								<actions> <action id='updateState' value='0,1,95' /> </actions>
+							</transition>
+							<transition id='baker_Heidi_06A_2'> <checks> <check gamestate='0,1,95' /> </checks> 
+								<actions> 
+									<action id='checkTask'>
+										<checks>
+											<check taskId='01_06A' questId="0" />
+										</checks>
+										<actions> 
+											<action id='updateState' value='0,1,100' /> 
+										</actions>
+									</action>	
+								</actions>
+							</transition> <!-- grow cow waiting for response -->
+							<transition id='baker_Heidi_06A_3'> <checks> <check gamestate='0,1,100'/> </checks>  <!-- cow grown -->
+								<actions> 
+									<action id='updateState' value='0,1,110' /> 
+									<!--action id='checkRoomElements' /--> 
+								</actions>
+							</transition>
+							
+							<transition id='baker_Heidi_07A_1'> <checks> <check gamestate='0,1,110'/> </checks> <!-- give milk announce -->
+								<actions> <action id='updateState' value='0,1,115' /> </actions>
+							</transition>
+							<transition id='baker_Heidi_07A_2'> <checks> <check gamestate='0,1,115'/> </checks> </transition> <!-- give milk repeat -->
+							
+							<transition id='baker_Heidi_08A_1'> <checks> <check gamestate='0,1,120'/> </checks> <!-- give egg announce -->
+								<actions> <action id='updateState' value='0,1,125' /> </actions>
+							</transition>
+							<transition id='baker_Heidi_08A_2'> <checks> <check gamestate='0,1,125'/> </checks> </transition> <!-- give egg repeat -->
+							
+							<!-- end of begin level for baker - heidi-->
+							<transition id='baker_Heidi_beginner_end'><!--id must be the same like the behaviour id-->
+								<checks> <check gamestate='0,1,130'/></checks> <!-- check here that all the task of the previous level are completed -->
+								<!-- perform leveljump to professional-->
+								<actions>
+									<action id='checkLevel'>
+										<checks>
+											<check gamestate='0,1,130' />
+											<check gamestate='0,2,90' />
+											<check gamestate='0,3,45' />
+										</checks>
+										<actions>
+											<action id="updateState" value="0,0,2" />
+											<action id="updateState" value="0,1,131" />
+											<action id="updateState" value="0,2,91" />
+											<action id="updateState" value="0,3,46" />
+											<!-- action id="updateState" value="0,4,1" / -->
+											<action id="updateState" value="0,6,20" /><!-- wise tree -->
+											<action id='mobileMessage' idMessage="" body='MESSAGE_JOBS2_BODY_1' header="MESSAGE_JOBS_HEADLINE" name='WiseTree'/>
+											<!-- action id="sendReward" item="115" amount="1" headKey="REWARD_BEGINNER_HEADER" key="REWARD_BEGINNER_MSG" / -->
+										</actions>
+									</action>
+								</actions>
+							</transition>
+							
+							
+							<!--  ######    PROFESSIONAL Heidi    ##### -->
+							
+							
+							<transition id='baker_Heidi_professional_start'> <checks> <check gamestate='0,1,131'/> </checks><!-- check here that all the task of the previous –BEGINNER– level are completed --> 
+								<actions> <action id='updateState' value='0,1,200' /> </actions>
+							</transition>
+							
+							<transition id='baker_Heidi_09A_1'> <checks> <check gamestate='0,1,200'/> </checks> <!-- get a fish announce -->
+								<actions> <action id='updateState' value='0,1,205' /> </actions>
+							</transition>
+							<transition id='baker_Heidi_09A_2'> <checks> <check gamestate='0,1,205'/> </checks> </transition> <!-- get a fish repeat -->
+							<transition id='baker_Heidi_09A_3'> <checks> <check gamestate='0,1,210'/> </checks>  <!-- got a fish  -->
+								<actions> <action id='updateState' value='0,1,215' /> </actions>
+							</transition>
+							
+							<transition id='baker_Heidi_10A_1'> <checks> <check gamestate='0,1,215'/> </checks> <!-- iceflower announce -->
+								<actions> <action id='updateState' value='0,1,220' /> </actions>
+							</transition>
+							<transition id='baker_Heidi_10A_2'> <checks> <check gamestate='0,1,220'/> </checks> </transition> <!-- iceflower repeat -->
+							<transition id='baker_Heidi_10A_3'> <checks> <check gamestate='0,1,225'/> </checks>  <!-- give iceflower -->
+								<actions> <action id='updateState' value='0,1,230' /> </actions>
+							</transition>
+							
+							<transition id='baker_Heidi_11A_1'> <checks> <check gamestate='0,1,230'/> </checks> <!-- stinking cheese announce -->
+								<actions> <action id='updateState' value='0,1,235' /> </actions>
+							</transition>
+							<transition id='baker_Heidi_11A_2'> <checks> <check gamestate='0,1,235'/> </checks> </transition> <!-- stinking cheese repeat -->
+							<transition id='baker_Heidi_11A_3'> <checks> <check gamestate='0,1,240'/> </checks>  <!-- give stinking cheese -->
+								<actions>
+									<action id='checkLevel'>
+										<checks>
+											<check gamestate='0,4,1' />
+										</checks>
+										<actions>
+											<action id='updateState' value='0,1,245' />
+										</actions>
+										<falseActions>
+											<action id='updateState' value='0,1,250' />
+										</falseActions>
+									</action>
+								</actions>
+							</transition>
+							
+							<transition id='baker_Heidi_prof_speedy_open'> <checks> <check gamestate='0,1,245'/> </checks>  <!-- speedy open -->
+								<actions> 
+									<action id='updateState' value='0,1,250' />
+									<action id='updateState' value='0,4,10' /> 
+								</actions>
+							</transition>
+							
+							<transition id='baker_Heidi_12A_1'> <checks> <check gamestate='0,1,250'/> </checks> <!-- give butter announce -->
+								<actions> <action id='updateState' value='0,1,255' /> </actions>
+							</transition>
+							<transition id='baker_Heidi_12A_2'> <checks> <check gamestate='0,1,255'/> </checks> </transition> <!-- give butter repeat -->
+							<transition id='baker_Heidi_12A_3'> <checks> <check gamestate='0,1,260'/> </checks>  <!-- gave butter -->
+								<actions> <action id='updateState' value='0,1,265' /> </actions>
+							</transition>
+							
+							<transition id='baker_Heidi_13A_1'> <checks> <check gamestate='0,1,265'/> </checks><!--give herbs announce -->
+								<actions> <action id='updateState' value='0,1,270' /> </actions>
+							</transition>
+							<transition id='baker_Heidi_13A_2'> <checks> <check gamestate='0,1,270'/> </checks> </transition> <!-- give herbs repeat -->
+							<transition id='baker_Heidi_13A_3'> <checks> <check gamestate='0,1,275'/> </checks>  <!-- got herbs -->
+								<actions> <action id='updateState' value='0,1,280' /> </actions>
+							</transition>
+							
+							<transition id='baker_Heidi_professionell_end'><!--id must be the same like the behaviour id-->
+								<checks> <check gamestate='0,1,280'/></checks> <!-- check here that all the task of the previous level are completed -->
+								<!-- perform leveljump to master-->
+								<actions>
+									<action id='checkLevel'>
+										<checks>
+											<check gamestate='0,1,280' />
+											<check gamestate='0,2,187' />
+											<check gamestate='0,3,150' />
+											<check gamestate='0,4,105' />
+										</checks>
+										<actions>
+											<action id="updateState" value="0,0,3" />
+											<action id="updateState" value="0,1,300" />
+											<action id="updateState" value="0,2,300" />
+											<action id="updateState" value="0,3,300" />
+											<action id="updateState" value="0,4,300" />
+											<action id='updateState' value='0,5,300' persist='true' />
+											<action id="updateState" value="0,6,40" /> <!-- wise tree -->
+											<action id='mobileMessage' idMessage="" body='MESSAGE_JOBS3_BODY_1' header="MESSAGE_JOBS_HEADLINE" name='WiseTree'/>
+											<action id="sendReward" item="402" amount="1" headKey="REWARD_BEGINNER_HEADER" key="REWARD_PROFESSIONAL_MSG" />
+										</actions>
+									</action>
+								</actions>
+							</transition>
+							
+							
+							<!--  ######    MASTER Heidi    ##### -->
+							
+							
+							<transition id='baker_Heidi_master_start'> <checks> <check gamestate='0,1,300'/> </checks> 
+								<actions> <action id='updateState' value='0,1,305' /> </actions>
+							</transition>
+							
+							<transition id='baker_Heidi_14A_1'> <checks> <check gamestate='0,1,305'/> </checks> <!-- get a megapotato announce -->
+								<actions> <action id='updateState' value='0,1,310' /> </actions>
+							</transition>
+							<transition id='baker_Heidi_14A_2'> <checks> <check gamestate='0,1,310'/> </checks> </transition> <!-- get a megapotato repeat -->
+							<transition id='baker_Heidi_14A_3'> <checks> <check gamestate='0,1,315'/> </checks>  <!-- got a megapotato  -->
+								<!--actions> <action id='updateState' value='0,1,320' /> </actions-->
+								<!-- perform leveljump to professional-->
+								<actions>
+									<action id='checkLevel'>
+										<checks>
+											<check gamestate='0,5,300' />
+										</checks>
+										<actions>
+											<action id='updateState' value='0,1,320' />
+										</actions>
+										<falseActions>
+											<action id='updateState' value='0,1,325' />
+										</falseActions>
+									</action>
+								</actions>
+							</transition>	
+							
+							<transition id='baker_Heidi_master_roger_open'> <checks> <check gamestate='0,1,320'/> </checks> 
+								<actions> 
+									<action id='updateState' value='0,1,325' /> 
+									<action id='updateState' value='0,5,305' />
+								</actions>
+							</transition>
+							
+							<transition id='baker_Heidi_15A_1'> <checks> <check gamestate='0,1,325'/> </checks> <!-- get a hot chillies announce -->
+								<actions> <action id='updateState' value='0,1,330' /> </actions>
+							</transition>
+							<transition id='baker_Heidi_15A_2'> <checks> <check gamestate='0,1,330'/> </checks> </transition> <!-- get a hot chillies repeat -->
+							<transition id='baker_Heidi_15A_3'> <checks> <check gamestate='0,1,335'/> </checks>  <!-- got a hot chillies  -->
+								<actions> <action id='updateState' value='0,1,340' /> </actions>
+							</transition>
+							
+							<transition id='baker_Heidi_16A_1'> <checks> <check gamestate='0,1,340'/> </checks> <!-- get turtle medicine -->
+								<actions> <action id='updateState' value='0,1,350' /> </actions>
+							</transition>
+							<transition id='baker_Heidi_16A_2'> <checks> <check gamestate='0,1,350'/> </checks> </transition> <!-- get turtle medicine repeat -->
+							<transition id='baker_Heidi_16A_3'> <checks> <check gamestate='0,1,355'/> </checks>  <!-- got turtle medicine -->
+								<actions> <action id='updateState' value='0,1,360' /> </actions>
+							</transition>
+							
+							<transition id='baker_Heidi_master_end'> <checks> <check gamestate='0,1,360'/> </checks> 
+								<!-- finish job -->
+								<actions>
+									<action id='checkLevel'>
+										<checks>
+											<check gamestate='0,1,360' />
+											<check gamestate='0,2,340' />
+											<check gamestate='0,3,340' />
+											<check gamestate='0,4,410' />
+										</checks>
+										<actions>
+											<action id="updateState" value="0,0,100" />
+											<!-- action id="sendReward" item="403" amount="1" headKey="REWARD_BEGINNER_HEADER" key="REWARD_MASTER_MSG" / -->
+										</actions>
+									</action> 	
+								</actions>
+							</transition> <!-- master end -->
+							
+							
+							<!-- new job extension, first step, endstate 105 -->
+							
+							<transition id='baker_Heidi_17A_1'> <checks> <check gamestate='0,0,100'/> </checks> <!-- get chocolate -->
+								<actions> 
+									<action id='updateState' value='0,1,365' /> 
+									<action id='updateState' value='0,0,101' /> 
+								</actions>
+							</transition>
+							<transition id='baker_Heidi_17A_2'> <checks> <check gamestate='0,1,365'/> </checks> </transition> <!-- get chocolate repeat -->
+							<transition id='baker_Heidi_17A_3'> <checks> <check gamestate='0,1,370'/> </checks>  <!-- got chocolate -->
+								<actions> 
+									<action id='updateState' value='0,1,375' /> 
+								
+									<!-- ##### TESTACTION ##### -->
+									<!-- reloads the NPCs -->
+									<!--action id='message'  target='*' key='QC.npcsUpdated' value=''/-->
+								
+								</actions>
+							</transition>
+							
+							<transition id='baker_Heidi_18A_1'> <checks> <check gamestate='0,1,375'/> </checks> <!-- get gooseberry -->
+								<actions> <action id='updateState' value='0,1,380' /> </actions>
+							</transition>
+							<transition id='baker_Heidi_18A_2'> <checks> <check gamestate='0,1,380'/> </checks> </transition> <!-- get gooseberry repeat -->
+							<transition id='baker_Heidi_18A_3'> <checks> <check gamestate='0,1,385'/> </checks>  <!-- got gooseberry -->
+								<actions> 
+									<action id='updateState' value='0,1,390' /> 
+
+									<!-- ##### TESTACTION ##### -->
+									<!-- reloads the NPCs -->
+									<!--action id='message'  target='*' key='QC.npcsUpdated' value=''/-->
+
+								</actions>
+							</transition>
+							
+						<!--	
+							<transition id='baker_Heidi_jobextension_1_end'> <checks> <check gamestate='0,1,390'/> </checks>
+								<actions> 
+									<action id="updateState" value="0,0,105" /> 
+								</actions>
+							</transition>
+						-->
+							<transition id='baker_Heidi_jobextension_1_bridge'> <checks> <check gamestate='0,1,390'/> </checks>
+								<actions> 
+									<action id="updateState" value="0,1,395" /> 
+									<action id="updateState" value="0,0,105" /> 
+								</actions>
+							</transition>
+							<transition id='baker_Heidi_jobextension_2_wait'> <checks> <check gamestate='0,1,395'/> </checks> </transition>
+							
+							
+							<!-- wedding extension endstate 155 -->
+							
+							<transition id='baker_Heidi_19A_1'> <checks> <check gamestate='0,0,140'/> </checks> <!-- make magic bees beehive -->
+								<actions> 
+									<action id='updateState' value='0,1,400' />
+									<action id='updateState' value='0,0,150' />
+									<action id='updateState' value='0,5,435' />
+								</actions>
+							</transition>
+							<transition id='baker_Heidi_19A_2'> <checks> <check gamestate='0,1,400' /> </checks> <!-- check magic bees beehive -->
+								<actions> 
+									<action id='checkTask'>
+										<checks>
+											<check taskId='01_19A' questId="0" />
+										</checks>
+										<actions> 
+											<action id='updateState' value='0,1,405' /> 
+										</actions>
+									</action>	
+								</actions>
+							</transition> 
+							
+							<transition id='baker_Heidi_19A_3'> <checks> <check gamestate='0,1,405'/> </checks>  <!-- made magic bees beehive -->
+								<actions> <action id='updateState' value='0,1,410' /> </actions>
+							</transition>
+							
+							<transition id='baker_Heidi_20A_1'> <checks> <check gamestate='0,1,410'/> </checks> <!-- get baby banana -->
+								<actions> <action id='updateState' value='0,1,415' /> </actions>
+							</transition>
+							<transition id='baker_Heidi_20A_2'> <checks> <check gamestate='0,1,415'/> </checks> </transition> <!-- get baby banana repeat -->
+							<transition id='baker_Heidi_20A_3'> <checks> <check gamestate='0,1,420'/> </checks>  <!-- got baby banana -->
+								<actions> <action id='updateState' value='0,1,425' /> </actions>
+							</transition>
+							
+							<transition id='baker_Heidi_jobextension_3_wait'> <checks> <check gamestate='0,1,425'/> </checks>
+								<actions> 
+									<action id='updateState' value='0,1,440' />
+									<action id='updateState' value='0,0,155' />
+								</actions>
+							</transition>
+							
+							<transition id='baker_Heidi_jobextension_3_wait'> <checks> <check gamestate='0,1,425'/> </checks>
+								<actions> 
+									<action id='updateState' value='0,1,440' />
+									<action id='updateState' value='0,0,155' />
+								</actions>
+							</transition>
+
+							<transition id='baker_Heidi_jobextension_2_wait'> <checks> <check gamestate='0,1,440'/> </checks> </transition>
+
+
+
+							<!-- Wedding -->
+
+							<transition id="BernardHeidi_kiss">
+								<checks>
+									<check npcLoaded='BernardWedding' />
+									<check npcLoaded='HeidiWedding' />
+								</checks>
+								<actions>
+									<action id='playNPCFrame' frame='3' clip="BernardWedding" />
+									<action id='playNPCFrame' frame='3' clip="HeidiWedding" />
+									<action id='updateState' value='0,0,185' />
+									<action id='updateState' value='0,1,500' />
+									<action id='updateState' value='0,2,500' />
+									<action id='message' target='*' key='QC.playRoomSound' value='cheering' />
+								</actions>
+							</transition>
+							<transition id='baker_Heidi_wedding'> <checks> <check gamestate='0,1,500'/> </checks> </transition>
+							
+							
+							
+						</transitions>
+					</state>
+					<!-- Bernard -->
+					<state id='2' default='2' >
+						<transitions>
+							
+							<!-- Benhard -->
+							<!-- ######### EXPERIEMNTAL !! ######################################################################## -->
+							<!-- ######### EXPERIEMNTAL !! ######################################################################## -->
+							<!-- ######### EXPERIEMNTAL !! ######################################################################## -->
+							
+							<transition id='baker_Bernard_beginner_start'><!--id must be the same like the behaviour id-->
+							<checks> <check gamestate='0,2,1'/> </checks> <!-- text intro -->
+								<!--<checks> <check gamestate='0,1,50-130'/> </checks> -->
+								<!-- <actions> <action id='updateState' value='0,2,20' /> </actions> -->
+							</transition>
+							
+							<!-- ######### EXPERIEMNTAL !! ######################################################################## -->
+							<!-- ######### EXPERIEMNTAL !! ######################################################################## -->
+							<!-- ######### EXPERIEMNTAL !! ######################################################################## -->
+							
+							<!--<transition id='baker_Bernard_beginner_start'>
+								<checks> <check gamestate='0,2,10'/> </checks> 
+								<actions> <action id='updateState' value='0,2,20' /> </actions>
+							</transition> -->
+							
+							<transition id='baker_Bernard_01B_1'> <checks> <check gamestate='0,2,10-20'/> </checks> <!-- give flour announce -->
+								<actions> <action id='updateState' value='0,2,25' /> </actions>
+							</transition>
+							<transition id='baker_Bernard_01B_2'> <checks> <check gamestate='0,2,25'/> </checks> </transition> <!-- give flour repeat -->
+							<transition id='baker_Bernard_01B_3'> <checks> <check gamestate='0,2,30'/> </checks> <!-- got flour -->
+								<actions> <action id='updateState' value='0,2,31' /> </actions>
+							</transition>
+							
+							<transition id='baker_Bernard_02B_1'> <checks> <check gamestate='0,2,31'/> </checks> <!-- give dough announce -->
+								<actions> <action id='updateState' value='0,2,35' /> </actions>
+							</transition>
+							<transition id='baker_Bernard_02B_2'> <checks> <check gamestate='0,2,35'/> </checks> </transition> <!-- give dough repeat -->
+							<transition id='baker_Bernard_02B_3'> <checks> <check gamestate='0,2,40'/> </checks> <!-- got dough -->
+								<actions>
+									<action id='checkLevel'>
+										<checks>
+											<check gamestate='0,3,10' />
+										</checks>
+										<actions>
+											<action id='updateState' value='0,2,50' />
+										</actions>
+										<falseActions>
+											<action id='updateState' value='0,2,43' />
+										</falseActions>
+									</action>
+								</actions>
+							</transition>
+							
+							<!-- rose open -->
+							<transition id='baker_Bernard_beginner_rose_open'> <checks> <check gamestate='0,2,43'/> </checks>  <!-- rose open -->
+								<actions> <action id='updateState' value='0,2,50' /> </actions>
+								<actions> <action id='updateState' value='0,3,10' /> </actions>
+							</transition>
+							
+							<transition id='baker_Bernard_03B_1'> <checks> <check gamestate='0,2,50'/> </checks> <!-- start oven announce -->
+								<actions> 
+									<action id='updateState' value='0,2,55' />
+								</actions>
+							</transition>
+							<transition id='baker_Bernard_03B_2'> <checks> <check gamestate='0,2,55'/> </checks> 
+								<actions> 
+									<action id='checkTask'>
+										<checks>
+											<check taskId='02_03B' questId="0" />
+										</checks>
+										<actions> 
+											<action id='updateState' value='0,2,60' /> 
+										</actions>
+									</action>	
+								</actions>
+							</transition> <!-- start oven repeat -->
+							<transition id='baker_Bernard_03B_3'> <checks> <check gamestate='0,2,60'/> </checks>  <!-- start oven -->
+								<actions> <action id='updateState' value='0,2,70' /> </actions>
+							</transition>
+
+							<transition id='baker_Bernard_04B_1'> <checks> <check gamestate='0,2,70'/> </checks> <!-- give bread announce -->
+								<actions> <action id='updateState' value='0,2,75' /> </actions>
+							</transition>
+							<transition id='baker_Bernard_04B_2'> <checks> <check gamestate='0,2,75'/> </checks> </transition> <!-- give bread repeat -->
+							
+							<transition id='baker_Bernard_05B_1'> <checks> <check gamestate='0,2,80'/> </checks> <!-- give bretzel announce -->
+								<actions> <action id='updateState' value='0,2,85' /> </actions>
+							</transition>
+							<transition id='baker_Bernard_05B_2'> <checks> <check gamestate='0,2,85'/> </checks> </transition> <!-- give bretzel repeat -->
+							
+							
+							
+							<!-- end of begin level for baker - Bernard -->
+							<transition id='baker_Bernard_beginner_end'><!--id must be the same like the behaviour id-->
+								<checks> <check gamestate='0,2,90'/></checks> <!-- check here that all the task of the previous level are completed -->
+								<!-- perform leveljump to professional-->
+								<actions>
+									<action id='checkLevel'>
+										<checks>
+											<check gamestate='0,1,130' />
+											<check gamestate='0,2,90' />
+											<check gamestate='0,3,45' />
+										</checks>
+										<actions>
+											<action id="updateState" value="0,0,2" />
+											<action id="updateState" value="0,1,131" />
+											<action id="updateState" value="0,2,91" />
+											<action id="updateState" value="0,3,46" />
+											<!-- action id="updateState" value="0,4,1" / -->
+											<action id="updateState" value="0,6,20" /><!-- wise tree -->
+											<action id='mobileMessage' idMessage="" body='MESSAGE_JOBS2_BODY_1' header="MESSAGE_JOBS_HEADLINE" name='WiseTree'/>
+											<!-- action id="sendReward" item="115" amount="1" headKey="REWARD_BEGINNER_HEADER" key="REWARD_BEGINNER_MSG" / -->
+										</actions>
+									</action>
+								</actions>
+							</transition>
+							
+							
+							<!--  ######    PROFESSIONAL    ##### -->
+							
+							
+							<transition id='baker_Bernard_professional_start'><!--id must be the same like the behaviour id-->
+								<checks> <check gamestate='0,2,91'/> </checks><!-- check here that all the task of the previous –BEGINNER– level are completed --> 
+								<actions> <action id='updateState' value='0,2,100' /> </actions>
+							</transition>
+							
+							
+							<transition id='baker_Bernard_06B_1'> <checks> <check gamestate='0,2,100' /> </checks> <!-- bring fruit cake to NPC announce -->
+								<actions> <action id='updateState' value='0,2,105' /> </actions>
+							</transition>
+							<transition id='baker_Bernard_06B_2'> <checks> <check gamestate='0,2,105' missesItems='fruitcake_50'/> </checks> </transition> <!-- no cake anymore -->
+							<transition id='baker_Bernard_06B_3'> <checks> <check gamestate='0,2,105' hasItems='fruitcake_50'/> </checks> </transition> <!-- bring fruit cake to NPC repeat -->
+							<transition id='baker_Bernard_06B_4'> <checks> <check gamestate='0,2,116' /> </checks> <!-- bring fruit cake thanks -->
+								<actions> <action id='updateState' value='0,2,117' /> </actions>
+							</transition> 
+							
+							<!-- ### HEIDIS PART -->
+							<transition id='baker_Heidi_fruitcake_missing'> <checks> 	<check gamestate='0,2,105' missesItems='fruitcake_50'/> </checks> </transition><!-- bring fruit cake to NPC  repeat -->
+							<transition id='baker_Heidi_has_fruitcake'> <checks> 		<check gamestate='0,2,105' hasItems='fruitcake_50'/> </checks> <!-- bring fruit cake to NPC  repeat -->
+								<actions> <action id='updateState' value='0,2,110' /> </actions>
+							</transition>
+							<transition id='baker_Heidi_has_fruitcake_rep'> <checks> 	<check gamestate='0,2,110'/> </checks> </transition><!-- bring fruit cake to NPC  repeat -->
+					
+							<transition id='baker_Heidi_got_fruitcake'> <checks> 		<check gamestate='0,2,115'/> </checks> 
+								<actions> <action id='updateState' value='0,2,116' /> </actions>
+							</transition><!-- heidi got cake -->
+							<!-- ### HEIDIS PART -->
+							
+							
+							<transition id='baker_Bernard_07B_1'> <checks> <check gamestate='0,2,117'/> </checks> <!-- produce sugar announce -->
+								<actions> <action id='updateState' value='0,2,120' /> </actions>
+							</transition>
+							<transition id='baker_Bernard_07B_2'> <checks> <check gamestate='0,2,120'/> </checks> </transition> <!-- produce sugar  repeat -->
+							<transition id='baker_Bernard_07B_3'> <checks> <check gamestate='0,2,125'/> </checks>  <!-- produced sugar  -->
+								<actions> <action id='updateState' value='0,2,130' /> </actions>
+							</transition>
+							
+							
+							<transition id='baker_Bernard_08B_1'> <checks> <check gamestate='0,2,130'/> </checks> <!-- bring sandcake to npc announce -->
+								<actions> <action id='updateState' value='0,2,135' /> </actions>
+							</transition>
+							<transition id='baker_Bernard_08B_2'> <checks> <check gamestate='0,2,135' missesItems='sandcake_72'/> </checks> </transition> <!-- no cake anymore -->
+							<transition id='baker_Bernard_08B_3'> <checks> <check gamestate='0,2,135' hasItems='sandcake_72'/>  </checks> </transition> <!-- bring sandcake to npc repeat -->
+							<transition id='baker_Bernard_08B_4'> <checks> <check gamestate='0,2,146' />  </checks>  <!-- bring sandcake thanks  -->
+								<actions> <action id='updateState' value='0,2,147' /> </actions>
+							</transition>
+							
+							<!-- ### HEIDIS PART -->
+							<transition id='baker_Heidi_sandcake_missing'> <checks> 	<check gamestate='0,2,135' missesItems='sandcake_72'/> </checks> </transition><!-- bring sandcake to NPC repeat -->
+							<transition id='baker_Heidi_has_sandcake'> <checks> 		<check gamestate='0,2,135' hasItems='sandcake_72'/> </checks> </transition><!-- bring sandcake to NPC repeat -->
+							
+							
+							<transition id='baker_Heidi_got_sandcake'> <checks> 		<check gamestate='0,2,145'/> </checks> 
+								<actions>
+									<action id='checkLevel'>
+										<checks>
+											<check gamestate='0,4,1' />
+										</checks>
+										<actions>
+											<action id='updateState' value='0,2,146' />
+										</actions>
+										<falseActions>
+											<action id='updateState' value='0,2,150' />
+										</falseActions>
+									</action>
+								</actions>
+								
+							</transition><!-- heidi got cake -->
+							<!-- ### HEIDIS PART -->
+							
+							
+							<transition id='baker_Bernard_prof_speedy_open'> <checks> 	<check gamestate='0,2,146'/> </checks> <!-- speedy open -->
+								<actions> 
+									<action id='updateState' value='0,2,150' />
+									<action id='updateState' value='0,4,10' /> 
+								</actions>
+							</transition>
+							
+							
+							<transition id='baker_Bernard_09B_1'> <checks> <check gamestate='0,2,150'/> </checks> <!-- produce popcorn announce -->
+								<actions> <action id='updateState' value='0,2,155' /> </actions>
+							</transition>
+							<transition id='baker_Bernard_09B_2'> <checks> <check gamestate='0,2,155'/> </checks> </transition> <!-- produce popcorn repeat -->
+							<transition id='baker_Bernard_09B_3'> <checks> <check gamestate='0,2,160'/> </checks>  <!-- produced popcorn  -->
+								<actions> <action id='updateState' value='0,2,170' /> </actions>
+							</transition>
+							
+							
+							<transition id='baker_Bernard_10B_1'> <checks> <check gamestate='0,2,170'/> </checks> <!-- bring fortunecookie to npc announce -->
+								<actions> <action id='updateState' value='0,2,175' /> </actions>
+							</transition>
+							<transition id='baker_Bernard_10B_2'> <checks> <check gamestate='0,2,175' missesItems='fortunecookie_47'/> </checks> </transition> <!-- no fortunecookie anymore -->
+							<transition id='baker_Bernard_10B_3'> <checks> <check gamestate='0,2,175' hasItems='fortunecookie_47'/>  </checks> </transition> <!-- bring fortunecookie to npc repeat -->
+							<transition id='baker_Bernard_10B_4'> <checks> <check gamestate='0,2,186' />  </checks>  <!-- bring fortunecookie thanks  -->
+								<actions> <action id='updateState' value='0,2,187' /> </actions>
+							</transition>
+							
+							<!-- ### HEIDIS PART -->
+							<transition id='baker_Heidi_fortunecookie_missing'> <checks> 	<check gamestate='0,2,175' missesItems='fortunecookie_47'/> </checks> </transition><!-- bring fortunecookie to NPC repeat -->
+							<transition id='baker_Heidi_has_fortunecookie'> <checks> 		<check gamestate='0,2,175' hasItems='fortunecookie_47'/> </checks> </transition><!-- bring fortunecookie to NPC repeat -->
+							
+							<transition id='baker_Heidi_got_fortunecookie'> <checks> 		<check gamestate='0,2,185'/> </checks> 
+								<actions> <action id='updateState' value='0,2,186' /> </actions>
+							</transition><!-- heidi got fortunecookie -->
+							<!-- ### HEIDIS PART -->
+							
+							
+							<!-- end of professional level for baker - Heidi -->
+							<transition id='baker_Bernard_prof_end'><!--id must be the same like the behaviour id-->
+								<checks> <check gamestate='0,2,187'/></checks> <!-- check here that all the task of the previous level are completed -->
+								<!-- perform leveljump to master-->
+								<actions>
+									<action id='checkLevel'>
+										<checks>
+											<check gamestate='0,1,280' />
+											<check gamestate='0,2,187' />
+											<check gamestate='0,3,150' />
+											<check gamestate='0,4,105' />
+										</checks>
+										<actions>
+											<action id="updateState" value="0,0,3" />
+											<action id="updateState" value="0,1,300" />
+											<action id="updateState" value="0,2,300" />
+											<action id="updateState" value="0,3,300" />
+											<action id="updateState" value="0,4,300" />
+											<action id='updateState' value='0,5,300' persist='true' />
+											<action id="updateState" value="0,6,40" /> <!-- wise tree -->
+											<action id='mobileMessage' idMessage="" body='MESSAGE_JOBS3_BODY_1' header="MESSAGE_JOBS_HEADLINE" name='WiseTree'/>
+											<action id="sendReward" item="402" amount="1" headKey="REWARD_BEGINNER_HEADER" key="REWARD_PROFESSIONAL_MSG" />
+										</actions>
+									</action>
+								</actions>
+							</transition>
+							
+							
+							<!--  ######    MASTER    ##### -->
+							
+							
+							<transition id='baker_Bernard_master_start'> <checks> <check gamestate='0,2,300'/> </checks>  <!-- master start -->
+								<actions> <action id='updateState' value='0,2,305' /> </actions>
+							</transition>
+							
+							<!-- stinking pizza -->
+							<transition id='baker_Bernard_11B_1'> <checks> <check gamestate='0,2,305'/> </checks> <!-- produce stinking pizza announce -->
+								<actions> <action id='updateState' value='0,2,310' /> </actions>
+							</transition>
+							<transition id='baker_Bernard_11B_2'> <checks> <check gamestate='0,2,310'/> </checks> </transition> <!-- produce stinking pizza repeat -->
+							<transition id='baker_Bernard_11B_3'> <checks> <check gamestate='0,2,315'/> </checks>  <!-- produced stinking pizza  -->
+								<actions>
+									<action id='checkLevel'>
+										<checks>
+											<check gamestate='0,5,300' />
+										</checks>
+										<actions>
+											<action id='updateState' value='0,2,320' />
+										</actions>
+										<falseActions>
+											<action id='updateState' value='0,2,321' />
+										</falseActions>
+									</action>
+								</actions>
+							</transition>
+							
+							<!-- roger open -->
+							<transition id='baker_Bernard_master_roger_open'> <checks> <check gamestate='0,2,320'/> </checks>  <!-- roger open -->
+								<actions> 
+									<action id='updateState' value='0,2,321' /> 
+									<action id='updateState' value='0,5,305' />
+								</actions>
+							</transition>
+							
+							<!-- cheesecake -->
+							<transition id='baker_Bernard_12B_1'> <checks> <check gamestate='0,2,321'/> </checks> <!-- produce cheesecake announce -->
+								<actions> <action id='updateState' value='0,2,330' /> </actions>
+							</transition>
+							<transition id='baker_Bernard_12B_2'> <checks> <check gamestate='0,2,330'/> </checks> </transition> <!-- produce cheesecake  repeat -->
+							<transition id='baker_Bernard_12B_3'> <checks> <check gamestate='0,2,335'/> </checks>  <!-- produced cheesecake  -->
+								<actions> <action id='updateState' value='0,2,340' /> </actions>
+							</transition>
+							
+							<!-- master end -->
+							<transition id='baker_Bernard_master_end'> <checks> <check gamestate='0,2,340'/> </checks> 
+								<!-- finish job -->
+								<actions>
+									<action id='checkLevel'>
+										<checks>
+											<check gamestate='0,1,360' />
+											<check gamestate='0,2,340' />
+											<check gamestate='0,3,340' />
+											<check gamestate='0,4,410' />
+										</checks>
+										<actions>
+											<action id="updateState" value="0,0,100" />
+											<!-- action id="sendReward" item="403" amount="1" headKey="REWARD_BEGINNER_HEADER" key="REWARD_MASTER_MSG" / -->
+										</actions>
+									</action> 	
+								</actions>
+							</transition> <!-- master end -->
+							
+							
+							<!-- new job extension, first step, endstate 105 -->
+							
+							<transition id='baker_Bernard_13B_1'> <checks> <check gamestate='0,0,105'/> </checks> <!-- produce giantcupcake -->
+								<actions> 
+									<action id='updateState' value='0,2,350' />
+									<action id='updateState' value='0,0,106' />
+								</actions>
+							</transition>
+							<transition id='baker_Bernard_13B_2'> <checks> <check gamestate='0,2,350'/> </checks> </transition> <!-- produce giantcupcake  repeat -->
+							<transition id='baker_Bernard_13B_3'> <checks> <check gamestate='0,2,355'/> </checks>  <!-- produced giantcupcake  -->
+								<actions> <action id='updateState' value='0,2,360' /> </actions>
+							</transition>
+							
+							
+							<transition id='baker_Bernard_14B_1'> <checks> <check gamestate='0,2,360'/> </checks> <!-- produce layercake announce -->
+								<actions> <action id='updateState' value='0,2,370' /> </actions>
+							</transition>
+							<transition id='baker_Bernard_14B_2'> <checks> <check gamestate='0,2,370'/> </checks> </transition> <!-- produce layercake  repeat -->
+							<transition id='baker_Bernard_14B_3'> <checks> <check gamestate='0,2,375'/> </checks>  <!-- produced layercake  -->
+								<actions> <action id='updateState' value='0,2,380' /> </actions>
+							</transition>
+							
+						<!--	
+							<transition id='baker_Bernard_jobextension_1_end'> <checks> <check gamestate='0,2,380'/> </checks>
+								<actions> 
+									<action id="updateState" value="0,0,110" /> 
+								</actions>
+							</transition>
+						-->	
+							
+							<transition id='baker_Bernard_jobextension_1_bridge'> <checks> <check gamestate='0,2,380'/> </checks>
+								<actions> 
+									<action id="updateState" value="0,2,385" /> 
+									<action id="updateState" value="0,0,110" /> 
+									<action id="updateState" value="0,6,80" /> <!-- wise tree -->
+									<action id='mobileMessage' idMessage="" body='MESSAGE_JOBS4_BODY_1' header="MESSAGE_JOBS_HEADLINE" name='WiseTree'/>
+								</actions>
+							</transition>
+							<transition id='baker_Bernard_jobextension_2_wait'> <checks> <check gamestate='0,2,385'/> </checks> </transition>
+
+
+							<!-- wedding extension endstate 170 -->
+							
+							<transition id='baker_Bernard_15B_1'> <checks> <check gamestate='0,0,165'/> </checks> <!-- produce ginger bread heart -->
+								<actions> 
+									<action id='updateState' value='0,2,400' />
+									<action id='updateState' value='0,0,166' />
+								</actions>
+							</transition>
+							<transition id='baker_Bernard_15B_2'> <checks> <check gamestate='0,2,400'/> </checks> </transition> <!-- produce ginger bread heart  repeat -->
+							<transition id='baker_Bernard_15B_3'> <checks> <check gamestate='0,2,405'/> </checks>  <!-- produced ginger bread heart  -->
+								<actions> <action id='updateState' value='0,2,410' /> </actions>
+							</transition>
+							
+							
+							<transition id='baker_Bernard_16B_1'> <checks> <check gamestate='0,2,410'/> </checks> <!-- produce wedding cake announce -->
+								<actions> <action id='updateState' value='0,2,415' /> </actions>
+							</transition>
+							<transition id='baker_Bernard_16B_2'> <checks> <check gamestate='0,2,415'/> </checks> </transition> <!-- produce wedding cake  repeat -->
+							<transition id='baker_Bernard_16B_3'> <checks> <check gamestate='0,2,420'/> </checks>  <!-- produced wedding cake  -->
+								<actions> 
+									<action id='updateState' value='0,2,425' />
+								</actions>
+							</transition>
+							
+							<transition id='baker_Bernard_jobextension_3_wait'> <checks> <check gamestate='0,2,425'/> </checks> 
+								<actions> 
+									<action id='updateState' value='0,2,430' /> 
+									<action id='updateState' value='0,0,170' />
+								</actions>
+							</transition>
+							
+							<transition id='baker_Bernard_jobextension_2_wait'> <checks> <check gamestate='0,2,430'/> </checks> </transition>
+							
+							
+							<!-- WEDDING -->
+							
+							
+							<transition id="BernardHeidi_kiss">
+								<checks>
+									<check npcLoaded='BernardWedding' />
+									<check npcLoaded='HeidiWedding' />
+								</checks>
+								<actions>
+									<action id='playNPCFrame' frame='3' clip="BernardWedding" />
+									<action id='playNPCFrame' frame='3' clip="HeidiWedding" />
+									<action id='updateState' value='0,0,185' />
+									<action id='updateState' value='0,2,500' />
+									<action id='updateState' value='0,1,500' />
+									<action id='message' target='*' key='QC.playRoomSound' value='cheering' />
+								</actions>
+							</transition>
+							<transition id='baker_Bernard_wedding'> <checks> <check gamestate='0,2,500'/> </checks> </transition>
+							
+							
+						</transitions>
+					</state>
+					<!-- Rose -->
+					<state id='3' default='3' >
+						<transitions>
+							<!-- ROSE -->
+							<transition id='baker_Rose_beginner_start'><!--id must be the same like the behaviour id-->
+								<checks> <check gamestate='0,3,10'/> </checks> <!-- text intro -->
+								<actions> <action id='updateState' value='0,3,20' /> </actions>
+							</transition>
+							
+							
+							<transition id='baker_Rose_01C'> <checks> <check gamestate='0,3,20'/> </checks> <!-- harvest fruit announce -->
+								<actions> <action id='updateState' value='0,3,25' /> </actions>
+							</transition>
+							<transition id='baker_Rose_01C_2'> <checks> <check gamestate='0,3,25'/> </checks> </transition> <!-- harvest fruit repeat -->
+							<transition id='baker_Rose_01C_3'> <checks> <check gamestate='0,3,30'/> </checks>  <!-- fruit harvested -->
+								<actions> <action id='updateState' value='0,3,45' /> </actions>
+							</transition>
+							
+							<transition id='baker_Rose_beginner_end'> <checks> <check gamestate='0,3,45'/> </checks> 
+								<!-- perform leveljump to professional-->
+								<actions>
+									<action id='checkLevel'>
+										<checks>
+											<check gamestate='0,1,130' />
+											<check gamestate='0,2,90' />
+											<check gamestate='0,3,45' />
+										</checks>
+										<actions>
+											<action id="updateState" value="0,0,2" />
+											<action id="updateState" value="0,1,131" />
+											<action id="updateState" value="0,2,91" />
+											<action id="updateState" value="0,3,46" />
+											<!-- action id="updateState" value="0,4,1" / -->
+											<action id="updateState" value="0,6,20" /><!-- wise tree -->
+											<action id='mobileMessage' idMessage="" body='MESSAGE_JOBS2_BODY_1' header="MESSAGE_JOBS_HEADLINE" name='WiseTree'/>
+											<!-- action id="sendReward" item="115" amount="1" headKey="REWARD_BEGINNER_HEADER" key="REWARD_BEGINNER_MSG" / -->
+										</actions>
+									</action>
+								</actions>
+							</transition> <!-- beginner rose done -->
+							
+							
+							<!-- ##### PROFESSIONAL ##### -->
+							
+							
+							<transition id='baker_Rose_04C_1'> <checks> <check gamestate='0,3,46'/> </checks> <!-- bring chewinggum to npc announce -->
+								<actions> <action id='updateState' value='0,3,55' /> </actions>
+							</transition>
+							<transition id='baker_Rose_04C_2'> <checks> <check gamestate='0,3,55' missesItems='chewinggum_38'/> </checks> </transition> <!-- no chewinggum anymore -->
+							<transition id='baker_Rose_04C_3'> <checks> <check gamestate='0,3,55' hasItems='chewinggum_38'/>  </checks> </transition> <!-- bring chewinggum to npc repeat -->
+							<transition id='baker_Rose_04C_4'> <checks> <check gamestate='0,3,66' />  </checks>  <!-- bring chewinggum thanks  -->
+								<actions> <action id='updateState' value='0,3,67' /> </actions>
+							</transition>
+										
+							<!-- ### SPEEDIES PART -->
+							<transition id='baker_Speedy_chewinggum_missing'> <checks> 	<check gamestate='0,3,55' missesItems='chewinggum_38'/> </checks> </transition><!-- bring chewinggum to NPC repeat -->
+							<transition id='baker_Speedy_has_chewinggum'> <checks> 		<check gamestate='0,3,55' hasItems='chewinggum_38'/> </checks> <!-- bring chewinggum to NPC repeat -->
+								<actions> <action id='updateState' value='0,3,60' /> </actions>
+							</transition>
+							<transition id='baker_Speedy_has_chewinggum_rep'> <checks> 	<check gamestate='0,3,60'/> </checks> </transition><!-- bring chewinggum to NPC repeat -->
+					
+							<transition id='baker_Speedy_got_chewinggum'> <checks> 		<check gamestate='0,3,65'/> </checks> 
+								<actions> <action id='updateState' value='0,3,66' /> </actions>
+							</transition><!-- speedy got chewinggum -->
+							<!-- ### SPEEDIES PART -->
+							
+							
+							<transition id='baker_Rose_05C_1'> <checks> <check gamestate='0,3,67'/> </checks> <!-- bring heartflower to npc announce -->
+								<actions> <action id='updateState' value='0,3,75' /> </actions>
+							</transition>
+							<transition id='baker_Rose_05C_2'> <checks> <check gamestate='0,3,75' missesItems='heartflower_58'/> </checks> </transition> <!-- no heartflower anymore -->
+							<transition id='baker_Rose_05C_3'> <checks> <check gamestate='0,3,75' hasItems='heartflower_58'/>  </checks> </transition> <!-- bring heartflower to npc repeat -->
+							<transition id='baker_Rose_05C_4'> <checks> <check gamestate='0,3,86' />  </checks>  <!-- bring heartflower thanks  -->
+								<actions> <action id='updateState' value='0,3,87' /> </actions>
+							</transition>
+							
+							<!-- ### ROGERS PART -->
+							<transition id='baker_Roger_heartflower_missing'> <checks> 	<check gamestate='0,3,75' missesItems='heartflower_58'/> </checks> </transition><!-- bring heartflower to NPC repeat -->
+							<transition id='baker_Roger_has_heartflower'> <checks> 		<check gamestate='0,3,75' hasItems='heartflower_58'/> </checks> <!-- bring heartflower to NPC repeat -->
+								<actions> <action id='updateState' value='0,3,80' /> </actions>
+							</transition>
+							<transition id='baker_Roger_has_heartflower_rep'> <checks> 	<check gamestate='0,3,80'/> </checks> </transition><!-- bring heartflower to NPC repeat -->
+					
+							<transition id='baker_Roger_got_heartflower'> <checks> 		<check gamestate='0,3,85'/> </checks> 
+								<actions> <action id='updateState' value='0,3,86' /> </actions>
+							</transition><!-- roger got heartflower -->
+							<!-- ### ROGERS PART -->
+							
+							
+							<transition id='baker_Rose_06C_1'> <checks> <check gamestate='0,3,87'/> </checks> <!-- give carrot announce -->
+								<actions> <action id='updateState' value='0,3,95' /> </actions>
+							</transition>
+							<transition id='baker_Rose_06C_2'> <checks> <check gamestate='0,3,95'/> </checks> </transition> <!-- give carrot repeat -->
+							<transition id='baker_Rose_06C_3'> <checks> <check gamestate='0,3,100'/> </checks>  <!-- got carrot -->
+								<actions>
+									<action id='checkLevel'>
+										<checks>
+											<check gamestate='0,4,1' />
+										</checks>
+										<actions>
+											<action id='updateState' value='0,3,103' />
+										</actions>
+										<falseActions>
+											<action id='updateState' value='0,3,105' />
+										</falseActions>
+									</action>
+								</actions>
+								
+							</transition>
+							
+							<transition id='baker_Rose_speedy_open'> <checks> <check gamestate='0,3,103'/> </checks> <!-- speedy open -->
+								<actions> 
+									<action id='updateState' value='0,3,105' />
+									<action id='updateState' value='0,4,10' /> 
+								</actions>
+							</transition>
+							
+							<transition id='baker_Rose_07C_1'> <checks> <check gamestate='0,3,105'/> </checks> <!-- give ketchup announce -->
+								<actions> <action id='updateState' value='0,3,110' /> </actions>
+							</transition>
+							<transition id='baker_Rose_07C_2'> <checks> <check gamestate='0,3,110'/> </checks> </transition> <!-- bring ketchup repeat -->
+							<transition id='baker_Rose_07C_3'> <checks> <check gamestate='0,3,115'/> </checks>  <!-- got ketchup -->
+								<actions> <action id='updateState' value='0,3,130' /> </actions>
+							</transition>
+							
+							
+							<transition id='baker_Rose_08C_1'> <checks> <check gamestate='0,3,130'/> </checks> <!-- give ketchup announce -->
+								<actions> <action id='updateState' value='0,3,135' /> </actions>
+							</transition>
+							<transition id='baker_Rose_08C_2'> <checks> <check gamestate='0,3,135'/> </checks> </transition> <!-- bring ketchup repeat -->
+							<transition id='baker_Rose_08C_3'> <checks> <check gamestate='0,3,140'/> </checks>  <!-- got ketchup -->
+								<actions> <action id='updateState' value='0,3,150' /> </actions>
+							</transition>
+							
+							<!-- prof end -->
+							<transition id='baker_Rose_Prof_end'> <checks> <check gamestate='0,3,150'/> </checks> 
+								<!-- perform leveljump to master-->
+								<actions>
+									<action id='checkLevel'>
+										<checks>
+											<check gamestate='0,1,280' />
+											<check gamestate='0,2,187' />
+											<check gamestate='0,3,150' />
+											<check gamestate='0,4,105' />
+										</checks>
+										<actions>
+											<action id="updateState" value="0,0,3" />
+											<action id="updateState" value="0,1,300" />
+											<action id="updateState" value="0,2,300" />
+											<action id="updateState" value="0,3,300" />
+											<action id="updateState" value="0,4,300" />
+											<action id='updateState' value='0,5,300' persist='true' />
+											<action id="updateState" value="0,6,40" /> <!-- wise tree -->
+											<action id='mobileMessage' idMessage="" body='MESSAGE_JOBS3_BODY_1' header="MESSAGE_JOBS_HEADLINE" name='WiseTree'/>
+											<action id="sendReward" item="402" amount="1" headKey="REWARD_BEGINNER_HEADER" key="REWARD_PROFESSIONAL_MSG" />
+										</actions>
+									</action>
+								</actions>
+							</transition> 
+							
+							
+							<!-- ##### MASTER ##### -->
+							
+							
+							<transition id='baker_Rose_master_start'> <checks> <check gamestate='0,3,300'/> </checks> <!-- master level start -->
+								<actions> <action id='updateState' value='0,3,305' /> </actions>
+							</transition>
+							
+							<transition id='baker_Rose_09C_1'> <checks> <check gamestate='0,3,305'/> </checks> <!-- give sweets announce -->
+								<actions> <action id='updateState' value='0,3,310' /> </actions>
+							</transition>
+							<transition id='baker_Rose_09C_2'> <checks> <check gamestate='0,3,310'/> </checks> </transition> <!-- bring sweets repeat -->
+							<transition id='baker_Rose_09C_3'> <checks> <check gamestate='0,3,315'/> </checks>  <!-- got sweets -->
+								<actions>
+									<action id='checkLevel'>
+										<checks>
+											<check gamestate='0,5,300' />
+										</checks>
+										<actions>
+											<action id='updateState' value='0,3,320' />
+											<action id='updateState' value='0,5,305' />
+										</actions>
+										<falseActions>
+											<action id='updateState' value='0,3,325' />
+										</falseActions>
+									</action>
+								</actions>
+							</transition>
+							
+							<transition id='baker_Rose_master_roger_open'> <checks> <check gamestate='0,3,320'/> </checks>  <!-- roger open -->
+								<actions> <action id='updateState' value='0,3,325' /> </actions>
+							</transition>
+							
+							<transition id='baker_Rose_10C_1'> <checks> <check gamestate='0,3,325'/> </checks> <!-- produce rainbow flower announce -->
+								<actions> <action id='updateState' value='0,3,330' /> </actions>
+							</transition>
+							<transition id='baker_Rose_10C_2'> <checks> <check gamestate='0,3,330'/> </checks> </transition> <!-- produce rainbow flower repeat -->
+							<transition id='baker_Rose_10C_3'> <checks> <check gamestate='0,3,335'/> </checks>  <!-- produced rainbow flower  -->
+								<actions> <action id='updateState' value='0,3,340' /> </actions>
+							</transition>
+							
+							<transition id='baker_Rose_master_end'> <checks> <check gamestate='0,3,340'/> </checks> 
+								<!-- finish job -->
+								<actions>
+									<action id='checkLevel'>
+										<checks>
+											<check gamestate='0,1,360' />
+											<check gamestate='0,2,340' />
+											<check gamestate='0,3,340' />
+											<check gamestate='0,4,410' />
+										</checks>
+										<actions>
+											<action id="updateState" value="0,0,100" />
+											<!-- action id="sendReward" item="403" amount="1" headKey="REWARD_BEGINNER_MSG" key="REWARD_MASTER_MSG" / -->
+										</actions>
+									</action> 	
+								</actions>
+							</transition> <!-- finishes tasks -->
+							
+							<transition id='baker_Rose_roger_answer'> <checks> <check gamestate='0,5,355'/> </checks>  <!-- roger answer -->
+								<actions> <action id='updateState' value='0,5,360' /> </actions>
+							</transition>
+							
+							
+							<!-- jobextension endstate 120-->
+							
+							
+							<transition id='baker_Rose_11C_1'> <checks> <check gamestate='0,0,110'/> </checks> <!-- produce fireflower blossom -->
+								<actions> 
+									<action id='updateState' value='0,3,365' /> 
+									<action id='updateState' value='0,0,115' /> 
+								</actions>
+							</transition>
+							<transition id='baker_Rose_11C_2'> <checks> <check gamestate='0,3,365'/> </checks> </transition> <!-- produce fireflower blossom repeat -->
+							<transition id='baker_Rose_11C_3'> <checks> <check gamestate='0,3,370'/> </checks>  <!-- produced fireflower blossom  -->
+								<actions> <action id='updateState' value='0,3,375' /> </actions>
+							</transition>
+							
+							<transition id='baker_Rose_12C_1'> <checks> <check gamestate='0,3,375'/> </checks> <!-- produce butterfly blossom announce -->
+								<actions> <action id='updateState' value='0,3,380' /> </actions>
+							</transition>
+							<transition id='baker_Rose_12C_2'> <checks> <check gamestate='0,3,380'/> </checks> </transition> <!-- produce butterfly blossom repeat -->
+							<transition id='baker_Rose_12C_3'> <checks> <check gamestate='0,3,385'/> </checks>  <!-- produced butterfly blossom  -->
+								<actions> <action id='updateState' value='0,3,390' /> </actions>
+							</transition>
+							
+							
+							
+							<!--transition id='baker_Rose_jobextension_1_end'> <checks> <check gamestate='0,3,390'/> </checks>
+								<actions> 
+									<action id="updateState" value="0,0,115" /> 
+								</actions>
+							</transition-->
+						
+							<transition id='baker_Rose_jobextension_1_bridge'> <checks> <check gamestate='0,3,390'/> </checks>
+								<actions> 
+									<action id="updateState" value="0,3,395" /> 
+									<action id="updateState" value="0,0,120" /> 
+								</actions>
+							</transition>
+							<transition id='baker_Rose_jobextension_2_wait'> <checks> <check gamestate='0,3,395'/> </checks> </transition>
+
+							<!-- wedding extension endstate 160 -->
+							
+							<transition id='baker_Rose_13C_1'> <checks> <check gamestate='0,0,155'/> </checks> <!-- produce bee flower -->
+								<actions> 
+									<action id='updateState' value='0,3,400' /> 
+									<action id='updateState' value='0,0,156' /> 
+								</actions>
+							</transition>
+							<transition id='baker_Rose_13C_2'> <checks> <check gamestate='0,3,400'/> </checks> </transition> <!-- produce bee flower repeat -->
+							<transition id='baker_Rose_13C_3'> <checks> <check gamestate='0,3,405'/> </checks>  <!-- produced bee flower   -->
+								<actions> <action id='updateState' value='0,3,410' /> </actions>
+							</transition>
+							
+							<transition id='baker_Rose_14C_1'> <checks> <check gamestate='0,3,410'/> </checks> <!-- produce bridal gouquet announce -->
+								<actions> <action id='updateState' value='0,3,415' /> </actions>
+							</transition>
+							<transition id='baker_Rose_14C_2'> <checks> <check gamestate='0,3,415'/> </checks> </transition> <!-- produce bridal gouquet repeat -->
+							<transition id='baker_Rose_14C_3'> <checks> <check gamestate='0,3,420'/> </checks>  <!-- produced bridal gouquet  -->
+								<actions> 
+									<action id='updateState' value='0,3,425' /> 
+									<action id='updateState' value='0,0,160' /> 
+								</actions>
+							</transition>
+							
+							<transition id='baker_Rose_jobextension_3_wait'> <checks> <check gamestate='0,3,425'/> </checks>
+								<actions> 
+									<action id='updateState' value='0,0,165' />
+									<action id='updateState' value='0,3,430' />
+								</actions>
+							</transition>
+							<transition id='baker_Rose_jobextension_2_wait'> <checks> <check gamestate='0,3,430'/> </checks> </transition>
+							
+							
+						</transitions>
+					</state>
+					<!-- speedy -->
+					<state id='4' default='4' >
+						<transitions>
+							<!-- Speedy -->
+							
+							<!-- ##### PROFESSIONAL ##### -->
+							
+							
+							<transition id='baker_Speedy_01D_1'> <checks> <check gamestate='0,4,10'/> </checks> <!-- give fruitjuice announce -->
+								<actions> <action id='updateState' value='0,4,25' /> </actions>
+							</transition>
+							<transition id='baker_Speedy_01D_2'> <checks> <check gamestate='0,4,25'/> </checks> </transition> <!-- bring fruitjuice repeat -->
+							<transition id='baker_Speedy_01D_3'> <checks> <check gamestate='0,4,60'/> </checks>  <!-- got fruitjuice -->
+								<actions> <action id='updateState' value='0,4,70' /> </actions>
+							</transition>
+							
+							
+							<transition id='baker_Speedy_02D_1'> <checks> <check gamestate='0,4,70'/> </checks> <!-- give donut announce -->
+								<actions> <action id='updateState' value='0,4,80' /> </actions>
+							</transition>
+							<transition id='baker_Speedy_02D_2'> <checks> <check gamestate='0,4,80'/> </checks> </transition> <!-- bring donut repeat -->
+							<transition id='baker_Speedy_02D_3'> <checks> <check gamestate='0,4,100'/> </checks>  <!-- got donut -->
+								<actions> <action id='updateState' value='0,4,105' /> </actions>
+							</transition>
+							
+							<transition id='baker_Speedy_prof_end'> <checks> <check gamestate='0,4,105'/> </checks>  <!-- got donut -->
+								<!-- perform leveljump to master -->
+								<actions>
+									<action id='checkLevel'>
+										<checks>
+											<check gamestate='0,1,280' />
+											<check gamestate='0,2,187' />
+											<check gamestate='0,3,150' />
+											<check gamestate='0,4,105' />
+										</checks>
+										<actions>
+											<action id="updateState" value="0,0,3" />
+											<action id="updateState" value="0,1,300" />
+											<action id="updateState" value="0,2,300" />
+											<action id="updateState" value="0,3,300" />
+											<action id="updateState" value="0,4,300" />
+											<action id='updateState' value='0,5,300' persist='true' />
+											<action id="updateState" value="0,6,40" /> <!-- wise tree -->
+											<action id='mobileMessage' idMessage="" body='MESSAGE_JOBS3_BODY_1' header="MESSAGE_JOBS_HEADLINE" name='WiseTree'/>
+											<action id="sendReward" item="402" amount="1" headKey="REWARD_BEGINNER_HEADER" key="REWARD_PROFESSIONAL_MSG" />
+										</actions>
+									</action>
+								</actions>
+							</transition>
+							
+							
+							<!-- ##### MASTER ##### -->
+							
+							
+							<transition id='baker_Speedy_master_start'> <checks> <check gamestate='0,4,300'/> </checks> <!-- speedy master start -->
+								<actions> <action id='updateState' value='0,4,305' /> </actions>
+							</transition>
+							
+							<transition id='baker_Speedy_03D_1'> <checks> <check gamestate='0,4,305'/> </checks> <!-- give stinking cheeseburger announce -->
+								<actions> <action id='updateState' value='0,4,310' /> </actions>
+							</transition>
+							<transition id='baker_Speedy_03D_2'> <checks> <check gamestate='0,4,310'/> </checks> </transition> <!-- bring stinking cheeseburger repeat -->
+							<transition id='baker_Speedy_03D_3'> <checks> <check gamestate='0,4,315'/> </checks>  <!-- got stinking cheeseburger -->
+								<actions>
+									<action id='checkLevel'>
+										<checks>
+											<check gamestate='0,5,300' />
+										</checks>
+										<actions>
+											<action id='updateState' value='0,4,320' />
+											<action id='updateState' value='0,5,305' />
+										</actions>
+										<falseActions>
+											<action id='updateState' value='0,4,325' />
+										</falseActions>
+									</action>
+								</actions>
+							</transition>
+							
+							<transition id='baker_Speedy_master_roger_open'> <checks> <check gamestate='0,4,320'/> </checks>  <!-- master start -->
+								<actions> <action id='updateState' value='0,4,325' /> </actions>
+							</transition>
+							
+							<transition id='baker_Speedy_04D_1'> <checks> <check gamestate='0,4,325'/> </checks> <!-- produce ultimate fries announce -->
+								<actions> <action id='updateState' value='0,4,330' /> </actions>
+							</transition>
+							<transition id='baker_Speedy_04D_2'> <checks> <check gamestate='0,4,330'/> </checks> </transition> <!-- produce ultimate fries repeat -->
+							<transition id='baker_Speedy_04D_3'> <checks> <check gamestate='0,4,335'/> </checks>  <!-- produced ultimate fries  -->
+								<actions> <action id='updateState' value='0,4,340' /> </actions>
+							</transition>
+							
+							<transition id='baker_Speedy_05D_1'> <checks> <check gamestate='0,4,340'/> </checks> <!-- produce fried fish announce -->
+								<actions> <action id='updateState' value='0,4,345' /> </actions>
+							</transition>
+							<transition id='baker_Speedy_05D_2'> <checks> <check gamestate='0,4,345'/> </checks> </transition> <!-- produce fried fish repeat -->
+							<transition id='baker_Speedy_05D_3'> <checks> <check gamestate='0,4,350'/> </checks>  <!-- produced fried fish -->
+								<actions> <action id='updateState' value='0,4,355' /> </actions>
+							</transition>
+							
+							<transition id='baker_Speedy_06D_1'> <checks> <check gamestate='0,4,355'/> </checks> <!-- produce milkshake announce -->
+								<actions> <action id='updateState' value='0,4,360' /> </actions>
+							</transition>
+							<transition id='baker_Speedy_06D_2'> <checks> <check gamestate='0,4,360'/> </checks> </transition> <!-- produce milkshake repeat -->
+							<transition id='baker_Speedy_06D_3'> <checks> <check gamestate='0,4,365'/> </checks>  <!-- produced milkshake -->
+								<actions> <action id='updateState' value='0,4,370' /> </actions>
+							</transition>
+							
+							<transition id='baker_Speedy_master_roger_open_2'> <checks> <check gamestate='0,4,370'/> </checks> </transition> <!-- go to roger -->
+							
+							<!-- break -->
+							
+							<transition id='baker_Speedy_07D_1'> <checks> <check gamestate='0,4,380'/> </checks> <!-- give gumchicken announce -->
+								<actions> <action id='updateState' value='0,4,385' /> </actions>
+							</transition>
+							<transition id='baker_Speedy_07D_2'> <checks> <check gamestate='0,4,385'/> </checks> </transition> <!-- give gumchicken repeat -->
+							<transition id='baker_Speedy_07D_3'> <checks> <check gamestate='0,4,390'/> </checks>  <!-- gave gumchicken -->
+								<actions> <action id='updateState' value='0,4,395' /> </actions>
+							</transition>
+							
+							<transition id='baker_Speedy_08D_1'> <checks> <check gamestate='0,4,395'/> </checks> <!-- give gooba announce -->
+								<actions> <action id='updateState' value='0,4,400' /> </actions>
+							</transition>
+							<transition id='baker_Speedy_08D_2'> <checks> <check gamestate='0,4,400'/> </checks> </transition> <!-- give gooba repeat -->
+							<transition id='baker_Speedy_08D_3'> <checks> <check gamestate='0,4,405'/> </checks>  <!-- gave gooba -->
+								<actions> <action id='updateState' value='0,4,410' /> </actions>
+							</transition>
+							
+							<!-- ############################## -->
+							<!-- ######### FINISH JOB ######### -->
+							<!-- ############################## -->
+							
+							<transition id='baker_Speedy_master_end'> <checks> <check gamestate='0,4,410'/> </checks>  <!-- speedy master end -->
+								<!-- finish job -->
+								<actions>
+									<action id='checkLevel'>
+										<checks>
+											<check gamestate='0,1,360' />
+											<check gamestate='0,2,340' />
+											<check gamestate='0,3,340' />
+											<check gamestate='0,4,410' />
+										</checks>
+										<actions>
+											<action id="updateState" value="0,0,100" />
+											<action id="updateState" value="0,4,411" />
+											<!-- action id="sendReward" item="403" amount="1" headKey="REWARD_BEGINNER_HEADER" key="REWARD_MASTER_MSG" / --> 
+										</actions>
+									</action> 	
+								</actions>
+							</transition>
+							
+							
+							<!-- jobextension endstate 130 -->
+							
+							
+							<transition id='baker_Speedy_09D_1'> <checks> <check gamestate='0,0,120'/> </checks> <!-- give brownie announce -->
+								<actions> 
+									<action id='updateState' value='0,4,450' /> 
+									<action id='updateState' value='0,0,125' /> 
+								</actions>
+							</transition>
+							<transition id='baker_Speedy_09D_2'> <checks> <check gamestate='0,4,450'/> </checks> </transition> <!-- give brownie repeat -->
+							<transition id='baker_Speedy_09D_3'> <checks> <check gamestate='0,4,455'/> </checks>  <!-- gave brownie -->
+								<actions> <action id='updateState' value='0,4,460' /> </actions>
+							</transition>
+							
+							<transition id='baker_Speedy_10D_1'> <checks> <check gamestate='0,4,460'/> </checks> <!-- give nachos announce -->
+								<actions> <action id='updateState' value='0,4,465' /> </actions>
+							</transition>
+							<transition id='baker_Speedy_10D_2'> <checks> <check gamestate='0,4,465'/> </checks> </transition> <!-- give nachos repeat -->
+							<transition id='baker_Speedy_10D_3'> <checks> <check gamestate='0,4,470'/> </checks>  <!-- gave nachos -->
+								<actions> <action id='updateState' value='0,4,475' /> </actions>
+							</transition>
+							
+							
+							<!--transition id='baker_Speedy_jobextension_1_end'> <checks> <check gamestate='0,4,475'/> </checks> </transition-->
+						
+							<transition id='baker_Speedy_jobextension_1_bridge'> <checks> <check gamestate='0,4,475'/> </checks>
+								<actions> 
+									<action id="updateState" value="0,4,480" /> 
+									<action id="updateState" value="0,0,130" /> 
+								</actions>
+							</transition>
+							<transition id='baker_Speedy_jobextension_2_wait'> <checks> <check gamestate='0,4,480'/> </checks> </transition>
+							
+							
+							<!-- wedding extension endstate 175 -->
+							
+							<transition id='baker_Speedy_11D_1'> <checks> <check gamestate='0,0,170'/> </checks> <!-- give marinated chickenwings announce -->
+								<actions> 
+									<action id='updateState' value='0,4,481' /> 
+									<action id='updateState' value='0,0,171' /> 
+								</actions>
+							</transition>
+							<transition id='baker_Speedy_11D_2'> <checks> <check gamestate='0,4,481'/> </checks> </transition> <!-- give marinated chickenwings repeat -->
+							<transition id='baker_Speedy_11D_3'> <checks> <check gamestate='0,4,485'/> </checks>  <!-- gave marinated chickenwings -->
+								<actions> <action id='updateState' value='0,4,490' /> </actions>
+							</transition>
+							
+							<transition id='baker_Speedy_12D_1'> <checks> <check gamestate='0,4,490'/> </checks> <!-- give deepfried honey banana announce -->
+								<actions> <action id='updateState' value='0,4,495' /> </actions>
+							</transition>
+							<transition id='baker_Speedy_12D_2'> <checks> <check gamestate='0,4,495'/> </checks> </transition> <!-- give deepfried honey banana repeat -->
+							<transition id='baker_Speedy_12D_3'> <checks> <check gamestate='0,4,500'/> </checks>  <!-- gave deepfried honey banana -->
+								<actions> <action id='updateState' value='0,4,505' /> </actions>
+							</transition>
+							
+							<transition id='baker_Speedy_jobextension_3_wait'> <checks> <check gamestate='0,4,505'/> </checks>
+								<actions> 
+									<action id='updateState' value='0,0,175' /> 
+									<action id='updateState' value='0,4,510' />
+								</actions>
+							</transition>
+							<transition id='baker_Speedy_jobextension_2_wait'> <checks> <check gamestate='0,4,510'/> </checks> </transition>
+							
+						</transitions>
+					</state>
+					<!-- roger -->
+					<state id='5' default='5' >
+						<transitions>
+							<!-- Roger -->
+							
+							<!-- ##### MASTER ##### -->
+							
+							
+							<transition id='baker_Roger_master_start'> <checks> <check gamestate='0,5,305'/> </checks> <!-- roger master start -->
+								<actions> <action id='updateState' value='0,5,310' /> </actions>
+							</transition>
+							
+							<transition id='baker_Roger_01E_1'> <checks> <check gamestate='0,5,310'/> </checks> <!-- give fish filet announce -->
+								<actions> <action id='updateState' value='0,5,315' /> </actions>
+							</transition>
+							<transition id='baker_Roger_01E_2'> <checks> <check gamestate='0,5,315'/> </checks> </transition> <!-- bring fish filet repeat -->
+							<transition id='baker_Roger_01E_3'> <checks> <check gamestate='0,5,320'/> </checks>  <!-- got fish filet -->
+								<actions> <action id='updateState' value='0,5,325' /> </actions>
+							</transition>
+							
+							<transition id='baker_Roger_02E_1'> <checks> <check gamestate='0,5,325'/> </checks> <!-- produce giggling cake announce -->
+								<actions> <action id='updateState' value='0,5,330' /> </actions>
+							</transition>
+							<transition id='baker_Roger_02E_2'> <checks> <check gamestate='0,5,330'/> </checks> </transition> <!-- produce giggling cake repeat -->
+							<transition id='baker_Roger_02E_3'> <checks> <check gamestate='0,5,335'/> </checks>  <!-- produced giggling cake  -->
+								<actions> <action id='updateState' value='0,5,340' /> </actions>
+							</transition>
+							
+							<transition id='baker_Roger_03E_1'> <checks> <check gamestate='0,5,340'/> </checks> <!-- produce sushi announce -->
+								<actions> <action id='updateState' value='0,5,345' /> </actions>
+							</transition>
+							<transition id='baker_Roger_03E_2'> <checks> <check gamestate='0,5,345'/> </checks> </transition> <!-- produce sushi repeat -->
+							<transition id='baker_Roger_03E_3'> <checks> <check gamestate='0,5,350'/> </checks>  <!-- produced sushi -->
+								<actions> <action id='updateState' value='0,5,355' /> </actions>
+							</transition>
+							
+							<!-- rose break -->
+							
+							<transition id='baker_Roger_rose_question'> <checks> <check gamestate='0,5,355'/> </checks> </transition> <!-- Go to rose, get ingredient -->
+							
+							<!-- rose answered -->
+							
+							<transition id='baker_Roger_rose_answer'> <checks> <check gamestate='0,5,360'/> </checks> <!-- no ingredient -->
+								<actions> <action id='updateState' value='0,5,365' /> </actions>
+							</transition>
+							
+							<transition id='baker_Roger_04E_1'> <checks> <check gamestate='0,5,365'/> </checks> <!-- produce truffle sweets announce -->
+								<actions> <action id='updateState' value='0,5,370' /> </actions>
+							</transition>
+							<transition id='baker_Roger_04E_2'> <checks> <check gamestate='0,5,370'/> </checks> </transition> <!-- produce truffle sweets repeat -->
+							<transition id='baker_Roger_04E_3'> <checks> <check gamestate='0,5,375'/> </checks>  <!-- produced truffle sweets -->
+								<actions> 
+									<action id='updateState' value='0,5,380' /> 
+									<action id='updateState' value='0,6,60' /> <!-- wise tree -->
+									<action id='mobileMessage' idMessage="" body='MESSAGE_JOBS4_BODY_1' header="MESSAGE_JOBS_HEADLINE" name='WiseTree'/>
+								</actions>
+							</transition>
+							
+							<transition id='baker_Roger_05E_1'> <checks> <check gamestate='0,5,380'/> </checks> <!-- give glace fatal announce -->
+								<actions> <action id='updateState' value='0,5,385' /> </actions>
+							</transition>
+							<transition id='baker_Roger_05E_2'> <checks> <check gamestate='0,5,385'/> </checks> </transition> <!-- give glace fatal repeat -->
+							<transition id='baker_Roger_05E_3'> <checks> <check gamestate='0,5,390'/> </checks>  <!-- gave glace fatal -->
+								<actions> <action id='updateState' value='0,5,395' /> </actions>
+							</transition>
+							
+							<transition id='baker_Roger_master_end'> <checks> <check gamestate='0,5,395'/> </checks> <!-- roger master end -->
+								<actions> 
+									<action id='checkLevel'>
+										<checks>
+											<check gamestate='0,4,370' />
+										</checks>
+										<actions>
+											<action id='updateState' value='0,4,380' /> <!--  Speedy can go on -->
+											<action id='updateState' value='0,5,396' /> <!--  Roger end -->
+											<!-- action id="sendReward" item="403" amount="1" headKey="REWARD_BEGINNER_HEADER" key="REWARD_MASTER_MSG" / --> <!-- that s the wrong place to give the master suit. for now roger will simply not give it to you, the others will -->
+										</actions>
+									</action>
+								</actions> 
+							</transition>
+							
+							<transition id='baker_Roger_master_wait_end'> <checks> <check gamestate='0,5,396'/> </checks> </transition>
+							
+							
+							<!-- jobextension, endstate 140 -->
+							
+							<transition id='baker_Roger_06E_1'> <checks> <check gamestate='0,0,130'/> </checks> <!-- give goosberryparfait announce -->
+								<actions> 
+									<action id='updateState' value='0,5,400' /> 
+									<action id='updateState' value='0,0,135' /> 
+								</actions>
+							</transition>
+							<transition id='baker_Roger_06E_2'> <checks> <check gamestate='0,5,400'/> </checks> </transition> <!-- give goosberryparfait repeat -->
+							<transition id='baker_Roger_06E_3'> <checks> <check gamestate='0,5,405'/> </checks>  <!-- gave goosberryparfait -->
+								<actions> <action id='updateState' value='0,5,410' /> </actions>
+							</transition>
+							
+							<transition id='baker_Roger_07E_1'> <checks> <check gamestate='0,5,410'/> </checks> <!-- give blowfish announce -->
+								<actions> <action id='updateState' value='0,5,415' /> </actions>
+							</transition>
+							<transition id='baker_Roger_07E_2'> <checks> <check gamestate='0,5,415'/> </checks> </transition> <!-- give blowfish repeat -->
+							<transition id='baker_Roger_07E_3'> <checks> <check gamestate='0,5,420'/> </checks>  <!-- gave blowfish -->
+								<actions> <action id='updateState' value='0,5,425' /> </actions>
+							</transition>
+							
+							<!-- bridge to next job round -->
+							<transition id='baker_Roger_jobextension_1_end'> <checks> <check gamestate='0,5,425'/> </checks>  <!-- gave blowfish -->
+								<actions> 
+									<action id='updateState' value='0,5,430' /> 
+									<action id='updateState' value='0,0,140' /> 
+								</actions>
+							</transition>
+							<transition id='baker_Roger_jobextension_1_A_end'> <checks> <check gamestate='0,5,430'/> </checks></transition>
+							<transition id='baker_Roger_jobextension_1_B_end'> <checks> <check gamestate='0,5,435'/> </checks></transition>
+							
+							<!-- wedding extension endstate 180-->
+							
+							<transition id='baker_Roger_08E_1'> <checks> <check gamestate='0,0,175'/> </checks> <!-- give gourmet lobster announce -->
+								<actions> 
+									<action id='updateState' value='0,5,450' /> 
+									<action id='updateState' value='0,0,176' /> 
+								</actions>
+							</transition>
+							<transition id='baker_Roger_08E_2'> <checks> <check gamestate='0,5,450'/> </checks> </transition> <!-- give gourmet lobster repeat -->
+							<transition id='baker_Roger_08E_3'> <checks> <check gamestate='0,5,455'/> </checks>  <!-- gave gourmet lobster -->
+								<actions> <action id='updateState' value='0,5,460' /> </actions>
+							</transition>
+							
+							<transition id='baker_Roger_09E_1'> <checks> <check gamestate='0,5,460'/> </checks> <!-- give wedding figures announce -->
+								<actions> <action id='updateState' value='0,5,465' /> </actions>
+							</transition>
+							<transition id='baker_Roger_09E_2'> <checks> <check gamestate='0,5,465'/> </checks> </transition> <!-- give wedding figures repeat -->
+							<transition id='baker_Roger_09E_3'> <checks> <check gamestate='0,5,470'/> </checks>  <!-- gave wedding figures -->
+								<actions> 
+									<action id='updateState' value='0,5,475' /> 
+									<action id='updateState' value='0,0,180' /> 
+								</actions>
+							</transition>
+							
+							<!-- see you tomorrow -->
+							<transition id='baker_Roger_wedding_ready_tomorrow'> 
+								<checks> 
+									<check timePassed='1' unit="day" state='0,0,180' flex="-" />
+								</checks> 
+							</transition>
+							
+							<transition id='baker_Roger_jobextension_3_wait'> 
+								<checks> 
+									<check timePassed='1' unit="day" state='0,0,180' flex="+" />
+								</checks> 
+							</transition>
+							
+						</transitions>
+					</state>
+					<!-- wiseTree -->
+					<state id='6' default='6' >
+						<transitions>
+							<transition id='wiseTreeStory1Start'> <checks> <check gamestate='0,6,1'/> </checks>
+							</transition>
+							<transition id='wiseTreeStory1StartRepeat'> <checks> <check gamestate='0,6,5'/> </checks>
+							</transition>
+							<transition id='wiseTreeStory1End'> <checks> <check gamestate='0,6,10'/> </checks>
+							</transition>
+							<transition id='wiseTreeStory1EndRepeat'> <checks> <check gamestate='0,6,15'/> </checks>
+							</transition>
+							<!-- storry 2 -->
+							<transition id='wiseTreeStory2Start'> <checks> <check gamestate='0,6,20'/> </checks>
+							</transition>
+							<transition id='wiseTreeStory2StartRepeat'> <checks> <check gamestate='0,6,25'/> </checks>
+							</transition>
+							<transition id='wiseTreeStory2End'> <checks> <check gamestate='0,6,30'/> </checks>
+							</transition>
+							<transition id='wiseTreeStory2EndRepeat'> <checks> <check gamestate='0,6,35'/> </checks>
+							</transition>
+							<!-- storry 3 -->
+							<transition id='wiseTreeStory3Start'> <checks> <check gamestate='0,6,40'/> </checks>
+							</transition>
+							<transition id='wiseTreeStory3StartRepeat'> <checks> <check gamestate='0,6,45'/> </checks>
+							</transition>
+							<transition id='wiseTreeStory3End'> <checks> <check gamestate='0,6,50'/> </checks>
+							</transition>
+							<transition id='wiseTreeStory3EndRepeat'> <checks> <check gamestate='0,6,55'/> </checks>
+							</transition>
+							<!-- storry 4 -->
+							<transition id='wiseTreeStory4Start'> <checks> <check gamestate='0,6,60'/> </checks>
+							</transition>
+							<transition id='wiseTreeStory4StartRepeat'> <checks> <check gamestate='0,6,65'/> </checks>
+							</transition>
+							<transition id='wiseTreeStory4End'> <checks> <check gamestate='0,6,70'/> </checks>
+							</transition>
+							<transition id='wiseTreeStory4EndRepeat'> <checks> <check gamestate='0,6,75'/> </checks>
+							</transition>
+							<!-- storry 5 -->
+							<transition id='wiseTreeStory5End'> <checks> <check gamestate='0,6,80'/> </checks>
+							</transition>
+							<transition id='wiseTreeStory5EndRepeat'> <checks> <check gamestate='0,6,85'/> </checks>
+							</transition>
+							<!-- oloko -->
+							<transition id='olokoStory1'> <checks> <check gamestate='0,7,5'/> </checks>
+							</transition>
+							<transition id='olokoStory2'> <checks> <check gamestate='0,7,25'/> </checks>
+							</transition>
+							<transition id='olokoStory3'> <checks> <check gamestate='0,7,45'/> </checks>
+							</transition>
+							<transition id='olokoStory4'> <checks> <check gamestate='0,7,65'/> </checks>
+							</transition>
+						</transitions>
+					</state>
+					</states>
+			</quest>
+
+			<!-- quest id 1, help quest -->
+			<quest id='1' name='helpQuest' type='3' desc='HELP_QUEST'  finishState="100" >
+				<states>
+					<state id='10001' default='1' >
+						<!-- Group1 -->
+						<transitions>
+							<transition id='g1LevelToLow'> <checks> <check gamestate='1,10001,1' /><check abilityDisallowed="joinGroup" /> </checks> </transition><!-- ask if want to join group -->
+							<transition id='g1AskJoin'> <checks> <check gamestate='1,10001,1' /><check abilityAllowed="joinGroup" /> </checks> </transition><!-- ask if want to join group -->
+							<transition id='g1WaitForAnswer'> <checks> <check gamestate='1,10001,10'/> </checks> </transition><!-- wait for answer -->
+							<transition id='g1CheckYourMail'> <checks> <check gamestate='1,10001,20'/> </checks> </transition><!-- check your mail -->
+							<transition id='g1IsMemberG1'> <checks> <check gamestate='1,10001,30'/> </checks> </transition><!-- enter home -->
+							<transition id='g1NotMemberG1ButG2'> <checks> <check gamestates='1,10001,40 1,10002,30 1,10003,45'/> </checks> </transition><!--  -->
+							<transition id='g1NotMemberG1ButG2Mail'> <checks> <check gamestates='1,10002,10-20'/> </checks> </transition><!--  -->
+							<transition id='g1NotMemberG1ButG2Change'> <checks> <check gamestates='1,10001,40 1,10002,30 1,10003,40'/> </checks> </transition><!--  -->
+							<transition id='g1NotMemberG1ButG3'> <checks> <check gamestates='1,10001,40 1,10003,30 1,10002,45'/> </checks> </transition><!--  -->
+							<transition id='g1NotMemberG1ButG3Mail'> <checks> <check gamestates='1,10003,10-20'/> </checks> </transition><!--  -->
+							<transition id='g1NotMemberG1ButG3Change'> <checks> <check gamestates='1,10001,40 1,10002,40 1,10003,30'/> </checks> </transition><!--  -->
+							
+							<transition id='g1MemberSwitchPay'> <checks> <check gamestate='1,10001,45'/> </checks> </transition><!--  -->
+							
+						</transitions>
+					</state>
+					<state id='10002' default='1' >
+						<!-- Group2 -->
+						<transitions>
+							<transition id='g2LevelToLow'> <checks> <check gamestate='1,10002,1' /><check abilityDisallowed="joinGroup" /> </checks> </transition><!-- ask if want to join group -->
+							<transition id='g2AskJoin'> <checks> <check gamestate='1,10002,1'/> </checks> </transition><!-- ask if want to join group -->
+							<transition id='g2WaitForAnswer'> <checks> <check gamestate='1,10002,10'/> </checks> </transition><!-- wait for answer -->
+							<transition id='g2CheckYourMail'> <checks> <check gamestate='1,10002,20'/> </checks> </transition><!-- check your mail -->
+							<transition id='g2IsMemberG2'> <checks> <check gamestate='1,10002,30'/> </checks> </transition><!-- enter home -->
+							<transition id='g2NotMemberG2ButG1'> <checks> <check gamestates='1,10002,40 1,10001,30 1,10003,45'/> </checks> </transition><!--  -->
+							<transition id='g2NotMemberG2ButG1Mail'> <checks> <check gamestates='1,10001,10-20'/> </checks> </transition><!--  -->
+							<transition id='g2NotMemberG2ButG1Change'> <checks> <check gamestates='1,10002,40 1,10001,30 1,10003,40'/> </checks> </transition><!--  -->
+							<transition id='g2NotMemberG2ButG3'> <checks> <check gamestates='1,10002,40 1,10003,30 1,10001,45'/> </checks> </transition><!--  -->
+							<transition id='g2NotMemberG2ButG3Mail'> <checks> <check gamestates='1,10003,10-20'/> </checks> </transition><!--  -->
+							<transition id='g2NotMemberG2ButG3Change'> <checks> <check gamestates='1,10001,40 1,10002,40 1,10003,30'/> </checks> </transition><!--  -->
+
+							<transition id='g2MemberSwitchPay'> <checks> <check gamestate='1,10002,45'/> </checks> </transition><!--  -->
+
+						</transitions>
+					</state>
+					<state id='10003' default='1' >
+						<!-- Group3 -->
+						<transitions>
+							<transition id='g3LevelToLow'> <checks> <check gamestate='1,10003,1' /><check abilityDisallowed="joinGroup" /> </checks> </transition><!-- ask if want to join group -->
+							<transition id='g3AskJoin'> <checks> <check gamestate='1,10003,1'/> </checks> </transition><!-- ask if want to join group -->
+							<transition id='g3WaitForAnswer'> <checks> <check gamestate='1,10003,10'/> </checks> </transition><!-- wait for answer -->
+							<transition id='g3CheckYourMail'> <checks> <check gamestate='1,10003,20'/> </checks> </transition><!-- check your mail -->
+							<transition id='g3IsMemberG3'> <checks> <check gamestate='1,10003,30'/> </checks> </transition><!-- enter home -->
+							<transition id='g3NotMemberG3ButG1'> <checks> <check gamestates='1,10003,40 1,10001,30 1,10002,45'/> </checks> </transition><!--  -->
+							<transition id='g3NotMemberG3ButG1Mail'> <checks> <check gamestates='1,10001,10-20'/> </checks> </transition><!--  -->
+							<transition id='g3NotMemberG3ButG1Change'> <checks> <check gamestates='1,10003,40 1,10001,30 1,10002,40'/> </checks> </transition><!--  -->
+							<transition id='g3NotMemberG3ButG2'> <checks> <check gamestates='1,10003,40 1,10002,30 1,10001,45'/> </checks> </transition><!--  -->
+							<transition id='g3NotMemberG3ButG2Mail'> <checks> <check gamestates='1,10002,10-20'/> </checks> </transition><!--  -->
+							<transition id='g3NotMemberG3ButG2Change'> <checks> <check gamestates='1,10003,40 1,10002,30 1,10001,40'/> </checks> </transition><!--  -->
+							
+							<transition id='g3MemberSwitchPay'> <checks> <check gamestate='1,10003,45'/> </checks> </transition><!--  -->
+							
+						</transitions>
+					</state>
+					<state id='10004' default='1' >
+						<transitions>
+							<transition id='g4ShowDialogs'> <checks> <check gamestate='1,10004,1'/> </checks>
+								<actions> <action id='updateState' value='1,10004,2' /> </actions>
+							</transition>
+							<transition id='g4ShowTrade'> <checks> <check gamestate='1,10004,2'/> </checks> </transition>	
+						</transitions>
+					</state>
+				</states>
+			</quest>
+
+			<!-- quest id 2, internship -->
+			<quest id='2' name='internship' type='2' desc='INTERSHIP' asset="BUNNY_JOB_PIC" finishState="3" replayable="false">
+				<states>
+					<!-- HEIDI -->
+					<state id='1' default='1' >
+						<transitions>
+							<transition id='internship_Heidi_01A_1'> <checks> <check gamestate='2,0,1'/> </checks> <!-- announce seed -->
+								<actions> <action id='updateState' value='2,0,2' /> </actions>
+								<actions> <action id='updateState' value='2,1,15' /> </actions>
+							</transition>
+							<transition id='internship_Heidi_01A_2'> <checks> <check gamestate='2,1,15'/> </checks> </transition> <!-- give seed repeat -->
+							<transition id='internship_Heidi_01A_3'> <checks> <check gamestate='2,1,100'/> </checks> <!-- go to the backery... -->
+								<actions> <action id='updateState' value='2,2,10' /> </actions>
+							</transition>
+							<transition id='internship_Heidi_01A_4'> 
+								<checks> <check gamestate='2,1,101'/> </checks> 
+								<!-- actions> <action id='filterMouse' type='round' x='400' y='300' rad='40' /> </actions -->
+								<!-- actions> <action id='filterMouse' type='square' x='550' y='300' width='150' height='100' name="testFilter"/> </actions -->
+							</transition>
+						</transitions>
+					</state>
+					
+					<!-- Bernard -->
+					<state id='2' default='1' >
+						<transitions>
+							<transition id='internship_Bernard_01B_1'> <checks> <check gamestate='2,2,10'/> </checks> <!-- announce fire -->
+								<actions> 
+									<action id='updateState' value='2,2,15' /> 
+									<action id='updateState' value='2,1,101' />
+								</actions>
+							</transition>
+							<transition id='internship_Bernard_01B_2'> <checks> <check gamestate='2,2,15'/> </checks> </transition> <!-- give fire repeat -->
+							<transition id='internship_Bernard_01B_3'> <checks> <check gamestate='2,2,100'/> </checks> 
+								<actions> <action id='updateState' value='2,3,10' /> </actions>
+							</transition> 
+							<transition id='internship_Bernard_01B_4'> <checks> <check gamestate='2,2,101'/> </checks> </transition>
+						</transitions>
+					</state>
+					
+					<!-- Rose -->
+					<state id='3' default='1' >
+						<transitions>
+							<transition id='internship_Rose_01C_0'> <checks> <check gamestate='2,3,1'/> </checks> </transition> 
+							<transition id='internship_Rose_01C_1'> <checks> <check gamestate='2,3,10'/> </checks> <!-- announce water -->
+								<actions> 
+									<action id='updateState' value='2,2,101' /> 
+									<action id='updateState' value='2,3,15' /> 
+								</actions>
+							</transition>
+							<transition id='internship_Rose_01C_2'> <checks> <check gamestate='2,3,15'/> </checks> </transition> <!-- give water repeat -->
+							<transition id='internship_Rose_01C_3'> <checks> <check gamestate='2,3,100'/> </checks> 
+								<actions> <action id='updateState' value='2,4,10' /> </actions>
+							</transition> 
+							<transition id='internship_Rose_01C_4'> <checks> <check gamestate='2,3,101'/> </checks> </transition>
+						</transitions>
+					</state>
+					
+					<!-- Speedy -->
+					<state id='4' default='1' >
+						<transitions>
+							<transition id='internship_Speedy_01D_0'> <checks> <check gamestate='2,4,1'/> </checks> </transition> 
+							<transition id='internship_Speedy_01D_1'> <checks> <check gamestate='2,4,10'/> </checks> <!-- announce water -->
+								<actions> 
+									<action id='updateState' value='2,3,101' />
+									<action id='updateState' value='2,4,15' />
+								</actions>
+							</transition>
+							<transition id='internship_Speedy_01D_2'> <checks> <check gamestate='2,4,15'/> </checks> </transition> <!-- give water repeat -->
+							<transition id='internship_Speedy_01D_3'> <checks> <check gamestate='2,4,100'/> </checks> 
+								<actions> <action id='updateState' value='2,5,10' /> </actions>
+							</transition> <!-- go to roger repeat -->
+							<transition id='internship_Speedy_01D_4'> <checks> <check gamestate='2,4,101'/> </checks> </transition>
+						</transitions>
+					</state>
+					
+					<!-- Roger -->
+					<state id='5' default='1' >
+						<transitions>
+							<transition id='internship_Roger_01E_0'> <checks> <check gamestate='2,5,1'/> </checks> </transition> 
+							<transition id='internship_Roger_01E_1'> <checks> <check gamestate='2,5,10'/> </checks> <!-- announce water -->
+								<actions> 
+									<action id='updateState' value='2,4,101' />
+									<action id='updateState' value='2,5,15' />
+								</actions>
+							</transition>
+							<transition id='internship_Roger_01E_2'> <checks> <check gamestate='2,5,15'/> </checks> </transition> <!-- give fish repeat -->
+							<transition id='internship_Roger_01E_3'> <checks> <check gamestate='2,5,100'/> </checks> 
+								<actions> 
+									<action id='updateState' value='2,0,3' />
+								</actions>
+							</transition>
+						</transitions>
+					</state>
+				</states>
+			</quest>
+			
+			<!-- quest id 3, intro tour -->
+			<!-- user give chili to turtle head 3,1,10 -> 3,1,20 -->
+			<!-- introTourBackToWiseTree1 go back to wise tree -->
+			<!-- introTourBackToWiseTree2 go back to wise tree -->
+			<!-- introTourWaitChili go give chili -->
+			<quest id='3' name='introTour' type='2' desc='INTROTOUR' asset="BUNNY_JOB_PIC" finishState="3" replayable="false">
+				<states>
+					<state id='1' default='1' >
+						<transitions>
+							<transition id='introTourBegin'> <checks> <check gamestate='3,1,1'/> </checks></transition> 
+							<transition id='introTourBackToWiseTree1'> <checks> <check gamestate='3,1,10'/> </checks> </transition> 
+							<transition id='introTourBackToWiseTree2'> <checks> <check gamestate='3,1,20'/> </checks> </transition> 
+							<transition id='introTourWaitChili'> <checks> <check gamestate='3,1,10'/> </checks> </transition>  
+							<transition id='introTourEnd'> <checks> <check gamestate='3,1,20'/> </checks> 
+								<actions> 
+									<action id='updateState' value='3,0,3' /> 
+									<action id='updateState' value='3,1,40' /> 
+								</actions> 
+							</transition> 
+							<transition id='introTourBackToWiseTree'> <checks> <check gamestate='3,1,20'/> </checks> </transition>
+						</transitions>
+					</state>
+				</states>
+			</quest>
+			
+			<!-- quest id 4, welcome tour -->
+			<quest id='4' name='welcomeTour' type='2' desc='WELCOMETOUR' asset="BUNNY_JOB_PIC" finishState="3" replayable="false">
+				<states>
+					<state id='1' default='1' >
+						<transitions>
+							<transition id='welcomeTourStart'> <checks> <check gamestate='4,1,1'/> </checks></transition> 
+						</transitions>
+					</state>
+				</states>
+			</quest>
+
+			<!-- quest id 5, summer Party -->
+			<quest id='5' name='summerParty' type='3' desc='SUMMERPARTY'  finishState="3" replayable="false">
+				<states>
+					<state id='1' default='1' >
+						<transitions>
+							<transition id='summerPartyStart'> <checks> <check gamestate='5,1,1'/> </checks> <!-- first speech -->
+								<actions> <action id='updateState' value='5,1,2' /> </actions>
+							</transition>
+							<transition id='summerPartyWaitWood'> <checks> <check gamestate='5,1,2'/> </checks> <!-- wait for wood -->
+							</transition>
+							<transition id='summerPartyAfterWood'> <checks> <check gamestate='5,1,3'/> </checks> <!-- recieve for wood, ask red paint -->
+								<actions> <action id='updateState' value='5,1,4' /> </actions>
+							</transition>
+							<transition id='summerPartyWaitRedPaint'> <checks> <check gamestate='5,1,4'/> </checks> <!-- wait for red paint -->
+							</transition>
+							<transition id='summerPartyAfterPaint'> <checks> <check gamestate='5,1,5'/> </checks> <!--  -->
+								<actions> <action id='updateState' value='5,1,6' /> </actions>
+							</transition>
+							<transition id='summerPartyEndState1'> 	<checks> <check timePassed='1' unit="day" state='5,1,6' flex="-" /> </checks> <!-- first speech -->
+							</transition>
+							<!-- step 2 -->
+							<transition id='summerParty2Start'>	<checks> <check timePassed='1' unit="day" state='5,1,6' flex="+" />	</checks> <!-- ask for chewing gum -->
+								<actions> <action id='updateState' value='5,1,7' /> </actions>
+							</transition>
+							<transition id='summerParty2WaitChewingGum'> <checks> <check gamestate='5,1,7'/> </checks> <!-- wait for chewing gum -->
+							</transition>
+							<transition id='summerParty2AfterChewingGum'> <checks> <check gamestate='5,1,8'/> </checks> <!--  -->
+								<actions> <action id='updateState' value='5,1,9' /> </actions>
+							</transition>
+							<transition id='summerPartyEndState2'> 	<checks> <check timePassed='1' unit="day" state='5,1,9' flex="-" /> </checks> <!-- first speech -->
+							</transition>
+							<!-- step 3 -->
+							<transition id='summerParty3Start'>	<checks> <check timePassed='1' unit="day" state='5,1,9' flex="+" />	</checks> <!-- ask fire blossom -->
+								<actions> <action id='updateState' value='5,1,10' /> </actions>
+							</transition>
+							<transition id='summerParty3WaitFireBlossom'> <checks> <check gamestate='5,1,10'/> </checks> <!-- wait for fire blossom -->
+							</transition>
+							<transition id='summerParty3AskBFlyBlossom'> <checks> <check gamestate='5,1,11' />	</checks> <!-- ask for BFly blossom -->
+								<actions> <action id='updateState' value='5,1,12' /> </actions>
+							</transition>
+							<transition id='summerParty3WaitBFlyBlossom'> <checks> <check gamestate='5,1,12'/> </checks> <!-- wait for BFly blossom -->
+							</transition>
+							<transition id='summerParty3AfterBlossoms'> <checks> <check gamestate='5,1,13'/> </checks> <!--  -->
+								<actions> <action id='updateState' value='5,1,14' /> </actions>
+							</transition>
+							<transition id='summerPartyEndState3'> 	<checks> <check timePassed='1' unit="day" state='5,1,14' flex="-" /> </checks> <!-- first speech -->
+							</transition>
+							<!-- step 4 -->
+							<transition id='summerParty4Start'>	<checks> <check timePassed='1' unit="day" state='5,1,14' flex="+" />	</checks> <!-- ask stink burger -->
+								<actions> <action id='updateState' value='5,1,15' /> </actions>
+							</transition>
+							<transition id='summerParty4WaitStinkBurger'> <checks> <check gamestate='5,1,15'/> </checks> <!-- wait for stink burger -->
+							</transition>
+							<transition id='summerParty4AskNachos'> <checks> <check gamestate='5,1,16' />	</checks> <!-- ask for nachos -->
+								<actions> <action id='updateState' value='5,1,17' /> </actions>
+							</transition>
+							<transition id='summerParty4WaitNachos'> <checks> <check gamestate='5,1,17'/> </checks> <!-- wait for nachos -->
+							</transition>
+							<transition id='summerParty4AfterBurgNachos'> <checks> <check gamestate='5,1,18'/> </checks> <!--  -->
+								<actions> <action id='updateState' value='5,1,19' /> </actions>
+							</transition>
+							<transition id='summerPartyEndState4'> 	<checks> <check timePassed='1' unit="day" state='5,1,19' flex="-" /> </checks>
+							</transition>
+							<!-- step 5 -->
+							<transition id='summerParty5Start'>	<checks> <check timePassed='1' unit="day" state='5,1,19' flex="+" />	</checks> <!-- ask for fruit -->
+								<actions> <action id='updateState' value='5,1,20' /> </actions>
+							</transition>
+							<transition id='summerParty5WaitFruit'> <checks> <check gamestate='5,1,20'/> </checks> <!-- wait for fruit -->
+							</transition>
+							<transition id='summerParty5AfterFruit'> <checks> <check gamestate='5,1,21'/> </checks> <!--  -->
+								<actions> <action id='updateState' value='5,1,22' /> </actions>
+							</transition>
+							<transition id='summerPartyEndState5'> 	<checks> <check timePassed='1' unit="day" state='5,1,22' flex="-" /> </checks> 
+							</transition>
+							<!-- step 6 -->
+							<transition id='summerParty6Start'>	<checks> <check timePassed='1' unit="day" state='5,1,22' flex="+" />	</checks> <!-- ask mik shake -->
+								<actions> <action id='updateState' value='5,1,23' /> </actions>
+							</transition>
+							<transition id='summerParty6WaitMilkShake'> <checks> <check gamestate='5,1,23'/> </checks> <!-- wait for milk cshake -->
+							</transition>
+							<transition id='summerParty6AskIceCream'> <checks> <check gamestate='5,1,24' />	</checks> <!-- ask for ice cream -->
+								<actions> <action id='updateState' value='5,1,25' /> </actions>
+							</transition>
+							<transition id='summerParty6WaitIceCream'> <checks> <check gamestate='5,1,25'/> </checks> <!-- wait for ice cream -->
+							</transition>
+							<transition id='summerParty6AfterMilkIceCream'> <checks> <check gamestate='5,1,26'/> </checks> <!--  -->
+								<actions> <action id='updateState' value='5,1,27' /> </actions>
+							</transition>
+							<transition id='summerPartyEndState6'> 	<checks> <check timePassed='1' unit="day" state='5,1,27' flex="-" /> </checks>
+							</transition>
+							<!-- step 7 -->
+							<transition id='summerParty7Start'>	<checks> <check timePassed='1' unit="day" state='5,1,27' flex="+" /> </checks> <!-- give present and say when start -->
+								<actions> <action id='updateState' value='5,1,28' /> </actions>
+							</transition>
+							<!-- wait for date of summer party -->
+							<transition id='summerPartyEndState7'> <checks> <check gamestate='5,1,28-999' /> <check beforeDate='15 08 2010'/> </checks>
+							</transition>
+							<!-- step 8 -->
+							<transition id='summerPartyState8GiveClothe'> <checks><check gamestate='5,1,27' /> <check afterDate='15 08 2010'/> </checks> <!-- summer party, clothe not given yet -->
+								<actions> <action id='updateState' value='5,1,28' /> </actions>
+							</transition>
+							<!-- step 8 -->
+							<transition id='summerPartyState8'> <checks><check gamestate='5,1,28-999' /> <check afterDate='15 08 2010'/> </checks>
+							</transition>
+							<transition id='summerPartyState8_end'> <checks><check gamestate='5,1,0-26' /> <check afterDate='15 08 2010'/> </checks>
+							</transition>
+							
+						</transitions>
+					</state>
+				</states>
+				<roomElements>
+					<!-- start step 2 -->
+					<element roomId="12" assetId="table1" id="table1" x="314" y="525"> <!-- table 1 -->
+						<checks> <check gamestate='5,1,7-999' condition="OR"/> <check  timePassed='1' unit="day" state='5,1,6' flex="+" condition="OR" /><check afterDate='15 08 2010' condition="OR"/> 						</checks>
+					</element>
+					<element roomId="12" assetId="table2" id="table2" x="575" y="519"> <!-- table 2 -->
+						<checks> <check gamestate='5,1,7-999' condition="OR"/> <check  timePassed='1' unit="day" state='5,1,6' flex="+" condition="OR"/> <check afterDate='15 08 2010' condition="OR"/> </checks>
+					</element>
+					<element roomId="12" assetId="stoolLeft" id="stoolLeft1" x="153" y="577"> <!-- stool left -->
+						<checks> <check gamestate='5,1,7-999' condition="OR"/>  <check  timePassed='1' unit="day" state='5,1,6' flex="+" condition="OR"/> <check afterDate='15 08 2010' condition="OR"/> </checks>
+					</element>
+					<element roomId="12" assetId="stoolLeft" id="stoolLeft2" x="276" y="589"> <!-- stool left -->
+						<checks> <check gamestate='5,1,7-999' condition="OR"/>  <check  timePassed='1' unit="day" state='5,1,6' flex="+" condition="OR"/> <check afterDate='15 08 2010' condition="OR"/> </checks>
+					</element>
+					<element roomId="12" assetId="stoolRight" id="stoolRight1" x="595" y="577"> <!-- stool right -->
+						<checks> <check gamestate='5,1,7-999' condition="OR"/>  <check  timePassed='1' unit="day" state='5,1,6' flex="+" condition="OR"/> <check afterDate='15 08 2010' condition="OR"/> </checks>
+					</element>
+					<element roomId="12" assetId="stoolRight" id="stoolRight2" x="737" y="574"> <!-- stool right -->
+						<checks> <check gamestate='5,1,7-999' condition="OR"/>  <check  timePassed='1' unit="day" state='5,1,6' flex="+" condition="OR"/> <check afterDate='15 08 2010' condition="OR"/> </checks>
+					</element>
+					<!-- start step 3 -->
+					<element roomId="12" assetId="balloons" id="balloons" x="113" y="592"> <!-- balloons -->
+						<checks> <check gamestate='5,1,10-999' condition="OR"/>  <check timePassed='1' unit="day" state='5,1,9' flex="+" condition="OR"/> <check afterDate='15 08 2010' condition="OR"/> </checks>
+					</element>
+					<!-- start step 4 -->
+					<element roomId="12" assetId="bflyFireFlowers" id="bflyFireFlowers" x="53" y="812"> <!-- bflyFireFlowers -->
+						<checks> <check gamestate='5,1,15-999' condition="OR"/>  <check timePassed='1' unit="day" state='5,1,14' flex="+" condition="OR"/> <check afterDate='15 08 2010' condition="OR"/> </checks>
+					</element>
+					<!-- start step 5 -->
+					<element roomId="12" assetId="nachos" id="nachos1" x="257" y="580"> <!-- nachos -->
+						<checks> <check gamestate='5,1,20-999' condition="OR"/>  <check timePassed='1' unit="day" state='5,1,19' flex="+" condition="OR"/> <check afterDate='15 08 2010' condition="OR"/> </checks>
+					</element>
+					<element roomId="12" assetId="nachos" id="nachos2" x="367" y="554"> <!-- nachos -->
+						<checks> <check gamestate='5,1,20-999' condition="OR"/>  <check timePassed='1' unit="day" state='5,1,19' flex="+" condition="OR"/> <check afterDate='15 08 2010' condition="OR"/> </checks>
+					</element>
+					<element roomId="12" assetId="nachos" id="nachos3" x="554" y="575"> <!-- nachos -->
+						<checks> <check gamestate='5,1,20-999' condition="OR"/>  <check timePassed='1' unit="day" state='5,1,19' flex="+" condition="OR"/> <check afterDate='15 08 2010' condition="OR"/> </checks>
+					</element>
+					<element roomId="12" assetId="stinkyBurgerLeft"  id="stinkyBurgerLeft"  x="306" y="579"> <!-- stinking burger -->
+						<checks> <check gamestate='5,1,20-999' condition="OR"/>  <check timePassed='1' unit="day" state='5,1,19' flex="+" condition="OR"/> <check afterDate='15 08 2010' condition="OR"/> </checks>
+					</element>
+					<element roomId="12" assetId="stinkyBurgerRight" id="stinkyBurgerRight" x="490" y="575"> <!-- stinking burger -->
+						<checks> <check gamestate='5,1,20-999' condition="OR"/>  <check timePassed='1' unit="day" state='5,1,19' flex="+" condition="OR"/> <check afterDate='15 08 2010' condition="OR"/> </checks>
+					</element>
+					<!-- start step 6 -->
+					<element roomId="12" assetId="fruitPlate" id="fruitPlate1" x="233" y="637"> <!-- fruit plate -->
+						<checks> <check gamestate='5,1,23-999' condition="OR"/>  <check timePassed='1' unit="day" state='5,1,22' flex="+" condition="OR"/> <check afterDate='15 08 2010' condition="OR"/> </checks>
+					</element>
+					<element roomId="12" assetId="fruitPlate" id="fruitPlate2" x="657" y="634"> <!-- fruit plate -->
+						<checks> <check gamestate='5,1,23-999' condition="OR"/>  <check timePassed='1' unit="day" state='5,1,22' flex="+" condition="OR"/> <check afterDate='15 08 2010' condition="OR"/> </checks>
+					</element>
+					<!-- start step 7 -->
+					<element roomId="12" assetId="iceCreamLeft" id="iceCreamLeft" x="104" y="525"> <!-- ice cream left-->
+						<checks> <check gamestate='5,1,28-999' condition="OR"/> <check timePassed='1' unit="day" state='5,1,27' flex="+"  condition="OR"/> <check afterDate='15 08 2010' condition="OR"/> </checks>
+					</element>
+					<element roomId="12" assetId="iceCreamRight" id="iceCreamRight" x="726" y="519"> <!-- ice cream right-->
+						<checks> <check gamestate='5,1,28-999' condition="OR"/>  <check timePassed='1' unit="day" state='5,1,27' flex="+"  condition="OR"/> <check afterDate='15 08 2010' condition="OR"/> </checks>
+					</element>
+					<element roomId="12" assetId="milkShake" id="milkShake1" x="465" y="545"> <!-- milk shake -->
+						<checks> <check gamestate='5,1,28-999' condition="OR"/>  <check timePassed='1' unit="day" state='5,1,27' flex="+"  condition="OR"/> <check afterDate='15 08 2010' condition="OR"/> </checks>
+					</element>
+					<element roomId="12" assetId="milkShake" id="milkShake2" x="486" y="531"> <!-- milk shake -->
+						<checks> <check gamestate='5,1,28-999' condition="OR"/><check timePassed='1' unit="day" state='5,1,27' flex="+"  condition="OR"/> <check afterDate='15 08 2010' condition="OR"/> </checks>
+					</element>
+					<element roomId="12" assetId="milkShake" id="milkShake3" x="605" y="586"> <!-- milk shake -->
+						<checks> <check gamestate='5,1,28-999' condition="OR"/> <check timePassed='1' unit="day" state='5,1,27' flex="+"  condition="OR"/> <check afterDate='15 08 2010' condition="OR"/></checks>
+					</element>
+					<!-- start ep 8 -->
+					<element roomId="12" assetId="flag" id="flag" x="411" y="262"> <!-- flag -->
+						<checks>
+							<check afterDate='15 08 2010'/>
+						</checks>
+					</element>
+				</roomElements>
+				
+				<roomSounds>
+					<sound roomId="12" id="summerPartyBackground">
+						<checks> 
+							<check afterDate='15 08 2010'/>
+						</checks>
+					</sound>
+				</roomSounds>
+			</quest>
+			
+			<!-- quest id 4, welcome tour -->
+			<quest id='1000' name='popups' type='1000' desc='POPUPS' asset="BUNNY_JOB_PIC" finishState="99" replayable="false">
+				<states>
+					<state id='1' default='1' >
+						<transitions>
+						</transitions>
+					</state>
+				</states>
+			</quest>
+			
+			<!-- quest id 1001, poll -->
+			<quest id='1001' name='popups' type='1001' desc='POPUPS' asset="" finishState="99" replayable="false">
+				<states>
+					<state id='1' default='0' >
+						<transitions>
+						</transitions>
+					</state>
+				</states>
+			</quest>
+
+			<!-- quest id 6, intro tour 2 -->
+			<quest id='6' name='introTour2' type='2' desc='INTROTOUR2' asset="BUNNY_JOB_PIC" finishState="3" replayable="false">
+				<states>
+					<state id='1' default='1' >
+						<transitions>
+							<transition id='introTour2Heidi1'> <checks> <check gamestate='6,1,1'/> </checks> 
+								<actions>
+									<action id="message" target="*" key="blockUserMovment" value="true"/>
+									<action id='message'  target='*' key='blockProducerPopup' />
+									<action id='addSign' frame='arrowCircle' x='357' y='219'  rotation="-90" signName="questSign" checkCurrentState="6,1" />
+									<action id='removeFilterMouse' filterName="testFilter"/>
+									<action id='filterMouse' type='round' x='357' y='219' rad='40' hide='true' filterName="testFilter"/>
+								</actions>
+							</transition>
+							<transition id='introTour2Heidi2'> <checks> <check gamestate='6,1,2'/> </checks> 
+								<actions>
+									<action id='removeSign' signName="questSign" />
+									<action id='moveFilterMouse' x='584' y='285' time="1" filterName="testFilter">
+										<endActions>
+											<action id='addSign' frame='circle' x='584' y='285' signName="questSign" checkCurrentState="6,1" />
+											<action id='removeFilterMouse' filterName="testFilter"/>
+											<action id='filterMouse' type='round' x='584' y='285' rad='40' filterName="testFilter"/>
+										</endActions>
+									</action>
+								</actions>
+							</transition>
+							<transition id='introTour2Heidi3'> <checks> <check gamestate='6,1,3'/> </checks>
+								<actions>
+									<action id='removeSign' signName="questSign" />
+									<action id='moveFilterMouse' x='232' y='484' time="1" filterName="testFilter">
+										<endActions>
+											<action id='addSign' frame='arrow' x='232' y='484'  rotation="0" signName="questSign" checkCurrentState="6,1" />
+											<action id='removeFilterMouse' filterName="testFilter"/>
+											<action id='filterMouse' type='round' x='232' y='484' rad='50' filterName="testFilter"/>
+										</endActions>
+									</action>
+								</actions>
+							</transition> 
+							<transition id='introTour2Heidi4'> <checks> <check gamestate='6,1,4'/> </checks>
+								<actions>
+									<action id='removeSign' signName="questSign" />
+										<action id='addSign' frame='circle' x='241' y='491'  rotation="0" signName="questSign" checkCurrentState="6,1" />
+										<action id='removeFilterMouse' filterName="testFilter"/>
+										<action id='filterMouse' type='round' x='241' y='491' rad='50' filterName="testFilter"/>
+								</actions>
+							</transition> 
+							<transition id='introTour2Heidi5'> <checks> <check gamestate='6,1,5'/> </checks>
+								<actions>
+									<action id='removeSign' signName="questSign" />
+									<action id='moveFilterMouse' x='106' y='38' time="1" filterName="testFilter">
+										<endActions>
+											<action id='removeFilterMouse' filterName="testFilter"/>
+											<action id='addSign' frame='arrowCircle' x='106' y='38'  rotation="180" signName="questSign" checkCurrentState="6,1" />
+											<action id='filterMouse' type='round' x='106' y='38' rad='25' filterName="testFilter"/>
+										</endActions>
+									</action>
+								</actions>
+							</transition> 
+							<transition id='introTour2Heidi6'> <checks> <check gamestate='6,1,6'/> </checks> <!-- hello garden -->
+								<actions>
+									<action id='removeSign' signName="questSign" />
+									<action id='removeFilterMouse' filterName="testFilter"/>
+									<action id='addSign' frame='arrowCircle' x='357' y='219'  rotation="-90" signName="questSign" checkCurrentState="6,1" />
+									<action id='filterMouse' type='round' x='357' y='219' rad='40' hide='true' filterName="testFilter"/>
+								</actions>
+							</transition> 
+							<transition id='introTour2Heidi7'> <checks> <check gamestate='6,1,7'/> </checks> <!-- click producer -->
+								<actions>
+									<action id='removeSign' signName="questSign" />
+									<!-- action id='moveFilterMouse' x='626' y='475' time="1" filterName="testFilter">
+										<endActions -->
+											<action id='removeFilterMouse' filterName="testFilter"/>
+											<action id='addSign' frame='arrow' x='626' y='475'  rotation="90" signName="questSign" checkCurrentState="6,1" />
+											<action id='filterMouse' type='round' x='626' y='475' rad='10' hide='true' filterName="testFilter" myAction="myAction2" />
+										<!-- /endActions>
+									</action -->
+								</actions>
+							</transition> 
+							<transition id='introTour2Heidi8'> <checks> <check gamestate='6,1,8'/> </checks> <!-- click plant -->
+								<actions>
+									<action id='removeSign' signName="questSign" />
+									<action id='message'  target='*' key='forceCornTiming' />
+									<!-- action id='moveFilterMouse' x='626' y='355' time="0.5" filterName="testFilter">
+										<endActions -->
+											<action id='removeFilterMouse' filterName="testFilter"/>
+											<action id='addSign' frame='arrow' x='626' y='355'  rotation="90" signName="questSign" checkCurrentState="6,1" />
+											<action id='filterMouse' type='round' x='626' y='355' rad='17' hide='true' filterName="testFilter"/>
+										<!-- /endActions>
+									</action -->
+								</actions>
+							</transition> 
+							<transition id='introTour2Heidi9'> <checks> <check gamestate='6,1,9'/> </checks> <!-- click producer -->
+								<!-- actions>
+									<action id='removeSign' signName="questSign" />
+									<action id='removeFilterMouse' filterName="testFilter" />
+									<action id='addSign' frame='arrow' x='626' y='475'  rotation="90" signName="questSign" checkCurrentState="6,1" />
+									<action id='filterMouse' type='round' x='626' y='475' rad='10' hide='true' filterName="testFilter"/>
+								</actions -->
+							</transition> 
+							<transition id='introTour2Heidi10'> <checks> <check gamestate='6,1,10'/> </checks>	<!-- click seed -->
+								<actions>
+									<action id='removeSign' signName="questSign" />
+									<!-- action id='moveFilterMouse' x='626' y='410' time="0.5" filterName="testFilter">
+										<endActions -->
+											<action id='removeFilterMouse' filterName="testFilter"/>
+											<action id='addSign' frame='arrow' x='626' y='410'  rotation="90" signName="questSign" checkCurrentState="6,1" />
+											<action id='filterMouse' type='round' x='626' y='410' rad='20' hide='true' filterName="testFilter"/>
+										<!-- /endActions>
+									</action -->
+								</actions>
+							</transition> 
+							<transition id='introTour2Heidi11'> <checks> <check gamestate='6,1,11'/> </checks>	 <!-- click water -->
+								<actions>
+									<action id='removeSign' signName="questSign" />
+									<action id='removeFilterMouse' filterName="testFilter"/>
+									<action id='addSign' frame='arrow' x='626' y='410'  rotation="90" signName="questSign" checkCurrentState="6,1" />
+									<action id='filterMouse' type='round' x='626' y='410' rad='20' hide='true' filterName="testFilter"/>
+								</actions>
+							</transition> 
+							<transition id='introTour2Heidi12'> <checks> <check gamestate='6,1,12'/> </checks>	<!-- wait -->
+								<actions>
+									<action id='removeSign' signName="questSign" />
+									<action id='removeFilterMouse' filterName="testFilter"/>
+									<action id='addSign' frame='exclamation' x='700' y='370'  rotation="0" signName="questSign" checkCurrentState="6,1" />
+									<action id='filterMouse' type='round' x='626' y='475' rad='0' hide='true' filterName="testFilter"/>
+								</actions>
+							</transition> 
+							<transition id='introTour2Heidi13'> <checks> <check gamestate='6,1,13'/> </checks>	<!-- click producer -->
+								<!-- actions>
+									<action id='removeSign' signName="questSign" />
+									<action id='removeFilterMouse' filterName="testFilter"/>
+									<action id='addSign' frame='arrow' x='626' y='475'  rotation="90" signName="questSign" checkCurrentState="6,1" />
+									<action id='filterMouse' type='round' x='626' y='475' rad='10' hide='true' filterName="testFilter"/>
+								</actions -->
+							</transition> 
+							<transition id='introTour2Heidi14'> <checks> <check gamestate='6,1,14'/> </checks>	<!-- clic corn -->
+								<actions>
+									<action id='removeSign' signName="questSign" />
+									<!-- action id='moveFilterMouse' x='559' y='413' time="0.5" filterName="testFilter">
+										<endActions -->
+											<action id='removeFilterMouse' filterName="testFilter"/>
+											<action id='addSign' frame='arrowCircle' x='575' y='460'  rotation="-90" signName="questSign" checkCurrentState="6,1" />
+											<action id='filterMouse' type='round' x='575' y='460' rad='15' hide='true' filterName="testFilter"/>
+										<!-- /endActions>
+									</action -->
+								</actions>
+							</transition> 
+							<transition id='introTour2Heidi15'> <checks> <check gamestate='6,1,15'/> </checks>	<!-- click producer -->
+								<!-- actions>
+									<action id='removeSign' signName="questSign" />
+									<action id='removeFilterMouse' filterName="testFilter"/>
+									<action id='addSign' frame='arrow' x='626' y='475'  rotation="90" signName="questSign" checkCurrentState="6,1" />
+									<action id='filterMouse' type='round' x='626' y='475' rad='10' hide='true' filterName="testFilter"/>
+								</actions -->
+							</transition> 
+							<transition id='introTour2Heidi16'> <checks> <check gamestate='6,1,16'/> </checks>	<!-- water 1 -->
+								<actions>
+									<action id='removeSign' signName="questSign" />
+									<!-- action id='moveFilterMouse' x='626' y='410' time="0.5" filterName="testFilter">
+										<endActions -->
+											<action id='removeFilterMouse' filterName="testFilter"/>
+											<action id='addSign' frame='arrow' x='626' y='410'  rotation="90" signName="questSign" checkCurrentState="6,1" />
+											<action id='filterMouse' type='round' x='626' y='410' rad='20' hide='true' filterName="testFilter"/>
+										<!-- /endActions>
+									</action -->
+								</actions>
+							</transition> 
+							<transition id='introTour2Heidi17'> <checks> <check gamestate='6,1,17'/> </checks>	<!-- water 2 -->
+								<actions>
+									<action id='removeSign' signName="questSign" />
+									<action id='removeFilterMouse' filterName="testFilter"/>
+									<action id='addSign' frame='arrow' x='626' y='410'  rotation="90" signName="questSign" checkCurrentState="6,1" />
+									<action id='filterMouse' type='round' x='626' y='410' rad='20' hide='true' filterName="testFilter"/>
+								</actions>
+							</transition> 
+							<transition id='introTour2Heidi18'> <checks> <check gamestate='6,1,18'/> </checks>	<!-- wait -->
+								<actions>
+									<action id='removeSign' signName="questSign" />
+									<action id='removeFilterMouse' filterName="testFilter"/>
+									<action id='addSign' frame='exclamation' x='700' y='370'  rotation="0" signName="questSign" checkCurrentState="6,1" />
+									<action id='filterMouse' type='round' x='626' y='475' rad='0' hide='true' filterName="testFilter"/>
+								</actions>
+							</transition> 
+							<transition id='introTour2Heidi19'> <checks> <check gamestate='6,1,19'/> </checks>	<!-- click  grown corn -->
+								<!-- actions>
+									<action id='removeSign' signName="questSign" />
+									<action id='removeFilterMouse' filterName="testFilter"/>
+									<action id='addSign' frame='arrow' x='626' y='475'  rotation="90" signName="questSign" checkCurrentState="6,1" />
+									<action id='filterMouse' type='round' x='626' y='475' rad='25' hide='true' filterName="testFilter"/>
+								</actions -->
+							</transition> 
+							<transition id='introTour2Heidi20'> <checks> <check gamestate='6,1,20'/> </checks>	<!-- harvest -->
+								<actions>
+									<action id='giveClothToUser' value="842"/>
+									<action id='removeSign' signName="questSign" />
+									<action id='removeFilterMouse' filterName="testFilterFix" />
+									<!-- action id='moveFilterMouse' x='626' y='410' time="0.5" filterName="testFilter">
+										<endActions -->
+											<action id='removeFilterMouse' filterName="testFilter"/>
+											<action id='addSign' frame='arrow' x='626' y='410'  rotation="90" signName="questSign" checkCurrentState="6,1" />
+											<action id='filterMouse' type='round' x='626' y='410' rad='20' filterName="testFilter"/>
+										<!-- /endActions>
+									</action -->
+								</actions>
+							</transition> 
+							<transition id='introTour2Heidi21A'> <checks> <check gamestate='6,1,21'/> </checks>	
+								<actions>
+									<action id='removeSign' signName="questSign" />
+									<action id='moveFilterMouse' x='45' y='38' time="1" filterName="testFilter">
+										<endActions>
+											<action id='removeFilterMouse' filterName="testFilter"/>
+											<action id='addSign' frame='arrowCircle' x='45' y='38'  rotation="180" signName="questSign" checkCurrentState="6,1" />
+											<action id='filterMouse' type='round' x='45' y='38' rad='50' filterName="testFilter"/>
+										</endActions>
+									</action>
+								</actions>
+							</transition> 
+							<!-- transition id='introTour2Heidi21'> <checks> <check gamestate='6,1,21'/> </checks>	
+								<actions>
+									<action id='removeSign' signName="questSign" />
+									<action id='moveFilterMouse' x='859' y='627' time="1" filterName="testFilter">
+										<endActions>
+											<action id='removeFilterMouse' filterName="testFilter"/>
+											<action id='addSign' frame='arrowCircle' x='859' y='627'  rotation="0" signName="questSign" checkCurrentState="6,1" />
+											<action id='filterMouse' type='round' x='859' y='627' rad='10' filterName="testFilter"/>
+										</endActions>
+									</action>
+								</actions>
+							</transition> 
+							<transition id='introTour2Heidi22'> <checks> <check gamestate='6,1,22'/> </checks>	
+								<actions>
+									<action id='removeSign' signName="questSign" />
+									<action id='moveFilterMouse' x='876' y='608' time="1" filterName="testFilter">
+										<endActions>
+											<action id='removeFilterMouse' filterName="testFilter"/>
+											<action id='addSign' frame='arrowCircle' x='876' y='608'  rotation="0" signName="questSign" checkCurrentState="6,1" />
+											<action id='filterMouse' type='round' x='876' y='608' rad='12' filterName="testFilter"/>
+										</endActions>
+									</action>
+
+								</actions>
+							</transition --> 
+							
+						</transitions>
+					</state>
+				</states>
+			</quest>
+			<quest id='7' name='introTour3' type='2' desc='INTROTOUR2' asset="BUNNY_JOB_PIC" finishState="3" replayable="false">
+				<states>
+					<state id='1' default='1' >
+						<transitions>
+							<transition id='introTour3wiseTree1'> <checks> <check gamestate='7,1,1'/> </checks> 
+								<actions> 
+									<action id='removeFilterMouse' filterName="testFilter"/>
+									<action id='filterMouse' type='round' x='844' y='204' rad='120' hide='true' filterName="testFilter"/>
+									<action id='addSign' type="wiseTree" frame='blueArrow' rotation="" signName="questSign" checkCurrentState="7,1" />
+								</actions>
+							</transition>
+							<transition id='introTour3wiseTree2'> <checks> <check gamestate='7,1,2'/> </checks> 
+								<actions> 
+									<action id='filterMouse' type='round' x='844' y='204' rad='120' hide='true' filterName="testFilter"/>
+									<action id='addSign' type="wiseTree" frame='blueArrow' hide='true' rotation="" signName="questSign" checkCurrentState="7,1" />
+								</actions>
+							</transition>
+							
+							<transition id='introTour3Heidi1'> <checks> <check gamestate='7,1,2'/> </checks> 
+								<!-- actions> <action id='addSign' type="wiseTree" frame='blueArrow' rotation="" signName="questSign" checkCurrentState="7,1" /></actions -->
+							</transition>
+							<transition id='introTour3Heidi2'> <checks> <check gamestate='7,1,3'/> </checks> </transition>
+							
+							
+							
+							<!--  -->
+							
+							
+							
+							<transition id='introTour3Heidi7'> <checks> <check gamestate='7,1,7'/> </checks> <!-- click producer -->
+								<actions>
+									<action id='removeSign' signName="questSign" />
+									<!-- action id='moveFilterMouse' x='626' y='475' time="1" filterName="testFilter">
+										<endActions -->
+											<action id='removeFilterMouse' filterName="testFilter"/>
+											<action id='addSign' frame='arrow' x='626' y='475'  rotation="90" signName="questSign" checkCurrentState="6,1" />
+											<action id='filterMouse' type='round' x='626' y='475' rad='10' hide='true' filterName="testFilter" myAction="myAction2" />
+										<!-- /endActions>
+									</action -->
+								</actions>
+							</transition> 
+							<transition id='introTour3Heidi8'> <checks> <check gamestate='7,1,8'/> </checks> <!-- click plant -->
+								<actions>
+									<action id='removeSign' signName="questSign" />
+									<action id='message'  target='*' key='forceCornTiming' />
+									<!-- action id='moveFilterMouse' x='626' y='355' time="0.5" filterName="testFilter">
+										<endActions -->
+											<action id='removeFilterMouse' filterName="testFilter"/>
+											<action id='addSign' frame='arrow' x='626' y='355'  rotation="90" signName="questSign" checkCurrentState="6,1" />
+											<action id='filterMouse' type='round' x='626' y='355' rad='17' hide='true' filterName="testFilter"/>
+										<!-- /endActions>
+									</action -->
+								</actions>
+							</transition> 
+							<transition id='introTour3Heidi9'> <checks> <check gamestate='7,1,9'/> </checks> <!-- click producer -->
+								<!-- actions>
+									<action id='removeSign' signName="questSign" />
+									<action id='removeFilterMouse' filterName="testFilter" />
+									<action id='addSign' frame='arrow' x='626' y='475'  rotation="90" signName="questSign" checkCurrentState="6,1" />
+									<action id='filterMouse' type='round' x='626' y='475' rad='10' hide='true' filterName="testFilter"/>
+								</actions -->
+							</transition> 
+							<transition id='introTour3Heidi10'> <checks> <check gamestate='7,1,10'/> </checks>	<!-- click seed -->
+								<actions>
+									<action id='removeSign' signName="questSign" />
+									<!-- action id='moveFilterMouse' x='626' y='410' time="0.5" filterName="testFilter">
+										<endActions -->
+											<action id='removeFilterMouse' filterName="testFilter"/>
+											<action id='addSign' frame='arrow' x='626' y='410'  rotation="90" signName="questSign" checkCurrentState="6,1" />
+											<action id='filterMouse' type='round' x='626' y='410' rad='20' hide='true' filterName="testFilter"/>
+										<!-- /endActions>
+									</action -->
+								</actions>
+							</transition> 
+							<transition id='introTour3Heidi11'> <checks> <check gamestate='7,1,11'/> </checks>	 <!-- click water -->
+								<actions>
+									<action id='removeSign' signName="questSign" />
+									<action id='removeFilterMouse' filterName="testFilter"/>
+									<action id='addSign' frame='arrow' x='626' y='410'  rotation="90" signName="questSign" checkCurrentState="6,1" />
+									<action id='filterMouse' type='round' x='626' y='410' rad='20' hide='true' filterName="testFilter"/>
+								</actions>
+							</transition> 
+							<transition id='introTour3Heidi12'> <checks> <check gamestate='7,1,12'/> </checks>	<!-- wait -->
+								<actions>
+									<action id='removeSign' signName="questSign" />
+									<action id='removeFilterMouse' filterName="testFilter"/>
+									<action id='addSign' frame='exclamation' x='700' y='370'  rotation="0" signName="questSign" checkCurrentState="6,1" />
+									<action id='filterMouse' type='round' x='626' y='475' rad='0' hide='true' filterName="testFilter"/>
+								</actions>
+							</transition> 
+							<transition id='introTour3Heidi13'> <checks> <check gamestate='7,1,13'/> </checks>	<!-- click producer -->
+								<!-- actions>
+									<action id='removeSign' signName="questSign" />
+									<action id='removeFilterMouse' filterName="testFilter"/>
+									<action id='addSign' frame='arrow' x='626' y='475'  rotation="90" signName="questSign" checkCurrentState="6,1" />
+									<action id='filterMouse' type='round' x='626' y='475' rad='10' hide='true' filterName="testFilter"/>
+								</actions -->
+							</transition> 
+							<transition id='introTour3Heidi14'> <checks> <check gamestate='7,1,14'/> </checks>	<!-- clic corn -->
+								<actions>
+									<action id='removeSign' signName="questSign" />
+									<!-- action id='moveFilterMouse' x='559' y='413' time="0.5" filterName="testFilter">
+										<endActions -->
+											<action id='removeFilterMouse' filterName="testFilter"/>
+											<action id='addSign' frame='arrowCircle' x='575' y='460'  rotation="-90" signName="questSign" checkCurrentState="6,1" />
+											<action id='filterMouse' type='round' x='575' y='460' rad='15' hide='true' filterName="testFilter"/>
+										<!-- /endActions>
+									</action -->
+								</actions>
+							</transition> 
+							<transition id='introTour3Heidi15'> <checks> <check gamestate='7,1,15'/> </checks>	<!-- click producer -->
+								<!-- actions>
+									<action id='removeSign' signName="questSign" />
+									<action id='removeFilterMouse' filterName="testFilter"/>
+									<action id='addSign' frame='arrow' x='626' y='475'  rotation="90" signName="questSign" checkCurrentState="6,1" />
+									<action id='filterMouse' type='round' x='626' y='475' rad='10' hide='true' filterName="testFilter"/>
+								</actions -->
+							</transition> 
+							<transition id='introTour3Heidi16'> <checks> <check gamestate='7,1,16'/> </checks>	<!-- water 1 -->
+								<actions>
+									<action id='removeSign' signName="questSign" />
+									<!-- action id='moveFilterMouse' x='626' y='410' time="0.5" filterName="testFilter">
+										<endActions -->
+											<action id='removeFilterMouse' filterName="testFilter"/>
+											<action id='addSign' frame='arrow' x='626' y='410'  rotation="90" signName="questSign" checkCurrentState="6,1" />
+											<action id='filterMouse' type='round' x='626' y='410' rad='20' hide='true' filterName="testFilter"/>
+										<!-- /endActions>
+									</action -->
+								</actions>
+							</transition> 
+							<transition id='introTour3Heidi17'> <checks> <check gamestate='7,1,17'/> </checks>	<!-- water 2 -->
+								<actions>
+									<action id='removeSign' signName="questSign" />
+									<action id='removeFilterMouse' filterName="testFilter"/>
+									<action id='addSign' frame='arrow' x='626' y='410'  rotation="90" signName="questSign" checkCurrentState="6,1" />
+									<action id='filterMouse' type='round' x='626' y='410' rad='20' hide='true' filterName="testFilter"/>
+								</actions>
+							</transition> 
+							<transition id='introTour3Heidi18'> <checks> <check gamestate='7,1,18'/> </checks>	<!-- wait -->
+								<actions>
+									<action id='removeSign' signName="questSign" />
+									<action id='removeFilterMouse' filterName="testFilter"/>
+									<action id='addSign' frame='exclamation' x='700' y='370'  rotation="0" signName="questSign" checkCurrentState="6,1" />
+									<action id='filterMouse' type='round' x='626' y='475' rad='0' hide='true' filterName="testFilter"/>
+								</actions>
+							</transition> 
+							<transition id='introTour3Heidi19'> <checks> <check gamestate='7,1,19'/> </checks>	<!-- click  grown corn -->
+								<!-- actions>
+									<action id='removeSign' signName="questSign" />
+									<action id='removeFilterMouse' filterName="testFilter"/>
+									<action id='addSign' frame='arrow' x='626' y='475'  rotation="90" signName="questSign" checkCurrentState="6,1" />
+									<action id='filterMouse' type='round' x='626' y='475' rad='25' hide='true' filterName="testFilter"/>
+								</actions -->
+							</transition> 
+							<transition id='introTour3Heidi20'> <checks> <check gamestate='7,1,20'/> </checks>	<!-- harvest -->
+								<actions>
+									<action id='removeSign' signName="questSign" />
+									<action id='removeFilterMouse' filterName="testFilterFix" />
+									<!-- action id='moveFilterMouse' x='626' y='410' time="0.5" filterName="testFilter">
+										<endActions -->
+											<action id='removeFilterMouse' filterName="testFilter"/>
+											<action id='addSign' frame='arrow' x='626' y='410'  rotation="90" signName="questSign" checkCurrentState="6,1" />
+											<action id='filterMouse' type='round' x='626' y='410' rad='20' filterName="testFilter"/>
+										<!-- /endActions>
+									</action -->
+								</actions>
+							</transition> 
+							<transition id='introTour3Heidi21A'> <checks> <check gamestate='7,1,21'/> </checks>	
+								<actions>
+									<action id='removeSign' signName="questSign" />
+									<action id='removeFilterMouse' filterName="testFilter"/>
+									<!-- action id='moveFilterMouse' x='45' y='38' time="1" filterName="testFilter">
+										<endActions>
+											<action id='removeFilterMouse' filterName="testFilter"/>
+											<action id='addSign' frame='arrowCircle' x='45' y='38'  rotation="180" signName="questSign" checkCurrentState="6,1" />
+											<action id='filterMouse' type='round' x='45' y='38' rad='50' filterName="testFilter"/>
+										</endActions>
+									</action -->
+								</actions>
+							</transition> 
+							<transition id='introTour3Heidi22'> <checks> <check gamestate='7,1,22'/> </checks> </transition>
+
+							
+							
+							
+						</transitions>
+					</state>
+				</states>
+			</quest>
+
+		</quests>
+		
+	</questData>
+	
+	<modules base="quests/$$name$$/" path="$$name$$.swf" >
+		<modul name='DummyQuest' preload='1' />
+		<modul name='TillDeath' />
+		<modul name='SwimmingQuest' />
+	</modules>
+	
+</config>

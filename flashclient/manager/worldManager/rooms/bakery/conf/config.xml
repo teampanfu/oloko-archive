@@ -1,0 +1,29 @@
+<config><!-- bakery -->
+	<assets>
+		<asset id="room" path="assets/room.swf" />
+	</assets>
+	
+	<sounds>
+		<sound id="roomBackground" type="music" volume="0.4" path="audio/OLO_05_rabbit_style.mp3" loops="-1" />
+	</sounds>
+	
+	
+	<module>
+		<elementSounds>
+			<sound id="woodendoor" path="assets/audio/ol_interface_woodendoor.mp3" loops="1" type="effect" volume="1" />
+		</elementSounds>
+		
+		<elements>
+			<element id="door1" button="1" visible="1">
+				<button type="overClickSound" over="2" out="1" click="2" sound="woodendoor"/>
+				<message value="gotoHotSpot" >
+					<hotspot value="door1" />
+				</message>
+			</element>
+		</elements>
+		
+		<hotspots>
+			<hotspot target="9" id="door1" type="room" sharetype="unique" shape="round" x="116" y="271" rad="30"  />
+		</hotspots>
+	</module>
+</config>

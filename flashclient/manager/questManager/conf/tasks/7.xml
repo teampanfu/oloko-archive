@@ -1,0 +1,197 @@
+<quest id='7'> <!-- task -->
+	<tasks substate='1'> <!-- SUB TASK--> <!-- Heidi -->
+		<!-- home -->
+		<!-- create producer -->
+		<!-- task id='07_06' state='6' trackKey='001_02_0019_INTROTOUR_INTERACTION_CLICK-FIELD' noSound="true">
+			<type value='producerCreate'> <properties producerType='plants' /> </type>	
+			<checks>  </checks>
+			<finished> <action id='producerCreate' producerType='plants'/> </finished>	
+			<actions> 
+				<action id='updateState' value='7,1,7' />
+				<action id='restartSpeechBubble' target='introTour3'/>
+			</actions>
+		</task -->
+		 <!-- click producer -->
+		<task id='07_07' state='2' trackKey='101_02_0019A_INTROTOUR_INTERACTION_CLICK-HOLE' noSound="true">  
+			<type value='displayProducer'> <properties producerType='plants' /> </type>	
+			<checks>  </checks>
+			<finished> <action id='displayProducer' producerType='plants'/> </finished>	
+			<actions> 
+				<action id='updateState' value='7,1,8' />
+				<action id='restartSpeechBubble' target='introTour3'/>
+			</actions>
+		</task>
+		<task id='07_08' state='8' trackKey='101_02_0019B_INTROTOUR_INTERACTION_CLICK-PLANT' noSound="true">   <!-- choose babyplant -->
+			<!-- type value='producerStartProducing'> <properties producerType='plants' itemName='babyplant' /> </type>	
+			<checks>  </checks>
+			<finished> <action id='producerStartProducing' producerType='plants' itemName='babyplant'/> </finished>	
+			<actions> 
+				<action id='updateState' value='7,1,9' />
+				<action id='restartSpeechBubble' target='introTour3'/>
+			</actions -->
+			<type value='updateProducer'> <properties producerType='plants' itemName='hole' /> </type>	
+			<checks>  </checks>
+			<finished> <action id='updateProducer' producerType='plants' itemName='hole'/> </finished>	
+			<actions> 
+				<action id='updateState' value='7,1,9' />
+				<action id='restartSpeechBubble' target='introTour3'/>
+			</actions>
+		</task>
+		<task id='07_09' state='9' trackKey='101_02_0020A_INTROTOUR_INTERACTION_CLICK-HOLE' noSound="true">   <!-- click producer -->
+			<type value='displayProducer'> <properties producerType='plants' /> </type>	
+			<checks>  </checks>
+			<finished> <action id='displayProducer' producerType='plants'/> </finished>	
+			<actions> 
+				<action id='updateState' value='7,1,10' />
+				<action id='restartSpeechBubble' target='introTour3'/>
+			</actions>
+		</task>
+		<task id='07_10' state='10' trackKey='101_02_0021A_INTROTOUR_INTERACTION_CLICK-SEED' noSound="true">   <!-- give seed -->
+			<!-- type value='producerUpdate'> <properties producerType='plants' itemName='seed' /> </type>	
+			<checks>  </checks>
+			<finished> <action id='producerUpdate' producerType='plants' itemName='seed'/> </finished>	
+			<actions> 
+				<action id='updateState' value='7,1,11' />
+				<action id='restartSpeechBubble' target='introTour3'/>
+			</actions -->
+			<type value='updateProducer'> <properties producerType='plants' itemName='hole' /> </type>	
+			<checks>  </checks>
+			<finished> <action id='updateProducer' producerType='plants' itemName='hole'/> </finished>	
+			<actions> 
+				<action id='updateState' value='7,1,11' />
+				<action id='restartSpeechBubble' target='introTour3'/>
+			</actions>
+		</task>
+		<task id='07_11' state='11' trackKey='101_02_0022A_INTROTOUR_INTERACTION_CLICK-WATER' noSound="true">   <!-- give water -->
+			<!-- type value='producerUpdate'> <properties producerType='plants' itemName='water' /> </type>	
+			<checks>  </checks>
+			<finished> <action id='producerUpdate' producerType='plants' itemName='water'/> </finished>	
+			<actions> 
+				<action id='updateState' value='7,1,12' />
+				<action id='restartSpeechBubble' target='introTour3'/>
+			</actions -->
+			<type value='updateProducer'> <properties producerType='plants' itemName='hole' /> </type>	
+			<checks>  </checks>
+			<finished> <action id='updateProducer' producerType='plants' itemName='hole'/> </finished>	
+			<actions> 
+				<action id='updateState' value='7,1,12' />
+				<action id='restartSpeechBubble' target='introTour3'/>
+			</actions>
+		</task>
+		<task id='07_12' state='12' >   <!-- producer waiting periode have finished -->
+			<!-- type value='updateProducer'> <properties producerType='plants' itemName='babyplant' /> </type>	
+			<checks>  </checks>
+			<finished> <action id='updateProducer' producerType='plants' itemName='babyplant'/> </finished>		
+			<actions> 
+				<action id='updateState' value='7,1,13' />
+				<action id='restartSpeechBubble' target='introTour3'/>
+			</actions -->
+			<type value='displayProducer'> <properties producerType='plants' itemName='hole' /> </type>	
+			<checks>  </checks>
+			<finished> <action id='displayProducer' producerType='plants' itemName='hole'/> </finished>		
+			<actions> 
+				<action id='updateState' value='7,1,13' />
+				<action id='restartSpeechBubble' target='introTour3'/>
+			</actions>
+		</task>
+		<task id='07_13' state='13' trackKey='101_02_0023A_INTROTOUR_INTERACTION_CLICK-BABYPLANT' noSound="true">   <!-- click plant -->
+			<type value='displayProducer'> <properties producerType='plants' /> </type>	
+			<checks>  </checks>
+			<finished> <action id='displayProducer' producerType='plants'/> </finished>		
+			<actions> 
+				<action id='updateState' value='7,1,14' />
+				<action id='restartSpeechBubble' target='introTour3'/>
+			</actions>
+		</task>
+		<task id='07_14' state='14' trackKey='101_02_0024A_INTROTOUR_INTERACTION_CLICK-CORN' noSound="true">   <!-- choose corn-->
+			<!-- type value='producerStartProducing'> <properties producerType='plants' itemName='corn' /> </type>	
+			<checks>  </checks>
+			<finished> <action id='producerStartProducing' producerType='plants' itemName='corn'/> </finished>	
+			<actions> 
+				<action id='updateState' value='7,1,15' />
+				<action id='restartSpeechBubble' target='introTour3'/>
+			</actions -->
+			<type value='updateProducer'> <properties producerType='plants' itemName='babyplant' /> </type>	
+			<checks>  </checks>
+			<finished> <action id='updateProducer' producerType='plants' itemName='babyplant'/> </finished>	
+			<actions> 
+				<action id='updateState' value='7,1,16' />
+				<action id='restartSpeechBubble' target='introTour3'/>
+			</actions>
+		</task>
+		<!-- click producer -->
+		<!-- task id='07_15' state='15' trackKey='001_02_0032_INTROTOUR_INTERACTION_CLICK-BABYPLANT' noSound="true">   
+			<type value='displayProducer'> <properties producerType='plants' /> </type>	
+			<checks>  </checks>
+			<finished> <action id='displayProducer' producerType='plants'/> </finished>		
+			<actions> 
+				<action id='updateState' value='7,1,16' />
+				<action id='restartSpeechBubble' target='introTour3'/>
+			</actions>
+		</task -->
+		<task id='07_16' state='16' trackKey='101_02_0025A_INTROTOUR_INTERACTION_CLICK-WATER' noSound="true">   <!-- give water 1 -->
+			<!-- type value='producerUpdate'> <properties producerType='plants' itemName='water' /> </type>	
+			<checks>  </checks>
+			<finished> <action id='producerUpdate' producerType='plants' itemName='water'/> </finished>	
+			<actions> 
+				<action id='updateState' value='7,1,17' />
+				<action id='restartSpeechBubble' target='introTour3'/>
+			</actions -->
+			<type value='updateProducer'> <properties producerType='plants' itemName='babyplant' /> </type>	
+			<checks>  </checks>
+			<finished> <action id='updateProducer' producerType='plants' itemName='babyplant'/> </finished>	
+			<actions> 
+				<action id='updateState' value='7,1,17' />
+				<action id='restartSpeechBubble' target='introTour3'/>
+			</actions>
+		</task>
+		<task id='07_17' state='17' trackKey='101_02_0025B_INTROTOUR_INTERACTION_CLICK-WATER' noSound="true">   <!-- give water 2-->
+			<!-- type value='updateProducer'> <properties producerType='plants' itemName='water' /> </type>	
+			<checks>  </checks>
+			<finished> <action id='updateProducer' producerType='plants' itemName='water'/> </finished>	
+			<actions> 
+				<action id='updateState' value='7,1,18' />
+				<action id='restartSpeechBubble' target='introTour3'/>
+			</actions -->
+			<type value='updateProducer'> <properties producerType='plants' itemName='babyplant' /> </type>	
+			<checks>  </checks>
+			<finished> <action id='updateProducer' producerType='plants' itemName='babyplant'/> </finished>	
+			<actions> 
+				<action id='updateState' value='7,1,18' />
+				<action id='restartSpeechBubble' target='introTour3'/>
+			</actions>
+		</task>
+		<task id='07_18' state='18'  noSound="true" >   <!-- end grow corn -->
+			<type value='displayProducer'> <properties producerType='plants' itemName='corn' /> </type>	
+			<checks>  </checks>
+			<finished> <action id='displayProducer' producerType='plants' itemName='corn'/> </finished>		
+			<actions> 
+				<action id='updateState' value='7,1,19' />
+				<action id='restartSpeechBubble' target='introTour3'/>
+			</actions>
+		</task>
+		<task id='07_19' state='19' trackKey='101_02_0027A_INTROTOUR_INTERACTION_CLICK-WEEDPLANT' noSound="true">   <!-- click producer -->
+			<type value='displayProducer'> <properties producerType='plants' /> </type>	
+			<checks>  </checks>
+			<finished> <action id='displayProducer' producerType='plants'/> </finished>		
+			<actions> 
+				<action id='updateState' value='7,1,20' />
+				<action id='restartSpeechBubble' target='introTour3'/>
+			</actions>
+		</task>
+		<task id='07_20' state='20' trackKey='101_02_0027B_INTROTOUR_INTERACTION_CLICK-WEED' noSound="true">   <!-- harvest corn -->
+			<type value='producerHarvest'> <properties producerType='plants'  itemName='corn'/> </type>	
+			<checks>  </checks>
+			<finished> <action id='producerHarvest' producerType='plants'  itemName='corn'/> </finished>	
+			<actions> 
+				<action id='updateState' value='7,1,21' />
+				<action id='restartSpeechBubble' target='introTour3'/>
+			</actions>
+		</task>
+		
+		
+		
+		
+	</tasks> 
+
+</quest>

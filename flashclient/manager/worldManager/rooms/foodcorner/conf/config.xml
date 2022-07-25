@@ -1,0 +1,62 @@
+<config> <!-- FOODCORNER-->
+	<assets>
+		<asset id="room" path="assets/room.swf" />
+	</assets>
+	
+	<sounds>
+		<sound id="roomBackground" type="music" volume="0.4" path="audio/OLO_05_rabbit_style.mp3" loops="-1" />
+	</sounds>
+	
+	
+	<module>
+		<elementSounds>
+			<sound id="woodendoor" path="assets/audio/ol_interface_woodendoor.mp3" loops="1" type="effect" volume="1" />
+		</elementSounds>
+		
+		<elements>
+			<element id="door1" button="1" visible="1">
+				<button type="overClickSound" over="2" out="1" click="2" sound="woodendoor" />
+				<message value="gotoHotSpot" >
+					<hotspot value="door1" />
+				</message>
+			</element>
+			<element id="door2" button="1" visible="1">
+				<button type="overClickSound" over="2" out="1" click="2" sound="woodendoor" />
+				<message value="gotoHotSpot" >
+					<hotspot value="door2" />
+				</message>
+			</element>
+		
+			<!-- TODO : create this "gotoHotSpot", and place it in every room -->	
+			<!--element id="door1"  type="door"  button="1" visible="1">
+				<button type="overClick" over="2" out="1" click="1"/>
+				<message value="gotoHotSpot" >
+					<hotSpot value="door1" />
+				</message>
+			</element>
+			<element id="door2"  type="door"  button="1" visible="1">
+				<button type="overClick" over="2" out="1" click="1"/>
+				<message value="gotoHotSpot" >
+					<hotSpot value="door2" />
+				</message>
+			</element-->
+		</elements>
+		
+		<hotspots>
+			<hotspot target="5" 		type="room"  id="door1"			sharetype="unique" shape="round" x="328" y="401" rad="30" /> <!-- fastfood -->
+			<hotspot target="8" 		type="room"  id="door2"		sharetype="unique" shape="round" x="582" y="396" rad="30" /> <!-- gourmet -->
+			
+			<hotspot target="17" 		type="room" 			sharetype="unique" shape="round" x="884" y="411" rad="50" dirAngle="-30"/> <!-- montecielo -->
+			<hotspot target="13" 		type="room" 			sharetype="unique" shape="round" x="27" y="523" rad="50" dirAngle="170"/> <!-- kittyoto -->
+			<hotspot target="10" 		type="room" 			sharetype="unique" shape="round" x="181" y="677" rad="50" dirAngle="85" /> <!-- sunny farm -->
+			<hotspot target="9" 		type="room" 			sharetype="unique" shape="round" x="865" y="536" rad="50" dirAngle="35"/> <!-- rioazul -->
+			<hotspot target="19" 		type="room" 			sharetype="unique" shape="round" x="428" y="365" rad="30" dirAngle="-90"/> <!-- big tree -->
+		</hotspots>
+		<scale>
+			<value minScale="60" maxScale="70"/>
+		</scale>
+		<faces>
+			<face name="wiseTree"/>
+		</faces>
+	</module>
+</config>

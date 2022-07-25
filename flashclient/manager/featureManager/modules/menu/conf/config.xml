@@ -1,0 +1,188 @@
+<config>
+	<!-- snippets path='manager/featureManager/modules/menu/conf/snippets/menu_snippets_$$lang$$.xml' _REPLACE_='1' / -->
+	<snippets path='conf/allSnippets/$$lang$$/menu_snippets_$$lang$$.xml' _REPLACE_='1' /> 
+	
+	<dates />
+	
+	<assets>
+		<asset id='mobile' path='assets/mobile.swf' />
+		<asset id='profile' path='assets/profile.swf' />
+		<asset id='items' path='assets/items.swf' />
+		<asset id='menu' path='assets/menu.swf' />
+		<asset id='actions' path='assets/actions.swf' />
+		<asset id='home' path='assets/home.swf' />
+		<asset id='inviteFriends' path='assets/InviteFriends.swf' />
+		<asset id='fame' path='assets/fame.swf' />
+		<asset id='chatlog' path='assets/chatlog.swf' />
+		<asset id='tasks' path='assets/tasks.swf' />
+		<asset id='sounds' path='assets/sounds.swf' />
+		<asset id='securityChat' path='assets/securityChat.swf' />
+		<asset id='trademobile' path='assets/trademobile.swf' />
+		<asset id='purchase' path='assets/purchase.swf' />
+		<asset id='inviteToGame' path='assets/inviteToGamePanel.swf' />
+		<asset id='purchaseNewAvatar' path='assets/PurchaseNewAvatar.swf' />		
+		<asset id='guidanceRequestPopup' path='assets/guidanceRequestPopup.swf' />		
+		<asset id='storyJobMessage' path='assets/storyJobsPopup.swf' />		
+	</assets>
+	<mobileData>
+		<buttonData>
+			<button id='Profile'></button>
+			<button id='Home'></button>	
+			<button id='Map'></button>
+			<button id='Clothes'></button>
+			<button id='Mail'></button>
+			<button id='Friends'></button>
+			<button id='Mail'></button>
+			<button id='Highscore'></button>
+			<button id='Fame'></button>
+			<button id='Premium'></button>
+			<button id='Tasks'></button>
+			<button id='Items'></button>
+			<button id='Groups'></button>
+			<button id='Jobs'></button>
+			<button id='Options'></button>
+			<button id='Phone'></button>
+		</buttonData>	
+	</mobileData>	
+	<profileData>
+	</profileData>	
+	<itemsData>
+	</itemsData>
+	<module>
+	</module>
+	<snippets date="30.09.2009 10:42:04">
+		<MOBILE_TRADE_REQUEST><![CDATA[Du hast eine Einladung zum Tauschen von $USERNAME$ erhalten! Nimmst Du an?]]></MOBILE_TRADE_REQUEST>
+		<DIALOG_NO><![CDATA[No]]></DIALOG_NO>
+		<DIALOG_YES><![CDATA[Yes]]></DIALOG_YES>
+	</snippets>
+	
+	<menuData>
+		<toolTips>
+			<toolTip id='Emote' color='0xFF7BBA' />
+			<toolTip id='Action' color='0xFFF700' />
+			<toolTip id='Invite' color='0x95D82B' />
+			<toolTip id='Home' color='0xFFF700' />
+			<toolTip id='ChatLog' color='0xFFF700' />
+			<toolTip id='Tasks' color='0x35C9FC' />
+			<toolTip id='Sound' color='0xFFF700' />
+			<toolTip id='Payment' color='0xFFF733' />
+			<toolTip id='Gold' color='0x95D82Bd' />
+			<toolTip id='Logout' color='0xC4539A' />
+			<toolTip id='Mobile' color='0xC4539A' />
+		</toolTips>
+	</menuData>
+	
+	<actionData>
+		<actions id='standard' >
+			<action id='sleep' />
+			<action id='wink' />
+			<action id='dance' />
+			<action id='wave' />
+			<action id='sit' />
+			<action id='lie' />
+			<action id='push' />
+			<action id='swim' />
+			<action id='usingDown' />
+			<action id='usingFront' />
+			<action id='phoneStart' />
+			<action id='throwStraw' />
+			<action id='throwCake' />
+			<action id='invisibleAction' />
+		</actions>
+		<actions id='premium' >
+			<action id='throwGroupProjectile' />
+			<action id='winnerPose' />
+			<!--action id='fly' /-->
+			<!--action id='looping' /-->
+		</actions>
+	</actionData>
+	<homeDatas>
+		<homeData id="home"/>
+		<homeData id="frontHome"/>
+		<homeData id="backyard"/>
+	</homeDatas>
+	<emoteData>
+		<emo id="emoicon_angel"/>
+		<emo id="emoicon_angry"/>
+		<emo id="emoicon_bored"/>
+	</emoteData>
+	<chatData>
+		<restrictions>
+			<IT chat="ABCDEFGHIJKLNMOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyzäÄüÜöÖßáéíóúñÑ !?.," />
+			<DE chat="ABCDEFGHIJKLNMOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyzäÄüÜöÖßèéœŒàáñíóúÀâÂéÉèÈêÊëËîÎïÏôÔûÛüÜùÙçÇëËïÏąĄćĆęĘłŁńŃóÓśŚżŻźŹÅåÄäÖöæÆøØåÅ !?.,'0123456789;:_(-)|ф-\-/(-)>--=-#----------------------------------------------------------あいぢひぐらしわた" />
+			<EN chat="ABCDEFGHIJKLNMOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyzäÄüÜöÖß !?.,'" />
+			<FR chat="ABCDEFGHIJKLNMOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyzäÄüÜöÖßéœŒ !?.,'" />
+			<ES chat="ABCDEFGHIJKLNMOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyzäÄüÜöÖßáéíóúñÑ !?.," />
+			<NL chat="ABCDEFGHIJKLNMOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyzäÄüÜöÖß !?.," />
+			<PL chat="ABCDEFGHIJKLNMOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyzäÄüÜöÖßąĄćĆęĘłŁńŃóÓśŚźŹżŻ !?.," />
+			<SE chat="ABCDEFGHIJKLNMOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyzäÄüÜöÖßÅåÄäÖö !?.," />
+			<PT chat="ABCDEFGHIJKLNMOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyzäÄüÜöÖßáéíóúñÑ !?.," />
+			<NO chat="ABCDEFGHIJKLNMOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyzäÄüÜöÖßÆæÅåÄäØøÖö !?.," />
+			<FI chat="ABCDEFGHIJKLNMOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyzäÄüÜöÖßÆæÅåÄäØøÖö !?.," />
+			<DK chat="ABCDEFGHIJKLNMOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyzäÄüÜöÖßÆæÅåÄäØøÖö !?.," />
+		</restrictions>
+	</chatData>
+	
+	<sounds path="assets/audio/">
+		<sound id="new_message" path="assets/audio/ol_interface_chatnewmessage.mp3" type="effect" loops="1" volume="0.75" />
+		<sound id="popup" path="assets/audio/ol_window_pop_up.mp3" type="effect" loops="1" volume="0.75" />
+		
+		<sound id="ringtone" path="assets/audio/ol_mobile_device.mp3" type="notification" loops="1" volume="0.25" />
+		<sound id="MobileDefaultRingtone" path="assets/audio/ringtones/ol_mobile_device.mp3" type="notification" loops="1" volume="0.25" />
+		<sound id="MobileRoosterRingtone" path="assets/audio/ringtones/ringtone_rooster_3.mp3" type="notification" loops="1" volume="0.25" />
+		<sound id="MobileWesternRingtone" path="assets/audio/ringtones/ringtone_western_2.mp3" type="notification" loops="1" volume="0.25" />
+		<sound id="MobileBirdyRingtone" path="assets/audio/ringtones/ringtone_birdy_1.mp3" type="notification" loops="1" volume="0.25" />
+		<sound id="MobileXmasRingtone" path="assets/audio/ringtones/MobileXmasRingtone.mp3" type="notification" loops="1" volume="0.25" />
+		<sound id="MobileOldRingtone" path="assets/audio/ringtones/MobileOldRingtone.mp3" type="notification" loops="1" volume="0.25" />
+		<sound id="MobileFanfareRingtone" path="assets/audio/ringtones/MobileFanfareRingtone.mp3" type="notification" loops="1" volume="0.25" />
+		<sound id="MobileOddnoteRingtone" path="assets/audio/ringtones/MobileOddnoteRingtone.mp3" type="notification" loops="1" volume="0.25" />
+		<sound id="MobileXylophoneRingtone" path="assets/audio/ringtones/MobileXylophoneRingtone.mp3" type="notification" loops="1" volume="0.25" />
+		<sound id="MobileCuckooRingtone" path="assets/audio/ringtones/MobileCuckooRingtone.mp3" type="notification" loops="1" volume="0.25" />
+		<sound id="MobileBabyCowRingtone" path="assets/audio/ringtones/MobileBabyCowRingtone.mp3" type="notification" loops="1" volume="0.25" />
+		<sound id="MobileTrainRingtone" path="assets/audio/ringtones/MobileTrainRingtone.mp3" type="notification" loops="1" volume="0.25" />
+		<sound id="mouse_over" path="assets/audio/ol_mouse_over.mp3" type="effect" loops="1" volume="0.75" />
+		<sound id="click" path="assets/audio/ol_window_pop_up.mp3" type="effect" loops="1" volume="0.75" />
+		
+		<sound id="emoteAfraid" path="assets/audio/emoticons/afraid.mp3" type="effect" loops="1" volume="0.75" />
+		<sound id="emoteAngela" path="assets/audio/emoticons/angel.mp3" type="effect" loops="1" volume="0.75" />
+		<sound id="emoteAngry" path="assets/audio/emoticons/angry.mp3" type="effect" loops="1" volume="0.75" />
+		<sound id="emoteBirthday" path="assets/audio/emoticons/birthday.mp3" type="effect" loops="1" volume="0.75" />
+		<sound id="emoteBored" path="assets/audio/emoticons/bored.mp3" type="effect" loops="1" volume="0.75" />
+		<sound id="emoteCry" path="assets/audio/emoticons/crying.mp3" type="effect" loops="1" volume="0.75" />
+		<sound id="emoteDead" path="assets/audio/emoticons/dead.mp3" type="effect" loops="1" volume="0.75" />
+		<sound id="emoteDevil" path="assets/audio/emoticons/devil.mp3" type="effect" loops="1" volume="0.75" />
+		<sound id="emoteEating" path="assets/audio/emoticons/eating.mp3" type="effect" loops="1" volume="0.75" />
+		<sound id="emoteGiveme5" path="assets/audio/emoticons/giveme5.mp3" type="effect" loops="1" volume="0.75" />
+		<sound id="emoteHappy" path="assets/audio/emoticons/happy.mp3" type="effect" loops="1" volume="0.75" />
+		<sound id="emoteHeart" path="assets/audio/emoticons/heart.mp3" type="effect" loops="1" volume="0.75" />
+		<sound id="emoteHello" path="assets/audio/emoticons/hello.mp3" type="effect" loops="1" volume="0.75" />
+		<sound id="emoteLove" path="assets/audio/emoticons/inlove.mp3" type="effect" loops="1" volume="0.75" />
+		<sound id="emoteJumping" path="assets/audio/emoticons/jumping.mp3" type="effect" loops="1" volume="0.75" />
+		<sound id="emoteKiss" path="assets/audio/emoticons/kiss.mp3" type="effect" loops="1" volume="0.75" />
+		<sound id="emoteLaught" path="assets/audio/emoticons/laught.mp3" type="effect" loops="1" volume="0.75" />
+		<sound id="emoteLooking" path="assets/audio/emoticons/looking.mp3" type="effect" loops="1" volume="0.75" />
+		<sound id="emoteMe" path="assets/audio/emoticons/me.mp3" type="effect" loops="1" volume="0.75" />
+		<sound id="emoteMusic" path="assets/audio/emoticons/music.mp3" type="effect" loops="1" volume="0.75" />
+		<sound id="emoteNo" path="assets/audio/emoticons/no.mp3" type="effect" loops="1" volume="0.75" />
+		<sound id="emoteOk" path="assets/audio/emoticons/ok.mp3" type="effect" loops="1" volume="0.75" />
+		<sound id="emoteParty" path="assets/audio/emoticons/party.mp3" type="effect" loops="1" volume="0.75" />
+		<sound id="emotePirate" path="assets/audio/emoticons/pirate.mp3" type="effect" loops="1" volume="0.75" />
+		<sound id="emotePoke" path="assets/audio/emoticons/poke.mp3" type="effect" loops="1" volume="0.75" />
+		<sound id="emoteSad" path="assets/audio/emoticons/sad.mp3" type="effect" loops="1" volume="0.75" />
+		<sound id="emoteSleep" path="assets/audio/emoticons/sleep.mp3" type="effect" loops="1" volume="0.75" />
+		<sound id="emoteSmart" path="assets/audio/emoticons/smart.mp3" type="effect" loops="1" volume="0.75" />
+		<sound id="emoteSmile" path="assets/audio/emoticons/smile.mp3" type="effect" loops="1" volume="0.75" />
+		<sound id="emoteSurprise" path="assets/audio/emoticons/surprise.mp3" type="effect" loops="1" volume="0.75" />
+		<sound id="emoteUff" path="assets/audio/emoticons/uff.mp3" type="effect" loops="1" volume="0.75" />
+		<sound id="emoteVampire" path="assets/audio/emoticons/vampire.mp3" type="effect" loops="1" volume="0.75" />
+		<sound id="emoteWorried" path="assets/audio/emoticons/worried.mp3" type="effect" loops="1" volume="0.75" />
+		<sound id="emoteYes" path="assets/audio/emoticons/yes.mp3" type="effect" loops="1" volume="0.75" />
+		
+		<!-- avatar actions -->
+		<sound id="wave" path="assets/audio/avataractions/ol_wave.mp3" type="effect" loops="1" volume="0.75" />
+		<sound id="walk" path="assets/audio/avataractions/ol_walk.mp3" type="effect" loops="999" volume="0.75" />
+		<sound id="levelup" path="assets/audio/avataractions/ol_levelup.mp3" type="effect" loops="1" volume="0.75" />
+	</sounds>
+	
+	
+</config>
